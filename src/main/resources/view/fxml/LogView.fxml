@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controller.LogController"
+            stylesheets="/styles/logstyle.css">
+
+    <center>
+        <VBox spacing="5" styleClass="log-background">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Filter: "/>
+                <ComboBox fx:id="filterComboBox" styleClass="log-dropdown"/>
+                <Button fx:id="returnButton" text="Back" styleClass="return-button"/>
+            </HBox>
+
+            <TextArea fx:id="logArea" wrapText="true" editable="false" 
+                      styleClass="log-textarea" prefHeight="500"/>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Button text="Close" onAction="#handleClose" styleClass="log-close-button"/>
+            <ImageView fx:id="catGif" fitWidth="50" fitHeight="50" styleClass="log-gif"/>
+        </HBox>
+    </bottom>
+</BorderPane>

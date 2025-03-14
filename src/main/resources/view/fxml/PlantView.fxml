@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.PlantController" spacing="10" alignment="CENTER"
+      stylesheets="/styles/logstyle.css">
+
+      <!-- ✅ Display Plant Image at the Top -->
+      <ImageView fx:id="plantImageView" fitWidth="60" fitHeight="60"/>
+
+      <Label text="Plant Details" styleClass="subtitle-label"/>
+
+      <!-- ✅ Add left padding to each line -->
+      <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
+            <Label text="Name:"/>
+            <Label fx:id="plantNameLabel"/>
+      </HBox>
+
+      <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
+            <Label text="Water Needed:"/>
+            <Label fx:id="waterLabel"/>
+      </HBox>
+
+      <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
+            <Label text="Sunlight Needed:"/>
+            <Label fx:id="sunlightLabel"/>
+      </HBox>
+
+      <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
+            <Label text="Ideal Temperature:"/>
+            <Label fx:id="temperatureLabel"/>
+      </HBox>
+
+      <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
+            <Label text="Growth Status:"/>
+            <ProgressBar fx:id="growthBar" progress="0"/>
+      </HBox>
+
+      <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
+            <Label text="Pest Status:"/>
+            <ImageView fx:id="pestIndicator" fitWidth="30" fitHeight="30"/>
+      </HBox>
+
+      <Button text="Close" fx:id="closeButton" onAction="#handleClose" style="
+      -fx-background-color:black;
+      -fx-border-color: transparent;
+      -fx-text-fill: white;"/>
+</VBox>

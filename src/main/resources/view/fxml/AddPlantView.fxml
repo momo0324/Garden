@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.controlsfx.control.RangeSlider?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.AddPlantController"
+      stylesheets="/styles/dialogStyle.css"
+      fx:id="layout"
+      minWidth="800"
+      spacing="10" alignment="CENTER" styleClass="dialog-root">
+
+    <Label text="Choose a plant" />
+    <ComboBox fx:id="plantDropdown" promptText="Select Plant" styleClass="dialog-dropdown"/>
+
+    <HBox spacing="10">
+        <Label text="Water Needed:" styleClass="dialog-label"/>
+        <RangeSlider fx:id="waterRangeSlider" min="50" max="500" lowValue="100" highValue="300"
+                     showTickLabels="true" showTickMarks="true"/>
+        <Label fx:id="waterValueLabel" text="100 - 300 ml/day" styleClass="dialog-label"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Growth Time (hours):" styleClass="dialog-label"/>
+        <Slider fx:id="growthTimeSlider" min="24" max="120" value="48"
+                showTickLabels="true" showTickMarks="true"/>
+        <Label fx:id="growthTimeLabel" text="48 hours" styleClass="dialog-label"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Sunlight Needed:" styleClass="dialog-label"/>
+        <Slider fx:id="sunlightSlider" min="4" max="12" value="6"
+                showTickLabels="true" showTickMarks="true"/>
+        <Label fx:id="sunlightLabel" text="6 hrs/day" styleClass="dialog-label"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Ideal Temperature:" styleClass="dialog-label"/>
+        <RangeSlider fx:id="tempRangeSlider" min="5" max="40" lowValue="10" highValue="30"
+                     showTickLabels="true" showTickMarks="true"/>
+        <Label fx:id="tempValueLabel" text="10 - 30°C" styleClass="dialog-label"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Survival Time:" styleClass="dialog-label"/>
+        <Slider fx:id="survivalTimeSlider" min="7" max="30" value="14"
+                showTickLabels="true" showTickMarks="true"/>
+        <Label fx:id="survivalTimeLabel" text="14 days" styleClass="dialog-label"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Vulnerable to Pests:" styleClass="dialog-label"/>
+        <ComboBox fx:id="pestsDropdown" promptText="Select Pest"/>
+    </HBox>
+
+</VBox>

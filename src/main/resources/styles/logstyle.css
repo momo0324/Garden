@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
+
+.root {
+    -fx-font-family: "Pixelify Sans";
+    -fx-background-color: #A8E6CF; /* Blueish Green */
+    -fx-font-size: 16px;
+}
+/* ✅ Apply pixelated font */
+.log-title {
+    -fx-font-family: "Press Start 2P", "Pixelify Sans", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10px;
+    -fx-background-color: #333;
+}
+/* ✅ Apply the blue background */
+.log-background {
+    -fx-background-color: #A8E6CF; /* Blueish Green */
+    -fx-padding: 10px;
+}
+
+/* ✅ Style Dropdown (ComboBox) */
+.log-dropdown {
+    -fx-font-family: "Pixelify Sans", "Courier New", monospace;
+    -fx-background-color: white;
+    -fx-text-fill: #ddd;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-font-size: 12px;
+}
+
+/* ✅ Style Log TextArea */
+.log-textarea {
+    -fx-font-family: "Pixelify Sans", "Courier New", monospace;
+    -fx-font-size: 13px;
+    -fx-text-fill: black;
+    -fx-border-color: #666;
+    -fx-border-width: 2px;
+}
+/* ✅ Fix: Ensure the text input area inside TextArea is also colored */
+.log-textarea .content {
+    -fx-background-color: #A8E6CF; /* ✅ Ensure the text input matches the main color */
+}
+/* ✅ Ensure spacing & alignment */
+.log-bottom-container {
+    -fx-padding: 10px;
+}
+
+/* ✅ Style Close Button */
+.log-close-button {
+    -fx-background-color: #ff5555;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: #990000;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+}
+
+.log-close-button:hover {
+    -fx-background-color: #ff0000;
+    -fx-border-color: #cc0000;
+}
+
+/* 添加返回按钮样式 */
+.return-button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: #45a049;
+    -fx-border-width: 2px;
+    -fx-padding: 5px 10px;
+}
+
+.return-button:hover {
+    -fx-background-color: #45a049;
+    -fx-border-color: #3d8b40;
+}
+

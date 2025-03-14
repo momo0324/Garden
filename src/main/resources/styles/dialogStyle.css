@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
+
+.root {
+    -fx-font-family: "Pixelify Sans";
+    -fx-background-color: #A8E6CF; /* Blueish Green */
+    -fx-font-size: 16px;
+    -fx-padding: 20px;
+}
+
+/* ✅ Remove the upper header (title) */
+.dialog-pane .header-panel {
+    -fx-background-color: transparent;
+    -fx-padding: 8px;
+    -fx-border-width: 0;
+}
+
+/* ✅ Style for message text */
+.dialog-pane .content {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white; /* White text for contrast */
+}
+
+/* ✅ Style for buttons */
+.dialog-pane .button-bar .button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-background-radius: 5px;
+}
+
+/* ✅ OK Button (Black) */
+.dialog-pane .button-bar .button:default {
+    -fx-background-color: black;
+    -fx-border-color: gray;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button-bar .button:default:hover {
+    -fx-background-color: black;
+}
+
+/* ✅ Cancel Button (Red) */
+.dialog-pane .button-bar .button:cancel {
+    -fx-background-color: red;
+    -fx-border-color: #990000;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button-bar .button:cancel:hover {
+    -fx-background-color: #ff0000;
+    -fx-border-color: #cc0000;
+}
+
+
+
+/* ✅ Style Labels */
+.dialog-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding-left: 20px; /* Add overall padding */
+    -fx-padding-right: 10px; /* Add overall padding */
+}
+
+/* ✅ Style Dropdowns */
+.dialog-dropdown {
+    -fx-pref-width: 200px;
+}
+
+/* ✅ Style for the Add Plant Button */
+.add-plant-button {
+    -fx-margin: 20px;
+    -fx-translate-y: 10px;
+    -fx-background-color: black;
+    -fx-border-color: gray;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+}
+
+.add-plant-button:hover {
+    -fx-opacity: 0.7;
+    -fx-translate-y: 12px; /* Slight press effect */
+}
+
+/* ✅ Style for Sliders */
+.slider-bar {
+    -fx-accent: #2196F3;
+    -fx-control-inner-background: #E3F2FD;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 12px;
+    -fx-font-family: "Pixelify Sans";
+}
+
+/* ✅ Style for RangeSlider */
+.range-slider {
+    -fx-accent: #4CAF50;
+    -fx-control-inner-background: #E8F5E9;
+    -fx-font-size: 12px;
+    -fx-font-family: "Pixelify Sans";
+}

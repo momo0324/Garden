@@ -1,0 +1,69 @@
+[2025-03-13T22:12:50.825815] Added Eggplant at (5, 0).
+[2025-03-13T22:12:50.828955] Added Eggplant at (6, 4).
+[2025-03-13T22:12:50.829233] Added Carrot at (7, 5).
+[2025-03-13T22:12:50.829472] Added Corn at (0, 0).
+[2025-03-13T22:12:50.829649] Added Carrot at (6, 1).
+[2025-03-13T22:12:50.830023] Added Pumpkin at (1, 2).
+[2025-03-13T22:12:50.830385] Added Lettuce at (6, 0).
+[2025-03-13T22:12:50.830597] Added Pumpkin at (0, 2).
+[2025-03-13T22:12:50.830773] Added Corn at (2, 4).
+[2025-03-13T22:12:50.830939] Added Pumpkin at (3, 5).
+[2025-03-13T22:12:50.831103] Added Corn at (2, 2).
+[2025-03-13T22:12:50.831332] Added Lavender at (6, 5).
+[2025-03-13T22:12:50.831499] Added Pumpkin at (5, 4).
+[2025-03-13T22:12:50.831667] Added Corn at (3, 2).
+[2025-03-13T22:12:50.831827] Added Lettuce at (0, 3).
+[2025-03-13T22:12:50.831986] Added Carrot at (1, 5).
+[2025-03-13T22:12:50.832144] Added Lavender at (3, 1).
+[2025-03-13T22:12:50.832335] Added Lettuce at (6, 3).
+[2025-03-13T22:12:50.832577] Added Pumpkin at (0, 5).
+[2025-03-13T22:12:50.832848] Added Pumpkin at (5, 1).
+[2025-03-13T22:12:50.833087] Added Eggplant at (7, 2).
+[2025-03-13T22:12:50.833270] Added Eggplant at (2, 1).
+[2025-03-13T22:12:51.989222] Water evaporated. Remaining water: 99500 ml.
+[2025-03-13T22:12:51.989672] Harvesting system activated.
+[2025-03-13T22:12:52.930446] Water evaporated. Remaining water: 99000 ml.
+[2025-03-13T22:12:52.930973] Harvesting system activated.
+[2025-03-13T22:12:53.930082] Water evaporated. Remaining water: 98500 ml.
+[2025-03-13T22:12:53.930666] Temperature low. Heating system activated.
+[2025-03-13T22:12:53.931015] Harvesting system activated.
+[2025-03-13T22:12:54.930147] Water evaporated. Remaining water: 98000 ml.
+[2025-03-13T22:12:54.930667] Harvesting system activated.
+[2025-03-13T22:12:55.930609] Water evaporated. Remaining water: 97500 ml.
+[2025-03-13T22:12:55.931020] Temperature low. Heating system activated.
+[2025-03-13T22:12:55.931453] Harvesting system activated.
+[2025-03-13T22:12:55.931756] Temperature low. Heating system activated.
+[2025-03-13T22:12:55.932016] Sun has set. Turning on artificial lights.
+[2025-03-13T22:12:55.935947] Lighting system activated at (0,0) for Corn
+[2025-03-13T22:12:55.936200] Lighting system activated at (0,2) for Pumpkin
+[2025-03-13T22:12:55.936409] Lighting system activated at (0,3) for Lettuce
+[2025-03-13T22:12:55.936611] Lighting system activated at (0,5) for Pumpkin
+[2025-03-13T22:12:55.936817] Lighting system activated at (1,2) for Pumpkin
+[2025-03-13T22:12:55.937034] Lighting system activated at (1,5) for Carrot
+[2025-03-13T22:12:55.937224] Lighting system activated at (2,1) for Eggplant
+[2025-03-13T22:12:55.937438] Lighting system activated at (2,2) for Corn
+[2025-03-13T22:12:55.937630] Lighting system activated at (2,4) for Corn
+[2025-03-13T22:12:55.937822] Lighting system activated at (3,1) for Lavender
+[2025-03-13T22:12:55.938098] Lighting system activated at (3,2) for Corn
+[2025-03-13T22:12:55.938382] Lighting system activated at (3,5) for Pumpkin
+[2025-03-13T22:12:55.938591] Lighting system activated at (5,0) for Eggplant
+[2025-03-13T22:12:55.938775] Lighting system activated at (5,1) for Pumpkin
+[2025-03-13T22:12:55.938961] Lighting system activated at (5,4) for Pumpkin
+[2025-03-13T22:12:55.939147] Harvesting system activated.
+[2025-03-13T22:12:56.930117] Water evaporated. Remaining water: 97000 ml.
+[2025-03-13T22:12:56.930583] Harvesting system activated.
+[2025-03-13T22:12:57.930685] Water evaporated. Remaining water: 96500 ml.
+[2025-03-13T22:12:57.931212] Sunlight is available. No need for artificial lighting.
+[2025-03-13T22:12:57.931812] Harvesting system activated.
+[2025-03-13T22:12:58.929691] Water evaporated. Remaining water: 96000 ml.
+[2025-03-13T22:12:58.930246] Harvesting system activated.
+[2025-03-13T22:12:59.930365] Water evaporated. Remaining water: 95500 ml.
+[2025-03-13T22:12:59.930796] Harvesting system activated.
+[2025-03-13T22:13:00.929537] Water evaporated. Remaining water: 95000 ml.
+[2025-03-13T22:13:00.930067] Harvesting system activated.
+[2025-03-13T22:13:00.930543] Sunlight is available. No need for artificial lighting.
+[2025-03-13T22:13:00.930890] Harvesting system activated.
+[2025-03-13T22:13:01.929473] Water evaporated. Remaining water: 94500 ml.
+[2025-03-13T22:13:01.929748] Harvesting system activated.
+[2025-03-13T22:13:02.929475] Water evaporated. Remaining water: 94000 ml.
+[2025-03-13T22:13:02.929844] Harvesting system activated.

@@ -1,0 +1,31 @@
+{
+  "garden": {
+    "gridSize": 6,
+    "initialWaterLevel": 100000,
+    "defaultTemperature": 20,
+    "growthSpeedMultiplier": 1.0
+  },
+  "plants": {
+    "Tomato": {
+      "waterRequirementMin": 500,
+      "waterRequirementMax": 1000,
+      "growthTime": 10,
+      "sunlightNeeded": 6,
+      "temperatureMin": 18,
+      "temperatureMax": 27
+    },
+    "Rose": {
+      "waterRequirementMin": 700,
+      "waterRequirementMax": 1000,
+      "growthTime": 8,
+      "sunlightNeeded": 6,
+      "temperatureMin": 15,
+      "temperatureMax": 25
+    }
+  },
+  "systems": {
+    "wateringSystemEnabled": true,
+    "pestControlEnabled": true,
+    "heatingSystemEnabled": true
+  }
+}
