@@ -7,6 +7,7 @@ import util.TimeManager;
 import java.util.*;
 
 public class Garden {
+    private static Garden instance;
     private static final int GRID_RAW = 8;
     private static final int GRID_COL = 6;
     private Plant[][] plantGrid;
@@ -20,8 +21,9 @@ public class Garden {
     private int waterLevel = 100000; // Initial water level
     private static final int EVAPORATION_RATE = 500; // 500 ml per hour
     private List<String> activePests = new ArrayList<>();
+    private System gardenSystem = System.getInstance();
 
-    public Garden() {
+    private Garden() {
         plantGrid = new Plant[GRID_RAW][GRID_COL];
         moistureSensor = new MoistureSensor();
         temperatureSensor = new TemperatureSensor();
@@ -29,7 +31,14 @@ public class Garden {
         wateringSystem = new WateringSystem(moistureSensor, this);
         pestControlSystem = new PestControlSystem(pestSensor, this);
         lightingSystem = new LightingSystem(new LightingSensor(), this);
-        logSystem =LogSystem.getInstance();
+        logSystem = LogSystem.getInstance();
+    }
+
+    public static Garden getInstance() {
+        if (instance == null) {
+            instance = new Garden();
+        }
+        return instance;
     }
 
     /** ✅ Fix: Provide LogSystem Access **/
@@ -70,7 +79,7 @@ public class Garden {
                     addPlant(x, y, plant);
                     placedPlants++;
                 } catch (Exception e) {
-                    System.err.println("Error creating plant instance: " + e.getMessage());
+                    java.lang.System.err.println("Error creating plant instance: " + e.getMessage());
                 }
             }
         }
@@ -80,21 +89,21 @@ public class Garden {
     public boolean addPlant(int x, int y, Plant plant) {
         if (x < 0 || x >= GRID_RAW || y < 0 || y >= GRID_COL) {
             logSystem.logEvent("Invalid plant position: (" + x + ", " + y + ").");
-            System.out.println("grid size:");
-            System.out.println("Invalid plant position: (" + x + ", " + y + ").");
+            java.lang.System.out.println("grid size:");
+            java.lang.System.out.println("Invalid plant position: (" + x + ", " + y + ").");
             return false;
         }
 
         if (plantGrid[x][y] != null) {
             logSystem.logEvent("Position (" + x + ", " + y + ") is already occupied.");
-            System.out.println("Position (" + x + ", " + y + ") is already occupied.");
+            java.lang.System.out.println("Position (" + x + ", " + y + ") is already occupied.");
             return false;
         }
 
         List<int[]> sprinklerPositions = Arrays.asList(new int[]{1, 1}, new int[]{1, 4}, new int[]{4, 1}, new int[]{4, 4});
         if (isSprinklerPosition(x, y, sprinklerPositions)) {
             logSystem.logEvent("Cannot plant at (" + x + ", " + y + ") - Sprinkler is there.");
-            System.out.println("Cannot plant at (" + x + ", " + y + ") - Sprinkler is there.");
+            java.lang.System.out.println("Cannot plant at (" + x + ", " + y + ") - Sprinkler is there.");
             return false;
         }
 
@@ -198,5 +207,9 @@ public class Garden {
             return plantGrid[x][y]; // Returns the plant at (x, y) or null if empty
         }
         return null; // Returns null for out-of-bounds coordinates
+    }
+
+    public List<Plant> getInventory() {
+        return gardenSystem.getInventory();
     }
 }

@@ -30,11 +30,11 @@ public class LogSystem {
 
     /** ✅ Clear log.txt on start */
     private void clearLogFile() {
-        try (FileWriter writer = new FileWriter(LOG_FILE, false)) { // "false" overwrites the file
+        try (FileWriter writer = new FileWriter(LOG_FILE, false)) {
             writer.write(""); // Clear content
-            System.out.println("🗑 log.txt cleared on startup.");
+            java.lang.System.out.println("🗑 log.txt cleared on startup.");
         } catch (IOException e) {
-            System.out.println("❌ Error clearing log file: " + e.getMessage());
+            java.lang.System.out.println("❌ Error clearing log file: " + e.getMessage());
         }
     }
 
@@ -51,7 +51,7 @@ public class LogSystem {
 
 //            System.out.println("✅ Loaded " + logEntries.size() + " logs from file.");
         } catch (IOException e) {
-            System.out.println("❌ Error reading log file: " + e.getMessage());
+            java.lang.System.out.println("❌ Error reading log file: " + e.getMessage());
         }
     }
 
@@ -78,13 +78,13 @@ public class LogSystem {
         try (FileWriter writer = new FileWriter(LOG_FILE, true)) {
             writer.write(logEntry + "\n");
         } catch (IOException e) {
-            System.out.println("❌ Error writing to log file: " + e.getMessage());
+            java.lang.System.out.println("❌ Error writing to log file: " + e.getMessage());
         }
     }
 
     /** ✅ Fetch all logs */
     public String getAllLogs() {
-        System.out.println("Fetching logs: " + logEntries.size() + " entries found.");
+        java.lang.System.out.println("Fetching logs: " + logEntries.size() + " entries found.");
         return String.join("\n", logEntries);
     }
 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.InventoryController" spacing="10" alignment="CENTER"
+      stylesheets="/styles/logstyle.css">
+
+    <Label text="Inventory" styleClass="subtitle-label"/>
+
+    <VBox spacing="10" style="-fx-padding: 10;">
+        <ListView fx:id="inventoryListView" prefHeight="400" prefWidth="300">
+            <VBox.vgrow>ALWAYS</VBox.vgrow>
+        </ListView>
+    </VBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Close" fx:id="closeButton" onAction="#handleClose" styleClass="log-close-button"/>
+    </HBox>
+</VBox> 

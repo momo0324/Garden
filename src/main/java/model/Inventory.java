@@ -16,18 +16,18 @@ public class Inventory {
         if (plant.isFullyGrown() && !plant.getIsHarvested()) {
             harvestedPlants.add(plant);
             plant.setHarvested(true);
-            System.out.println("Added " + plant.getName() + " to inventory.");
+            java.lang.System.out.println("Added " + plant.getName() + " to inventory.");
         } else {
-            System.out.println("Cannot add " + plant.getName() + " to inventory. Not fully grown or already harvested.");
+            java.lang.System.out.println("Cannot add " + plant.getName() + " to inventory. Not fully grown or already harvested.");
         }
     }
 
     public void removePlant(Plant plant) {
         if (harvestedPlants.contains(plant)) {
             harvestedPlants.remove(plant);
-            System.out.println("Removed " + plant.getName() + " from inventory.");
+            java.lang.System.out.println("Removed " + plant.getName() + " from inventory.");
         } else {
-            System.out.println("Plant not found in inventory.");
+            java.lang.System.out.println("Plant not found in inventory.");
         }
     }
 
@@ -36,9 +36,9 @@ public class Inventory {
     }
 
     public void displayInventory() {
-        System.out.println("Inventory contains:");
+        java.lang.System.out.println("Inventory contains:");
         for (Plant plant : harvestedPlants) {
-            System.out.println("- " + plant.getName());
+            java.lang.System.out.println("- " + plant.getName());
         }
     }
 }

@@ -11,7 +11,7 @@ public class SystemController {
     private TextArea logArea;
 
     public void initialize() {
-        this.garden = new Garden();
+        this.garden = Garden.getInstance();
     }
 
     @FXML

@@ -5,9 +5,10 @@ import java.util.List;
 
 public class Corn extends Plant {
     public Corn() {
-        super("Corn", 200, 500, 6, 6, 15, 25, 5, Arrays.asList("Aphid", "SpiderMite", "Slug"),
-                "/images/plants/corn.png",  // Growing Image
-                "/images/plants/corn-mature.png");
+        super("Corn", 1500, 2500, 12, 8, 18, 30, 8, 
+              Arrays.asList("aphids", "corn borers"),
+              "/images/plants/corn.png",
+              "/images/plants/corn_mature.png");
     }
 
     public Corn(String name, int minWater, int maxWater, int growthTime, int sunlight,

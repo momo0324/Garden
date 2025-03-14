@@ -15,7 +15,7 @@ public class SimulationController {
     private TextArea logArea;
 
     public void initialize() {
-        this.garden = new Garden();
+        this.garden = Garden.getInstance();
         startSimulation();
     }
 

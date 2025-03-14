@@ -5,9 +5,10 @@ import java.util.List;
 
 public class Pumpkin extends Plant {
     public Pumpkin() {
-        super("Pumpkin", 300, 600, 10, 6, 15, 25, 6, Arrays.asList("Aphid", "Slug", "SpiderMite"),
-                "/images/plants/pumpkin.png",  // Growing Image
-                "/images/plants/pumpkin-mature.png");
+        super("Pumpkin", 1000, 2000, 14, 6, 15, 30, 10, 
+              Arrays.asList("aphids", "squash bugs", "powdery mildew"),
+              "/images/plants/pumpkin.png",
+              "/images/plants/pumpkin_mature.png");
     }
 
     public Pumpkin(String name, int minWater, int maxWater, int growthTime, int sunlight,

@@ -66,7 +66,7 @@ public class GardenController {
 
 
     public void initialize() {
-        garden = new Garden();
+        garden = Garden.getInstance();
         garden.initializeGarden(); // Ensures plants are placed at the start
 
         setupGardenGrid();

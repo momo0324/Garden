@@ -6,9 +6,9 @@ import java.util.List;
 public class Carrot extends Plant {
     public Carrot() {
         super("Carrot", 400, 700, 7, 6, 10, 25, 6,
-                Arrays.asList("Aphid", "CarrotRustFly"),
+                Arrays.asList("aphids", "carrot rust fly"),
                 "/images/plants/carrot.png",  // Growing Image
-                "/images/plants/carrot-mature.png" // Mature Image
+                "/images/plants/carrot_mature.png" // Mature Image
         );
 
     }

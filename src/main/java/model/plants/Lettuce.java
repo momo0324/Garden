@@ -5,9 +5,10 @@ import java.util.List;
 
 public class Lettuce extends Plant {
     public Lettuce() {
-        super("Lettuce", 300, 500, 6, 4, 10, 20, 4, Arrays.asList("Aphid", "Slug", "Caterpillar"),
-                "/images/plants/lettuce.png",  // Growing Image
-                "/images/plants/lettuce-mature.png");
+        super("Lettuce", 300, 500, 6, 4, 10, 20, 4, 
+              Arrays.asList("aphids", "slugs", "caterpillars"),
+              "/images/plants/lettuce.png",
+              "/images/plants/lettuce_mature.png");
     }
     // ✅ New constructor that matches the expected parameters
     public Lettuce(String name, int minWater, int maxWater, int growthTime, int sunlight,
