@@ -8,7 +8,7 @@ public class Pumpkin extends Plant {
         super("Pumpkin", 1000, 2000, 14, 6, 15, 30, 10, 
               Arrays.asList("aphids", "squash bugs", "powdery mildew"),
               "/images/plants/pumpkin.png",
-              "/images/plants/pumpkin_mature.png");
+              "/images/plants/pumpkin-mature.png");
     }
 
     public Pumpkin(String name, int minWater, int maxWater, int growthTime, int sunlight,

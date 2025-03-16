@@ -410,4 +410,35 @@ public class GardenController {
     public void handleGridClick(MouseEvent mouseEvent) {
         System.out.println("clicked!!");
     }
+
+    @FXML
+    private void openInventory() {
+        try {
+            java.lang.System.out.println("尝试打开库存界面...");
+            
+            // 确保库存中有数据
+            List<Plant> inventory = garden.getInventory();
+            java.lang.System.out.println("当前库存中有 " + inventory.size() + " 个植物");
+            
+            // 加载InventoryView FXML
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/InventoryView.fxml"));
+            Parent root = loader.load();
+            
+            // 获取控制器并手动刷新库存
+            InventoryController controller = loader.getController();
+            
+            // 设置新窗口
+            Stage inventoryStage = new Stage();
+            inventoryStage.setTitle("库存");
+            inventoryStage.setScene(new Scene(root, 300, 400)); // 窗口大小
+            
+            // 显示库存窗口
+            inventoryStage.show();
+            
+            java.lang.System.out.println("库存界面已打开");
+        } catch (Exception e) {
+            java.lang.System.err.println("加载库存视图时出错: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }

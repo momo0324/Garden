@@ -8,7 +8,7 @@ public class Corn extends Plant {
         super("Corn", 1500, 2500, 12, 8, 18, 30, 8, 
               Arrays.asList("aphids", "corn borers"),
               "/images/plants/corn.png",
-              "/images/plants/corn_mature.png");
+              "/images/plants/corn-mature.png");
     }
 
     public Corn(String name, int minWater, int maxWater, int growthTime, int sunlight,

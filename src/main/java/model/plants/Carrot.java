@@ -8,7 +8,7 @@ public class Carrot extends Plant {
         super("Carrot", 400, 700, 7, 6, 10, 25, 6,
                 Arrays.asList("aphids", "carrot rust fly"),
                 "/images/plants/carrot.png",  // Growing Image
-                "/images/plants/carrot_mature.png" // Mature Image
+                "/images/plants/carrot-mature.png" // 使用连字符而不是下划线
         );
 
     }

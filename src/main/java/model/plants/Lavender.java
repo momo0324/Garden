@@ -8,7 +8,7 @@ public class Lavender extends Plant {
         super("Lavender", 200, 400, 12, 6, 15, 30, 7, 
               Arrays.asList("aphids", "spider mites"),
               "/images/plants/lavender.png",
-              "/images/plants/lavender_mature.png");
+              "/images/plants/lavender-mature.png");
     }
 
     public Lavender(String name, int minWater, int maxWater, int growthTime, int sunlight,

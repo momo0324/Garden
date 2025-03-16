@@ -70,10 +70,16 @@ public class System {
 
     // 收获系统
     public void harvestPlant(Plant plant) {
+        java.lang.System.out.println("尝试收获植物: " + plant.getName());
+        java.lang.System.out.println("植物成熟状态: " + plant.isFullyGrown() + ", 已收获状态: " + plant.getIsHarvested());
+        
         if (plant.isFullyGrown() && !plant.getIsHarvested()) {
             inventory.add(plant);
             plant.setHarvested(true);
-            java.lang.System.out.println("Plant " + plant.getName() + " harvested and added to inventory");
+            java.lang.System.out.println("植物 " + plant.getName() + " 已收获并添加到库存");
+            java.lang.System.out.println("当前库存中有 " + inventory.size() + " 个植物");
+        } else {
+            java.lang.System.out.println("植物 " + plant.getName() + " 无法收获，因为它不成熟或已经被收获");
         }
     }
 
@@ -85,6 +91,16 @@ public class System {
 
     // 获取库存
     public List<Plant> getInventory() {
+        java.lang.System.out.println("获取库存，当前库存中有 " + inventory.size() + " 个植物");
+        
+        // 打印库存中的植物信息
+        if (!inventory.isEmpty()) {
+            java.lang.System.out.println("库存中的植物：");
+            for (Plant plant : inventory) {
+                java.lang.System.out.println("- " + plant.getName() + ", 成熟: " + plant.isFullyGrown() + ", 已收获: " + plant.getIsHarvested());
+            }
+        }
+        
         return inventory;
     }
 

@@ -223,10 +223,9 @@ public abstract class Plant {
     }
 
     public String getCurrentImagePath() {
-        if(getIsFullyGrown()){
+        if(isFullyGrown || isHarvested){
             return matureImagePath;
-
-        }else{
+        } else {
             return growingImagePath;
         }
     }

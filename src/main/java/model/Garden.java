@@ -204,16 +204,28 @@ public class Garden {
 
     public void harvestPlants() {
         logSystem.logEvent("Harvesting system activated.");
+        java.lang.System.out.println("开始收获植物...");
+        
+        int harvestedCount = 0;
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
-                if (plant != null && plant.isFullyGrown() && !plant.getIsHarvested()) {
-                    gardenSystem.harvestPlant(plant);
-                    plantGrid[i][j] = null; // 从网格中移除植物
-                    logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
+                if (plant != null) {
+                    java.lang.System.out.println("检查位置 (" + i + ", " + j + ") 的植物: " + plant.getName());
+                    java.lang.System.out.println("植物成熟状态: " + plant.isFullyGrown() + ", 已收获状态: " + plant.getIsHarvested());
+                    
+                    if (plant.isFullyGrown() && !plant.getIsHarvested()) {
+                        gardenSystem.harvestPlant(plant);
+                        plantGrid[i][j] = null; // 从网格中移除植物
+                        logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
+                        harvestedCount++;
+                    }
                 }
             }
         }
+        
+        java.lang.System.out.println("收获完成，共收获了 " + harvestedCount + " 个植物");
+        java.lang.System.out.println("当前库存中有 " + gardenSystem.getInventory().size() + " 个植物");
     }
 
     public void logGardenState() {

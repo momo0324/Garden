@@ -8,7 +8,7 @@ public class Lettuce extends Plant {
         super("Lettuce", 300, 500, 6, 4, 10, 20, 4, 
               Arrays.asList("aphids", "slugs", "caterpillars"),
               "/images/plants/lettuce.png",
-              "/images/plants/lettuce_mature.png");
+              "/images/plants/lettuce-mature.png");
     }
     // ✅ New constructor that matches the expected parameters
     public Lettuce(String name, int minWater, int maxWater, int growthTime, int sunlight,
