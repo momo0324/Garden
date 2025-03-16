@@ -22,6 +22,8 @@ public abstract class Plant {
     protected String growingImagePath;
     protected String matureImagePath;
     private int currentWaterLevel = 0;
+    private boolean isDead = false;  // 新增：死亡状态
+    private String currentPest = null;  // 新增：当前感染的害虫
 
     public Plant(String name, int minWaterRequirement, int maxWaterRequirement,
                  int hoursToGrow, int sunlightNeeded, int minIdealTemperature,
@@ -75,8 +77,14 @@ public abstract class Plant {
         }
     }
     public void growOneDay(int sunlightHours) {
-        if (!isFullyGrown) {
-            grow(24, sunlightHours);  // Each cycle represents 1 day
+        if (!isDead) {  // 只有活着的植物才能生长
+            if (!isFullyGrown) {
+                grow(24, sunlightHours);  // Each cycle represents 1 day
+                if (currentPest != null) {
+                    survivalTime--;  // 如果有虫，存活时间减少
+                    checkDeathCondition();  // 检查是否应该死亡
+                }
+            }
         }
     }
 
@@ -230,7 +238,30 @@ public abstract class Plant {
     public void applyPestDamage(String pest) {
         if (isVulnerableTo(pest)) {
             System.out.println(name + " is attacked by " + pest + "!");
+            currentPest = pest;  // 设置当前害虫
             survivalTime -= 2;  // Reduce survival time faster for pests
+            checkDeathCondition();  // 检查是否应该死亡
+        }
+    }
+
+    public void removePest() {
+        currentPest = null;  // 移除害虫
+        System.out.println(name + " has been treated for pests.");
+    }
+
+    public String getCurrentPest() {
+        return currentPest;
+    }
+
+    public boolean isDead() {
+        return isDead;
+    }
+
+    private void checkDeathCondition() {
+        // 如果植物有虫且在存活时间内没有成熟，就会死亡
+        if (currentPest != null && !isFullyGrown && survivalTime <= 0) {
+            isDead = true;
+            System.out.println(name + " has died due to pest infestation!");
         }
     }
 

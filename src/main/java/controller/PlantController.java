@@ -33,29 +33,35 @@ public class PlantController {
             String plantImagePath = plant.getCurrentImagePath();
             Image image = new Image(getClass().getResource(plantImagePath).toExternalForm());
             plantImageView.setImage(image);
-            // ✅ Set plant name
+            
+            // 设置植物名称
             plantNameLabel.setText(plant.getName());
 
-            // ✅ Display min-max water requirement
+            // 显示水分需求
             waterLabel.setText(plant.getMinWaterRequirement() + " - " + plant.getMaxWaterRequirement() + " ml/day");
 
-            // ✅ Display sunlight needed
+            // 显示阳光需求
             sunlightLabel.setText(plant.getSunlightNeeded() + " hrs/day");
 
-            // ✅ Display temperature range
+            // 显示温度范围
             temperatureLabel.setText(plant.getMinIdealTemperature() + " - " + plant.getMaxIdealTemperature() + " °C");
 
-            // Set growth progress
+            // 设置生长进度
             double growthProgress = (double) plant.getCurrentGrowthHours() / plant.getHoursToGrow();
             growthBar.setProgress(Math.min(1.0, growthProgress));
 
-            // Pest indicator (show icon if plant is vulnerable)
-            if (!plant.getVulnerableToPests().isEmpty()) {
-                System.out.println("here!!!");
-                Image pestImage = new Image(getClass().getResource("/images/pest2.png").toExternalForm());
-                pestIndicator.setImage(pestImage);
+            // 害虫状态显示
+            if (plant.getCurrentPest() != null) {
+                try {
+                    Image pestImage = new Image(getClass().getResource("/images/pest2.png").toExternalForm());
+                    pestIndicator.setImage(pestImage);
+                    pestIndicator.setVisible(true);
+                } catch (Exception e) {
+                    System.err.println("Error loading pest image: " + e.getMessage());
+                }
             } else {
                 pestIndicator.setImage(null);
+                pestIndicator.setVisible(false);
             }
         }
     }
