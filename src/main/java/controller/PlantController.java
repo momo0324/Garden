@@ -8,6 +8,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import model.plants.Plant;
+import model.Garden;
 
 public class PlantController {
     public ImageView plantImageView;
@@ -23,7 +24,10 @@ public class PlantController {
 
     private Plant plant;
 
-    public void setPlant(Plant plant) {
+    private Garden garden;
+
+    public void setPlant(Garden garden, Plant plant) {
+        this.garden = garden;
         this.plant = plant;
         updatePlantInfo();
     }
@@ -38,13 +42,13 @@ public class PlantController {
             plantNameLabel.setText(plant.getName());
 
             // 显示水分需求
-            waterLabel.setText(plant.getMinWaterRequirement() + " - " + plant.getMaxWaterRequirement() + " ml/day");
+            waterLabel.setText(plant.getMinWaterRequirement() + " - " + plant.getMaxWaterRequirement() + " ml/day" + " (" + plant.getCurrentWaterLevel() + " ml)");
 
             // 显示阳光需求
-            sunlightLabel.setText(plant.getSunlightNeeded() + " hrs/day");
+            sunlightLabel.setText(plant.getSunlightNeeded() + " hrs/day" + " (" + plant.getCurrentGrowthHours() + " hrs)");
 
             // 显示温度范围
-            temperatureLabel.setText(plant.getMinIdealTemperature() + " - " + plant.getMaxIdealTemperature() + " °C");
+            temperatureLabel.setText(plant.getMinIdealTemperature() + " - " + plant.getMaxIdealTemperature() + " °C" + " (" + garden.getCurrentTemperature() + " °C)");
 
             // 设置生长进度
             double growthProgress = (double) plant.getCurrentGrowthHours() / plant.getHoursToGrow();

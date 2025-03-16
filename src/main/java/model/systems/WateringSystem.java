@@ -36,11 +36,7 @@ public class WateringSystem extends SystemAbs {
         for (int[] coverage : sprinklerCoverage) {
             for (int row = coverage[0]; row <= coverage[2]; row++) {
                 for (int col = coverage[1]; col <= coverage[3]; col++) {
-                    Plant plant = garden.getPlantAt(row, col);
-                    if (plant != null && moistureSensor.getSoilMoistureLevel() < 30) {
-                        moistureSensor.setSoilMoistureLevel(moistureSensor.getSoilMoistureLevel() + 30);
-                        garden.getLogSystem().logEvent("Watering system activated at (" + row + "," + col + ") for " + plant.getClass().getSimpleName());
-                    }
+                    garden.waterPlant(row, col);
                 }
             }
         }

@@ -117,7 +117,7 @@ public class GardenController {
         garden.applyPestControl();
         garden.applyHeating();
         garden.applyLighting();
-        garden.updatePlants();
+        garden.growPlants();
         garden.harvestPlants();
         updateGardenGrid();
         logArea.appendText("Simulation step completed.\n");
@@ -560,7 +560,7 @@ public class GardenController {
             // ✅ Get the controller and pass plant data
             PlantController controller = loader.getController();
             System.out.println("controller: "+controller);
-            controller.setPlant(plant);
+            controller.setPlant(garden, plant);
 
             // ✅ Open the new window
             Stage stage = new Stage();

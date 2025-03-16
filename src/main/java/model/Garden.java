@@ -173,11 +173,7 @@ public class Garden {
     public void applyWatering() {
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
-                Plant plant = plantGrid[i][j];
-                if (plant != null && moistureSensor.needsWater(plant.getMinWaterRequirement())) {
-                    wateringSystem.operate();
-                    logSystem.logEvent("Watering system activated at (" + i + "," + j + ") for " + plant.getClass().getSimpleName());
-                }
+                waterPlant(i, j);
             }
         }
     }
@@ -234,17 +230,12 @@ public class Garden {
         logSystem.logEvent("Garden state logged.");
     }
 
-    public void updatePlants() {
-        int currentHour = TimeManager.getSimulatedHour();
-        java.lang.System.out.println(currentHour);
-        int sunlightHours = (currentHour%24 >= 7 && currentHour%24 < 19) ? 12 : 0; // 假设白天12小时
-        java.lang.System.out.println(sunlightHours);
-
+    public void growPlants() {
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null && !plant.getIsHarvested()) {
-                    plant.growOneDay(sunlightHours);
+                    plant.growOneDay();
                     logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") growth hours: " + 
                                     plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
                 }

@@ -1,7 +1,7 @@
 package model;
 
 public class WaterSupply {
-    private static final int MAX_WATER_LEVEL = 100000; // 100L
+    private static final int MAX_WATER_LEVEL = Integer.MAX_VALUE; //  TODO: set to unlimited water level for now
     private static final int EVAPORATION_RATE = 500; // 500 ml per hour
     private int currentWaterLevel;
 
