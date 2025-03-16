@@ -45,14 +45,7 @@ public abstract class Plant {
         this.matureImagePath = matureImagePath;
     }
 
-    public void grow() {
-        // 检查阳光是否充足（包括额外的阳光时间）
-        int totalSunlight = sunlightHours + additionalSunlightHours;
-        if (totalSunlight < sunlightNeeded) {
-            System.out.println(name + " is not getting enough sunlight. Current: " + totalSunlight + "h, Needed: " + sunlightNeeded + "h");
-            return;
-        }
-
+    public void grow(int sunlightHours) {
         // 检查水分是否充足
         if (currentWaterLevel < minWaterRequirement) {
             System.out.println(name + " needs more water to grow.");
@@ -67,7 +60,8 @@ public abstract class Plant {
             return;
         }
 
-        currentGrowthHours += hours;
+        // increase growth hours if water and temperature are suitable
+        currentGrowthHours += sunlightHours;
 
         if (currentGrowthHours >= hoursToGrow) {
             isFullyGrown = true;
@@ -76,10 +70,10 @@ public abstract class Plant {
             System.out.println(name + " is growing. Hours: " + currentGrowthHours + "/" + hoursToGrow);
         }
     }
-    public void growOneDay() {
+    public void growOneDay(int sunlightHours) {
         if (!isDead) {  // 只有活着的植物才能生长
             if (!isFullyGrown) {
-                grow();  // Each cycle represents 1 day
+                grow(sunlightHours);  // Each cycle represents 1 day
                 if (currentPest != null) {
                     survivalTime--;  // 如果有虫，存活时间减少
                     checkDeathCondition();  // 检查是否应该死亡

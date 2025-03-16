@@ -231,11 +231,31 @@ public class Garden {
     }
 
     public void growPlants() {
+        int currentHour = TimeManager.getSimulatedHour();
+        int sunlightHours = 0;
+        switch (currentHour%24) {
+            case 10: {
+                sunlightHours = 3;
+                break;
+            }
+            case 15: {
+                sunlightHours = 5;
+                break;
+            }
+            case 20: {
+                sunlightHours = 4;
+                break;
+            }
+            default: {
+                sunlightHours = 0;
+            }
+        }
+
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null && !plant.getIsHarvested()) {
-                    plant.growOneDay();
+                    plant.growOneDay(sunlightHours);
                     logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") growth hours: " + 
                                     plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
                 }
