@@ -401,9 +401,42 @@ public class GardenController {
 
     @FXML
     private void handleAdjustTemperature() {
-        garden.applyHeating();
-        logArea.appendText("Heating system activated.\n");
-        updateTemperatureDisplay(); // 立即更新温度显示
+        if (selectedCell != null) {
+            // 获取选中格子的位置
+            Integer row = GridPane.getRowIndex(selectedCell);
+            Integer col = GridPane.getColumnIndex(selectedCell);
+            if (row != null && col != null) {
+                Plant plant = garden.getPlantAt(row, col);
+                if (plant != null) {
+                    // 创建温暖效果动画
+                    selectedCell.setStyle("-fx-background-color: #ffebee; -fx-border-color: #ff5252;");
+                    
+                    // 创建渐变动画
+                    FadeTransition fadeOut = new FadeTransition(Duration.seconds(0.5), selectedCell);
+                    fadeOut.setFromValue(1.0);
+                    fadeOut.setToValue(0.3);
+                    fadeOut.setCycleCount(2);
+                    fadeOut.setAutoReverse(true);
+                    
+                    // 动画结束后恢复原样
+                    fadeOut.setOnFinished(event -> {
+                        selectedCell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                    });
+                    
+                    // 播放动画
+                    fadeOut.play();
+                    
+                    // 应用加热效果
+                    garden.applyHeating();
+                    logArea.appendText("Heating applied to " + plant.getName() + " at (" + row + "," + col + ").\n");
+                    updateTemperatureDisplay();
+                }
+            }
+        } else {
+            garden.applyHeating();
+            logArea.appendText("Heating system activated.\n");
+            updateTemperatureDisplay();
+        }
     }
 
     @FXML
