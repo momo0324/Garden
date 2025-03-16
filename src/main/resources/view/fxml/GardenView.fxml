@@ -17,7 +17,7 @@
         <left>
             <VBox spacing="10" alignment="CENTER">
                 <Label text="Garden Controls" styleClass="subtitle-label"/>
-                <Label fx:id="temperatureLabel" text="Temperature: 25°C" styleClass="info-label"/>
+                <Label fx:id="temperatureLabel" text="Temperature: 25°C" styleClass="temperature-label"/>
                 <Button text="Select Plant" fx:id="selectButton" onAction="#toggleSelectMode"/>
                 <Button text="Water Plants" fx:id="waterButton" onAction="#handleWaterPlants"/>
                 <Button text="Toggle Lights" fx:id="lightButton" onAction="#handleToggleLights"/>

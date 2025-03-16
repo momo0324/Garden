@@ -594,13 +594,22 @@ public class GardenController {
         int currentTemp = garden.getCurrentTemperature();
         Platform.runLater(() -> {
             temperatureLabel.setText(String.format("Temperature: %d°C", currentTemp));
-            // 根据温度设置不同的颜色
+            
+            // 移除所有温度相关的样式类
+            temperatureLabel.getStyleClass().removeAll("temperature-cold", "temperature-normal", "temperature-hot");
+            
+            // 添加基础样式类
+            if (!temperatureLabel.getStyleClass().contains("temperature-label")) {
+                temperatureLabel.getStyleClass().add("temperature-label");
+            }
+            
+            // 根据温度添加对应的样式类
             if (currentTemp < 15) {
-                temperatureLabel.setStyle("-fx-text-fill: #0000FF;"); // 蓝色表示冷
+                temperatureLabel.getStyleClass().add("temperature-cold");
             } else if (currentTemp > 30) {
-                temperatureLabel.setStyle("-fx-text-fill: #FF0000;"); // 红色表示热
+                temperatureLabel.getStyleClass().add("temperature-hot");
             } else {
-                temperatureLabel.setStyle("-fx-text-fill: #008000;"); // 绿色表示适中
+                temperatureLabel.getStyleClass().add("temperature-normal");
             }
         });
     }
