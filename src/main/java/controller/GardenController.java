@@ -249,20 +249,16 @@ public class GardenController {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/PlantView.fxml"));
             Parent root = loader.load();
-
-            // ✅ Get the controller and pass plant data
+            
             PlantController controller = loader.getController();
-            System.out.println("controller: "+controller);
-            controller.setPlant(plant);
-
-
-            // ✅ Open the new window
+            controller.setPlant(plant, this);  // Pass this GardenController instance
+            
             Stage stage = new Stage();
             stage.setTitle("Plant Details");
-            stage.setScene(new Scene(root, 300, 500)); // Adjust size as needed
+            stage.setScene(new Scene(root));
             stage.show();
         } catch (Exception e) {
-            System.err.println("Error loading Plant Details View: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 

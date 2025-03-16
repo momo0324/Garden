@@ -112,20 +112,23 @@ public class Garden {
         return true;
     }
 
-    public boolean removePlant(int x, int y) {
+    /**
+     * 从花园中移除指定位置的植物
+     * @param x 行坐标
+     * @param y 列坐标
+     * @return 被移除的植物，如果该位置没有植物则返回null
+     */
+    public Plant removePlant(int x, int y) {
         if (x < 0 || x >= GRID_RAW || y < 0 || y >= GRID_COL) {
-            logSystem.logEvent("Invalid remove position: (" + x + ", " + y + ").");
-            return false;
+            return null;
         }
-
-        if (plantGrid[x][y] == null) {
-            logSystem.logEvent("No plant found at (" + x + ", " + y + ").");
-            return false;
+        
+        Plant removedPlant = plantGrid[x][y];
+        if (removedPlant != null) {
+            plantGrid[x][y] = null;
+            logSystem.logEvent("Removed " + removedPlant.getClass().getSimpleName() + " from (" + x + ", " + y + ").");
         }
-
-        logSystem.logEvent("Removed " + plantGrid[x][y].getClass().getSimpleName() + " from (" + x + ", " + y + ").");
-        plantGrid[x][y] = null;
-        return true;
+        return removedPlant;
     }
 
     private boolean isSprinklerPosition(int x, int y, List<int[]> sprinklerPositions) {
