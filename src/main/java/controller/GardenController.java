@@ -68,6 +68,9 @@ public class GardenController {
     private Label dayHourLabel; // Reference to FXML label for displaying time
 
     @FXML
+    private Label temperatureLabel; // 温度显示标签
+
+    @FXML
     private Button selectButton;  // 添加按钮引用
 
     public void initialize() {
@@ -89,6 +92,14 @@ public class GardenController {
         TimeManager.startSimulation(garden);
         startSimulation();
         logSystem=LogSystem.getInstance();
+
+        // 开始定期更新温度显示
+        Timeline temperatureUpdateTimeline = new Timeline(new KeyFrame(
+            Duration.seconds(1),
+            event -> updateTemperatureDisplay()
+        ));
+        temperatureUpdateTimeline.setCycleCount(Timeline.INDEFINITE);
+        temperatureUpdateTimeline.play();
     }
 
     private void startSimulation() {
@@ -390,84 +401,9 @@ public class GardenController {
 
     @FXML
     private void handleAdjustTemperature() {
-        if (isSelectMode && selectedCell != null) {
-            // 获取选中格子的坐标
-            Integer row = GridPane.getRowIndex(selectedCell);
-            Integer col = GridPane.getColumnIndex(selectedCell);
-            if (row != null && col != null) {
-                Plant plant = garden.getPlantAt(row, col);
-                if (plant != null) {
-                    garden.adjustTemperatureForPlant(row, col);
-                    logArea.appendText("Increased temperature for plant at (" + row + ", " + col + ").\n");
-                    // 添加视觉效果
-                    addTemperatureEffect(selectedCell);
-                }
-            }
-        } else {
-            garden.applyHeating();
-            logArea.appendText("Global heating system activated.\n");
-            // 为所有有植物的格子添加温度效果
-            addGlobalTemperatureEffect();
-        }
-    }
-
-    private void addTemperatureEffect(Button cell) {
-        // 创建一个红色的发热效果
-        cell.setStyle("-fx-background-color: #FFE4E1; -fx-border-color: #FF4500; -fx-border-width: 2px;");
-        
-        // 2秒后恢复原样
-        Timeline timeline = new Timeline(new KeyFrame(
-            Duration.seconds(2),
-            event -> {
-                if (isSelectMode) {
-                    cell.setStyle("-fx-background-color: lightgreen; -fx-border-color: green; -fx-border-width: 2px;");
-                } else {
-                    cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
-                }
-            }
-        ));
-        timeline.play();
-    }
-
-    private void addGlobalTemperatureEffect() {
-        // 遍历所有格子
-        for (Node node : gardenGrid.getChildren()) {
-            if (node instanceof Button) {
-                Button cell = (Button) node;
-                Integer row = GridPane.getRowIndex(cell);
-                Integer col = GridPane.getColumnIndex(cell);
-                
-                if (row != null && col != null) {
-                    Plant plant = garden.getPlantAt(row, col);
-                    if (plant != null) {
-                        // 创建一个红色的发热效果
-                        cell.setStyle("-fx-background-color: #FFE4E1; -fx-border-color: #FF4500; -fx-border-width: 2px;");
-                    }
-                }
-            }
-        }
-        
-        // 2秒后恢复所有格子的原样
-        Timeline timeline = new Timeline(new KeyFrame(
-            Duration.seconds(2),
-            event -> {
-                for (Node node : gardenGrid.getChildren()) {
-                    if (node instanceof Button) {
-                        Button cell = (Button) node;
-                        Integer row = GridPane.getRowIndex(cell);
-                        Integer col = GridPane.getColumnIndex(cell);
-                        
-                        if (row != null && col != null) {
-                            Plant plant = garden.getPlantAt(row, col);
-                            if (plant != null) {
-                                cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
-                            }
-                        }
-                    }
-                }
-            }
-        ));
-        timeline.play();
+        garden.applyHeating();
+        logArea.appendText("Heating system activated.\n");
+        updateTemperatureDisplay(); // 立即更新温度显示
     }
 
     @FXML
@@ -619,5 +555,20 @@ public class GardenController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    private void updateTemperatureDisplay() {
+        int currentTemp = garden.getCurrentTemperature();
+        Platform.runLater(() -> {
+            temperatureLabel.setText(String.format("Temperature: %d°C", currentTemp));
+            // 根据温度设置不同的颜色
+            if (currentTemp < 15) {
+                temperatureLabel.setStyle("-fx-text-fill: #0000FF;"); // 蓝色表示冷
+            } else if (currentTemp > 30) {
+                temperatureLabel.setStyle("-fx-text-fill: #FF0000;"); // 红色表示热
+            } else {
+                temperatureLabel.setStyle("-fx-text-fill: #008000;"); // 绿色表示适中
+            }
+        });
     }
 }
