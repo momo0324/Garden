@@ -19,6 +19,7 @@ public abstract class Plant {
     // ✅ Image paths for different growth stages
     protected String growingImagePath;
     protected String matureImagePath;
+    private int currentWaterLevel = 0;
 
     public Plant(String name, int minWaterRequirement, int maxWaterRequirement,
                  int hoursToGrow, int sunlightNeeded, int minIdealTemperature,
@@ -95,6 +96,11 @@ public abstract class Plant {
         isHarvested = true;
         System.out.println(name + " has been successfully harvested.");
         return true;
+    }
+
+    public void water(int amount) {
+        currentWaterLevel = Math.min(currentWaterLevel + amount, maxWaterRequirement);
+        System.out.println(name + " received " + amount + "ml water. Current water level: " + currentWaterLevel + "ml");
     }
 
     // GETTERS AND SETTERS

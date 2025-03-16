@@ -38,6 +38,8 @@ public class GardenController {
     private Garden garden;
     private Timeline simulationTimeline;
     private LogSystem logSystem;
+    private boolean isSelectMode = false; // 新增：选择模式标志
+    private Button selectedCell = null; // 新增：当前选中的格子
     @FXML
     private ImageView backgroundImage;  // ✅ Reference to background
 
@@ -64,6 +66,8 @@ public class GardenController {
     @FXML
     private Label dayHourLabel; // Reference to FXML label for displaying time
 
+    @FXML
+    private Button selectButton;  // 添加按钮引用
 
     public void initialize() {
         garden = Garden.getInstance();
@@ -133,7 +137,8 @@ public class GardenController {
 
                 Button cell = new Button();
                 cell.setMinSize(50, 50);
-                cell.setOnAction(e -> selectGridCell(x, y));
+                cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                cell.setOnAction(e -> handleCellClick(cell, x, y));
                 gardenGrid.add(cell, col, row);
             }
         }
@@ -202,136 +207,80 @@ public class GardenController {
         }
     }
 
-    private void selectGridCell(int x, int y) {
-        System.out.println("Click grid: " + x + " , " + y);
-
-        if (rootPane == null) {
-            System.err.println("Error: rootPane is NULL. Check if it's defined in FXML.");
-            return;
-        }
-
-        Plant plant = garden.getPlantAt(x, y);
-
-        if (plant != null) {
-            // ✅ If a plant already exists, show the plant details
-            showPlantDetails(plant);
-            return;
-        }
-
-        // ✅ Create a custom DialogPane (instead of Alert)
-        Dialog<ButtonType> dialog = new Dialog<>();
-        dialog.setTitle(null);  // ✅ Remove the default title
-        dialog.setHeaderText(null); // ✅ Remove header
-        dialog.initStyle(StageStyle.UNDECORATED); // ✅ Removes default styling (Optional)
-
-        // ✅ Style the Dialog (Apply CSS)
-        DialogPane dialogPane = dialog.getDialogPane();
-        dialogPane.getStylesheets().add(getClass().getResource("/styles/dialogStyle.css").toExternalForm());
-        dialogPane.getStyleClass().add("custom-alert");
-
-        // ✅ Set Content
-        dialogPane.setContent(new Label("Do you want to add a plant here?"));
-
-        // ✅ Custom Buttons
-        ButtonType okButton = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
-        ButtonType cancelButton = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
-        dialogPane.getButtonTypes().addAll(okButton, cancelButton);
-
-        // ✅ Handle Button Clicks
-        dialog.showAndWait().ifPresent(response -> {
-            if (response == okButton) {
-                showAddPlantDialog(x, y); // ✅ Open plant selection dialog
+    private void handleCellClick(Button cell, int x, int y) {
+        if (isSelectMode) {
+            Plant plant = garden.getPlantAt(x, y);
+            if (plant != null) {
+                // 如果之前有选中的格子，恢复其样式
+                if (selectedCell != null) {
+                    selectedCell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                }
+                // 高亮当前选中的格子
+                cell.setStyle("-fx-background-color: lightgreen; -fx-border-color: green; -fx-border-width: 2px;");
+                selectedCell = cell;
+            } else {
+                showAddPlantDialog(x, y);
             }
-        });
-    }
-
-    private void showPlantDetails(Plant plant) {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/PlantView.fxml"));
-            Parent root = loader.load();
-            
-            PlantController controller = loader.getController();
-            controller.setPlant(plant, this);  // Pass this GardenController instance
-            
-            Stage stage = new Stage();
-            stage.setTitle("Plant Details");
-            stage.setScene(new Scene(root));
-            stage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    public void showAddPlantDialog(int x, int y) {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/AddPlantView.fxml"));
-            Parent root = loader.load();
-
-            // ✅ Get controller and set context
-            AddPlantController controller = loader.getController();
-            controller.setContext(garden, logSystem, this, x, y); // ✅ Pass `this` (GardenController)
-
-            Stage stage = new Stage();
-            stage.setTitle("Add Plant");
-            stage.setScene(new Scene(root, 400, 550));
-            stage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
+        } else {
+            selectGridCell(x, y);
         }
     }
 
     @FXML
-    private void addPlant() {
-        try {
-            String plantName = plantNameInput.getText().trim();
-            int x = Integer.parseInt(xInput.getText());
-            int y = Integer.parseInt(yInput.getText());
-
-            Plant plant = (Plant) Class.forName("model.plants." + plantName).getDeclaredConstructor().newInstance();
-            garden.addPlant(x, y, plant);
-
-            updateGardenGrid(); // Refresh UI after adding plant
-
-            logArea.appendText("Added " + plantName + " at (" + x + ", " + y + ").\n");
-
-        } catch (Exception e) {
-            logArea.appendText("Error: Invalid plant name or input.\n");
-        }
-    }
-
-    private void addPlantToGarden(int x, int y, String plantType) {
-        try {
-            Plant plant = (Plant) Class.forName("model.plants." + plantType)
-                    .getDeclaredConstructor().newInstance();
-
-            garden.addPlant(x, y, plant);
-            updateGardenGrid(); // Refresh UI
-
-            logArea.appendText("Added " + plantType + " at (" + x + ", " + y + ").\n");
-
-        } catch (Exception e) {
-            logArea.appendText("Error: Unable to add plant. Check class names.\n");
-        }
-    }
-
-    @FXML
-    private void removePlant() {
-        try {
-            int x = Integer.parseInt(xInput.getText());
-            int y = Integer.parseInt(yInput.getText());
-            garden.removePlant(x, y);
-            updateGardenGrid(); // Refresh UI after removal
-            logArea.appendText("Removed plant at (" + x + ", " + y + ").\n");
-        } catch (Exception e) {
-            logArea.appendText("Error: Invalid coordinates.\n");
+    private void toggleSelectMode() {
+        isSelectMode = !isSelectMode;
+        if (isSelectMode) {
+            selectButton.setStyle("-fx-background-color: #90EE90; -fx-border-color: #228B22; -fx-border-width: 2px;");
+            selectButton.setText("Cancel Select");
+        } else {
+            selectButton.setStyle("");
+            selectButton.setText("Select Plant");
+            if (selectedCell != null) {
+                selectedCell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                selectedCell = null;
+            }
         }
     }
 
     @FXML
     private void handleWaterPlants() {
-        garden.applyWatering();
-        logArea.appendText("Watering system activated.\n");
-        animateSprinklers();
+        if (isSelectMode && selectedCell != null) {
+            // 获取选中格子的坐标
+            Integer row = GridPane.getRowIndex(selectedCell);
+            Integer col = GridPane.getColumnIndex(selectedCell);
+            if (row != null && col != null) {
+                Plant plant = garden.getPlantAt(row, col);
+                if (plant != null) {
+                    garden.waterPlant(row, col);
+                    animateWaterDroplet(row, col);
+                    logArea.appendText("Watering plant at (" + row + ", " + col + ").\n");
+                }
+            }
+        } else {
+            garden.applyWatering();
+            logArea.appendText("Watering system activated.\n");
+            animateSprinklers();
+        }
+    }
+
+    private void animateWaterDroplet(int row, int col) {
+        Circle droplet = new Circle(5, Color.BLUE);
+        gardenGrid.add(droplet, col, row);
+
+        TranslateTransition drop = new TranslateTransition(Duration.seconds(1), droplet);
+        drop.setByY(30);
+        drop.setCycleCount(3);
+        drop.setAutoReverse(true);
+
+        FadeTransition fade = new FadeTransition(Duration.seconds(1), droplet);
+        fade.setFromValue(1.0);
+        fade.setToValue(0.0);
+        fade.setCycleCount(3);
+        fade.setAutoReverse(true);
+
+        ParallelTransition waterAnimation = new ParallelTransition(drop, fade);
+        waterAnimation.setOnFinished(e -> gardenGrid.getChildren().remove(droplet));
+        waterAnimation.play();
     }
 
     private void animateSprinklers() {
@@ -434,6 +383,87 @@ public class GardenController {
             java.lang.System.out.println("库存界面已打开");
         } catch (Exception e) {
             java.lang.System.err.println("加载库存视图时出错: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    private void selectGridCell(int x, int y) {
+        System.out.println("Click grid: " + x + " , " + y);
+
+        if (rootPane == null) {
+            System.err.println("Error: rootPane is NULL. Check if it's defined in FXML.");
+            return;
+        }
+
+        Plant plant = garden.getPlantAt(x, y);
+
+        if (plant != null) {
+            // ✅ If a plant already exists, show the plant details
+            showPlantDetails(plant);
+            return;
+        }
+
+        // ✅ Create a custom DialogPane (instead of Alert)
+        Dialog<ButtonType> dialog = new Dialog<>();
+        dialog.setTitle(null);  // ✅ Remove the default title
+        dialog.setHeaderText(null); // ✅ Remove header
+        dialog.initStyle(StageStyle.UNDECORATED); // ✅ Removes default styling (Optional)
+
+        // ✅ Style the Dialog (Apply CSS)
+        DialogPane dialogPane = dialog.getDialogPane();
+        dialogPane.getStylesheets().add(getClass().getResource("/styles/dialogStyle.css").toExternalForm());
+        dialogPane.getStyleClass().add("custom-alert");
+
+        // ✅ Set Content
+        dialogPane.setContent(new Label("Do you want to add a plant here?"));
+
+        // ✅ Custom Buttons
+        ButtonType okButton = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
+        ButtonType cancelButton = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
+        dialogPane.getButtonTypes().addAll(okButton, cancelButton);
+
+        // ✅ Handle Button Clicks
+        dialog.showAndWait().ifPresent(response -> {
+            if (response == okButton) {
+                showAddPlantDialog(x, y); // ✅ Open plant selection dialog
+            }
+        });
+    }
+
+    private void showPlantDetails(Plant plant) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/PlantView.fxml"));
+            Parent root = loader.load();
+
+            // ✅ Get the controller and pass plant data
+            PlantController controller = loader.getController();
+            System.out.println("controller: "+controller);
+            controller.setPlant(plant);
+
+            // ✅ Open the new window
+            Stage stage = new Stage();
+            stage.setTitle("Plant Details");
+            stage.setScene(new Scene(root, 300, 500)); // Adjust size as needed
+            stage.show();
+        } catch (Exception e) {
+            System.err.println("Error loading Plant Details View: " + e.getMessage());
+        }
+    }
+
+    public void showAddPlantDialog(int x, int y) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/AddPlantView.fxml"));
+            Parent root = loader.load();
+
+            // ✅ Get controller and set context
+            AddPlantController controller = loader.getController();
+            controller.setContext(garden, logSystem, this, x, y); // ✅ Pass `this` (GardenController)
+
+            Stage stage = new Stage();
+            stage.setTitle("Add Plant");
+            stage.setScene(new Scene(root, 400, 550));
+            stage.show();
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

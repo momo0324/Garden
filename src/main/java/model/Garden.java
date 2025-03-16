@@ -18,8 +18,7 @@ public class Garden {
     private PestControlSystem pestControlSystem;
     private LightingSystem lightingSystem;
     private LogSystem logSystem;
-    private int waterLevel = 100000; // Initial water level
-    private static final int EVAPORATION_RATE = 500; // 500 ml per hour
+    private WaterSupply waterSupply;
     private List<String> activePests = new ArrayList<>();
     private System gardenSystem = System.getInstance();
 
@@ -32,6 +31,7 @@ public class Garden {
         pestControlSystem = new PestControlSystem(pestSensor, this);
         lightingSystem = new LightingSystem(new LightingSensor(), this);
         logSystem = LogSystem.getInstance();
+        waterSupply = new WaterSupply();
     }
 
     public static Garden getInstance() {
@@ -141,8 +141,8 @@ public class Garden {
     }
 
     public void evaporateWater() {
-        waterLevel = Math.max(0, waterLevel - EVAPORATION_RATE);
-        logSystem.logEvent("Water evaporated. Remaining water: " + waterLevel + " ml.");
+        waterSupply.evaporateWater();
+        logSystem.logEvent("Water evaporated. Remaining water: " + waterSupply.getCurrentWaterLevel() + " ml.");
     }
 
     public void spawnRandomPests() {
@@ -155,13 +155,12 @@ public class Garden {
     }
 
     public int getWaterLevel() {
-        return waterLevel;
+        return waterSupply.getCurrentWaterLevel();
     }
 
     public void useWater(int amount) {
-        if (waterLevel >= amount) {
-            waterLevel -= amount;
-            logSystem.logEvent("Water used: " + amount + " ml. Remaining: " + waterLevel + " ml.");
+        if (waterSupply.useWater(amount)) {
+            logSystem.logEvent("Water used: " + amount + " ml. Remaining: " + waterSupply.getCurrentWaterLevel() + " ml.");
         } else {
             logSystem.logEvent("Not enough water available!");
         }
@@ -262,5 +261,17 @@ public class Garden {
 
     public List<Plant> getInventory() {
         return gardenSystem.getInventory();
+    }
+
+    public void waterPlant(int x, int y) {
+        Plant plant = getPlantAt(x, y);
+        if (plant != null) {
+            if (waterSupply.useWater(500)) { // 使用500ml水
+                plant.water(500);
+                logSystem.logEvent("Watered plant at (" + x + ", " + y + ") with 500ml water.");
+            } else {
+                logSystem.logEvent("Not enough water to water plant at (" + x + ", " + y + ").");
+            }
+        }
     }
 }

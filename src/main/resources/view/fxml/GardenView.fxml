@@ -7,7 +7,6 @@
            fx:controller="controller.GardenController"
            stylesheets="/styles/style.css">
     <BorderPane fx:id="mainLayout"
-
                 prefHeight="800" prefWidth="800">
         <top>
             <Label  alignment="CENTER" fx:id="dayHourLabel" text="Day 0 Hour 0" styleClass="time-label"/>
@@ -18,6 +17,7 @@
         <left>
             <VBox spacing="10" alignment="CENTER">
                 <Label text="Garden Controls" styleClass="subtitle-label"/>
+                <Button text="Select Plant" fx:id="selectButton" onAction="#toggleSelectMode"/>
                 <Button text="Water Plants" fx:id="waterButton" onAction="#handleWaterPlants"/>
                 <Button text="Toggle Lights" fx:id="lightButton" onAction="#handleToggleLights"/>
                 <Button text="Adjust Temperature" fx:id="tempButton" onAction="#handleAdjustTemperature"/>

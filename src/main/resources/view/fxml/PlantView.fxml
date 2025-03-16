@@ -43,16 +43,8 @@
             <ImageView fx:id="pestIndicator" fitWidth="30" fitHeight="30"/>
       </HBox>
 
-      <!-- Button container -->
-      <HBox spacing="10" alignment="CENTER">
-            <Button text="Remove Plant" fx:id="removeButton" onAction="#handleRemove" style="
-            -fx-background-color: #ff4444;
-            -fx-border-color: transparent;
-            -fx-text-fill: white;"/>
-            
-            <Button text="Close" fx:id="closeButton" onAction="#handleClose" style="
-            -fx-background-color: black;
-            -fx-border-color: transparent;
-            -fx-text-fill: white;"/>
-      </HBox>
+      <Button text="Close" fx:id="closeButton" onAction="#handleClose" style="
+      -fx-background-color:black;
+      -fx-border-color: transparent;
+      -fx-text-fill: white;"/>
 </VBox>
