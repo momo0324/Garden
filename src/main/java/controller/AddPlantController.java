@@ -81,7 +81,7 @@ public class AddPlantController {
             List<String> pests = Collections.singletonList(pestsDropdown.getValue());
 
             String imagePath = "/images/plants/" + plantName.toLowerCase() + ".png";
-            String matureImagePath = "/images/plants/" + plantName.toLowerCase() + "-mature.png";
+            String matureImagePath = "/images/plants/" + plantName.toLowerCase() + "_mature.png";
 
             Plant plant = (Plant) Class.forName("model.plants." + plantName)
                     .getDeclaredConstructor(String.class, int.class, int.class, int.class, int.class,

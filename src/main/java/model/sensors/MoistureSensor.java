@@ -28,4 +28,13 @@ public class MoistureSensor extends Sensor {
         setSoilMoistureLevel(soilMoistureLevel - 5);
         System.out.println("Soil moisture decreased due to evaporation.");
     }
+
+    /**
+     * 计算植物的水分需求
+     * @param plantWaterRequirement 植物的水分需求
+     * @return 是否需要浇水
+     */
+    public boolean needsWater(int plantWaterRequirement) {
+        return soilMoistureLevel < plantWaterRequirement;
+    }
 }

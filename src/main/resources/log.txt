@@ -1,699 +1,343 @@
-[2025-03-14T00:00:04.666745] Added Lettuce at (5, 2).
-[2025-03-14T00:00:04.670112] Added Corn at (6, 0).
-[2025-03-14T00:00:04.670484] Added Carrot at (6, 5).
-[2025-03-14T00:00:04.670769] Added Lavender at (2, 1).
-[2025-03-14T00:00:04.670930] Added Carrot at (0, 5).
-[2025-03-14T00:00:04.671079] Added Carrot at (2, 5).
-[2025-03-14T00:00:04.671291] Added Carrot at (7, 5).
-[2025-03-14T00:00:04.671543] Added Eggplant at (0, 4).
-[2025-03-14T00:00:04.671721] Added Lettuce at (3, 2).
-[2025-03-14T00:00:04.671999] Added Lavender at (7, 4).
-[2025-03-14T00:00:04.672218] Added Pumpkin at (3, 5).
-[2025-03-14T00:00:04.672421] Added Carrot at (6, 2).
-[2025-03-14T00:00:04.672587] Added Eggplant at (1, 0).
-[2025-03-14T00:00:04.672778] Added Pumpkin at (6, 4).
-[2025-03-14T00:00:04.673066] Added Carrot at (5, 1).
-[2025-03-14T00:00:04.673499] Added Pumpkin at (0, 3).
-[2025-03-14T00:00:04.673772] Added Carrot at (6, 1).
-[2025-03-14T00:00:04.674189] Added Pumpkin at (1, 5).
-[2025-03-14T00:00:04.674420] Added Lettuce at (2, 0).
-[2025-03-14T00:00:04.674708] Added Corn at (3, 1).
-[2025-03-14T00:00:04.674930] Added Carrot at (4, 0).
-[2025-03-14T00:00:04.675119] Added Carrot at (1, 2).
-[2025-03-14T00:00:04.675389] Added Pumpkin at (2, 2).
-[2025-03-14T00:00:05.833143] Water evaporated. Remaining water: 99500 ml.
-[2025-03-14T00:00:05.833466] Temperature low. Heating system activated.
-[2025-03-14T00:00:05.833662] Harvesting system activated.
-[2025-03-14T00:00:06.780121] Water evaporated. Remaining water: 99000 ml.
-[2025-03-14T00:00:06.780844] Temperature low. Heating system activated.
-[2025-03-14T00:00:06.781211] Harvesting system activated.
-[2025-03-14T00:00:07.779981] Water evaporated. Remaining water: 98500 ml.
-[2025-03-14T00:00:07.780430] Temperature low. Heating system activated.
-[2025-03-14T00:00:07.780780] Harvesting system activated.
-[2025-03-14T00:00:08.780061] Water evaporated. Remaining water: 98000 ml.
-[2025-03-14T00:00:08.780601] Temperature low. Heating system activated.
-[2025-03-14T00:00:08.781049] Harvesting system activated.
-[2025-03-14T00:00:09.779871] Water evaporated. Remaining water: 97500 ml.
-[2025-03-14T00:00:09.780238] Temperature low. Heating system activated.
-[2025-03-14T00:00:09.780429] Harvesting system activated.
-[2025-03-14T00:00:09.780634] Temperature low. Heating system activated.
-[2025-03-14T00:00:09.780813] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:09.784098] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:09.784291] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:09.784462] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:09.784622] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:09.784774] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:09.784920] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:09.785069] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:09.785219] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:09.785366] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:09.785524] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:09.785661] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:09.785802] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:09.786] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:09.786208] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:09.786382] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:09.786541] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:09.786697] Harvesting system activated.
-[2025-03-14T00:00:10.780176] Water evaporated. Remaining water: 97000 ml.
-[2025-03-14T00:00:10.780487] Harvesting system activated.
-[2025-03-14T00:00:11.780822] Water evaporated. Remaining water: 96500 ml.
-[2025-03-14T00:00:11.781071] Sunlight is available. No need for artificial lighting.
-[2025-03-14T00:00:11.781242] Harvesting system activated.
-[2025-03-14T00:00:12.779986] Water evaporated. Remaining water: 96000 ml.
-[2025-03-14T00:00:12.780378] Harvesting system activated.
-[2025-03-14T00:00:13.780251] Water evaporated. Remaining water: 95500 ml.
-[2025-03-14T00:00:13.781040] Harvesting system activated.
-[2025-03-14T00:00:14.780103] Water evaporated. Remaining water: 95000 ml.
-[2025-03-14T00:00:14.780415] Harvesting system activated.
-[2025-03-14T00:00:14.780863] Sunlight is available. No need for artificial lighting.
-[2025-03-14T00:00:14.781032] Harvesting system activated.
-[2025-03-14T00:00:15.779920] Water evaporated. Remaining water: 94500 ml.
-[2025-03-14T00:00:15.780213] Harvesting system activated.
-[2025-03-14T00:00:16.779980] Water evaporated. Remaining water: 94000 ml.
-[2025-03-14T00:00:16.780537] Harvesting system activated.
-[2025-03-14T00:00:17.779846] Water evaporated. Remaining water: 93500 ml.
-[2025-03-14T00:00:17.780262] Harvesting system activated.
-[2025-03-14T00:00:18.779688] Water evaporated. Remaining water: 93000 ml.
-[2025-03-14T00:00:18.779964] Harvesting system activated.
-[2025-03-14T00:00:19.779716] Water evaporated. Remaining water: 92500 ml.
-[2025-03-14T00:00:19.779985] Harvesting system activated.
-[2025-03-14T00:00:19.780160] Sunlight is available. No need for artificial lighting.
-[2025-03-14T00:00:19.780292] Harvesting system activated.
-[2025-03-14T00:00:20.801602] Water evaporated. Remaining water: 92000 ml.
-[2025-03-14T00:00:20.802022] Harvesting system activated.
-[2025-03-14T00:00:21.779739] Water evaporated. Remaining water: 91500 ml.
-[2025-03-14T00:00:21.780031] Harvesting system activated.
-[2025-03-14T00:00:22.780006] Water evaporated. Remaining water: 91000 ml.
-[2025-03-14T00:00:22.780504] Harvesting system activated.
-[2025-03-14T00:00:23.780186] Water evaporated. Remaining water: 90500 ml.
-[2025-03-14T00:00:23.780863] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:23.781502] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:23.781844] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:23.782128] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:23.782490] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:23.782767] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:23.783036] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:23.783322] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:23.783599] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:23.783850] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:23.784127] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:23.784397] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:23.784688] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:23.784936] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:23.785141] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:23.785345] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:23.785561] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:23.785776] Temperature low. Heating system activated.
-[2025-03-14T00:00:23.785974] Harvesting system activated.
-[2025-03-14T00:00:24.780148] Water evaporated. Remaining water: 90000 ml.
-[2025-03-14T00:00:24.780834] Temperature low. Heating system activated.
-[2025-03-14T00:00:24.781391] Harvesting system activated.
-[2025-03-14T00:00:24.781894] Temperature low. Heating system activated.
-[2025-03-14T00:00:24.782202] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:24.782517] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:24.782790] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:24.783071] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:24.783348] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:24.783654] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:24.783917] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:24.784179] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:24.784425] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:24.784683] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:24.784995] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:24.785207] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:24.785416] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:24.785619] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:24.785829] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:24.786132] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:24.786388] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:24.786591] Harvesting system activated.
-[2025-03-14T00:00:25.780116] Water evaporated. Remaining water: 89500 ml.
-[2025-03-14T00:00:25.780890] Harvesting system activated.
-[2025-03-14T00:00:26.779975] Water evaporated. Remaining water: 89000 ml.
-[2025-03-14T00:00:26.780469] Temperature low. Heating system activated.
-[2025-03-14T00:00:26.780931] Harvesting system activated.
-[2025-03-14T00:00:27.779858] Water evaporated. Remaining water: 88500 ml.
-[2025-03-14T00:00:27.780167] Temperature low. Heating system activated.
-[2025-03-14T00:00:27.780588] Harvesting system activated.
-[2025-03-14T00:00:28.780322] Water evaporated. Remaining water: 88000 ml.
-[2025-03-14T00:00:28.780958] Harvesting system activated.
-[2025-03-14T00:00:28.781766] Pest infestation detected: Caterpillar
-[2025-03-14T00:00:29.780087] Water evaporated. Remaining water: 87500 ml.
-[2025-03-14T00:00:29.784930] Pest control initiated at (0,3) for Pumpkin. Pest detected: Caterpillar
-[2025-03-14T00:00:29.785368] Temperature low. Heating system activated.
-[2025-03-14T00:00:29.785583] Harvesting system activated.
-[2025-03-14T00:00:29.785971] Temperature low. Heating system activated.
-[2025-03-14T00:00:29.786146] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:29.786331] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:29.786515] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:29.786688] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:29.786864] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:29.787029] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:29.787201] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:29.787376] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:29.787612] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:29.787826] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:29.787998] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:29.788199] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:29.788370] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:29.788531] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:29.788708] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:29.788870] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:29.789070] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:29.789242] Harvesting system activated.
-[2025-03-14T00:00:30.779982] Water evaporated. Remaining water: 87000 ml.
-[2025-03-14T00:00:30.780439] Temperature low. Heating system activated.
-[2025-03-14T00:00:30.780840] Harvesting system activated.
-[2025-03-14T00:00:31.780037] Water evaporated. Remaining water: 86500 ml.
-[2025-03-14T00:00:31.780518] Temperature low. Heating system activated.
-[2025-03-14T00:00:31.781046] Harvesting system activated.
-[2025-03-14T00:00:32.780209] Water evaporated. Remaining water: 86000 ml.
-[2025-03-14T00:00:32.780832] Temperature low. Heating system activated.
-[2025-03-14T00:00:32.781337] Harvesting system activated.
-[2025-03-14T00:00:33.780224] Water evaporated. Remaining water: 85500 ml.
-[2025-03-14T00:00:33.780704] Temperature low. Heating system activated.
-[2025-03-14T00:00:33.781189] Harvesting system activated.
-[2025-03-14T00:00:34.780179] Water evaporated. Remaining water: 85000 ml.
-[2025-03-14T00:00:34.780673] Temperature low. Heating system activated.
-[2025-03-14T00:00:34.781188] Harvesting system activated.
-[2025-03-14T00:00:34.781710] Temperature low. Heating system activated.
-[2025-03-14T00:00:34.782016] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:34.782279] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:34.782573] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:34.782874] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:34.783075] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:34.783281] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:34.783481] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:34.783693] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:34.783880] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:34.784073] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:34.784283] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:34.784478] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:34.784685] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:34.784887] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:34.785081] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:34.785276] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:34.785466] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:34.785686] Harvesting system activated.
-[2025-03-14T00:00:35.779984] Water evaporated. Remaining water: 84500 ml.
-[2025-03-14T00:00:35.780485] Temperature low. Heating system activated.
-[2025-03-14T00:00:35.780989] Harvesting system activated.
-[2025-03-14T00:00:36.780161] Water evaporated. Remaining water: 84000 ml.
-[2025-03-14T00:00:36.780769] Temperature low. Heating system activated.
-[2025-03-14T00:00:36.781254] Harvesting system activated.
-[2025-03-14T00:00:37.780195] Water evaporated. Remaining water: 83500 ml.
-[2025-03-14T00:00:37.780652] Temperature low. Heating system activated.
-[2025-03-14T00:00:37.781132] Harvesting system activated.
-[2025-03-14T00:00:38.780203] Water evaporated. Remaining water: 83000 ml.
-[2025-03-14T00:00:38.780949] Harvesting system activated.
-[2025-03-14T00:00:39.785669] Water evaporated. Remaining water: 82500 ml.
-[2025-03-14T00:00:39.786002] Temperature low. Heating system activated.
-[2025-03-14T00:00:39.786163] Harvesting system activated.
-[2025-03-14T00:00:39.786330] Temperature low. Heating system activated.
-[2025-03-14T00:00:39.786484] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:39.786649] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:39.786794] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:39.786940] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:39.787099] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:39.787229] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:39.787361] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:39.787493] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:39.787624] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:39.787754] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:39.787885] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:39.788016] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:39.788141] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:39.788270] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:39.788401] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:39.788531] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:39.788668] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:39.788796] Harvesting system activated.
-[2025-03-14T00:00:40.780158] Water evaporated. Remaining water: 82000 ml.
-[2025-03-14T00:00:40.780818] Temperature low. Heating system activated.
-[2025-03-14T00:00:40.781324] Harvesting system activated.
-[2025-03-14T00:00:40.781691] Pest infestation detected: Slug
-[2025-03-14T00:00:41.781098] Water evaporated. Remaining water: 81500 ml.
-[2025-03-14T00:00:41.782018] Pest control initiated at (0,3) for Pumpkin. Pest detected: Slug
-[2025-03-14T00:00:41.782443] Temperature low. Heating system activated.
-[2025-03-14T00:00:41.782712] Harvesting system activated.
-[2025-03-14T00:00:43.096504] Water evaporated. Remaining water: 81000 ml.
-[2025-03-14T00:00:43.096984] Temperature low. Heating system activated.
-[2025-03-14T00:00:43.097475] Harvesting system activated.
-[2025-03-14T00:00:43.780030] Water evaporated. Remaining water: 80500 ml.
-[2025-03-14T00:00:43.780449] Temperature low. Heating system activated.
-[2025-03-14T00:00:43.780883] Harvesting system activated.
-[2025-03-14T00:00:44.779907] Water evaporated. Remaining water: 80000 ml.
-[2025-03-14T00:00:44.780288] Temperature low. Heating system activated.
-[2025-03-14T00:00:44.780728] Harvesting system activated.
-[2025-03-14T00:00:44.780922] Temperature low. Heating system activated.
-[2025-03-14T00:00:44.781072] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:44.781226] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:44.781388] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:44.781544] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:44.781690] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:44.781887] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:44.782074] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:44.782222] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:44.782373] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:44.782513] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:44.782673] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:44.782814] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:44.782966] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:44.783104] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:44.783249] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:44.783389] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:44.783536] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:44.783661] Harvesting system activated.
-[2025-03-14T00:00:45.779852] Water evaporated. Remaining water: 79500 ml.
-[2025-03-14T00:00:45.780116] Temperature low. Heating system activated.
-[2025-03-14T00:00:45.780529] Harvesting system activated.
-[2025-03-14T00:00:46.780105] Water evaporated. Remaining water: 79000 ml.
-[2025-03-14T00:00:46.780633] Temperature low. Heating system activated.
-[2025-03-14T00:00:46.781086] Harvesting system activated.
-[2025-03-14T00:00:47.780121] Water evaporated. Remaining water: 78500 ml.
-[2025-03-14T00:00:47.780813] Temperature low. Heating system activated.
-[2025-03-14T00:00:47.781173] Harvesting system activated.
-[2025-03-14T00:00:48.780198] Water evaporated. Remaining water: 78000 ml.
-[2025-03-14T00:00:48.780896] Temperature low. Heating system activated.
-[2025-03-14T00:00:48.781414] Harvesting system activated.
-[2025-03-14T00:00:49.780219] Water evaporated. Remaining water: 77500 ml.
-[2025-03-14T00:00:49.780961] Temperature low. Heating system activated.
-[2025-03-14T00:00:49.781396] Harvesting system activated.
-[2025-03-14T00:00:49.781699] Temperature low. Heating system activated.
-[2025-03-14T00:00:49.781930] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:49.782190] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:49.782428] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:49.782662] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:49.782894] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:49.783119] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:49.783353] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:49.783579] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:49.783759] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:49.783933] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:49.784201] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:49.784387] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:49.784559] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:49.784743] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:49.784938] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:49.785124] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:49.785307] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:49.785517] Harvesting system activated.
-[2025-03-14T00:00:50.780186] Water evaporated. Remaining water: 77000 ml.
-[2025-03-14T00:00:50.780880] Temperature low. Heating system activated.
-[2025-03-14T00:00:50.781160] Harvesting system activated.
-[2025-03-14T00:00:51.780467] Water evaporated. Remaining water: 76500 ml.
-[2025-03-14T00:00:51.780758] Temperature low. Heating system activated.
-[2025-03-14T00:00:51.780941] Harvesting system activated.
-[2025-03-14T00:00:52.780308] Water evaporated. Remaining water: 76000 ml.
-[2025-03-14T00:00:52.780957] Temperature low. Heating system activated.
-[2025-03-14T00:00:52.781353] Harvesting system activated.
-[2025-03-14T00:00:53.780274] Water evaporated. Remaining water: 75500 ml.
-[2025-03-14T00:00:53.780959] Temperature low. Heating system activated.
-[2025-03-14T00:00:53.781482] Harvesting system activated.
-[2025-03-14T00:00:54.780172] Water evaporated. Remaining water: 75000 ml.
-[2025-03-14T00:00:54.780745] Temperature low. Heating system activated.
-[2025-03-14T00:00:54.781264] Harvesting system activated.
-[2025-03-14T00:00:54.781572] Temperature low. Heating system activated.
-[2025-03-14T00:00:54.781829] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:54.782093] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:54.782353] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:54.782597] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:54.782856] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:54.783095] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:54.783357] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:54.783548] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:54.783736] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:54.783929] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:54.784116] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:54.784329] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:54.784515] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:54.784700] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:54.784885] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:54.785075] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:54.785252] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:54.785428] Harvesting system activated.
-[2025-03-14T00:00:55.779882] Water evaporated. Remaining water: 74500 ml.
-[2025-03-14T00:00:55.780245] Temperature low. Heating system activated.
-[2025-03-14T00:00:55.780644] Harvesting system activated.
-[2025-03-14T00:00:56.780153] Water evaporated. Remaining water: 74000 ml.
-[2025-03-14T00:00:56.780811] Temperature low. Heating system activated.
-[2025-03-14T00:00:56.781336] Harvesting system activated.
-[2025-03-14T00:00:57.780984] Water evaporated. Remaining water: 73500 ml.
-[2025-03-14T00:00:57.781447] Temperature low. Heating system activated.
-[2025-03-14T00:00:57.781911] Harvesting system activated.
-[2025-03-14T00:00:58.780486] Water evaporated. Remaining water: 73000 ml.
-[2025-03-14T00:00:58.781191] Temperature low. Heating system activated.
-[2025-03-14T00:00:58.781651] Harvesting system activated.
-[2025-03-14T00:00:59.780231] Water evaporated. Remaining water: 72500 ml.
-[2025-03-14T00:00:59.780965] Harvesting system activated.
-[2025-03-14T00:00:59.781404] Temperature low. Heating system activated.
-[2025-03-14T00:00:59.781812] Sun has set. Turning on artificial lights.
-[2025-03-14T00:00:59.782079] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:00:59.782322] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:00:59.782564] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:00:59.782799] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:00:59.783033] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:00:59.783267] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:00:59.783501] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:00:59.783730] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:00:59.783935] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:00:59.784129] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:00:59.784307] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:00:59.784492] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:00:59.784669] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:00:59.784859] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:00:59.785045] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:00:59.785239] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:00:59.785415] Harvesting system activated.
-[2025-03-14T00:01:00.780226] Water evaporated. Remaining water: 72000 ml.
-[2025-03-14T00:01:00.780962] Harvesting system activated.
-[2025-03-14T00:01:01.780216] Water evaporated. Remaining water: 71500 ml.
-[2025-03-14T00:01:01.780949] Temperature low. Heating system activated.
-[2025-03-14T00:01:01.781466] Harvesting system activated.
-[2025-03-14T00:01:02.780146] Water evaporated. Remaining water: 71000 ml.
-[2025-03-14T00:01:02.780799] Temperature low. Heating system activated.
-[2025-03-14T00:01:02.781306] Harvesting system activated.
-[2025-03-14T00:01:03.780610] Water evaporated. Remaining water: 70500 ml.
-[2025-03-14T00:01:03.781167] Temperature low. Heating system activated.
-[2025-03-14T00:01:03.781518] Harvesting system activated.
-[2025-03-14T00:01:04.780273] Water evaporated. Remaining water: 70000 ml.
-[2025-03-14T00:01:04.780942] Harvesting system activated.
-[2025-03-14T00:01:04.781534] Pest infestation detected: Slug
-[2025-03-14T00:01:04.782019] Pest control initiated at (0,3) for Pumpkin. Pest detected: Slug
-[2025-03-14T00:01:04.782526] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:04.782785] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:04.783067] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:04.783302] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:04.783531] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:04.783774] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:04.784050] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:04.784333] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:04.784600] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:04.784830] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:04.785008] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:04.785196] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:04.785370] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:04.785591] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:04.785769] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:04.785950] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:04.786131] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:04.786302] Harvesting system activated.
-[2025-03-14T00:01:05.781209] Water evaporated. Remaining water: 69500 ml.
-[2025-03-14T00:01:05.782053] Temperature low. Heating system activated.
-[2025-03-14T00:01:05.782423] Harvesting system activated.
-[2025-03-14T00:01:06.780076] Water evaporated. Remaining water: 69000 ml.
-[2025-03-14T00:01:06.780714] Temperature low. Heating system activated.
-[2025-03-14T00:01:06.781680] Harvesting system activated.
-[2025-03-14T00:01:07.780091] Water evaporated. Remaining water: 68500 ml.
-[2025-03-14T00:01:07.780710] Temperature low. Heating system activated.
-[2025-03-14T00:01:07.781138] Harvesting system activated.
-[2025-03-14T00:01:08.781193] Water evaporated. Remaining water: 68000 ml.
-[2025-03-14T00:01:08.781807] Harvesting system activated.
-[2025-03-14T00:01:09.780087] Water evaporated. Remaining water: 67500 ml.
-[2025-03-14T00:01:09.780729] Temperature low. Heating system activated.
-[2025-03-14T00:01:09.781209] Harvesting system activated.
-[2025-03-14T00:01:09.781508] Temperature low. Heating system activated.
-[2025-03-14T00:01:09.781733] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:09.781967] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:09.782193] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:09.782423] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:09.782643] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:09.782858] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:09.783068] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:09.783310] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:09.783482] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:09.783671] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:09.783842] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:09.784007] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:09.784175] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:09.784335] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:09.784505] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:09.784670] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:09.784843] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:09.784999] Harvesting system activated.
-[2025-03-14T00:01:10.780118] Water evaporated. Remaining water: 67000 ml.
-[2025-03-14T00:01:10.780548] Temperature low. Heating system activated.
-[2025-03-14T00:01:10.781031] Harvesting system activated.
-[2025-03-14T00:01:11.780102] Water evaporated. Remaining water: 66500 ml.
-[2025-03-14T00:01:11.780754] Temperature low. Heating system activated.
-[2025-03-14T00:01:11.781232] Harvesting system activated.
-[2025-03-14T00:01:12.780099] Water evaporated. Remaining water: 66000 ml.
-[2025-03-14T00:01:12.780751] Temperature low. Heating system activated.
-[2025-03-14T00:01:12.781225] Harvesting system activated.
-[2025-03-14T00:01:13.781140] Water evaporated. Remaining water: 65500 ml.
-[2025-03-14T00:01:13.781621] Harvesting system activated.
-[2025-03-14T00:01:14.780112] Water evaporated. Remaining water: 65000 ml.
-[2025-03-14T00:01:14.780718] Temperature low. Heating system activated.
-[2025-03-14T00:01:14.781192] Harvesting system activated.
-[2025-03-14T00:01:14.781485] Temperature low. Heating system activated.
-[2025-03-14T00:01:14.781738] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:14.781972] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:14.782195] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:14.782448] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:14.782668] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:14.782894] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:14.783108] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:14.783318] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:14.783488] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:14.783651] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:14.783818] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:14.783988] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:14.784164] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:14.784330] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:14.784500] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:14.784798] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:14.784966] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:14.785170] Harvesting system activated.
-[2025-03-14T00:01:15.780201] Water evaporated. Remaining water: 64500 ml.
-[2025-03-14T00:01:15.780985] Temperature low. Heating system activated.
-[2025-03-14T00:01:15.781250] Harvesting system activated.
-[2025-03-14T00:01:16.779876] Water evaporated. Remaining water: 64000 ml.
-[2025-03-14T00:01:16.780210] Temperature low. Heating system activated.
-[2025-03-14T00:01:16.780635] Harvesting system activated.
-[2025-03-14T00:01:17.780142] Water evaporated. Remaining water: 63500 ml.
-[2025-03-14T00:01:17.780871] Temperature low. Heating system activated.
-[2025-03-14T00:01:17.781224] Harvesting system activated.
-[2025-03-14T00:01:18.780328] Water evaporated. Remaining water: 63000 ml.
-[2025-03-14T00:01:18.780617] Temperature low. Heating system activated.
-[2025-03-14T00:01:18.781017] Harvesting system activated.
-[2025-03-14T00:01:19.780111] Water evaporated. Remaining water: 62500 ml.
-[2025-03-14T00:01:19.780726] Harvesting system activated.
-[2025-03-14T00:01:19.781272] Temperature low. Heating system activated.
-[2025-03-14T00:01:19.781532] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:19.781772] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:19.782004] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:19.782233] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:19.782452] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:19.782662] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:19.782874] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:19.783081] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:19.783309] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:19.783475] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:19.783668] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:19.783837] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:19.783998] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:19.784166] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:19.784326] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:19.784493] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:19.784651] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:19.784810] Harvesting system activated.
-[2025-03-14T00:01:20.780475] Water evaporated. Remaining water: 62000 ml.
-[2025-03-14T00:01:20.781109] Temperature low. Heating system activated.
-[2025-03-14T00:01:20.781601] Harvesting system activated.
-[2025-03-14T00:01:21.780672] Water evaporated. Remaining water: 61500 ml.
-[2025-03-14T00:01:21.781085] Temperature low. Heating system activated.
-[2025-03-14T00:01:21.781550] Harvesting system activated.
-[2025-03-14T00:01:22.780714] Water evaporated. Remaining water: 61000 ml.
-[2025-03-14T00:01:22.781250] Temperature low. Heating system activated.
-[2025-03-14T00:01:22.781585] Harvesting system activated.
-[2025-03-14T00:01:23.780232] Water evaporated. Remaining water: 60500 ml.
-[2025-03-14T00:01:23.780504] Harvesting system activated.
-[2025-03-14T00:01:24.780370] Water evaporated. Remaining water: 60000 ml.
-[2025-03-14T00:01:24.780907] Harvesting system activated.
-[2025-03-14T00:01:24.781166] Temperature low. Heating system activated.
-[2025-03-14T00:01:24.781354] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:24.781527] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:24.781688] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:24.781866] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:24.782034] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:24.782221] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:24.782379] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:24.782545] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:24.782793] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:24.782947] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:24.783105] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:24.783243] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:24.783435] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:24.783622] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:24.783848] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:24.784006] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:24.784155] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:24.784297] Harvesting system activated.
-[2025-03-14T00:01:25.780933] Water evaporated. Remaining water: 59500 ml.
-[2025-03-14T00:01:25.781388] Temperature low. Heating system activated.
-[2025-03-14T00:01:25.781737] Harvesting system activated.
-[2025-03-14T00:01:26.780498] Water evaporated. Remaining water: 59000 ml.
-[2025-03-14T00:01:26.780736] Harvesting system activated.
-[2025-03-14T00:01:27.817525] Water evaporated. Remaining water: 58500 ml.
-[2025-03-14T00:01:27.817810] Temperature low. Heating system activated.
-[2025-03-14T00:01:27.817973] Harvesting system activated.
-[2025-03-14T00:01:28.780879] Water evaporated. Remaining water: 58000 ml.
-[2025-03-14T00:01:28.781161] Temperature low. Heating system activated.
-[2025-03-14T00:01:28.781321] Harvesting system activated.
-[2025-03-14T00:01:29.780809] Water evaporated. Remaining water: 57500 ml.
-[2025-03-14T00:01:29.781070] Temperature low. Heating system activated.
-[2025-03-14T00:01:29.781212] Harvesting system activated.
-[2025-03-14T00:01:29.781368] Temperature low. Heating system activated.
-[2025-03-14T00:01:29.781493] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:29.781635] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:29.781766] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:29.781890] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:29.782012] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:29.782133] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:29.782254] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:29.782379] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:29.782501] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:29.782686] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:29.782843] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:29.782975] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:29.783119] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:29.783248] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:29.783378] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:29.783512] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:29.783646] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:29.783760] Harvesting system activated.
-[2025-03-14T00:01:30.780171] Water evaporated. Remaining water: 57000 ml.
-[2025-03-14T00:01:30.780750] Temperature low. Heating system activated.
-[2025-03-14T00:01:30.781133] Harvesting system activated.
-[2025-03-14T00:01:31.780069] Water evaporated. Remaining water: 56500 ml.
-[2025-03-14T00:01:31.780498] Temperature low. Heating system activated.
-[2025-03-14T00:01:31.780884] Harvesting system activated.
-[2025-03-14T00:01:32.780064] Water evaporated. Remaining water: 56000 ml.
-[2025-03-14T00:01:32.780681] Temperature low. Heating system activated.
-[2025-03-14T00:01:32.781122] Harvesting system activated.
-[2025-03-14T00:01:33.780054] Water evaporated. Remaining water: 55500 ml.
-[2025-03-14T00:01:33.780535] Temperature low. Heating system activated.
-[2025-03-14T00:01:33.781034] Harvesting system activated.
-[2025-03-14T00:01:34.780065] Water evaporated. Remaining water: 55000 ml.
-[2025-03-14T00:01:34.780627] Temperature low. Heating system activated.
-[2025-03-14T00:01:34.781286] Harvesting system activated.
-[2025-03-14T00:01:34.781600] Temperature low. Heating system activated.
-[2025-03-14T00:01:34.781803] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:34.782087] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:34.782285] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:34.782478] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:34.782667] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:34.782856] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:34.783042] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:34.783239] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:34.783431] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:34.783625] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:34.783814] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:34.784004] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:34.784196] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:34.784383] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:34.784570] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:34.784722] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:34.784946] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:34.785146] Harvesting system activated.
-[2025-03-14T00:01:35.780096] Water evaporated. Remaining water: 54500 ml.
-[2025-03-14T00:01:35.780801] Temperature low. Heating system activated.
-[2025-03-14T00:01:35.781306] Harvesting system activated.
-[2025-03-14T00:01:36.780195] Water evaporated. Remaining water: 54000 ml.
-[2025-03-14T00:01:36.780784] Temperature low. Heating system activated.
-[2025-03-14T00:01:36.781248] Harvesting system activated.
-[2025-03-14T00:01:37.780209] Water evaporated. Remaining water: 53500 ml.
-[2025-03-14T00:01:37.780815] Temperature low. Heating system activated.
-[2025-03-14T00:01:37.781329] Harvesting system activated.
-[2025-03-14T00:01:38.779780] Water evaporated. Remaining water: 53000 ml.
-[2025-03-14T00:01:38.779993] Temperature low. Heating system activated.
-[2025-03-14T00:01:38.780402] Harvesting system activated.
-[2025-03-14T00:01:39.780214] Water evaporated. Remaining water: 52500 ml.
-[2025-03-14T00:01:39.780801] Temperature low. Heating system activated.
-[2025-03-14T00:01:39.781350] Harvesting system activated.
-[2025-03-14T00:01:39.781702] Temperature low. Heating system activated.
-[2025-03-14T00:01:39.781918] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:39.782142] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:39.782345] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:39.782549] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:39.782744] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:39.782937] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:39.783118] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:39.783304] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:39.783491] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:39.783634] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:39.783786] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:39.783934] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:39.784081] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:39.784228] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:39.784375] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:39.784529] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:39.784678] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:39.784827] Harvesting system activated.
-[2025-03-14T00:01:40.780192] Water evaporated. Remaining water: 52000 ml.
-[2025-03-14T00:01:40.780792] Temperature low. Heating system activated.
-[2025-03-14T00:01:40.781322] Harvesting system activated.
-[2025-03-14T00:01:41.779806] Water evaporated. Remaining water: 51500 ml.
-[2025-03-14T00:01:41.780016] Harvesting system activated.
-[2025-03-14T00:01:42.780198] Water evaporated. Remaining water: 51000 ml.
-[2025-03-14T00:01:42.780785] Temperature low. Heating system activated.
-[2025-03-14T00:01:42.781252] Harvesting system activated.
-[2025-03-14T00:01:43.780176] Water evaporated. Remaining water: 50500 ml.
-[2025-03-14T00:01:43.780789] Temperature low. Heating system activated.
-[2025-03-14T00:01:43.781216] Harvesting system activated.
-[2025-03-14T00:01:44.780800] Water evaporated. Remaining water: 50000 ml.
-[2025-03-14T00:01:44.781252] Temperature low. Heating system activated.
-[2025-03-14T00:01:44.781669] Harvesting system activated.
-[2025-03-14T00:01:44.781947] Temperature low. Heating system activated.
-[2025-03-14T00:01:44.782152] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:44.782376] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:44.782532] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:44.782693] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:44.782852] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:44.783008] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:44.783163] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:44.783330] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:44.783481] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:44.783631] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:44.783780] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:44.783931] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:44.784163] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:44.784354] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:44.784514] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:44.784666] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:44.784814] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:44.785002] Harvesting system activated.
-[2025-03-14T00:01:45.780119] Water evaporated. Remaining water: 49500 ml.
-[2025-03-14T00:01:45.780744] Harvesting system activated.
-[2025-03-14T00:01:46.779952] Water evaporated. Remaining water: 49000 ml.
-[2025-03-14T00:01:46.780435] Temperature low. Heating system activated.
-[2025-03-14T00:01:46.780829] Harvesting system activated.
-[2025-03-14T00:01:47.780371] Water evaporated. Remaining water: 48500 ml.
-[2025-03-14T00:01:47.780731] Temperature low. Heating system activated.
-[2025-03-14T00:01:47.781095] Harvesting system activated.
-[2025-03-14T00:01:48.780092] Water evaporated. Remaining water: 48000 ml.
-[2025-03-14T00:01:48.780480] Temperature low. Heating system activated.
-[2025-03-14T00:01:48.780938] Harvesting system activated.
-[2025-03-14T00:01:49.796863] Water evaporated. Remaining water: 47500 ml.
-[2025-03-14T00:01:49.797056] Temperature low. Heating system activated.
-[2025-03-14T00:01:49.797182] Harvesting system activated.
-[2025-03-14T00:01:49.797332] Temperature low. Heating system activated.
-[2025-03-14T00:01:49.797461] Sun has set. Turning on artificial lights.
-[2025-03-14T00:01:49.797582] Lighting system activated at (0,3) for Pumpkin
-[2025-03-14T00:01:49.797748] Lighting system activated at (0,4) for Eggplant
-[2025-03-14T00:01:49.797878] Lighting system activated at (0,5) for Carrot
-[2025-03-14T00:01:49.798015] Lighting system activated at (1,0) for Eggplant
-[2025-03-14T00:01:49.798125] Lighting system activated at (1,2) for Carrot
-[2025-03-14T00:01:49.798245] Lighting system activated at (1,5) for Pumpkin
-[2025-03-14T00:01:49.798369] Lighting system activated at (2,0) for Lettuce
-[2025-03-14T00:01:49.798475] Lighting system activated at (2,1) for Lavender
-[2025-03-14T00:01:49.798583] Lighting system activated at (2,2) for Pumpkin
-[2025-03-14T00:01:49.798720] Lighting system activated at (2,5) for Carrot
-[2025-03-14T00:01:49.798874] Lighting system activated at (3,1) for Corn
-[2025-03-14T00:01:49.799081] Lighting system activated at (3,2) for Lettuce
-[2025-03-14T00:01:49.799194] Lighting system activated at (3,5) for Pumpkin
-[2025-03-14T00:01:49.799298] Lighting system activated at (4,0) for Carrot
-[2025-03-14T00:01:49.799517] Lighting system activated at (5,1) for Carrot
-[2025-03-14T00:01:49.799649] Lighting system activated at (5,2) for Lettuce
-[2025-03-14T00:01:49.799757] Harvesting system activated.
+[2025-03-15T23:30:10.079443] Added Carrot at (5, 5).
+[2025-03-15T23:30:10.083316] Added Carrot at (5, 0).
+[2025-03-15T23:30:10.083768] Added Lettuce at (3, 5).
+[2025-03-15T23:30:10.084113] Added Lavender at (6, 5).
+[2025-03-15T23:30:10.084483] Added Pumpkin at (7, 4).
+[2025-03-15T23:30:10.084798] Added Carrot at (6, 3).
+[2025-03-15T23:30:10.085083] Added Eggplant at (3, 0).
+[2025-03-15T23:30:10.085302] Added Lettuce at (2, 0).
+[2025-03-15T23:30:10.085516] Added Lavender at (5, 2).
+[2025-03-15T23:30:10.085830] Added Lavender at (3, 1).
+[2025-03-15T23:30:10.086043] Added Lavender at (2, 3).
+[2025-03-15T23:30:10.086299] Added Lavender at (7, 3).
+[2025-03-15T23:30:10.086497] Added Pumpkin at (2, 2).
+[2025-03-15T23:30:10.086689] Added Pumpkin at (2, 5).
+[2025-03-15T23:30:10.086987] Added Corn at (6, 1).
+[2025-03-15T23:30:10.087240] Added Carrot at (4, 2).
+[2025-03-15T23:30:11.699276] Water evaporated. Remaining water: 99500 ml.
+[2025-03-15T23:30:11.708956] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:11.709343] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:11.709536] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:11.709704] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:11.709871] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:11.710046] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:11.710214] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:11.710368] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:11.710566] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:11.712587] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:11.712872] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:11.713102] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:11.713307] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:11.713487] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:11.713662] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:11.713960] Temperature low. Heating system activated.
+[2025-03-15T23:30:11.714169] Harvesting system activated.
+[2025-03-15T23:30:12.194470] Water evaporated. Remaining water: 99000 ml.
+[2025-03-15T23:30:12.194908] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:12.195320] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:12.195543] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:12.195750] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:12.195939] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:12.196117] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:12.196352] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:12.196554] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:12.196746] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:12.196924] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:12.197112] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:12.197314] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:12.197514] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:12.197719] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:12.197918] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:12.198091] Temperature low. Heating system activated.
+[2025-03-15T23:30:12.198258] Harvesting system activated.
+[2025-03-15T23:30:13.204971] Water evaporated. Remaining water: 98500 ml.
+[2025-03-15T23:30:13.205719] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:13.206047] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:13.206342] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:13.206630] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:13.206906] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:13.207314] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:13.207638] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:13.208048] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:13.208283] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:13.208493] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:13.208718] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:13.208947] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:13.209161] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:13.209368] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:13.209590] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:13.209792] Temperature low. Heating system activated.
+[2025-03-15T23:30:13.209989] Harvesting system activated.
+[2025-03-15T23:30:14.204740] Water evaporated. Remaining water: 98000 ml.
+[2025-03-15T23:30:14.205067] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:14.205217] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:14.205462] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:14.205668] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:14.205816] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:14.206039] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:14.206303] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:14.206551] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:14.206708] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:14.206835] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:14.206964] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:14.207189] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:14.207333] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:14.207647] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:14.207942] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:14.208237] Temperature low. Heating system activated.
+[2025-03-15T23:30:14.208435] Harvesting system activated.
+[2025-03-15T23:30:14.283874] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:14.284153] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:14.284293] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:14.284426] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:14.284587] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:14.284786] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:14.284996] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:14.285141] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:14.285272] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:14.285404] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:14.285534] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:14.285668] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:14.285847] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:14.285994] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:14.286186] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:15.204627] Water evaporated. Remaining water: 97500 ml.
+[2025-03-15T23:30:15.204979] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:15.205297] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:15.205484] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:15.205672] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:15.205871] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:15.206091] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:15.206302] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:15.206500] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:15.206721] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:15.206862] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:15.207339] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:15.207601] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:15.207835] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:15.208133] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:15.208382] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:15.208628] Temperature low. Heating system activated.
+[2025-03-15T23:30:15.208841] Harvesting system activated.
+[2025-03-15T23:30:15.209112] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:15.209347] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:15.209641] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:15.209854] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:15.210125] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:15.210354] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:15.210611] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:15.210848] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:15.211095] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:15.211300] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:15.211485] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:15.211812] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:15.212216] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:15.212455] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:15.212630] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:15.212835] Sun has set. Turning on artificial lights.
+[2025-03-15T23:30:15.213312] Lighting system activated at (2,0) for Lettuce
+[2025-03-15T23:30:15.213457] Lighting system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:15.213735] Lighting system activated at (2,3) for Lavender
+[2025-03-15T23:30:15.214031] Lighting system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:15.214253] Lighting system activated at (3,0) for Eggplant
+[2025-03-15T23:30:15.214570] Lighting system activated at (3,1) for Lavender
+[2025-03-15T23:30:15.214735] Lighting system activated at (3,5) for Lettuce
+[2025-03-15T23:30:15.214919] Lighting system activated at (4,2) for Carrot
+[2025-03-15T23:30:15.215053] Lighting system activated at (5,0) for Carrot
+[2025-03-15T23:30:15.215226] Lighting system activated at (5,2) for Lavender
+[2025-03-15T23:30:15.215359] Lighting system activated at (5,5) for Carrot
+[2025-03-15T23:30:15.220522] Lettuce at (2,0) growth hours: 0/6
+[2025-03-15T23:30:15.221002] Pumpkin at (2,2) growth hours: 0/14
+[2025-03-15T23:30:15.221362] Lavender at (2,3) growth hours: 0/12
+[2025-03-15T23:30:15.221649] Pumpkin at (2,5) growth hours: 0/14
+[2025-03-15T23:30:15.222018] Eggplant at (3,0) growth hours: 0/2147483647
+[2025-03-15T23:30:15.222232] Lavender at (3,1) growth hours: 0/12
+[2025-03-15T23:30:15.222562] Lettuce at (3,5) growth hours: 0/6
+[2025-03-15T23:30:15.222920] Carrot at (4,2) growth hours: 0/7
+[2025-03-15T23:30:15.223249] Carrot at (5,0) growth hours: 0/7
+[2025-03-15T23:30:15.223552] Lavender at (5,2) growth hours: 0/12
+[2025-03-15T23:30:15.223740] Carrot at (5,5) growth hours: 0/7
+[2025-03-15T23:30:15.223958] Corn at (6,1) growth hours: 0/12
+[2025-03-15T23:30:15.224185] Carrot at (6,3) growth hours: 0/7
+[2025-03-15T23:30:15.224476] Lavender at (6,5) growth hours: 0/12
+[2025-03-15T23:30:15.224796] Lavender at (7,3) growth hours: 0/12
+[2025-03-15T23:30:15.225082] Pumpkin at (7,4) growth hours: 0/14
+[2025-03-15T23:30:15.225307] Harvesting system activated.
+[2025-03-15T23:30:16.204956] Water evaporated. Remaining water: 97000 ml.
+[2025-03-15T23:30:16.205697] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:16.206196] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:16.206503] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:16.206777] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:16.207064] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:16.207430] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:16.207687] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:16.207953] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:16.208244] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:16.208458] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:16.208669] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:16.208879] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:16.209090] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:16.209317] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:16.209536] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:16.209747] Harvesting system activated.
+[2025-03-15T23:30:17.204870] Water evaporated. Remaining water: 96500 ml.
+[2025-03-15T23:30:17.205546] Sunlight is available. No need for artificial lighting.
+[2025-03-15T23:30:17.206071] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:17.206391] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:17.206650] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:17.206898] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:17.207153] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:17.207395] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:17.207651] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:17.207882] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:17.208117] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:17.208360] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:17.208587] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:17.208780] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:17.208987] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:17.209178] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:17.209362] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:17.209575] Harvesting system activated.
+[2025-03-15T23:30:18.204692] Water evaporated. Remaining water: 96000 ml.
+[2025-03-15T23:30:18.205177] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:18.205491] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:18.205763] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:18.206010] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:18.206262] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:18.206514] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:18.206780] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:18.206976] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:18.207175] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:18.207359] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:18.207554] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:18.207742] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:18.207959] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:18.208167] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:18.208377] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:18.208602] Harvesting system activated.
+[2025-03-15T23:30:19.204798] Water evaporated. Remaining water: 95500 ml.
+[2025-03-15T23:30:19.205499] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:19.205789] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:19.206055] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:19.206310] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:19.206592] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:19.206850] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:19.207123] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:19.207363] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:19.207705] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:19.207963] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:19.208171] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:19.208382] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:19.208575] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:19.208789] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:19.208975] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:19.209234] Harvesting system activated.
+[2025-03-15T23:30:20.204557] Water evaporated. Remaining water: 95000 ml.
+[2025-03-15T23:30:20.204823] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:20.204981] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:20.205112] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:20.205238] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:20.205358] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:20.205481] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:20.205657] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:20.205835] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:20.205977] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:20.206146] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:20.206303] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:20.206473] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:20.206624] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:20.206761] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:20.206908] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:20.207090] Harvesting system activated.
+[2025-03-15T23:30:20.207283] Watering system activated at (2,0) for Lettuce
+[2025-03-15T23:30:20.207446] Watering system activated at (2,2) for Pumpkin
+[2025-03-15T23:30:20.207595] Watering system activated at (2,3) for Lavender
+[2025-03-15T23:30:20.207817] Watering system activated at (2,5) for Pumpkin
+[2025-03-15T23:30:20.207994] Watering system activated at (3,1) for Lavender
+[2025-03-15T23:30:20.208154] Watering system activated at (3,5) for Lettuce
+[2025-03-15T23:30:20.208297] Watering system activated at (4,2) for Carrot
+[2025-03-15T23:30:20.208472] Watering system activated at (5,0) for Carrot
+[2025-03-15T23:30:20.208647] Watering system activated at (5,2) for Lavender
+[2025-03-15T23:30:20.208785] Watering system activated at (5,5) for Carrot
+[2025-03-15T23:30:20.208924] Watering system activated at (6,1) for Corn
+[2025-03-15T23:30:20.209060] Watering system activated at (6,3) for Carrot
+[2025-03-15T23:30:20.209192] Watering system activated at (6,5) for Lavender
+[2025-03-15T23:30:20.209325] Watering system activated at (7,3) for Lavender
+[2025-03-15T23:30:20.209457] Watering system activated at (7,4) for Pumpkin
+[2025-03-15T23:30:20.209584] Sunlight is available. No need for artificial lighting.
+[2025-03-15T23:30:20.209866] Lettuce at (2,0) growth hours: 24/6
+[2025-03-15T23:30:20.210080] Pumpkin at (2,2) growth hours: 24/14
+[2025-03-15T23:30:20.210279] Lavender at (2,3) growth hours: 24/12
+[2025-03-15T23:30:20.210458] Pumpkin at (2,5) growth hours: 24/14
+[2025-03-15T23:30:20.210614] Eggplant at (3,0) growth hours: 0/2147483647
+[2025-03-15T23:30:20.210795] Lavender at (3,1) growth hours: 24/12
+[2025-03-15T23:30:20.210970] Lettuce at (3,5) growth hours: 24/6
+[2025-03-15T23:30:20.211128] Carrot at (4,2) growth hours: 24/7
+[2025-03-15T23:30:20.211294] Carrot at (5,0) growth hours: 24/7
+[2025-03-15T23:30:20.211467] Lavender at (5,2) growth hours: 24/12
+[2025-03-15T23:30:20.211627] Carrot at (5,5) growth hours: 24/7
+[2025-03-15T23:30:20.211809] Corn at (6,1) growth hours: 24/12
+[2025-03-15T23:30:20.211964] Carrot at (6,3) growth hours: 24/7
+[2025-03-15T23:30:20.212140] Lavender at (6,5) growth hours: 24/12
+[2025-03-15T23:30:20.212355] Lavender at (7,3) growth hours: 24/12
+[2025-03-15T23:30:20.212589] Pumpkin at (7,4) growth hours: 24/14
+[2025-03-15T23:30:20.212714] Harvesting system activated.
+[2025-03-15T23:30:20.213209] Harvested Lettuce from (2, 0).
+[2025-03-15T23:30:20.213426] Harvested Pumpkin from (2, 2).
+[2025-03-15T23:30:20.213620] Harvested Lavender from (2, 3).
+[2025-03-15T23:30:20.213769] Harvested Pumpkin from (2, 5).
+[2025-03-15T23:30:20.213914] Harvested Lavender from (3, 1).
+[2025-03-15T23:30:20.214051] Harvested Lettuce from (3, 5).
+[2025-03-15T23:30:20.214202] Harvested Carrot from (4, 2).
+[2025-03-15T23:30:20.214344] Harvested Carrot from (5, 0).
+[2025-03-15T23:30:20.214478] Harvested Lavender from (5, 2).
+[2025-03-15T23:30:20.214621] Harvested Carrot from (5, 5).
+[2025-03-15T23:30:20.214757] Harvested Corn from (6, 1).
+[2025-03-15T23:30:20.214894] Harvested Carrot from (6, 3).
+[2025-03-15T23:30:20.215039] Harvested Lavender from (6, 5).
+[2025-03-15T23:30:20.215190] Harvested Lavender from (7, 3).
+[2025-03-15T23:30:20.215328] Harvested Pumpkin from (7, 4).
+[2025-03-15T23:30:21.204845] Water evaporated. Remaining water: 94500 ml.
+[2025-03-15T23:30:21.205531] Harvesting system activated.
+[2025-03-15T23:30:22.204780] Water evaporated. Remaining water: 94000 ml.
+[2025-03-15T23:30:22.205471] Harvesting system activated.
+[2025-03-15T23:30:22.205882] Pest infestation detected: CarrotRustFly
+[2025-03-15T23:30:23.204753] Water evaporated. Remaining water: 93500 ml.
+[2025-03-15T23:30:23.209917] Pest control initiated at (3,0) for Eggplant. Pest detected: CarrotRustFly
+[2025-03-15T23:30:23.210381] Harvesting system activated.
+[2025-03-15T23:30:24.204655] Water evaporated. Remaining water: 93000 ml.
+[2025-03-15T23:30:24.205432] Harvesting system activated.
+[2025-03-15T23:30:25.203558] Water evaporated. Remaining water: 92500 ml.
+[2025-03-15T23:30:25.203902] Harvesting system activated.
+[2025-03-15T23:30:25.204083] Sunlight is available. No need for artificial lighting.
+[2025-03-15T23:30:25.204280] Eggplant at (3,0) growth hours: 0/2147483647
+[2025-03-15T23:30:25.204433] Harvesting system activated.
+[2025-03-15T23:30:26.204714] Water evaporated. Remaining water: 92000 ml.
+[2025-03-15T23:30:26.205377] Harvesting system activated.
+[2025-03-15T23:30:27.204436] Water evaporated. Remaining water: 91500 ml.
+[2025-03-15T23:30:27.204677] Harvesting system activated.
+[2025-03-15T23:30:28.204689] Water evaporated. Remaining water: 91000 ml.
+[2025-03-15T23:30:28.205351] Temperature low. Heating system activated.
+[2025-03-15T23:30:28.205871] Harvesting system activated.
+[2025-03-15T23:30:29.204814] Water evaporated. Remaining water: 90500 ml.
+[2025-03-15T23:30:29.205447] Sun has set. Turning on artificial lights.
+[2025-03-15T23:30:29.205715] Lighting system activated at (3,0) for Eggplant
+[2025-03-15T23:30:29.205967] Temperature low. Heating system activated.
+[2025-03-15T23:30:29.206204] Harvesting system activated.
+[2025-03-15T23:30:30.204542] Water evaporated. Remaining water: 90000 ml.
+[2025-03-15T23:30:30.204783] Temperature low. Heating system activated.
+[2025-03-15T23:30:30.204921] Harvesting system activated.
+[2025-03-15T23:30:30.205090] Temperature low. Heating system activated.
+[2025-03-15T23:30:30.205210] Sun has set. Turning on artificial lights.
+[2025-03-15T23:30:30.205388] Lighting system activated at (3,0) for Eggplant
+[2025-03-15T23:30:30.205580] Eggplant at (3,0) growth hours: 0/2147483647
+[2025-03-15T23:30:30.205704] Harvesting system activated.
+[2025-03-15T23:30:31.203892] Water evaporated. Remaining water: 89500 ml.
+[2025-03-15T23:30:31.204553] Temperature low. Heating system activated.
+[2025-03-15T23:30:31.204810] Harvesting system activated.
+[2025-03-15T23:30:32.204396] Water evaporated. Remaining water: 89000 ml.
+[2025-03-15T23:30:32.204850] Temperature low. Heating system activated.
+[2025-03-15T23:30:32.205132] Harvesting system activated.
+[2025-03-15T23:30:33.204710] Water evaporated. Remaining water: 88500 ml.
+[2025-03-15T23:30:33.205306] Temperature low. Heating system activated.
+[2025-03-15T23:30:33.205609] Harvesting system activated.

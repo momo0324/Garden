@@ -68,10 +68,10 @@ public class GardenController {
     public void initialize() {
         garden = Garden.getInstance();
         garden.initializeGarden(); // Ensures plants are placed at the start
-
         setupGardenGrid();
         setupSprinklers();
         updateGardenGrid(); // Ensures plants are displayed at startup
+        setupLogArea();
 
         // ✅ Link simulation speed slider
         speedSlider.valueProperty().addListener((obs, oldValue, newValue) -> {
@@ -90,6 +90,7 @@ public class GardenController {
         simulationTimeline = new Timeline(new KeyFrame(Duration.seconds(5), event -> runSimulationStep()));
         simulationTimeline.setCycleCount(Timeline.INDEFINITE);
         simulationTimeline.play();
+        // update UI time
         Timeline simulationTimeline2 = new Timeline(new KeyFrame(Duration.seconds(1), event -> updateSimulationTime()));
         simulationTimeline2.setCycleCount(Timeline.INDEFINITE);
         simulationTimeline2.play();
@@ -100,8 +101,10 @@ public class GardenController {
         garden.applyPestControl();
         garden.applyHeating();
         garden.applyLighting();
+        garden.updatePlants();
         garden.harvestPlants();
-//        logArea.appendText("Simulation step completed.\n");
+        updateGardenGrid();
+        logArea.appendText("Simulation step completed.\n");
     }
 
     @FXML
@@ -134,6 +137,10 @@ public class GardenController {
                 gardenGrid.add(cell, col, row);
             }
         }
+    }
+
+    private void setupLogArea() {
+        logArea = new TextArea();
     }
 
     private void setupSprinklers() {

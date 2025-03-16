@@ -169,7 +169,15 @@ public class Garden {
     }
 
     public void applyWatering() {
-        wateringSystem.operate();
+        for (int i = 0; i < GRID_RAW; i++) {
+            for (int j = 0; j < GRID_COL; j++) {
+                Plant plant = plantGrid[i][j];
+                if (plant != null && moistureSensor.needsWater(plant.getMinWaterRequirement())) {
+                    wateringSystem.operate();
+                    logSystem.logEvent("Watering system activated at (" + i + "," + j + ") for " + plant.getClass().getSimpleName());
+                }
+            }
+        }
     }
 
     public void applyPestControl() {
@@ -186,7 +194,7 @@ public class Garden {
 
     public void applyLighting() {
         int currentHour = TimeManager.getSimulatedHour();
-        if (currentHour >= 7 && currentHour < 19) {
+        if (currentHour%24 >= 7 && currentHour%24 < 19) {
             logSystem.logEvent("Sunlight is available. No need for artificial lighting.");
         } else {
             logSystem.logEvent("Sun has set. Turning on artificial lights.");
@@ -196,10 +204,38 @@ public class Garden {
 
     public void harvestPlants() {
         logSystem.logEvent("Harvesting system activated.");
+        for (int i = 0; i < GRID_RAW; i++) {
+            for (int j = 0; j < GRID_COL; j++) {
+                Plant plant = plantGrid[i][j];
+                if (plant != null && plant.isFullyGrown() && !plant.getIsHarvested()) {
+                    gardenSystem.harvestPlant(plant);
+                    plantGrid[i][j] = null; // 从网格中移除植物
+                    logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
+                }
+            }
+        }
     }
 
     public void logGardenState() {
         logSystem.logEvent("Garden state logged.");
+    }
+
+    public void updatePlants() {
+        int currentHour = TimeManager.getSimulatedHour();
+        java.lang.System.out.println(currentHour);
+        int sunlightHours = (currentHour%24 >= 7 && currentHour%24 < 19) ? 12 : 0; // 假设白天12小时
+        java.lang.System.out.println(sunlightHours);
+
+        for (int i = 0; i < GRID_RAW; i++) {
+            for (int j = 0; j < GRID_COL; j++) {
+                Plant plant = plantGrid[i][j];
+                if (plant != null && !plant.getIsHarvested()) {
+                    plant.growOneDay(sunlightHours);
+                    logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") growth hours: " + 
+                                    plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
+                }
+            }
+        }
     }
 
     public Plant getPlantAt(int x, int y) {

@@ -30,6 +30,7 @@ public class SimulationController {
         garden.applyPestControl();
         garden.applyHeating();
         garden.applyLighting();
+        garden.updatePlants();
         garden.harvestPlants();
         logArea.appendText("Simulation step completed.\n");
     }

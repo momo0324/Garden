@@ -41,6 +41,9 @@ public abstract class Plant {
     }
 
     public void grow(int hours, int sunlightHours) {
+        System.out.println("grow hours + sunlightHours");
+        System.out.println(hours);
+        System.out.println(sunlightHours);
         if (sunlightHours < sunlightNeeded) {
             System.out.println(name + " is not getting enough sunlight.");
             return;
