@@ -390,8 +390,84 @@ public class GardenController {
 
     @FXML
     private void handleAdjustTemperature() {
-        garden.applyHeating();
-        logArea.appendText("Heating system activated.\n");
+        if (isSelectMode && selectedCell != null) {
+            // 获取选中格子的坐标
+            Integer row = GridPane.getRowIndex(selectedCell);
+            Integer col = GridPane.getColumnIndex(selectedCell);
+            if (row != null && col != null) {
+                Plant plant = garden.getPlantAt(row, col);
+                if (plant != null) {
+                    garden.adjustTemperatureForPlant(row, col);
+                    logArea.appendText("Increased temperature for plant at (" + row + ", " + col + ").\n");
+                    // 添加视觉效果
+                    addTemperatureEffect(selectedCell);
+                }
+            }
+        } else {
+            garden.applyHeating();
+            logArea.appendText("Global heating system activated.\n");
+            // 为所有有植物的格子添加温度效果
+            addGlobalTemperatureEffect();
+        }
+    }
+
+    private void addTemperatureEffect(Button cell) {
+        // 创建一个红色的发热效果
+        cell.setStyle("-fx-background-color: #FFE4E1; -fx-border-color: #FF4500; -fx-border-width: 2px;");
+        
+        // 2秒后恢复原样
+        Timeline timeline = new Timeline(new KeyFrame(
+            Duration.seconds(2),
+            event -> {
+                if (isSelectMode) {
+                    cell.setStyle("-fx-background-color: lightgreen; -fx-border-color: green; -fx-border-width: 2px;");
+                } else {
+                    cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                }
+            }
+        ));
+        timeline.play();
+    }
+
+    private void addGlobalTemperatureEffect() {
+        // 遍历所有格子
+        for (Node node : gardenGrid.getChildren()) {
+            if (node instanceof Button) {
+                Button cell = (Button) node;
+                Integer row = GridPane.getRowIndex(cell);
+                Integer col = GridPane.getColumnIndex(cell);
+                
+                if (row != null && col != null) {
+                    Plant plant = garden.getPlantAt(row, col);
+                    if (plant != null) {
+                        // 创建一个红色的发热效果
+                        cell.setStyle("-fx-background-color: #FFE4E1; -fx-border-color: #FF4500; -fx-border-width: 2px;");
+                    }
+                }
+            }
+        }
+        
+        // 2秒后恢复所有格子的原样
+        Timeline timeline = new Timeline(new KeyFrame(
+            Duration.seconds(2),
+            event -> {
+                for (Node node : gardenGrid.getChildren()) {
+                    if (node instanceof Button) {
+                        Button cell = (Button) node;
+                        Integer row = GridPane.getRowIndex(cell);
+                        Integer col = GridPane.getColumnIndex(cell);
+                        
+                        if (row != null && col != null) {
+                            Plant plant = garden.getPlantAt(row, col);
+                            if (plant != null) {
+                                cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                            }
+                        }
+                    }
+                }
+            }
+        ));
+        timeline.play();
     }
 
     @FXML

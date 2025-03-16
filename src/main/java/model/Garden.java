@@ -305,4 +305,14 @@ public class Garden {
             }
         }
     }
+
+    public void adjustTemperatureForPlant(int x, int y) {
+        Plant plant = getPlantAt(x, y);
+        if (plant != null) {
+            int currentTemp = temperatureSensor.getCurrentTemperature();
+            int newTemp = currentTemp + 5; // 增加5度
+            temperatureSensor.setTemperature(newTemp);
+            logSystem.logEvent("Temperature increased to " + newTemp + "°C for plant at (" + x + ", " + y + ").");
+        }
+    }
 }
