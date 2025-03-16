@@ -27,6 +27,7 @@ import javafx.scene.shape.Circle;
 import javafx.util.Duration;
 import util.TimeManager;
 import javafx.geometry.Insets;
+import javafx.scene.Node;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -307,8 +308,84 @@ public class GardenController {
 
     @FXML
     private void handleToggleLights() {
-        garden.applyLighting();
-        logArea.appendText("Lighting system activated.\n");
+        if (isSelectMode && selectedCell != null) {
+            // 获取选中格子的坐标
+            Integer row = GridPane.getRowIndex(selectedCell);
+            Integer col = GridPane.getColumnIndex(selectedCell);
+            if (row != null && col != null) {
+                Plant plant = garden.getPlantAt(row, col);
+                if (plant != null) {
+                    plant.addSunlight(4); // 增加4小时的阳光时间
+                    logArea.appendText("Added 4 hours of sunlight to " + plant.getName() + " at (" + row + ", " + col + ").\n");
+                    // 添加视觉效果
+                    addLightEffect(selectedCell);
+                }
+            }
+        } else {
+            garden.toggleLights();
+            logArea.appendText("Lighting system toggled.\n");
+            // 为所有有植物的格子添加照明效果
+            addGlobalLightEffect();
+        }
+    }
+
+    private void addLightEffect(Button cell) {
+        // 创建一个黄色的发光效果
+        cell.setStyle("-fx-background-color: #FFFF99; -fx-border-color: #FFD700; -fx-border-width: 2px;");
+        
+        // 2秒后恢复原样
+        Timeline timeline = new Timeline(new KeyFrame(
+            Duration.seconds(2),
+            event -> {
+                if (isSelectMode) {
+                    cell.setStyle("-fx-background-color: lightgreen; -fx-border-color: green; -fx-border-width: 2px;");
+                } else {
+                    cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                }
+            }
+        ));
+        timeline.play();
+    }
+
+    private void addGlobalLightEffect() {
+        // 遍历所有格子
+        for (Node node : gardenGrid.getChildren()) {
+            if (node instanceof Button) {
+                Button cell = (Button) node;
+                Integer row = GridPane.getRowIndex(cell);
+                Integer col = GridPane.getColumnIndex(cell);
+                
+                if (row != null && col != null) {
+                    Plant plant = garden.getPlantAt(row, col);
+                    if (plant != null) {
+                        // 创建一个黄色的发光效果
+                        cell.setStyle("-fx-background-color: #FFFF99; -fx-border-color: #FFD700; -fx-border-width: 2px;");
+                    }
+                }
+            }
+        }
+        
+        // 2秒后恢复所有格子的原样
+        Timeline timeline = new Timeline(new KeyFrame(
+            Duration.seconds(2),
+            event -> {
+                for (Node node : gardenGrid.getChildren()) {
+                    if (node instanceof Button) {
+                        Button cell = (Button) node;
+                        Integer row = GridPane.getRowIndex(cell);
+                        Integer col = GridPane.getColumnIndex(cell);
+                        
+                        if (row != null && col != null) {
+                            Plant plant = garden.getPlantAt(row, col);
+                            if (plant != null) {
+                                cell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                            }
+                        }
+                    }
+                }
+            }
+        ));
+        timeline.play();
     }
 
     @FXML

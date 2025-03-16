@@ -188,9 +188,9 @@ public class Garden {
 
     public void applyHeating() {
         temperatureSensor.updateTemperature(); // Ensure latest temperature before deciding to heat
-        if (temperatureSensor.getTemperature() < 15) {
+        if (temperatureSensor.getCurrentTemperature() < 15) {
             logSystem.logEvent("Temperature low. Heating system activated.");
-            temperatureSensor.setTemperature(temperatureSensor.getTemperature() + 5);
+            temperatureSensor.setTemperature(temperatureSensor.getCurrentTemperature() + 5);
         }
     }
 
@@ -271,6 +271,37 @@ public class Garden {
                 logSystem.logEvent("Watered plant at (" + x + ", " + y + ") with 500ml water.");
             } else {
                 logSystem.logEvent("Not enough water to water plant at (" + x + ", " + y + ").");
+            }
+        }
+    }
+
+    public int getCurrentTemperature() {
+        return temperatureSensor.getCurrentTemperature();
+    }
+
+    public void toggleLights() {
+        lightingSystem.setActive(!lightingSystem.isActive());
+        if (lightingSystem.isActive()) {
+            logSystem.logEvent("Lighting system turned ON.");
+            // 给所有植物增加额外的阳光时间
+            for (int i = 0; i < GRID_RAW; i++) {
+                for (int j = 0; j < GRID_COL; j++) {
+                    Plant plant = plantGrid[i][j];
+                    if (plant != null) {
+                        plant.addSunlight(4);
+                    }
+                }
+            }
+        } else {
+            logSystem.logEvent("Lighting system turned OFF.");
+            // 重置所有植物的额外阳光时间
+            for (int i = 0; i < GRID_RAW; i++) {
+                for (int j = 0; j < GRID_COL; j++) {
+                    Plant plant = plantGrid[i][j];
+                    if (plant != null) {
+                        plant.resetAdditionalSunlight();
+                    }
+                }
             }
         }
     }

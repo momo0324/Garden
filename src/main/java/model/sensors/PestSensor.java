@@ -25,7 +25,7 @@ public class PestSensor extends Sensor {
     public void scanForPests() {
         int pestChance = 5; // Base chance out of 100
         if (moistureSensor.getSoilMoistureLevel() > 50) pestChance += 15;
-        if (temperatureSensor.getTemperature() > 25) pestChance += 10;
+        if (temperatureSensor.getCurrentTemperature() > 25) pestChance += 10;
 
         List<String> pests = Arrays.asList("Aphid", "Slug", "SpiderMite", "Caterpillar", "Mealybug", "CarrotRustFly", "None");
         this.detectedPest = (new Random().nextInt(100) < pestChance) ? pests.get(new Random().nextInt(6)) : "None";

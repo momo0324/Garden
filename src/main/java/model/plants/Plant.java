@@ -1,6 +1,7 @@
 package model.plants;
 
 import java.util.List;
+import model.Garden;
 
 public abstract class Plant {
     protected String name;
@@ -16,6 +17,7 @@ public abstract class Plant {
     protected int currentGrowthHours;
     protected boolean isHarvested;
     private int daysAfterMaturity = 0;
+    private int additionalSunlightHours = 0;  // 新增：额外的阳光时间
     // ✅ Image paths for different growth stages
     protected String growingImagePath;
     protected String matureImagePath;
@@ -42,11 +44,24 @@ public abstract class Plant {
     }
 
     public void grow(int hours, int sunlightHours) {
-        System.out.println("grow hours + sunlightHours");
-        System.out.println(hours);
-        System.out.println(sunlightHours);
-        if (sunlightHours < sunlightNeeded) {
-            System.out.println(name + " is not getting enough sunlight.");
+        // 检查阳光是否充足（包括额外的阳光时间）
+        int totalSunlight = sunlightHours + additionalSunlightHours;
+        if (totalSunlight < sunlightNeeded) {
+            System.out.println(name + " is not getting enough sunlight. Current: " + totalSunlight + "h, Needed: " + sunlightNeeded + "h");
+            return;
+        }
+
+        // 检查水分是否充足
+        if (currentWaterLevel < minWaterRequirement) {
+            System.out.println(name + " needs more water to grow.");
+            return;
+        }
+
+        // 检查温度是否适宜
+        Garden garden = Garden.getInstance();
+        int currentTemperature = garden.getCurrentTemperature();
+        if (currentTemperature < minIdealTemperature || currentTemperature > maxIdealTemperature) {
+            System.out.println(name + " cannot grow in current temperature: " + currentTemperature + "°C");
             return;
         }
 
@@ -55,6 +70,8 @@ public abstract class Plant {
         if (currentGrowthHours >= hoursToGrow) {
             isFullyGrown = true;
             System.out.println(name + " has fully grown.");
+        } else {
+            System.out.println(name + " is growing. Hours: " + currentGrowthHours + "/" + hoursToGrow);
         }
     }
     public void growOneDay(int sunlightHours) {
@@ -101,6 +118,19 @@ public abstract class Plant {
     public void water(int amount) {
         currentWaterLevel = Math.min(currentWaterLevel + amount, maxWaterRequirement);
         System.out.println(name + " received " + amount + "ml water. Current water level: " + currentWaterLevel + "ml");
+    }
+
+    public void addSunlight(int hours) {
+        this.additionalSunlightHours += hours;
+        System.out.println(name + " received " + hours + " additional hours of sunlight. Total additional: " + additionalSunlightHours + "h");
+    }
+
+    public int getAdditionalSunlightHours() {
+        return additionalSunlightHours;
+    }
+
+    public void resetAdditionalSunlight() {
+        this.additionalSunlightHours = 0;
     }
 
     // GETTERS AND SETTERS

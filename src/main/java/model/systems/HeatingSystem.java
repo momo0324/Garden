@@ -26,8 +26,8 @@ public class HeatingSystem extends SystemAbs {
         for (int row = 0; row < 6; row++) {
             for (int col = 0; col < 6; col++) {
                 Plant plant = garden.getPlantAt(row, col);
-                if (plant != null && temperatureSensor.getTemperature() < MIN_TEMPERATURE_THRESHOLD) {
-                    int newTemp = temperatureSensor.getTemperature() + HEATING_INCREMENT;
+                if (plant != null && temperatureSensor.getCurrentTemperature() < MIN_TEMPERATURE_THRESHOLD) {
+                    int newTemp = temperatureSensor.getCurrentTemperature() + HEATING_INCREMENT;
                     temperatureSensor.setTemperature(newTemp);
                     garden.getLogSystem().logEvent("Heating system activated at (" + row + "," + col + ") for " + plant.getClass().getSimpleName());
                 }
