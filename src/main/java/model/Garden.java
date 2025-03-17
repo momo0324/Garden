@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Garden {
     private static Garden instance;
-    private static final int GRID_RAW = 8;
+    private static final int GRID_RAW = 6;
     private static final int GRID_COL = 6;
     private Plant[][] plantGrid;
     private MoistureSensor moistureSensor;
@@ -22,6 +22,8 @@ public class Garden {
     private List<String> activePests = new ArrayList<>();
     private EnvironmentSystem gardenSystem = EnvironmentSystem.getInstance();
 
+    private LightingSensor lightingSensor;
+
     private Garden() {
         plantGrid = new Plant[GRID_RAW][GRID_COL];
         moistureSensor = new MoistureSensor();
@@ -32,6 +34,7 @@ public class Garden {
         lightingSystem = new LightingSystem(new LightingSensor(), this);
         logSystem = LogSystem.getInstance();
         waterSupply = new WaterSupply();
+        lightingSensor = new LightingSensor();
     }
 
     public static Garden getInstance() {
@@ -63,7 +66,7 @@ public class Garden {
         );
 
         Random random = new Random();
-        int plantCount = random.nextInt(10) + 15; // Randomly assign 15-25 plants
+        int plantCount = random.nextInt(11) + 20; // Randomly assign 20-30 plants
         //Sprinklers' position (fixed)
         List<int[]> sprinklerPositions = Arrays.asList(new int[]{1, 1}, new int[]{1, 4}, new int[]{4, 1}, new int[]{4, 4});
         int placedPlants = 0;
@@ -143,6 +146,10 @@ public class Garden {
     public void evaporateWater() {
         waterSupply.evaporateWater();
         logSystem.logEvent("Water evaporated. Remaining water: " + waterSupply.getCurrentWaterLevel() + " ml.");
+
+        // Simulate rainfall
+        waterSupply.simulateRainfall();
+        logSystem.logEvent("Current water level after possible rainfall: " + waterSupply.getCurrentWaterLevel() + " ml.");
     }
 
     public void spawnRandomPests() {
@@ -173,7 +180,22 @@ public class Garden {
     public void applyWatering() {
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
-                waterPlant(i, j);
+                Plant plant = plantGrid[i][j];
+                if (plant != null) {
+                    int requiredWater = plant.getMinWaterRequirement();
+                    int currentMoisture = moistureSensor.getSoilMoistureLevel();
+
+                    if (currentMoisture < requiredWater) {
+                        if (waterSupply.useWater(requiredWater)) {
+                            plant.water(requiredWater);
+                            logSystem.logEvent("Watered plant at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
+                        } else {
+                            logSystem.logEvent("Not enough water to water plant at (" + i + ", " + j + ").");
+                        }
+                    } else {
+                        logSystem.logEvent("Plant at (" + i + ", " + j + ") does not need watering.");
+                    }
+                }
             }
         }
     }
@@ -183,47 +205,112 @@ public class Garden {
     }
 
     public void applyHeating() {
-        temperatureSensor.updateTemperature(); // Ensure latest temperature before deciding to heat
-        if (temperatureSensor.getCurrentTemperature() < 15) {
-            logSystem.logEvent("Temperature low. Heating system activated.");
-            temperatureSensor.setTemperature(temperatureSensor.getCurrentTemperature() + 5);
+        int currentTemperature = temperatureSensor.getCurrentTemperature();
+        int minRequiredTemperature = Integer.MAX_VALUE;
+
+        for (int i = 0; i < GRID_RAW; i++) {
+            for (int j = 0; j < GRID_COL; j++) {
+                Plant plant = plantGrid[i][j];
+                if (plant != null) {
+                    minRequiredTemperature = Math.min(minRequiredTemperature, plant.getMinIdealTemperature());
+                }
+            }
+        }
+
+        if (currentTemperature < minRequiredTemperature) {
+            logSystem.logEvent("Temperature too low (" + currentTemperature + "°C). Heating system activated.");
+
+            int newTemperature = Math.min(minRequiredTemperature, currentTemperature + 5); // ✅ Prevent overheating
+            temperatureSensor.setTemperature(newTemperature);
+
+            logSystem.logEvent("Temperature increased to " + temperatureSensor.getCurrentTemperature() + "°C.");
+        } else {
+            logSystem.logEvent("Temperature is adequate (" + currentTemperature + "°C). No heating needed.");
         }
     }
 
     public void applyLighting() {
         int currentHour = TimeManager.getSimulatedHour();
-        if (currentHour%24 >= 7 && currentHour%24 < 19) {
-            logSystem.logEvent("Sunlight is available. No need for artificial lighting.");
+        boolean isNightTime = currentHour % 24 < 7 || currentHour % 24 >= 19;
+        boolean artificialLightNeeded = false;
+
+        for (int i = 0; i < GRID_RAW; i++) {
+            for (int j = 0; j < GRID_COL; j++) {
+                Plant plant = plantGrid[i][j];
+                if (plant != null && !plant.isFullyGrown()) {
+                    int requiredSunlight = plant.getSunlightNeeded();
+                    int receivedSunlight = lightingSensor.getSunlightHours();
+
+                    if (receivedSunlight < requiredSunlight) {
+                        artificialLightNeeded = true;
+                    }
+                }
+            }
+        }
+
+        if (isNightTime && artificialLightNeeded) {
+            lightingSensor.toggleArtificialLight(true);
+            logSystem.logEvent("Artificial lights turned ON to support plant growth.");
         } else {
-            logSystem.logEvent("Sun has set. Turning on artificial lights.");
-            lightingSystem.operate();
+            lightingSensor.toggleArtificialLight(false);
+            logSystem.logEvent("Artificial lights turned OFF.");
+        }
+    }
+
+    public void checkPlantHealth() {
+        for (int i = 0; i < GRID_RAW; i++) {
+            for (int j = 0; j < GRID_COL; j++) {
+                Plant plant = plantGrid[i][j];
+                if (plant != null && !plant.isFullyGrown()) {
+                    boolean hasEnoughWater = moistureSensor.getSoilMoistureLevel() >= plant.getMinWaterRequirement();
+                    int currentLightHours = lightingSystem.getSunlightHours();
+                    int currentTemperature = temperatureSensor.getCurrentTemperature();
+
+                    boolean hasEnoughSunlight = currentLightHours >= plant.getSunlightNeeded();
+                    boolean isIdealTemperature = currentTemperature >= plant.getMinIdealTemperature()
+                            && currentTemperature <= plant.getMaxIdealTemperature();
+
+                    if (!hasEnoughWater || !hasEnoughSunlight || !isIdealTemperature) {
+                        plant.decreaseSurvivalTime(); // ✅ Survival time decreases if struggling
+                        java.lang.System.out.println("Warning: " + plant.getName() + " at (" + i + "," + j + ") is struggling. Remaining survival time: " + plant.getCurrentSurvivalTime() + " hours.");
+                    } else {
+                        plant.resetSurvivalTime(currentLightHours, currentTemperature); // ✅ Pass parameters to fix the issue
+                    }
+
+                    if (plant.getCurrentSurvivalTime() <= 0) {
+                        logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") has died due to prolonged unfavorable conditions.");
+                        plantGrid[i][j] = null; // ✅ Remove dead plant from the grid
+                        java.lang.System.out.println(plant.getName() + " at (" + i + "," + j + ") has died and has been removed from the garden.");
+                    }
+                }
+            }
         }
     }
 
     public void harvestPlants() {
         logSystem.logEvent("Harvesting system activated.");
-        java.lang.System.out.println("开始收获植物...");
-        
+        java.lang.System.out.println("Start Harvesting Plants...");
+
         int harvestedCount = 0;
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
-                if (plant != null) {
-                    java.lang.System.out.println("检查位置 (" + i + ", " + j + ") 的植物: " + plant.getName());
-                    java.lang.System.out.println("植物成熟状态: " + plant.isFullyGrown() + ", 已收获状态: " + plant.getIsHarvested());
-                    
-                    if (plant.isFullyGrown() && !plant.getIsHarvested()) {
-                        gardenSystem.harvestPlant(plant);
-                        plantGrid[i][j] = null; // 从网格中移除植物
-                        logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
-                        harvestedCount++;
-                    }
+                if (plant != null && plant.isFullyGrown() && !plant.getIsHarvested()) {
+                    gardenSystem.harvestPlant(plant);
+                    plantGrid[i][j] = null; // 从网格中移除植物
+                    logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
+                    harvestedCount++;
                 }
             }
         }
-        
-        java.lang.System.out.println("收获完成，共收获了 " + harvestedCount + " 个植物");
-        java.lang.System.out.println("当前库存中有 " + gardenSystem.getInventory().size() + " 个植物");
+
+        if (harvestedCount == 0) {
+            java.lang.System.out.println("No Plant Harvested.");
+            logSystem.logEvent("No Plant Harvested.");
+        } else {
+            java.lang.System.out.println("Harvest Complete，Harvested " + harvestedCount + " Plants");
+            java.lang.System.out.println("There are " + gardenSystem.getInventory().size() + " Plants in Inventory");
+        }
     }
 
     public void logGardenState() {
@@ -231,33 +318,21 @@ public class Garden {
     }
 
     public void growPlants() {
-        int currentHour = TimeManager.getSimulatedHour();
-        int sunlightHours = 0;
-        switch (currentHour%24) {
-            case 10: {
-                sunlightHours = 3;
-                break;
-            }
-            case 15: {
-                sunlightHours = 5;
-                break;
-            }
-            case 20: {
-                sunlightHours = 4;
-                break;
-            }
-            default: {
-                sunlightHours = 0;
-            }
-        }
-
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null && !plant.getIsHarvested()) {
-                    plant.growOneDay(sunlightHours);
-                    logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") growth hours: " + 
-                                    plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
+                    boolean hasEnoughWater = moistureSensor.getSoilMoistureLevel() >= plant.getMinWaterRequirement();
+                    boolean hasEnoughSunlight = lightingSystem.getSunlightHours() >= plant.getSunlightNeeded();
+                    boolean isIdealTemperature = temperatureSensor.getCurrentTemperature() >= plant.getMinIdealTemperature()
+                            && temperatureSensor.getCurrentTemperature() <= plant.getMaxIdealTemperature();
+
+                    if (hasEnoughWater && hasEnoughSunlight && isIdealTemperature) {
+                        plant.growOneDay(lightingSystem.getSunlightHours());
+                        logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") growth hours: " + plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
+                    } else {
+                        logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") did not grow due to insufficient conditions.");
+                    }
                 }
             }
         }

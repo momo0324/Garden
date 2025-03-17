@@ -5,6 +5,7 @@ import model.Garden;
 
 public abstract class Plant {
     protected String name;
+    private int consecutiveHealthyHours = 0;
     protected int minWaterRequirement;
     protected int maxWaterRequirement;
     protected int hoursToGrow;  // Fixed value
@@ -20,6 +21,7 @@ public abstract class Plant {
     private int additionalSunlightHours = 0;  // 新增：额外的阳光时间
     // ✅ Image paths for different growth stages
     protected String growingImagePath;
+    protected int currentSurvivalTime;
     protected String matureImagePath;
     private int currentWaterLevel = 0;
     private boolean isDead = false;  // 新增：死亡状态
@@ -37,12 +39,39 @@ public abstract class Plant {
         this.minIdealTemperature = minIdealTemperature;
         this.maxIdealTemperature = maxIdealTemperature;
         this.survivalTime = survivalTime;
+        this.currentSurvivalTime = survivalTime;
         this.vulnerableToPests = vulnerableToPests;
         this.isFullyGrown = false;
         this.currentGrowthHours = 0;
         this.isHarvested = false;
         this.growingImagePath = growingImagePath;
         this.matureImagePath = matureImagePath;
+    }
+
+    public void decreaseSurvivalTime() {
+        if (currentSurvivalTime > 0) {
+            currentSurvivalTime--;
+        }
+    }
+
+    public void resetSurvivalTime(int currentLightHours, int currentTemperature) {
+        if (currentWaterLevel >= minWaterRequirement &&
+                currentLightHours >= sunlightNeeded &&
+                currentTemperature >= minIdealTemperature &&
+                currentTemperature <= maxIdealTemperature) {
+
+            consecutiveHealthyHours++;
+            if (consecutiveHealthyHours >= 3) { // ✅ Reset only after 3 stable hours
+                this.currentSurvivalTime = survivalTime;
+                System.out.println(name + " survival time reset.");
+            }
+        } else {
+            consecutiveHealthyHours = 0; // ✅ Reset counter if any condition fails
+        }
+    }
+
+    public int getCurrentSurvivalTime() {
+        return currentSurvivalTime;
     }
 
     public void grow(int sunlightHours) {
@@ -71,13 +100,13 @@ public abstract class Plant {
         }
     }
     public void growOneDay(int sunlightHours) {
-        if (!isDead) {  // 只有活着的植物才能生长
-            if (!isFullyGrown) {
-                grow(sunlightHours);  // Each cycle represents 1 day
-                if (currentPest != null) {
-                    survivalTime--;  // 如果有虫，存活时间减少
-                    checkDeathCondition();  // 检查是否应该死亡
-                }
+        if (!isFullyGrown) {
+            currentGrowthHours += sunlightHours;
+            if (currentGrowthHours >= hoursToGrow) {
+                isFullyGrown = true;
+                System.out.println(name + " has fully grown!");
+            } else {
+                System.out.println(name + " growth progress: " + currentGrowthHours + "/" + hoursToGrow);
             }
         }
     }

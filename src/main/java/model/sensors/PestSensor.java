@@ -23,12 +23,21 @@ public class PestSensor extends Sensor {
 
     /** ✅ Pest spawn probability increases with warmth and moisture **/
     public void scanForPests() {
-        int pestChance = 5; // Base chance out of 100
-        if (moistureSensor.getSoilMoistureLevel() > 50) pestChance += 15;
-        if (temperatureSensor.getCurrentTemperature() > 25) pestChance += 10;
+        int baseChance = 10; // Base spawn chance
+        int moistureLevel = moistureSensor.getSoilMoistureLevel();
+        int temperature = temperatureSensor.getCurrentTemperature();
 
-        List<String> pests = Arrays.asList("Aphid", "Slug", "SpiderMite", "Caterpillar", "Mealybug", "CarrotRustFly", "None");
-        this.detectedPest = (new Random().nextInt(100) < pestChance) ? pests.get(new Random().nextInt(6)) : "None";
+        // Increase probability if conditions are favorable
+        if (moistureLevel > 50) baseChance += 20; // More moisture, higher chance
+        if (temperature > 25) baseChance += 15; // Warmer temperatures encourage pest activity
+
+        // Ensure pests are selected only when they are meant to spawn
+        if (new Random().nextInt(100) < baseChance) {
+            List<String> pests = Arrays.asList("Aphid", "Slug", "SpiderMite", "Caterpillar", "Mealybug", "CarrotRustFly");
+            this.detectedPest = pests.get(new Random().nextInt(pests.size())); // Always selects a pest
+        } else {
+            this.detectedPest = "None"; // No pest detected
+        }
 
         System.out.println("Pest detected: " + detectedPest);
     }

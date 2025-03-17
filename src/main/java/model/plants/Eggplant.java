@@ -8,7 +8,7 @@ public class Eggplant extends Plant {
         super("Eggplant",
                 5,
                 20,
-                72, // 3天（72小时）后成熟
+                23, // 23 hour 后成熟
                 4,
                 18,
                 32,

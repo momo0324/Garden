@@ -14,7 +14,7 @@ public class Main extends Application {
         Parent root = loader.load();
 
         primaryStage.setTitle("Automated Garden System");
-        primaryStage.setResizable(false); // ✅ Disable resizing
+        primaryStage.setResizable(false); // Disable resizing
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

@@ -32,4 +32,8 @@ public class LightingSystem extends SystemAbs {
             }
         }
     }
+
+    public int getSunlightHours() {
+        return lightingSensor.getSunlightHours();
+    }
 }
