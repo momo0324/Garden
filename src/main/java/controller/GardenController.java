@@ -3,10 +3,10 @@ package controller;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.geometry.Bounds;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.canvas.Canvas;
 import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -16,31 +16,35 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import model.Garden;
 import model.LogSystem;
+import model.EnvironmentSystem;
 import model.plants.Plant;
 import javafx.animation.*;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.util.Duration;
 import util.TimeManager;
-import javafx.geometry.Insets;
 import javafx.scene.Node;
 
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
+import java.util.Random;
 
 public class GardenController {
     public BorderPane mainLayout;
+    final int CELL_SIZE = 50;
+    public Pane rainPane;
     private Garden garden;
-    private Timeline simulationTimeline;
+    private Timeline simulationTimeline,rainTimeline;
     private LogSystem logSystem;
+    private EnvironmentSystem environmentSystem;
     private boolean isSelectMode = false; // 新增：选择模式标志
     private Button selectedCell = null; // 新增：当前选中的格子
+    private boolean isWatering = true;
     @FXML
     private ImageView backgroundImage;  // ✅ Reference to background
 
@@ -74,12 +78,14 @@ public class GardenController {
     private Button selectButton;  // 添加按钮引用
 
     public void initialize() {
+        environmentSystem =EnvironmentSystem.getInstance();
         garden = Garden.getInstance();
         garden.initializeGarden(); // Ensures plants are placed at the start
         setupGardenGrid();
         setupSprinklers();
         updateGardenGrid(); // Ensures plants are displayed at startup
         setupLogArea();
+        rain();
 
         // ✅ Link simulation speed slider
         speedSlider.valueProperty().addListener((obs, oldValue, newValue) -> {
@@ -92,6 +98,7 @@ public class GardenController {
         TimeManager.startSimulation(garden);
         startSimulation();
         logSystem=LogSystem.getInstance();
+
 
         // 开始定期更新温度显示
         Timeline temperatureUpdateTimeline = new Timeline(new KeyFrame(
@@ -160,34 +167,7 @@ public class GardenController {
         logArea = new TextArea();
     }
 
-    private void setupSprinklers() {
-        try {
-            String sprinklerImagePath = getClass().getResource("/images/sprinklers.png").toExternalForm();
-            Image sprinklerImage = new Image(sprinklerImagePath);
 
-            sprinkler1 = new ImageView(sprinklerImage);
-            sprinkler2 = new ImageView(sprinklerImage);
-            sprinkler3 = new ImageView(sprinklerImage);
-            sprinkler4 = new ImageView(sprinklerImage);
-
-            sprinkler1.setFitWidth(30);
-            sprinkler1.setFitHeight(30);
-            sprinkler2.setFitWidth(30);
-            sprinkler2.setFitHeight(30);
-            sprinkler3.setFitWidth(30);
-            sprinkler3.setFitHeight(30);
-            sprinkler4.setFitWidth(30);
-            sprinkler4.setFitHeight(30);
-
-            gardenGrid.add(sprinkler1, 1, 1);
-            gardenGrid.add(sprinkler2, 1, 4);
-            gardenGrid.add(sprinkler3, 4, 1);
-            gardenGrid.add(sprinkler4, 4, 4);
-
-        } catch (NullPointerException e) {
-            System.err.println("Error: Sprinkler image not found! Ensure it's inside 'src/main/resources/images/'.");
-        }
-    }
 
     public void updateGardenGrid() {
         // Remove only plant images while keeping sprinklers
@@ -248,7 +228,7 @@ public class GardenController {
             selectButton.setStyle("");
             selectButton.setText("Select Plant");
             if (selectedCell != null) {
-                selectedCell.setStyle("-fx-background-color: white; -fx-border-color: black;");
+                selectedCell.setStyle("-fx-background-color: white; -fx-border-color: transparent;");
                 selectedCell = null;
             }
         }
@@ -269,54 +249,48 @@ public class GardenController {
                 }
             }
         } else {
-            garden.applyWatering();
+            toggleSprinkler();
             logArea.appendText("Watering system activated.\n");
-            animateSprinklers();
+//            animateSprinklers();
         }
     }
 
     private void animateWaterDroplet(int row, int col) {
-        Circle droplet = new Circle(5, Color.BLUE);
-        gardenGrid.add(droplet, col, row);
+        try {
+            clearOldEffects("addWater.gif");
 
-        TranslateTransition drop = new TranslateTransition(Duration.seconds(1), droplet);
-        drop.setByY(30);
-        drop.setCycleCount(3);
-        drop.setAutoReverse(true);
+            String addWaterEffect = getClass().getResource("/images/addWater.gif").toExternalForm();
+            Image waterGif = new Image(addWaterEffect);
 
-        FadeTransition fade = new FadeTransition(Duration.seconds(1), droplet);
-        fade.setFromValue(1.0);
-        fade.setToValue(0.0);
-        fade.setCycleCount(3);
-        fade.setAutoReverse(true);
+            ImageView waterEffect = new ImageView(waterGif);
+            waterEffect.setFitWidth(100);
+            waterEffect.setFitHeight(120);
+            waterEffect.setMouseTransparent(true);
 
-        ParallelTransition waterAnimation = new ParallelTransition(drop, fade);
-        waterAnimation.setOnFinished(e -> gardenGrid.getChildren().remove(droplet));
-        waterAnimation.play();
-    }
+            Pane waterEffectPane = new Pane(waterEffect);
+            waterEffectPane.setMaxSize(0, 0);
+            waterEffectPane.setMouseTransparent(true);
 
-    private void animateSprinklers() {
-        for (int i = 0; i < 4; i++) {
-            Circle droplet = new Circle(5, Color.BLUE);
-            gardenGrid.add(droplet, (i < 2) ? 1 : 4, (i % 2 == 0) ? 1 : 4);
+            waterEffect.setTranslateX((double) -CELL_SIZE / 2);
+            waterEffect.setTranslateY((double) -CELL_SIZE*2 );
 
-            TranslateTransition drop = new TranslateTransition(Duration.seconds(1), droplet);
-            drop.setByY(30);
-            drop.setCycleCount(3);
-            drop.setAutoReverse(true);
+            gardenGrid.add(waterEffectPane, col, row);
 
-            FadeTransition fade = new FadeTransition(Duration.seconds(1), droplet);
-            fade.setFromValue(1.0);
-            fade.setToValue(0.0);
-            fade.setCycleCount(3);
-            fade.setAutoReverse(true);
+            GridPane.setMargin(waterEffectPane, new Insets(-2, -2, -2, -2));
 
-            ParallelTransition waterAnimation = new ParallelTransition(drop, fade);
-            waterAnimation.setOnFinished(e -> gardenGrid.getChildren().remove(droplet));
-            waterAnimation.play();
+            // ✅ 1.5 秒后自动删除 GIF
+            Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(3), event -> {
+                gardenGrid.getChildren().remove(waterEffectPane);
+            }));
+            timeline.setCycleCount(1);
+            timeline.play();
+
+            Platform.runLater(() -> gardenGrid.requestLayout());
+
+        } catch (Exception e) {
+            System.err.println("Error: Water effect GIF not found! Ensure it's inside 'src/main/resources/images/'.");
         }
     }
-
     @FXML
     private void handleToggleLights() {
         if (isSelectMode && selectedCell != null) {
@@ -612,5 +586,184 @@ public class GardenController {
                 temperatureLabel.getStyleClass().add("temperature-normal");
             }
         });
+    }
+
+    private void rain(){
+        int rainDurationSeconds=24;
+
+        Platform.runLater(() -> {
+            rainPane.setPrefSize(rootPane.getWidth(), rootPane.getHeight());
+            rainPane.toFront(); // ✅ Ensure rain is always visible
+            rainPane.setMouseTransparent(true); // ✅ Allows button clicks
+
+            // ✅ Set fog effect and fade in
+            FadeTransition fadeInFog = new FadeTransition(Duration.seconds(2), rainPane);
+            rainPane.setStyle("-fx-background-color: rgba(100, 100, 100, 1); visibility: visible;"); // Start fully transparent
+            fadeInFog.setFromValue(0.0);
+            fadeInFog.setToValue(0.6); // ✅ Make the screen look foggy
+            fadeInFog.play();
+        });
+
+        // ✅ Run animation asynchronously (prevent UI freezing)
+        new Thread(() -> {
+            environmentSystem.addRainfall(100); // ✅ Run environment logic in a separate thread
+            Platform.runLater(this::startRainEffect); // ✅ Update UI safely
+        }).start();
+        new Timeline(new KeyFrame(Duration.seconds(rainDurationSeconds), e -> stopRainEffect())).play();
+
+    }
+
+    private void startRainEffect() {
+        int dropCount = 5; // ✅ Only add a few new raindrops per cycle
+
+        for (int i = 0; i < dropCount; i++) {
+            // ✅ Choose a random color from Blue, Dark Blue, Light Blue
+            Color[] rainColors = {Color.BLUE, Color.DARKBLUE, Color.LIGHTBLUE};
+            Color randomColor = rainColors[(int) (Math.random() * rainColors.length)];
+
+            // ✅ Create a thin, long raindrop with random color
+            Rectangle raindrop = new Rectangle(2, 15, randomColor); // Width = 2, Height = 15
+            raindrop.setOpacity(0.7);
+            raindrop.setLayoutX(Math.random() * 800); // ✅ Spread across full width (800px)
+            raindrop.setLayoutY(-20); // ✅ Start just above the screen (-20)
+
+            Platform.runLater(() -> rainPane.getChildren().add(raindrop));
+
+            // ✅ Falling animation with random duration
+            TranslateTransition fall = new TranslateTransition(Duration.seconds(2 + Math.random()), raindrop);
+            fall.setToY(850); // ✅ Ensure it falls past 800 to fully disappear
+            fall.setInterpolator(Interpolator.LINEAR);
+
+            // ✅ Slight random rotation for realism
+            RotateTransition tilt = new RotateTransition(Duration.seconds(2 + Math.random()), raindrop);
+            tilt.setByAngle(Math.random() * 10 - 5); // ✅ Small angle between -5° and 5°
+
+            // ✅ Combine animations
+            ParallelTransition rainAnimation = new ParallelTransition(fall, tilt);
+            rainAnimation.setOnFinished(e -> Platform.runLater(() -> rainPane.getChildren().remove(raindrop))); // ✅ Remove only after full fall
+            rainAnimation.play();
+        }
+
+        // ✅ Keep adding new raindrops individually (every 100ms)
+        if (rainTimeline == null || !rainTimeline.getStatus().equals(Animation.Status.RUNNING)) {
+            rainTimeline = new Timeline(new KeyFrame(Duration.millis(100), e -> startRainEffect())); // ✅ Drops are added smoothly
+            rainTimeline.setCycleCount(Timeline.INDEFINITE);
+            rainTimeline.play();
+        }
+    }
+    private void stopRainEffect() {
+        if (rainTimeline != null) {
+            rainTimeline.stop();
+            rainTimeline = null; // ✅ Reset the timeline
+        }
+        rainPane.getChildren().clear(); // ✅ Remove all raindrops
+
+        // ✅ Fade out fog effect
+        FadeTransition fadeOutFog = new FadeTransition(Duration.seconds(2), rainPane);
+        fadeOutFog.setFromValue(0.6);
+        fadeOutFog.setToValue(0.0);
+        fadeOutFog.setOnFinished(e -> rainPane.setStyle("visibility: hidden;")); // ✅ Hide rainPane after fade out
+        fadeOutFog.play();
+
+        System.out.println("🌤️ Rain and fog have stopped.");
+    }
+
+    private void toggleSprinkler(){
+        isWatering=!isWatering;
+        setupSprinklers();
+    }
+
+    private void setupSprinklers() {
+        try {
+            // ✅ 先清除旧的 Sprinkler，防止重复添加
+            clearOldEffects("sprinklers.gif");
+            clearOldEffects("sprinkler-turnoff.png");
+
+            String sprinklerImagePath;
+            if (isWatering) {
+                sprinklerImagePath = getClass().getResource("/images/sprinklers.gif").toExternalForm();
+            } else {
+                sprinklerImagePath = getClass().getResource("/images/sprinkler-turnoff.png").toExternalForm();
+            }
+
+            Image sprinklerImage = new Image(sprinklerImagePath);
+
+            int[][] sprinklerPositions = {
+                    {1, 1}, {1, 4}, {4, 1}, {4, 4}
+            };
+
+            int SPRINKLER_SIZE = 100;
+
+            for (int[] pos : sprinklerPositions) {
+                int col = pos[0];
+                int row = pos[1];
+                disableSoilClick(col, row);
+
+                // ✅ 创建 Sprinkler ImageView
+                ImageView sprinkler = new ImageView(sprinklerImage);
+                sprinkler.setFitWidth(SPRINKLER_SIZE);
+                sprinkler.setFitHeight(SPRINKLER_SIZE);
+                sprinkler.setMouseTransparent(true); // 🔥 避免影响点击事件
+
+                // ✅ 获取已存在的 Pane，更新 Image 而不是新建 Pane
+                Node existingPane = getNodeFromGridPane(gardenGrid, col, row);
+                if (existingPane instanceof Pane) {
+                    ((Pane) existingPane).getChildren().setAll(sprinkler); // ✅ 直接替换 Sprinkler 图片
+                } else {
+                    // ✅ 如果没有旧的 Sprinkler，则创建新的 Pane 并添加到 GridPane
+                    Pane sprinklerPane = new Pane(sprinkler);
+                    sprinklerPane.setMaxSize(0, 0);
+                    sprinklerPane.setMouseTransparent(true);
+
+                    // ✅ 计算 Sprinkler 的偏移量，让它覆盖 2x2 格子
+                    sprinkler.setTranslateX((double) -CELL_SIZE / 2);
+                    sprinkler.setTranslateY((double) -CELL_SIZE);
+
+                    gardenGrid.add(sprinklerPane, col, row);
+                }
+            }
+
+            // ✅ 强制刷新 UI
+            Platform.runLater(() -> gardenGrid.requestLayout());
+
+        } catch (NullPointerException e) {
+            System.err.println("Error: Sprinkler image not found! Ensure it's inside 'src/main/resources/images/'.");
+        }
+    }
+    // ✅ 禁用 Sprinkler 下面的 Soil 单元格
+    private void disableSoilClick(int col, int row) {
+        Node soil = getNodeFromGridPane(gardenGrid, col, row);
+        if (soil != null) {
+            soil.setDisable(true); // 禁用 Soil 点击
+        }
+    }
+
+    // ✅ 获取指定 GridPane 单元格的 Node
+    private Node getNodeFromGridPane(GridPane gridPane, int col, int row) {
+        for (Node node : gridPane.getChildren()) {
+            Integer nodeCol = GridPane.getColumnIndex(node);
+            Integer nodeRow = GridPane.getRowIndex(node);
+            if (nodeCol != null && nodeRow != null && nodeCol == col && nodeRow == row) {
+                return node;
+            }
+        }
+        return null;
+    }
+
+    // ✅ 清除旧的 Sprinkler，防止重复添加
+    private void clearOldEffects(String imageFileName) {
+        List<Node> toRemove = new ArrayList<>();
+        for (Node node : gardenGrid.getChildren()) {
+            if (node instanceof Pane && !((Pane) node).getChildren().isEmpty()) {
+                Node child = ((Pane) node).getChildren().get(0);
+                if (child instanceof ImageView) {
+                    ImageView imgView = (ImageView) child;
+                    if (imgView.getImage().getUrl().contains(imageFileName)) {
+                        toRemove.add(node);
+                    }
+                }
+            }
+        }
+        gardenGrid.getChildren().removeAll(toRemove);
     }
 }

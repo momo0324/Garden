@@ -6,6 +6,8 @@
 <StackPane fx:id="rootPane" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
            fx:controller="controller.GardenController"
            stylesheets="/styles/style.css">
+    <!-- ✅ Rain Effect Layer (Always on top, full screen) -->
+    <Pane fx:id="rainPane" style="-fx-background-color: rgba(100, 100, 100, 0.0); visibility: hidden;" />
     <BorderPane fx:id="mainLayout"
                 prefHeight="800" prefWidth="800">
         <top>

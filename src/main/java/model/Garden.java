@@ -20,7 +20,7 @@ public class Garden {
     private LogSystem logSystem;
     private WaterSupply waterSupply;
     private List<String> activePests = new ArrayList<>();
-    private System gardenSystem = System.getInstance();
+    private EnvironmentSystem gardenSystem = EnvironmentSystem.getInstance();
 
     private Garden() {
         plantGrid = new Plant[GRID_RAW][GRID_COL];
