@@ -51,6 +51,8 @@ public class TimeManager {
         garden.applyWatering();
         garden.applyPestControl();
         garden.applyHeating();
+        garden.applyLighting();
+        garden.checkPlantHealth();
         garden.harvestPlants();
 
         // ✅ Ensure pests spawn dynamically

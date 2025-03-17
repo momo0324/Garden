@@ -7,7 +7,8 @@ public class MoistureSensor extends Sensor {
 
     public MoistureSensor() {
         super("Moisture");
-        this.soilMoistureLevel = new Random().nextInt(101); // Initial value between 0-100
+        this.soilMoistureLevel = new Random().nextInt(2496) + 5; // Initial value between 5-2500
+        System.out.println("Initial Soil Moisture Level: " + soilMoistureLevel + " ml");
     }
 
     @Override
@@ -25,8 +26,9 @@ public class MoistureSensor extends Sensor {
 
     /** ✅ Moisture reduces by 5% every hour **/
     public void reduceSoilMoisture() {
-        setSoilMoistureLevel(soilMoistureLevel - 5);
-        System.out.println("Soil moisture decreased due to evaporation.");
+        int reduction = (int) (soilMoistureLevel * 0.05); // 5% evaporation
+        setSoilMoistureLevel(soilMoistureLevel - reduction);
+        System.out.println("Soil moisture decreased due to evaporation. New level: " + soilMoistureLevel + " ml");
     }
 
     /**
