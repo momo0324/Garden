@@ -41,7 +41,7 @@ public class AddPlantController {
 
     @FXML
     public void initialize() {
-        plantDropdown.getItems().addAll("Eggplant", "Lettuce", "Lavender", "Corn", "Pumpkin", "Carrot");
+        plantDropdown.getItems().addAll("Eggplant", "Lettuce", "Lavender", "Corn", "Pumpkin", "Carrot","Watermelon","Grape","Tomato","Strawberry");
         
         // 添加植物选择监听器
         plantDropdown.valueProperty().addListener((obs, oldVal, newVal) -> {
@@ -80,14 +80,11 @@ public class AddPlantController {
         pestsDropdown.getItems().add("None");
         
         // 根据植物类型添加对应的害虫
-        if (plantName.equals("Corn")) {
-            pestsDropdown.getItems().addAll("aphids", "corn borers");
-        } else if (plantName.equals("Pumpkin")) {
-            pestsDropdown.getItems().addAll("aphids", "squash bugs", "powdery mildew");
-        } else if (plantName.equals("Lavender")) {
-            pestsDropdown.getItems().addAll("aphids", "spider mites");
-        } else {
-            pestsDropdown.getItems().add("aphids");  // 默认至少对蚜虫敏感
+        switch (plantName) {
+            case "Corn" -> pestsDropdown.getItems().addAll("aphids", "corn borers");
+            case "Pumpkin" -> pestsDropdown.getItems().addAll("aphids", "squash bugs", "powdery mildew");
+            case "Lavender" -> pestsDropdown.getItems().addAll("aphids", "spider mites");
+            default -> pestsDropdown.getItems().add("aphids");  // 默认至少对蚜虫敏感
         }
         
         // 默认选择"None"

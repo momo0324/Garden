@@ -99,7 +99,7 @@ public class Inventory {
                             int.class, int.class, int.class, List.class, String.class, String.class)
                     .newInstance("Carrot", 100, 300, 48, 6, 10, 30, 14,
                             Arrays.asList("aphids"), "/images/plants/carrot.png", "/images/plants/carrot-mature.png");
-            seeds.add(carrotSeed);
+
 
             // ✅ Default Seed 2: Lettuce
             Plant lettuceSeed = (Plant) Class.forName("model.plants.Lettuce")
@@ -107,7 +107,14 @@ public class Inventory {
                             int.class, int.class, int.class, List.class, String.class, String.class)
                     .newInstance("Lettuce", 80, 250, 60, 5, 8, 25, 12,
                             Arrays.asList("slugs"), "/images/plants/lettuce.png", "/images/plants/lettuce-mature.png");
+            Plant tomatoSeed = (Plant) Class.forName("model.plants.Tomato")
+                    .getDeclaredConstructor(String.class, int.class, int.class, int.class, int.class,
+                            int.class, int.class, int.class, List.class, String.class, String.class)
+                    .newInstance("Tomato", 80, 250, 60, 5, 8, 25, 12,
+                            Arrays.asList("slugs"), "/images/plants/tomato.png", "/images/plants/tomato-mature.png");
             seeds.add(lettuceSeed);
+            seeds.add(tomatoSeed);
+            seeds.add(carrotSeed);
 
             System.out.println("✅ Default seeds added: Carrot & Lettuce");
         } catch (Exception e) {

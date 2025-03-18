@@ -144,7 +144,7 @@ public class GardenController {
     public void updateSimulationTime() {
         int day = TimeManager.getSimulatedHour()/24;
         int hour = TimeManager.getSimulatedHour()%24;
-//        updateGardenGrid();
+        garden.growPlants(this);
         // 确保在 JavaFX 线程更新 UI
         Platform.runLater(() -> {
             dayHourLabel.setText("Day " + day + ", Hour " + hour);
