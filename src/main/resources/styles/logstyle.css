@@ -5,7 +5,7 @@
     -fx-background-color: #A8E6CF; /* Blueish Green */
     -fx-font-size: 16px;
 }
-/* ✅ Apply pixelated font */
+/* Apply pixelated font */
 .log-title {
     -fx-font-family: "Press Start 2P", "Pixelify Sans", sans-serif;
     -fx-font-size: 14px;
@@ -13,13 +13,13 @@
     -fx-padding: 10px;
     -fx-background-color: #333;
 }
-/* ✅ Apply the blue background */
+/* Apply the blue background */
 .log-background {
     -fx-background-color: #A8E6CF; /* Blueish Green */
     -fx-padding: 10px;
 }
 
-/* ✅ Style Dropdown (ComboBox) */
+/* Style Dropdown (ComboBox) */
 .log-dropdown {
     -fx-font-family: "Pixelify Sans", "Courier New", monospace;
     -fx-background-color: white;
@@ -29,7 +29,7 @@
     -fx-font-size: 12px;
 }
 
-/* ✅ Style Log TextArea */
+/* Style Log TextArea */
 .log-textarea {
     -fx-font-family: "Pixelify Sans", "Courier New", monospace;
     -fx-font-size: 13px;
@@ -37,16 +37,16 @@
     -fx-border-color: #666;
     -fx-border-width: 2px;
 }
-/* ✅ Fix: Ensure the text input area inside TextArea is also colored */
+/* Fix: Ensure the text input area inside TextArea is also colored */
 .log-textarea .content {
-    -fx-background-color: #A8E6CF; /* ✅ Ensure the text input matches the main color */
+    -fx-background-color: #A8E6CF; /* Ensure the text input matches the main color */
 }
-/* ✅ Ensure spacing & alignment */
+/* Ensure spacing & alignment */
 .log-bottom-container {
     -fx-padding: 10px;
 }
 
-/* ✅ Style Close Button */
+/* Style Close Button */
 .log-close-button {
     -fx-background-color: #ff5555;
     -fx-text-fill: white;
@@ -87,12 +87,12 @@
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 3);
     -fx-alignment: center;
 
-    /* ✅ Ensure Full Display */
+    /* Ensure Full Display */
     -fx-wrap-text: true;
-    -fx-max-width: 280px;   /* ✅ Forces max width */
-    -fx-min-width: 280px;   /* ✅ Prevents it from shrinking */
+    -fx-max-width: 280px;   /* Forces max width */
+    -fx-min-width: 280px;   /* Prevents it from shrinking */
 }
-/* ✅ Style the entire TabPane */
+/* Style the entire TabPane */
 #inventoryTabs {
     -fx-background-color: #A8E6CF; /* Dark background */
     -fx-border-color: #444; /* Subtle border */
@@ -101,7 +101,7 @@
     -fx-text-fill: white;
 }
 
-/* ✅ Style selected tab */
+/* Style selected tab */
 .tab:selected {
     -fx-background-color: #A8E6CF; /* Green active tab */
     -fx-text-fill: white;
@@ -109,13 +109,13 @@
     -fx-border-color: #3a3a3a;
 }
 
-/* ✅ Style tab text */
+/* Style tab text */
 .tab .tab-label {
     -fx-font-size: 14px;
     -fx-font-weight: bold;
 }
 
-/* ✅ Ensure smooth transition */
+/* Ensure smooth transition */
 .tab:hover {
     -fx-background-color: #A8E6CF; /* Slightly lighter when hovered */
 }

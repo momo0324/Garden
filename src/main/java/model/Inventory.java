@@ -8,8 +8,8 @@ import java.util.List;
 
 public class Inventory {
     private List<Plant> harvestedPlants;
-    private List<Plant> seeds; // ✅ New list to store seeds separately
-    private static Inventory instance; // ✅ Singleton instance
+    private List<Plant> seeds; // New list to store seeds separately
+    private static Inventory instance; // Singleton instance
     private LogSystem logSystem=LogSystem.getInstance();
 
     public Inventory() {
@@ -19,7 +19,7 @@ public class Inventory {
     }
     public static Inventory getInstance() {
         if (instance == null) {
-            instance = new Inventory(); // ✅ Initialize only once
+            instance = new Inventory(); // Initialize only once
         }
         return instance;
     }
@@ -58,7 +58,7 @@ public class Inventory {
     public boolean addSeed(Plant seed) {
         if (!seeds.contains(seed)) {
             seeds.add(seed);
-            System.out.println("✅ Seed added: " + seed.getName());
+            System.out.println("Seed added: " + seed.getName());
             return true;
         }
         return false;
@@ -71,10 +71,10 @@ public class Inventory {
      */
     public boolean removeSeed(Plant seed) {
         if (seeds.remove(seed)) {
-            System.out.println("✅ Seed planted and removed from inventory: " + seed.getName());
+            System.out.println("Seed planted and removed from inventory: " + seed.getName());
             return true;
         }
-        System.out.println("❌ Seed not found in inventory: " + seed.getName());
+        System.out.println("Seed not found in inventory: " + seed.getName());
         return false;
     }
     public List<Plant> getSeeds() {
@@ -99,11 +99,11 @@ public class Inventory {
             seeds.add(new Watermelon());
             seeds.add(new Lettuce());
 
-            System.out.println("✅ Default seeds added: Lavender , Tomato, Watermelon & Lettuce");
-            logSystem.logEvent("✅ Default seeds added: Lavender, Tomato, Watermelon & Lettuce");
+            System.out.println("Default seeds added: Lavender , Tomato, Watermelon & Lettuce");
+            logSystem.logEvent("Default seeds added: Lavender, Tomato, Watermelon & Lettuce");
 
         } catch (Exception e) {
-            System.err.println("❌ Error initializing default seeds: " + e.getMessage());
+            System.err.println("Error initializing default seeds: " + e.getMessage());
             e.printStackTrace();
         }
     }

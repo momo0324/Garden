@@ -57,8 +57,8 @@ public class InventoryController {
 
     @FXML
     public void initialize() {
-        seedsListView.setCellFactory(lv -> createInventoryCell(seedsListView));  // ✅ Seeds → Hide quantity
-        harvestedListView.setCellFactory(lv -> createInventoryCell(harvestedListView));  // ✅ Harvested → Show quantity
+        seedsListView.setCellFactory(lv -> createInventoryCell(seedsListView));  // Seeds → Hide quantity
+        harvestedListView.setCellFactory(lv -> createInventoryCell(harvestedListView));  // Harvested → Show quantity
 
         this.inventory = new Inventory();  // Mock instance for testing
         loadInventory();
@@ -73,7 +73,7 @@ public class InventoryController {
 
             {
                 hbox.getChildren().addAll(imageView, nameLabel);
-                if (targetListView == harvestedListView) {  // ✅ Show quantity only for harvested plants
+                if (targetListView == harvestedListView) {  // Show quantity only for harvested plants
                     hbox.getChildren().add(quantityLabel);
                 }
                 imageView.setFitWidth(40);
@@ -94,7 +94,7 @@ public class InventoryController {
                     nameLabel.setText(plant.getName());
 
                     if (targetListView == harvestedListView) {
-                        quantityLabel.setText("x" + item.getQuantity());  // ✅ Show only for harvested plants
+                        quantityLabel.setText("x" + item.getQuantity());  // Show only for harvested plants
                     }
 
                     setGraphic(hbox);
@@ -112,19 +112,19 @@ public class InventoryController {
 
         Map<String, InventoryItem> harvestedMap = new HashMap<>();
 
-        // ✅ Store harvested plants with quantity
+        // Store harvested plants with quantity
         for (Plant plant : harvestedPlants) {
             harvestedMap.computeIfAbsent(plant.getName(), k -> new InventoryItem(plant, 0)).incrementQuantity();
         }
 
-        // ✅ Add seeds directly without quantity tracking
+        // Add seeds directly without quantity tracking
         for (Plant plant : seeds) {
             seedsListView.getItems().add(new InventoryItem(plant, 1));  // Quantity is ignored
         }
 
         harvestedListView.getItems().addAll(harvestedMap.values());
 
-        System.out.println("✅ Inventory Loaded: " + seeds.size() + " seeds, " + harvestedMap.size() + " harvested plants.");
+        System.out.println("Inventory Loaded: " + seeds.size() + " seeds, " + harvestedMap.size() + " harvested plants.");
     }
     @FXML
     private void handleAddNewPlant() {
@@ -141,11 +141,11 @@ public class InventoryController {
             addPlantStage.setScene(new Scene(root, 400, 500)); // Adjust size if needed
             addPlantStage.showAndWait();  // Wait until plant is added
 
-            // ✅ Refresh inventory after adding new plant
+            // Refresh inventory after adding new plant
             loadInventory();
         } catch (Exception e) {
             e.printStackTrace();
-            System.err.println("❌ Failed to open Add Plant dialog.");
+            System.err.println("Failed to open Add Plant dialog.");
         }
     }
 
@@ -157,23 +157,23 @@ public class InventoryController {
         Label floatingMessage = new Label(messageText);
         floatingMessage.getStyleClass().add("floating-message");
 
-        // ✅ Ensure message expands fully
-        floatingMessage.setWrapText(true);  // ✅ Allow text wrapping
+        // Ensure message expands fully
+        floatingMessage.setWrapText(true);  // Allow text wrapping
         floatingMessage.setMaxWidth(280);
         floatingMessage.setMinWidth(280);
         floatingMessage.setPrefHeight(50);
 
-        // ✅ Get the root VBox (correct type)
+        // Get the root VBox (correct type)
         VBox rootVBox = (VBox) inventoryTabs.getScene().getRoot();
-        rootVBox.getChildren().add(0, floatingMessage);  // ✅ Insert at the top
+        rootVBox.getChildren().add(0, floatingMessage);  // insert at the top
 
-        // ✅ Fade-out animation after 3 seconds
+        // Fade-out animation after 3 seconds
         FadeTransition fadeOut = new FadeTransition(Duration.seconds(1), floatingMessage);
         fadeOut.setFromValue(1.0);
         fadeOut.setToValue(0.0);
         fadeOut.setOnFinished(event -> rootVBox.getChildren().remove(floatingMessage));
 
-        // ✅ Wait 3 seconds, then fade out
+        // Wait 3 seconds, then fade out
         Platform.runLater(() -> {
             new Thread(() -> {
                 try { Thread.sleep(3000); } catch (InterruptedException e) { e.printStackTrace(); }

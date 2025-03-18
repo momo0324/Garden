@@ -39,7 +39,7 @@ public class TimeManager {
     private static void updateGardenState() {
         System.out.println("Simulated Hour: " + simulatedHour);
 
-        // ✅ Ensure all systems take action at the correct times
+        // Ensure all systems take action at the correct times
 //        garden.evaporateWater();
 
         if (simulatedHour == 7) {
@@ -56,7 +56,7 @@ public class TimeManager {
         garden.checkPlantHealth();
         garden.harvestPlants();
 
-        // ✅ Ensure pests spawn dynamically
+        // Ensure pests spawn dynamically
         if (simulatedHour % 6 == 0) { // Pests spawn every 6 hours
             garden.spawnRandomPests();
         }
@@ -72,7 +72,7 @@ public class TimeManager {
         return simulatedHour;
     }
 
-    // ✅ NEW METHOD: Adjusts simulation speed dynamically
+    // NEW METHOD: Adjusts simulation speed dynamically
     public static void setSimulationSpeed(double speedFactor) {
         realSecondsPerSimHour = 1.0 / speedFactor; // Faster speeds = smaller duration
         restartSimulation(); // Restart timeline with new speed

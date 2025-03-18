@@ -25,7 +25,7 @@ public class AddPlantController {
 
     private LogSystem logSystem;
     private InventoryController inventoryController;
-     // ✅ Reference to `GardenController`
+     // Reference to `GardenController`
 
     public void setContext(LogSystem logSystem, InventoryController inventoryController) {
         this.inventoryController = inventoryController;
@@ -51,12 +51,12 @@ public class AddPlantController {
         survivalTimeSlider.valueProperty().addListener((obs, oldVal, newVal) -> survivalTimeLabel.setText(String.format("%.0f days", newVal)));
         growthTimeSlider.valueProperty().addListener((obs, oldVal, newVal) -> growthTimeLabel.setText(String.format("%.0f hours", newVal)));
 
-        // ✅ Create "Add Plant" Button Dynamically
+        // Create "Add Plant" Button Dynamically
         Button confirmButton = new Button("Add Plant");
         confirmButton.getStyleClass().add("add-plant-button");
         confirmButton.setOnAction(e -> addPlant());
 
-        // ✅ Add the button to the layout at the bottom
+        // Add the button to the layout at the bottom
         HBox buttonContainer = new HBox(confirmButton);
         buttonContainer.setSpacing(15);
         buttonContainer.setAlignment(javafx.geometry.Pos.CENTER);
@@ -87,7 +87,7 @@ public class AddPlantController {
         if (plantName == null) return;
 
         try {
-            System.out.println("✅ Adding plant seed to inventory...");
+            System.out.println("Adding plant seed to inventory...");
             int minWater = (int) waterRangeSlider.getLowValue();
             int maxWater = (int) waterRangeSlider.getHighValue();
             int sunlight = (int) sunlightSlider.getValue();
@@ -115,18 +115,18 @@ public class AddPlantController {
 
             Inventory inventory = Inventory.getInstance();
 
-            boolean isUpdate = inventory.hasSeed(plantName); // ✅ Check if the seed exists
+            boolean isUpdate = inventory.hasSeed(plantName); // Check if the seed exists
             if (isUpdate) {
                 inventory.updateSeed(plantSeed);
-                logSystem.logEvent("🔄 Updated " + plantName + " seed's grow limitation in inventory.");
-                System.out.println("🔄 Updated " + plantName + " seed in inventory.");
+                logSystem.logEvent("Updated " + plantName + " seed's grow limitation in inventory.");
+                System.out.println("Updated " + plantName + " seed in inventory.");
             } else {
                 inventory.addSeed(plantSeed);
-                logSystem.logEvent("✅ Added " + plantName + " seed to inventory.");
-                System.out.println("✅ Added " + plantName + " seed to inventory.");
+                logSystem.logEvent("Added " + plantName + " seed to inventory.");
+                System.out.println("Added " + plantName + " seed to inventory.");
             }
 
-            // ✅ Notify InventoryController to show the message
+            // Notify InventoryController to show the message
             if (inventoryController != null) {
                 inventoryController.showSuccessMessage(plantName, isUpdate);
             }

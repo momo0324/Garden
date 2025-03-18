@@ -47,7 +47,7 @@ public class Garden {
         return instance;
     }
 
-    /** ✅ Fix: Provide LogSystem Access **/
+    /** Provide LogSystem Access **/
     public LogSystem getLogSystem() {
         return logSystem;
     }
@@ -67,17 +67,17 @@ public class Garden {
 
             if (plantGrid[x][y] == null && !isSprinklerPosition(x, y, sprinklerPositions)) {
                 try {
-                    // ✅ Get available seeds from inventory
+                    // Get available seeds from inventory
                     List<Plant> availableSeeds = Inventory.getInstance().getSeeds();
 
                     if (availableSeeds.isEmpty()) {
-                        java.lang.System.err.println("⚠️ No seeds available in inventory for replanting.");
+                        java.lang.System.err.println("No seeds available in inventory for replanting.");
                         return; // No seeds available, so don't replant
                     }
-                    // ✅ Randomly select a seed from inventory
+                    // Randomly select a seed from inventory
                     Plant selectedSeed = availableSeeds.get(random.nextInt(availableSeeds.size()));
 
-                    // ✅ Create a new instance of the selected seed
+                    // Create a new instance of the selected seed
                     Plant plant = selectedSeed.getClass().getDeclaredConstructor().newInstance();
                     addPlant(x, y, plant);
                     placedPlants++;
@@ -88,7 +88,7 @@ public class Garden {
         }
     }
 
-    /** ✅ Add a Plant to the Garden (For UI & Simulation) **/
+    /** Add a Plant to the Garden (For UI & Simulation) **/
     public boolean addPlant(int x, int y, Plant plant) {
         if (x < 0 || x >= GRID_RAW || y < 0 || y >= GRID_COL) {
             logSystem.logEvent("Invalid plant position: (" + x + ", " + y + ").");
@@ -182,10 +182,10 @@ public class Garden {
                     if (currentMoisture < requiredWater) {
                         if (waterSupply.useWater(requiredWater)) {
                             plant.water(requiredWater);
-                            logSystem.logEvent("💧 Watered "+plant.getName()+" at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
-                            System.out.println("💧 Watered "+plant.getName()+" at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
+                            logSystem.logEvent("Watered "+plant.getName()+" at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
+                            System.out.println("Watered "+plant.getName()+" at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
                         } else {
-                            logSystem.logEvent("💧 Not enough water to water plant at (" + i + ", " + j + ").");
+                            logSystem.logEvent("Not enough water to water plant at (" + i + ", " + j + ").");
                         }
                     } else {
                         logSystem.logEvent("Plant at (" + i + ", " + j + ") does not need watering.");
@@ -216,13 +216,13 @@ public class Garden {
 
         if (!plantsExist) {
             logSystem.logEvent("No plants in the garden. Heating system turned OFF.");
-            return; // ✅ Stop heating if no plants are present
+            return; // Stop heating if no plants are present
         }
 
         if (currentTemperature < minRequiredTemperature) {
             logSystem.logEvent("Temperature too low (" + currentTemperature + "°C). Heating system activated.");
 
-            int newTemperature = Math.min(minRequiredTemperature, currentTemperature + 5); // ✅ Prevent overheating
+            int newTemperature = Math.min(minRequiredTemperature, currentTemperature + 5); // Prevent overheating
             temperatureSensor.setTemperature(newTemperature);
 
             logSystem.logEvent("Temperature increased to " + temperatureSensor.getCurrentTemperature() + "°C.");
@@ -312,17 +312,17 @@ public class Garden {
 
                         // Replant a new random plant after death
                         try {
-                            // ✅ Get available seeds from inventory
+                            // Get available seeds from inventory
                             List<Plant> availableSeeds = Inventory.getInstance().getSeeds();
 
                             if (availableSeeds.isEmpty()) {
-                                java.lang.System.err.println("⚠️ No seeds available in inventory for replanting.");
+                                java.lang.System.err.println("No seeds available in inventory for replanting.");
                                 return; // No seeds available, so don't replant
                             }
-                            // ✅ Randomly select a seed from inventory
+                            // Randomly select a seed from inventory
                             Plant selectedSeed = availableSeeds.get(random.nextInt(availableSeeds.size()));
 
-                            // ✅ Create a new instance of the selected seed
+                            // Create a new instance of the selected seed
                             Plant newPlant = selectedSeed.getClass().getDeclaredConstructor().newInstance();
                             plantGrid[i][j] = newPlant;
                             newPlant.resetSurvivalTime(currentLightHours, currentTemperature);
@@ -354,20 +354,20 @@ public class Garden {
                     logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
                     harvestedCount++;
 
-                    // ✅ Replant a new random plant after harvest
+                    // Replant a new random plant after harvest
                     try {
-                        // ✅ Get available seeds from inventory
+                        // Get available seeds from inventory
                         List<Plant> availableSeeds = Inventory.getInstance().getSeeds();
 
                         if (availableSeeds.isEmpty()) {
-                            java.lang.System.err.println("⚠️ No seeds available in inventory for replanting.");
+                            java.lang.System.err.println("No seeds available in inventory for replanting.");
                             return; // No seeds available, so don't replant
                         }
 
-                        // ✅ Randomly select a seed from inventory
+                        // Randomly select a seed from inventory
                         Plant selectedSeed = availableSeeds.get(random.nextInt(availableSeeds.size()));
 
-                        // ✅ Create a new instance of the selected seed
+                        // Create a new instance of the selected seed
                         Plant newPlant = selectedSeed.getClass().getDeclaredConstructor().newInstance();
                         plantGrid[i][j] = newPlant;
                         logSystem.logEvent("Replanted " + newPlant.getName() + " at (" + i + ", " + j + ").");
@@ -447,10 +447,10 @@ public class Garden {
         if (plant != null) {
             if (waterSupply.useWater(500)) {
                 plant.water(500);
-                System.out.println("💧 Watered "+plant.getName()+" at (" + x + ", " + y + ") with 500ml water.");
-                logSystem.logEvent("💧 Watered "+plant.getName()+ " at (" + x + ", " + y + ") with 500ml water.");
+                System.out.println("Watered "+plant.getName()+" at (" + x + ", " + y + ") with 500ml water.");
+                logSystem.logEvent("Watered "+plant.getName()+ " at (" + x + ", " + y + ") with 500ml water.");
             } else {
-                logSystem.logEvent("💧 Not enough water to water plant at (" + x + ", " + y + ").");
+                logSystem.logEvent("Not enough water to water plant at (" + x + ", " + y + ").");
             }
         }
     }

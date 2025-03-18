@@ -24,19 +24,11 @@ public class MoistureSensor extends Sensor {
         this.soilMoistureLevel = Math.max(0, Math.min(100, level)); // Keep within bounds
     }
 
-    /** ✅ Moisture reduces by 5% every hour **/
+    /** Moisture reduces by 5% every hour **/
     public void reduceSoilMoisture() {
         int reduction = (int) (soilMoistureLevel * 0.05); // 5% evaporation
         setSoilMoistureLevel(soilMoistureLevel - reduction);
         System.out.println("Soil moisture decreased due to evaporation. New level: " + soilMoistureLevel + " ml");
     }
 
-//    /**
-//     * 计算植物的水分需求
-//     * @param plantWaterRequirement 植物的水分需求
-//     * @return 是否需要浇水
-//     */
-//    public boolean needsWater(int plantWaterRequirement) {
-//        return soilMoistureLevel < plantWaterRequirement;
-//    }
 }

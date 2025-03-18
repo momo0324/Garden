@@ -7,21 +7,21 @@
     -fx-padding: 20px;
 }
 
-/* ✅ Remove the upper header (title) */
+/* Remove the upper header (title) */
 .dialog-pane .header-panel {
     -fx-background-color: transparent;
     -fx-padding: 8px;
     -fx-border-width: 0;
 }
 
-/* ✅ Style for message text */
+/* Style for message text */
 .dialog-pane .content {
     -fx-font-size: 16px;
     -fx-font-weight: bold;
     -fx-text-fill: white; /* White text for contrast */
 }
 
-/* ✅ Style for buttons */
+/* Style for buttons */
 .dialog-pane .button-bar .button {
     -fx-font-size: 14px;
     -fx-font-weight: bold;
@@ -29,7 +29,7 @@
     -fx-background-radius: 5px;
 }
 
-/* ✅ OK Button (Black) */
+/* OK Button (Black) */
 .dialog-pane .button-bar .button:default {
     -fx-background-color: black;
     -fx-border-color: gray;
@@ -41,7 +41,7 @@
     -fx-background-color: black;
 }
 
-/* ✅ Cancel Button (Red) */
+/* Cancel Button (Red) */
 .dialog-pane .button-bar .button:cancel {
     -fx-background-color: red;
     -fx-border-color: #990000;

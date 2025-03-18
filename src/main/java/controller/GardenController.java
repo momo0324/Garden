@@ -82,7 +82,7 @@ public class GardenController {
         speedSlider.valueProperty().addListener((obs, oldValue, newValue) -> {
             double speedFactor = newValue.doubleValue();
             TimeManager.setSimulationSpeed(speedFactor);
-            logArea.appendText("🚅 Simulation speed set to: " + speedFactor + "x\n");
+            logArea.appendText("Simulation speed set to: " + speedFactor + "x\n");
         });
 
         // Start simulation
@@ -135,7 +135,7 @@ public class GardenController {
             } else {
                 rain(10);
             }
-            logSystem.logEvent("🌧️ Rainfall occurred. Added " + randomAmount + " ml to the water supply.");
+            logSystem.logEvent("Rainfall occurred. Added " + randomAmount + " ml to the water supply.");
 
         }
 
@@ -447,8 +447,8 @@ public class GardenController {
             List<Plant> harvestedPlants = inventory.getHarvestedPlants();
             List<Plant> seeds = inventory.getSeeds();
 
-            java.lang.System.out.println("ℹ️ Check inventory: " + harvestedPlants.size() + "harvested plants, and " + seeds.size() + " seeds");
-            logSystem.logEvent("ℹ️ Check inventory: " + harvestedPlants.size() + "harvested plants, and " + seeds.size() + " seeds");
+            java.lang.System.out.println("Check inventory: " + harvestedPlants.size() + "harvested plants, and " + seeds.size() + " seeds");
+            logSystem.logEvent("Check inventory: " + harvestedPlants.size() + "harvested plants, and " + seeds.size() + " seeds");
 
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/InventoryView.fxml"));
             Parent root = loader.load();
@@ -552,11 +552,11 @@ public class GardenController {
 
         result.ifPresentOrElse(selectedSeed -> {
             garden.addPlant(x, y, selectedSeed);
-            System.out.println("🌱 Planted " + selectedSeed.getName() + " at (" + x + ", " + y + ")");
-            logSystem.logEvent("🌱 Planted " + selectedSeed.getName() + " at (" + x + ", " + y + ").");
+            System.out.println("Planted " + selectedSeed.getName() + " at (" + x + ", " + y + ")");
+            logSystem.logEvent("Planted " + selectedSeed.getName() + " at (" + x + ", " + y + ").");
 
             Platform.runLater(this::updateGardenGrid);
-        }, () -> System.out.println("❌ No seed was selected (Dialog closed without selection)."));
+        }, () -> System.out.println("No seed was selected (Dialog closed without selection)."));
     }
 
     private void showPlantDetails(Plant plant) {
@@ -602,7 +602,7 @@ public class GardenController {
     }
 
     private void rain(int hour){
-        logSystem.logEvent("🌧️Start raining....");
+        logSystem.logEvent("Start raining....");
 
         Platform.runLater(() -> {
             rainPane.setPrefSize(rootPane.getWidth(), rootPane.getHeight());
@@ -679,8 +679,8 @@ public class GardenController {
         fadeOutFog.setOnFinished(e -> rainPane.setStyle("visibility: hidden;")); // Hide rainPane after fade out
         fadeOutFog.play();
 
-        System.out.println("🌤️ Rain and fog have stopped.");
-        logSystem.logEvent("🌤️ Rain and fog have stopped.");
+        System.out.println("Rain and fog have stopped.");
+        logSystem.logEvent("Rain and fog have stopped.");
     }
 
     private void toggleSprinkler(){

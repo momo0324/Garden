@@ -7,12 +7,12 @@
       fx:controller="controller.PlantController" spacing="10" alignment="CENTER"
       stylesheets="/styles/logstyle.css">
 
-      <!-- ✅ Display Plant Image at the Top -->
+      <!-- Display Plant Image at the Top -->
       <ImageView fx:id="plantImageView" fitWidth="60" fitHeight="60"/>
 
       <Label text="Plant Details" styleClass="subtitle-label"/>
 
-      <!-- ✅ Add left padding to each line -->
+      <!-- Add left padding to each line -->
       <HBox spacing="10" style="-fx-padding: 5 0 5 20;">
             <Label text="Name:"/>
             <Label fx:id="plantNameLabel"/>

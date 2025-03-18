@@ -1,798 +1,1165 @@
-[03-18 00:40:02]   ✅ Default seeds added: Lavender, Tomato, Watermelon & Lettuce
-[03-18 00:40:02]   Added Lettuce at (1, 0).
-[03-18 00:40:02]   Added Lavender at (0, 3).
-[03-18 00:40:02]   Added Watermelon at (7, 3).
-[03-18 00:40:02]   Added Tomato at (3, 4).
-[03-18 00:40:02]   Added Tomato at (0, 2).
-[03-18 00:40:02]   Added Lettuce at (7, 4).
-[03-18 00:40:02]   Added Lettuce at (2, 3).
-[03-18 00:40:02]   Added Tomato at (2, 1).
-[03-18 00:40:02]   Added Lavender at (0, 0).
-[03-18 00:40:02]   Added Lavender at (6, 3).
-[03-18 00:40:02]   Added Lavender at (3, 2).
-[03-18 00:40:02]   Added Tomato at (0, 4).
-[03-18 00:40:02]   Added Lavender at (7, 5).
-[03-18 00:40:02]   Added Lettuce at (3, 1).
-[03-18 00:40:02]   Added Lavender at (1, 5).
-[03-18 00:40:02]   Added Lavender at (3, 0).
-[03-18 00:40:02]   Added Tomato at (6, 2).
-[03-18 00:40:02]   Added Tomato at (2, 4).
-[03-18 00:40:02]   Added Lettuce at (5, 1).
-[03-18 00:40:02]   Added Tomato at (2, 0).
-[03-18 00:40:02]   Added Lavender at (3, 5).
-[03-18 00:40:02]   Added Watermelon at (3, 3).
-[03-18 00:40:02]   Added Lavender at (1, 2).
-[03-18 00:40:02]   Added Lettuce at (4, 2).
-[03-18 00:40:02]   Added Lavender at (4, 3).
-[03-18 00:40:02]   Added Lettuce at (0, 1).
-[03-18 00:40:02]   Added Lavender at (5, 3).
-[03-18 00:40:02]   Added Lavender at (1, 3).
-[03-18 00:40:02]   Added Tomato at (5, 2).
-[03-18 00:40:02]   Added Lettuce at (4, 5).
-[03-18 00:40:02]   Added Tomato at (5, 4).
-[03-18 00:40:02]   Added Watermelon at (6, 1).
-[03-18 00:40:02]   Plant at (0, 0) does not need watering.
-[03-18 00:40:02]   Plant at (0, 1) does not need watering.
-[03-18 00:40:02]   Plant at (0, 2) does not need watering.
-[03-18 00:40:02]   Plant at (0, 3) does not need watering.
-[03-18 00:40:02]   Plant at (0, 4) does not need watering.
-[03-18 00:40:02]   Plant at (1, 0) does not need watering.
-[03-18 00:40:02]   Plant at (1, 2) does not need watering.
-[03-18 00:40:02]   Plant at (1, 3) does not need watering.
-[03-18 00:40:02]   Plant at (1, 5) does not need watering.
-[03-18 00:40:02]   Plant at (2, 0) does not need watering.
-[03-18 00:40:02]   Plant at (2, 1) does not need watering.
-[03-18 00:40:02]   Plant at (2, 3) does not need watering.
-[03-18 00:40:02]   Plant at (2, 4) does not need watering.
-[03-18 00:40:02]   Plant at (3, 0) does not need watering.
-[03-18 00:40:02]   Plant at (3, 1) does not need watering.
-[03-18 00:40:02]   Plant at (3, 2) does not need watering.
-[03-18 00:40:02]   Plant at (3, 3) does not need watering.
-[03-18 00:40:02]   Plant at (3, 4) does not need watering.
-[03-18 00:40:02]   Plant at (3, 5) does not need watering.
-[03-18 00:40:02]   Plant at (4, 2) does not need watering.
-[03-18 00:40:02]   Plant at (4, 3) does not need watering.
-[03-18 00:40:02]   Plant at (4, 5) does not need watering.
-[03-18 00:40:02]   Plant at (5, 1) does not need watering.
-[03-18 00:40:02]   Plant at (5, 2) does not need watering.
-[03-18 00:40:02]   Plant at (5, 3) does not need watering.
-[03-18 00:40:02]   Plant at (5, 4) does not need watering.
-[03-18 00:40:02]   Plant at (6, 1) does not need watering.
-[03-18 00:40:02]   Plant at (6, 2) does not need watering.
-[03-18 00:40:02]   Plant at (6, 3) does not need watering.
-[03-18 00:40:02]   Plant at (7, 3) does not need watering.
-[03-18 00:40:02]   Plant at (7, 4) does not need watering.
-[03-18 00:40:02]   Plant at (7, 5) does not need watering.
-[03-18 00:40:03]   Plant at (0, 0) does not need watering.
-[03-18 00:40:03]   Plant at (0, 1) does not need watering.
-[03-18 00:40:03]   Plant at (0, 2) does not need watering.
-[03-18 00:40:03]   Plant at (0, 3) does not need watering.
-[03-18 00:40:03]   Plant at (0, 4) does not need watering.
-[03-18 00:40:03]   Plant at (1, 0) does not need watering.
-[03-18 00:40:03]   Plant at (1, 2) does not need watering.
-[03-18 00:40:03]   Plant at (1, 3) does not need watering.
-[03-18 00:40:03]   Plant at (1, 5) does not need watering.
-[03-18 00:40:03]   Plant at (2, 0) does not need watering.
-[03-18 00:40:03]   Plant at (2, 1) does not need watering.
-[03-18 00:40:03]   Plant at (2, 3) does not need watering.
-[03-18 00:40:03]   Plant at (2, 4) does not need watering.
-[03-18 00:40:03]   Plant at (3, 0) does not need watering.
-[03-18 00:40:03]   Plant at (3, 1) does not need watering.
-[03-18 00:40:03]   Plant at (3, 2) does not need watering.
-[03-18 00:40:03]   Plant at (3, 3) does not need watering.
-[03-18 00:40:03]   Plant at (3, 4) does not need watering.
-[03-18 00:40:03]   Plant at (3, 5) does not need watering.
-[03-18 00:40:03]   Plant at (4, 2) does not need watering.
-[03-18 00:40:03]   Plant at (4, 3) does not need watering.
-[03-18 00:40:03]   Plant at (4, 5) does not need watering.
-[03-18 00:40:03]   Plant at (5, 1) does not need watering.
-[03-18 00:40:03]   Plant at (5, 2) does not need watering.
-[03-18 00:40:03]   Plant at (5, 3) does not need watering.
-[03-18 00:40:03]   Plant at (5, 4) does not need watering.
-[03-18 00:40:03]   Plant at (6, 1) does not need watering.
-[03-18 00:40:03]   Plant at (6, 2) does not need watering.
-[03-18 00:40:03]   Plant at (6, 3) does not need watering.
-[03-18 00:40:03]   Plant at (7, 3) does not need watering.
-[03-18 00:40:03]   Plant at (7, 4) does not need watering.
-[03-18 00:40:03]   Plant at (7, 5) does not need watering.
-[03-18 00:40:04]   Plant at (0, 0) does not need watering.
-[03-18 00:40:04]   Plant at (0, 1) does not need watering.
-[03-18 00:40:04]   Plant at (0, 2) does not need watering.
-[03-18 00:40:04]   Plant at (0, 3) does not need watering.
-[03-18 00:40:04]   Plant at (0, 4) does not need watering.
-[03-18 00:40:04]   Plant at (1, 0) does not need watering.
-[03-18 00:40:04]   Plant at (1, 2) does not need watering.
-[03-18 00:40:04]   Plant at (1, 3) does not need watering.
-[03-18 00:40:04]   Plant at (1, 5) does not need watering.
-[03-18 00:40:04]   Plant at (2, 0) does not need watering.
-[03-18 00:40:04]   Plant at (2, 1) does not need watering.
-[03-18 00:40:04]   Plant at (2, 3) does not need watering.
-[03-18 00:40:04]   Plant at (2, 4) does not need watering.
-[03-18 00:40:04]   Plant at (3, 0) does not need watering.
-[03-18 00:40:04]   Plant at (3, 1) does not need watering.
-[03-18 00:40:04]   Plant at (3, 2) does not need watering.
-[03-18 00:40:04]   Plant at (3, 3) does not need watering.
-[03-18 00:40:04]   Plant at (3, 4) does not need watering.
-[03-18 00:40:04]   Plant at (3, 5) does not need watering.
-[03-18 00:40:04]   Plant at (4, 2) does not need watering.
-[03-18 00:40:04]   Plant at (4, 3) does not need watering.
-[03-18 00:40:04]   Plant at (4, 5) does not need watering.
-[03-18 00:40:04]   Plant at (5, 1) does not need watering.
-[03-18 00:40:04]   Plant at (5, 2) does not need watering.
-[03-18 00:40:04]   Plant at (5, 3) does not need watering.
-[03-18 00:40:04]   Plant at (5, 4) does not need watering.
-[03-18 00:40:04]   Plant at (6, 1) does not need watering.
-[03-18 00:40:04]   Plant at (6, 2) does not need watering.
-[03-18 00:40:04]   Plant at (6, 3) does not need watering.
-[03-18 00:40:04]   Plant at (7, 3) does not need watering.
-[03-18 00:40:04]   Plant at (7, 4) does not need watering.
-[03-18 00:40:04]   Plant at (7, 5) does not need watering.
-[03-18 00:40:05]   Added Lavender at (6, 4).
-[03-18 00:40:06]   💧 Watered Lettuce at (2, 3) with 500ml water.
-[03-18 00:40:08]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:08]   🌱 Watermelon at (3,3) grew! Growth: 4/18
-[03-18 00:40:08]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:08]   🌱 Watermelon at (6,1) grew! Growth: 4/18
-[03-18 00:40:08]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:08]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:08]   🌱 Watermelon at (7,3) grew! Growth: 4/18
-[03-18 00:40:08]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:08]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:08]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:08]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 27°C (Ideal: 18-30°C)
-[03-18 00:40:09]   🌱 Watermelon at (3,3) grew! Growth: 8/18
-[03-18 00:40:09]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 27°C (Ideal: 18-30°C)
-[03-18 00:40:09]   🌱 Watermelon at (6,1) grew! Growth: 8/18
-[03-18 00:40:09]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 27°C (Ideal: 18-27°C)
-[03-18 00:40:09]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 27°C (Ideal: 18-30°C)
-[03-18 00:40:09]   🌱 Watermelon at (7,3) grew! Growth: 8/18
-[03-18 00:40:09]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 27°C (Ideal: 10-18°C)
-[03-18 00:40:09]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:09]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 27°C (Ideal: 10-30°C)
-[03-18 00:40:09]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 29°C (Ideal: 18-30°C)
-[03-18 00:40:10]   🌱 Watermelon at (3,3) grew! Growth: 12/18
-[03-18 00:40:10]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 29°C (Ideal: 18-30°C)
-[03-18 00:40:10]   🌱 Watermelon at (6,1) grew! Growth: 12/18
-[03-18 00:40:10]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 29°C (Ideal: 18-27°C)
-[03-18 00:40:10]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 29°C (Ideal: 18-30°C)
-[03-18 00:40:10]   🌱 Watermelon at (7,3) grew! Growth: 12/18
-[03-18 00:40:10]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 29°C (Ideal: 10-18°C)
-[03-18 00:40:10]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:10]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 29°C (Ideal: 10-30°C)
-[03-18 00:40:10]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:11]   🌱 Watermelon at (3,3) grew! Growth: 16/18
-[03-18 00:40:11]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:11]   🌱 Watermelon at (6,1) grew! Growth: 16/18
-[03-18 00:40:11]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:11]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:11]   🌱 Watermelon at (7,3) grew! Growth: 16/18
-[03-18 00:40:11]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:11]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:11]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:11]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:12]   🌱 Watermelon at (3,3) grew! Growth: 20/18
-[03-18 00:40:12]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:12]   🌱 Watermelon at (6,1) grew! Growth: 20/18
-[03-18 00:40:12]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 24°C (Ideal: 18-27°C)
-[03-18 00:40:12]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 24°C (Ideal: 18-30°C)
-[03-18 00:40:12]   🌱 Watermelon at (7,3) grew! Growth: 20/18
-[03-18 00:40:12]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 24°C (Ideal: 10-18°C)
-[03-18 00:40:12]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:12]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 24°C (Ideal: 10-30°C)
-[03-18 00:40:12]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 21°C (Ideal: 18-30°C)
-[03-18 00:40:13]   🌱 Watermelon at (3,3) grew! Growth: 20/18
-[03-18 00:40:13]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 21°C (Ideal: 18-30°C)
-[03-18 00:40:13]   🌱 Watermelon at (6,1) grew! Growth: 20/18
-[03-18 00:40:13]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 21°C (Ideal: 18-27°C)
-[03-18 00:40:13]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 21°C (Ideal: 18-30°C)
-[03-18 00:40:13]   🌱 Watermelon at (7,3) grew! Growth: 20/18
-[03-18 00:40:13]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 21°C (Ideal: 10-18°C)
-[03-18 00:40:13]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:13]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 21°C (Ideal: 10-30°C)
-[03-18 00:40:13]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 25°C (Ideal: 18-30°C)
-[03-18 00:40:14]   🌱 Watermelon at (3,3) grew! Growth: 20/18
-[03-18 00:40:14]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 25°C (Ideal: 18-30°C)
-[03-18 00:40:14]   🌱 Watermelon at (6,1) grew! Growth: 20/18
-[03-18 00:40:14]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 25°C (Ideal: 18-27°C)
-[03-18 00:40:14]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 25°C (Ideal: 18-30°C)
-[03-18 00:40:14]   🌱 Watermelon at (7,3) grew! Growth: 20/18
-[03-18 00:40:14]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 25°C (Ideal: 10-18°C)
-[03-18 00:40:14]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:14]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 25°C (Ideal: 10-30°C)
-[03-18 00:40:14]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (0,1) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (1,0) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (2,3) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (3,1) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 20°C (Ideal: 18-30°C)
-[03-18 00:40:15]   🌱 Watermelon at (3,3) grew! Growth: 20/18
-[03-18 00:40:15]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (4,2) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (4,5) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (5,1) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 20°C (Ideal: 18-30°C)
-[03-18 00:40:15]   🌱 Watermelon at (6,1) grew! Growth: 20/18
-[03-18 00:40:15]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 20°C (Ideal: 18-27°C)
-[03-18 00:40:15]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:15]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 20°C (Ideal: 18-30°C)
-[03-18 00:40:15]   🌱 Watermelon at (7,3) grew! Growth: 20/18
-[03-18 00:40:15]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 20°C (Ideal: 10-18°C)
-[03-18 00:40:15]   🌱 Lettuce at (7,4) grew! Growth: 4/6
-[03-18 00:40:15]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 20°C (Ideal: 10-30°C)
-[03-18 00:40:15]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 22°C (Ideal: 18-30°C)
-[03-18 00:40:16]   🌱 Watermelon at (3,3) grew! Growth: 20/18
-[03-18 00:40:16]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 22°C (Ideal: 18-30°C)
-[03-18 00:40:16]   🌱 Watermelon at (6,1) grew! Growth: 20/18
-[03-18 00:40:16]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 22°C (Ideal: 18-27°C)
-[03-18 00:40:16]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 22°C (Ideal: 18-30°C)
-[03-18 00:40:16]   🌱 Watermelon at (7,3) grew! Growth: 20/18
-[03-18 00:40:16]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 22°C (Ideal: 10-18°C)
-[03-18 00:40:16]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:16]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 22°C (Ideal: 10-30°C)
-[03-18 00:40:16]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (0,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (0,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (0,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (0,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (0,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (0,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (0,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (0,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (0,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (1,0) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (1,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (1,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (1,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (1,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (1,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (1,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (2,0) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (2,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (2,1) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (2,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (2,3) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (2,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (2,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (2,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (3,0) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (3,0) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (3,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (3,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (3,2) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (3,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Watermelon at (3,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 28°C (Ideal: 18-30°C)
-[03-18 00:40:17]   🌱 Watermelon at (3,3) grew! Growth: 20/18
-[03-18 00:40:17]   Checking growth of Tomato at (3,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (3,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (3,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (3,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (4,2) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (4,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (4,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (4,5) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lettuce at (5,1) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (5,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (5,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (5,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (5,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Tomato at (5,4) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (5,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Watermelon at (6,1) - Water: 2327/50, Sunlight: 4/4, Temperature: 28°C (Ideal: 18-30°C)
-[03-18 00:40:17]   🌱 Watermelon at (6,1) grew! Growth: 20/18
-[03-18 00:40:17]   Checking growth of Tomato at (6,2) - Water: 2327/500, Sunlight: 4/6, Temperature: 28°C (Ideal: 18-27°C)
-[03-18 00:40:17]   🚨 Tomato at (6,2) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (6,3) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (6,3) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (6,4) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (6,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Watermelon at (7,3) - Water: 2327/50, Sunlight: 4/4, Temperature: 28°C (Ideal: 18-30°C)
-[03-18 00:40:17]   🌱 Watermelon at (7,3) grew! Growth: 20/18
-[03-18 00:40:17]   Checking growth of Lettuce at (7,4) - Water: 2327/300, Sunlight: 4/4, Temperature: 28°C (Ideal: 10-18°C)
-[03-18 00:40:17]   🚨 Lettuce at (7,4) did NOT grow due to insufficient conditions.
-[03-18 00:40:17]   Checking growth of Lavender at (7,5) - Water: 2327/200, Sunlight: 4/6, Temperature: 28°C (Ideal: 10-30°C)
-[03-18 00:40:17]   🚨 Lavender at (7,5) did NOT grow due to insufficient conditions.
-[03-18 00:40:18]   Harvesting system activated.
-[03-18 00:40:18]   Harvested Watermelon from (3, 3).
-[03-18 00:40:18]   Replanted Watermelon at (3, 3).
-[03-18 00:40:18]   Harvested Watermelon from (6, 1).
-[03-18 00:40:18]   Replanted Tomato at (6, 1).
-[03-18 00:40:18]   Harvested Watermelon from (7, 3).
-[03-18 00:40:18]   Replanted Lavender at (7, 3).
+[03-18 14:07:57]   Default seeds added: Lavender, Tomato, Watermelon & Lettuce
+[03-18 14:07:57]   Added Tomato at (4, 0).
+[03-18 14:07:57]   Added Lettuce at (3, 4).
+[03-18 14:07:57]   Added Tomato at (6, 4).
+[03-18 14:07:57]   Added Lettuce at (0, 5).
+[03-18 14:07:57]   Added Lavender at (5, 2).
+[03-18 14:07:57]   Added Lettuce at (7, 2).
+[03-18 14:07:57]   Added Watermelon at (1, 0).
+[03-18 14:07:57]   Added Tomato at (2, 3).
+[03-18 14:07:57]   Added Tomato at (0, 3).
+[03-18 14:07:57]   Added Lettuce at (7, 1).
+[03-18 14:07:57]   Added Lavender at (7, 5).
+[03-18 14:07:57]   Added Watermelon at (6, 3).
+[03-18 14:07:57]   Added Watermelon at (2, 2).
+[03-18 14:07:57]   Added Watermelon at (4, 5).
+[03-18 14:07:57]   Added Tomato at (2, 0).
+[03-18 14:07:57]   Added Lavender at (2, 4).
+[03-18 14:07:57]   Added Lavender at (6, 0).
+[03-18 14:07:57]   Added Watermelon at (6, 2).
+[03-18 14:07:57]   Added Tomato at (1, 2).
+[03-18 14:07:57]   Added Tomato at (5, 1).
+[03-18 14:07:57]   Added Watermelon at (5, 5).
+[03-18 14:07:57]   Added Tomato at (3, 3).
+[03-18 14:07:57]   Added Tomato at (7, 4).
+[03-18 14:07:57]   Added Lettuce at (4, 2).
+[03-18 14:07:57]   Added Lavender at (5, 4).
+[03-18 14:07:57]   Added Tomato at (0, 2).
+[03-18 14:07:57]   Added Tomato at (3, 0).
+[03-18 14:07:57]   Added Tomato at (7, 0).
+[03-18 14:07:57]   Added Tomato at (6, 1).
+[03-18 14:07:57]   Added Lettuce at (2, 1).
+[03-18 14:07:57]   Added Watermelon at (5, 0).
+[03-18 14:07:57]   Added Lettuce at (0, 1).
+[03-18 14:08:02]   Plant at (0, 1) does not need watering.
+[03-18 14:08:02]   Plant at (0, 2) does not need watering.
+[03-18 14:08:02]   Plant at (0, 3) does not need watering.
+[03-18 14:08:02]   Plant at (0, 5) does not need watering.
+[03-18 14:08:02]   Plant at (1, 0) does not need watering.
+[03-18 14:08:02]   Plant at (1, 2) does not need watering.
+[03-18 14:08:02]   Plant at (2, 0) does not need watering.
+[03-18 14:08:02]   Plant at (2, 1) does not need watering.
+[03-18 14:08:02]   Plant at (2, 2) does not need watering.
+[03-18 14:08:02]   Plant at (2, 3) does not need watering.
+[03-18 14:08:02]   Plant at (2, 4) does not need watering.
+[03-18 14:08:02]   Plant at (3, 0) does not need watering.
+[03-18 14:08:02]   Plant at (3, 3) does not need watering.
+[03-18 14:08:02]   Plant at (3, 4) does not need watering.
+[03-18 14:08:02]   Plant at (4, 0) does not need watering.
+[03-18 14:08:02]   Plant at (4, 2) does not need watering.
+[03-18 14:08:02]   Plant at (4, 5) does not need watering.
+[03-18 14:08:02]   Plant at (5, 0) does not need watering.
+[03-18 14:08:02]   Plant at (5, 1) does not need watering.
+[03-18 14:08:02]   Plant at (5, 2) does not need watering.
+[03-18 14:08:02]   Plant at (5, 4) does not need watering.
+[03-18 14:08:02]   Plant at (5, 5) does not need watering.
+[03-18 14:08:02]   Plant at (6, 0) does not need watering.
+[03-18 14:08:02]   Plant at (6, 1) does not need watering.
+[03-18 14:08:02]   Plant at (6, 2) does not need watering.
+[03-18 14:08:02]   Plant at (6, 3) does not need watering.
+[03-18 14:08:02]   Plant at (6, 4) does not need watering.
+[03-18 14:08:02]   Plant at (7, 0) does not need watering.
+[03-18 14:08:02]   Plant at (7, 1) does not need watering.
+[03-18 14:08:02]   Plant at (7, 2) does not need watering.
+[03-18 14:08:02]   Plant at (7, 4) does not need watering.
+[03-18 14:08:02]   Plant at (7, 5) does not need watering.
+[03-18 14:08:02]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:02]   Artificial lights turned OFF.
+[03-18 14:08:02]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (0,2) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Tomato at (0,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (0,3) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Watermelon at (1,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (1,0) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Tomato at (1,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (1,2) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Tomato at (2,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (2,0) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Watermelon at (2,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (2,2) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Tomato at (2,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (2,3) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lavender at (2,4) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:02]   🌱 Lavender at (2,4) grew! Growth: 7/12
+[03-18 14:08:02]   Checking growth of Tomato at (3,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (3,0) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Tomato at (3,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (3,3) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Tomato at (4,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (4,0) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Watermelon at (4,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (4,5) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Watermelon at (5,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (5,0) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Tomato at (5,1) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (5,1) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lavender at (5,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:02]   🌱 Lavender at (5,2) grew! Growth: 7/12
+[03-18 14:08:02]   Checking growth of Lavender at (5,4) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:02]   🌱 Lavender at (5,4) grew! Growth: 7/12
+[03-18 14:08:02]   Checking growth of Watermelon at (5,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (5,5) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Lavender at (6,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:02]   🌱 Lavender at (6,0) grew! Growth: 7/12
+[03-18 14:08:02]   Checking growth of Tomato at (6,1) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (6,1) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Watermelon at (6,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (6,2) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Watermelon at (6,3) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:02]   🌱 Watermelon at (6,3) grew! Growth: 7/18
+[03-18 14:08:02]   Checking growth of Tomato at (6,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (6,4) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Tomato at (7,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (7,0) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:02]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:02]   Checking growth of Tomato at (7,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:02]   🌱 Tomato at (7,4) grew! Growth: 7/8
+[03-18 14:08:02]   Checking growth of Lavender at (7,5) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:02]   🌱 Lavender at (7,5) grew! Growth: 7/12
+[03-18 14:08:02]   Harvesting system activated.
+[03-18 14:08:02]   No Plant Harvested.
+[03-18 14:08:07]   Plant at (0, 1) does not need watering.
+[03-18 14:08:07]   Plant at (0, 2) does not need watering.
+[03-18 14:08:07]   Plant at (0, 3) does not need watering.
+[03-18 14:08:07]   Plant at (0, 5) does not need watering.
+[03-18 14:08:07]   Plant at (1, 0) does not need watering.
+[03-18 14:08:07]   Plant at (1, 2) does not need watering.
+[03-18 14:08:07]   Plant at (2, 0) does not need watering.
+[03-18 14:08:07]   Plant at (2, 1) does not need watering.
+[03-18 14:08:07]   Plant at (2, 2) does not need watering.
+[03-18 14:08:07]   Plant at (2, 3) does not need watering.
+[03-18 14:08:07]   Plant at (2, 4) does not need watering.
+[03-18 14:08:07]   Plant at (3, 0) does not need watering.
+[03-18 14:08:07]   Plant at (3, 3) does not need watering.
+[03-18 14:08:07]   Plant at (3, 4) does not need watering.
+[03-18 14:08:07]   Plant at (4, 0) does not need watering.
+[03-18 14:08:07]   Plant at (4, 2) does not need watering.
+[03-18 14:08:07]   Plant at (4, 5) does not need watering.
+[03-18 14:08:07]   Plant at (5, 0) does not need watering.
+[03-18 14:08:07]   Plant at (5, 1) does not need watering.
+[03-18 14:08:07]   Plant at (5, 2) does not need watering.
+[03-18 14:08:07]   Plant at (5, 4) does not need watering.
+[03-18 14:08:07]   Plant at (5, 5) does not need watering.
+[03-18 14:08:07]   Plant at (6, 0) does not need watering.
+[03-18 14:08:07]   Plant at (6, 1) does not need watering.
+[03-18 14:08:07]   Plant at (6, 2) does not need watering.
+[03-18 14:08:07]   Plant at (6, 3) does not need watering.
+[03-18 14:08:07]   Plant at (6, 4) does not need watering.
+[03-18 14:08:07]   Plant at (7, 0) does not need watering.
+[03-18 14:08:07]   Plant at (7, 1) does not need watering.
+[03-18 14:08:07]   Plant at (7, 2) does not need watering.
+[03-18 14:08:07]   Plant at (7, 4) does not need watering.
+[03-18 14:08:07]   Plant at (7, 5) does not need watering.
+[03-18 14:08:07]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:07]   Artificial lights turned OFF.
+[03-18 14:08:07]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (0,2) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Tomato at (0,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (0,3) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Watermelon at (1,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (1,0) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Tomato at (1,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (1,2) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Tomato at (2,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (2,0) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Watermelon at (2,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (2,2) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Tomato at (2,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (2,3) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lavender at (2,4) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:07]   🌱 Lavender at (2,4) grew! Growth: 14/12
+[03-18 14:08:07]   Checking growth of Tomato at (3,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (3,0) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Tomato at (3,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (3,3) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Tomato at (4,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (4,0) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Watermelon at (4,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (4,5) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Watermelon at (5,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (5,0) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Tomato at (5,1) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (5,1) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lavender at (5,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:07]   🌱 Lavender at (5,2) grew! Growth: 14/12
+[03-18 14:08:07]   Checking growth of Lavender at (5,4) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:07]   🌱 Lavender at (5,4) grew! Growth: 14/12
+[03-18 14:08:07]   Checking growth of Watermelon at (5,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (5,5) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Lavender at (6,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:07]   🌱 Lavender at (6,0) grew! Growth: 14/12
+[03-18 14:08:07]   Checking growth of Tomato at (6,1) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (6,1) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Watermelon at (6,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (6,2) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Watermelon at (6,3) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:07]   🌱 Watermelon at (6,3) grew! Growth: 14/18
+[03-18 14:08:07]   Checking growth of Tomato at (6,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (6,4) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Tomato at (7,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (7,0) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:07]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:07]   Checking growth of Tomato at (7,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:07]   🌱 Tomato at (7,4) grew! Growth: 14/8
+[03-18 14:08:07]   Checking growth of Lavender at (7,5) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:07]   🌱 Lavender at (7,5) grew! Growth: 14/12
+[03-18 14:08:07]   Harvesting system activated.
+[03-18 14:08:07]   Harvested Tomato from (0, 2).
+[03-18 14:08:07]   Replanted Tomato at (0, 2).
+[03-18 14:08:07]   Harvested Tomato from (0, 3).
+[03-18 14:08:07]   Replanted Lettuce at (0, 3).
+[03-18 14:08:07]   Harvested Tomato from (1, 2).
+[03-18 14:08:07]   Replanted Watermelon at (1, 2).
+[03-18 14:08:07]   Harvested Tomato from (2, 0).
+[03-18 14:08:07]   Replanted Watermelon at (2, 0).
+[03-18 14:08:07]   Harvested Tomato from (2, 3).
+[03-18 14:08:07]   Replanted Lavender at (2, 3).
+[03-18 14:08:07]   Harvested Lavender from (2, 4).
+[03-18 14:08:07]   Replanted Lettuce at (2, 4).
+[03-18 14:08:07]   Harvested Tomato from (3, 0).
+[03-18 14:08:07]   Replanted Tomato at (3, 0).
+[03-18 14:08:07]   Harvested Tomato from (3, 3).
+[03-18 14:08:07]   Replanted Lettuce at (3, 3).
+[03-18 14:08:07]   Harvested Tomato from (4, 0).
+[03-18 14:08:07]   Replanted Lettuce at (4, 0).
+[03-18 14:08:07]   Harvested Tomato from (5, 1).
+[03-18 14:08:07]   Replanted Tomato at (5, 1).
+[03-18 14:08:07]   Harvested Lavender from (5, 2).
+[03-18 14:08:07]   Replanted Tomato at (5, 2).
+[03-18 14:08:07]   Harvested Lavender from (5, 4).
+[03-18 14:08:07]   Replanted Tomato at (5, 4).
+[03-18 14:08:07]   Harvested Lavender from (6, 0).
+[03-18 14:08:07]   Replanted Lettuce at (6, 0).
+[03-18 14:08:07]   Harvested Tomato from (6, 1).
+[03-18 14:08:07]   Replanted Watermelon at (6, 1).
+[03-18 14:08:07]   Harvested Tomato from (6, 4).
+[03-18 14:08:07]   Replanted Lettuce at (6, 4).
+[03-18 14:08:07]   Harvested Tomato from (7, 0).
+[03-18 14:08:07]   Replanted Tomato at (7, 0).
+[03-18 14:08:07]   Harvested Tomato from (7, 4).
+[03-18 14:08:07]   Replanted Tomato at (7, 4).
+[03-18 14:08:07]   Harvested Lavender from (7, 5).
+[03-18 14:08:07]   Replanted Tomato at (7, 5).
+[03-18 14:08:12]   Water evaporated. Remaining water: 99500 ml.
+[03-18 14:08:12]   Current water level after possible rainfall: 100000 ml.
+[03-18 14:08:12]   Start raining....
+[03-18 14:08:12]   Rainfall occurred. Added 4056 ml to the water supply.
+[03-18 14:08:12]   Plant at (0, 1) does not need watering.
+[03-18 14:08:12]   Plant at (0, 2) does not need watering.
+[03-18 14:08:12]   Plant at (0, 3) does not need watering.
+[03-18 14:08:12]   Plant at (0, 5) does not need watering.
+[03-18 14:08:12]   Plant at (1, 0) does not need watering.
+[03-18 14:08:12]   Plant at (1, 2) does not need watering.
+[03-18 14:08:12]   Plant at (2, 0) does not need watering.
+[03-18 14:08:12]   Plant at (2, 1) does not need watering.
+[03-18 14:08:12]   Plant at (2, 2) does not need watering.
+[03-18 14:08:12]   Plant at (2, 3) does not need watering.
+[03-18 14:08:12]   Plant at (2, 4) does not need watering.
+[03-18 14:08:12]   Plant at (3, 0) does not need watering.
+[03-18 14:08:12]   Plant at (3, 3) does not need watering.
+[03-18 14:08:12]   Plant at (3, 4) does not need watering.
+[03-18 14:08:12]   Plant at (4, 0) does not need watering.
+[03-18 14:08:12]   Plant at (4, 2) does not need watering.
+[03-18 14:08:12]   Plant at (4, 5) does not need watering.
+[03-18 14:08:12]   Plant at (5, 0) does not need watering.
+[03-18 14:08:12]   Plant at (5, 1) does not need watering.
+[03-18 14:08:12]   Plant at (5, 2) does not need watering.
+[03-18 14:08:12]   Plant at (5, 4) does not need watering.
+[03-18 14:08:12]   Plant at (5, 5) does not need watering.
+[03-18 14:08:12]   Plant at (6, 0) does not need watering.
+[03-18 14:08:12]   Plant at (6, 1) does not need watering.
+[03-18 14:08:12]   Plant at (6, 2) does not need watering.
+[03-18 14:08:12]   Plant at (6, 3) does not need watering.
+[03-18 14:08:12]   Plant at (6, 4) does not need watering.
+[03-18 14:08:12]   Plant at (7, 0) does not need watering.
+[03-18 14:08:12]   Plant at (7, 1) does not need watering.
+[03-18 14:08:12]   Plant at (7, 2) does not need watering.
+[03-18 14:08:12]   Plant at (7, 4) does not need watering.
+[03-18 14:08:12]   Plant at (7, 5) does not need watering.
+[03-18 14:08:12]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:12]   Artificial lights turned OFF.
+[03-18 14:08:12]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (0,2) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Watermelon at (1,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (1,0) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Watermelon at (1,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (1,2) grew! Growth: 7/18
+[03-18 14:08:12]   Checking growth of Watermelon at (2,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (2,0) grew! Growth: 7/18
+[03-18 14:08:12]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Watermelon at (2,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (2,2) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Lavender at (2,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:12]   🌱 Lavender at (2,3) grew! Growth: 7/12
+[03-18 14:08:12]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Tomato at (3,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (3,0) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Watermelon at (4,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (4,5) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Watermelon at (5,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (5,0) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Tomato at (5,1) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (5,1) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Tomato at (5,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (5,2) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Tomato at (5,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (5,4) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Watermelon at (5,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (5,5) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Watermelon at (6,1) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (6,1) grew! Growth: 7/18
+[03-18 14:08:12]   Checking growth of Watermelon at (6,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (6,2) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Watermelon at (6,3) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:12]   🌱 Watermelon at (6,3) grew! Growth: 21/18
+[03-18 14:08:12]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Tomato at (7,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (7,0) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:12]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:12]   Checking growth of Tomato at (7,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (7,4) grew! Growth: 7/8
+[03-18 14:08:12]   Checking growth of Tomato at (7,5) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:12]   🌱 Tomato at (7,5) grew! Growth: 7/8
+[03-18 14:08:12]   Harvesting system activated.
+[03-18 14:08:12]   Harvested Watermelon from (1, 0).
+[03-18 14:08:12]   Replanted Tomato at (1, 0).
+[03-18 14:08:12]   Harvested Watermelon from (2, 2).
+[03-18 14:08:12]   Replanted Lettuce at (2, 2).
+[03-18 14:08:12]   Harvested Watermelon from (4, 5).
+[03-18 14:08:12]   Replanted Lettuce at (4, 5).
+[03-18 14:08:12]   Harvested Watermelon from (5, 0).
+[03-18 14:08:12]   Replanted Lavender at (5, 0).
+[03-18 14:08:12]   Harvested Watermelon from (5, 5).
+[03-18 14:08:12]   Replanted Lettuce at (5, 5).
+[03-18 14:08:12]   Harvested Watermelon from (6, 2).
+[03-18 14:08:12]   Replanted Lavender at (6, 2).
+[03-18 14:08:12]   Harvested Watermelon from (6, 3).
+[03-18 14:08:12]   Replanted Lavender at (6, 3).
+[03-18 14:08:17]   Plant at (0, 1) does not need watering.
+[03-18 14:08:17]   Plant at (0, 2) does not need watering.
+[03-18 14:08:17]   Plant at (0, 3) does not need watering.
+[03-18 14:08:17]   Plant at (0, 5) does not need watering.
+[03-18 14:08:17]   Plant at (1, 0) does not need watering.
+[03-18 14:08:17]   Plant at (1, 2) does not need watering.
+[03-18 14:08:17]   Plant at (2, 0) does not need watering.
+[03-18 14:08:17]   Plant at (2, 1) does not need watering.
+[03-18 14:08:17]   Plant at (2, 2) does not need watering.
+[03-18 14:08:17]   Plant at (2, 3) does not need watering.
+[03-18 14:08:17]   Plant at (2, 4) does not need watering.
+[03-18 14:08:17]   Plant at (3, 0) does not need watering.
+[03-18 14:08:17]   Plant at (3, 3) does not need watering.
+[03-18 14:08:17]   Plant at (3, 4) does not need watering.
+[03-18 14:08:17]   Plant at (4, 0) does not need watering.
+[03-18 14:08:17]   Plant at (4, 2) does not need watering.
+[03-18 14:08:17]   Plant at (4, 5) does not need watering.
+[03-18 14:08:17]   Plant at (5, 0) does not need watering.
+[03-18 14:08:17]   Plant at (5, 1) does not need watering.
+[03-18 14:08:17]   Plant at (5, 2) does not need watering.
+[03-18 14:08:17]   Plant at (5, 4) does not need watering.
+[03-18 14:08:17]   Plant at (5, 5) does not need watering.
+[03-18 14:08:17]   Plant at (6, 0) does not need watering.
+[03-18 14:08:17]   Plant at (6, 1) does not need watering.
+[03-18 14:08:17]   Plant at (6, 2) does not need watering.
+[03-18 14:08:17]   Plant at (6, 3) does not need watering.
+[03-18 14:08:17]   Plant at (6, 4) does not need watering.
+[03-18 14:08:17]   Plant at (7, 0) does not need watering.
+[03-18 14:08:17]   Plant at (7, 1) does not need watering.
+[03-18 14:08:17]   Plant at (7, 2) does not need watering.
+[03-18 14:08:17]   Plant at (7, 4) does not need watering.
+[03-18 14:08:17]   Plant at (7, 5) does not need watering.
+[03-18 14:08:17]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:17]   Artificial lights turned OFF.
+[03-18 14:08:17]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (0,2) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Tomato at (1,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (1,0) grew! Growth: 7/8
+[03-18 14:08:17]   Checking growth of Watermelon at (1,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:17]   🌱 Watermelon at (1,2) grew! Growth: 14/18
+[03-18 14:08:17]   Checking growth of Watermelon at (2,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:17]   🌱 Watermelon at (2,0) grew! Growth: 14/18
+[03-18 14:08:17]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lavender at (2,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:17]   🌱 Lavender at (2,3) grew! Growth: 14/12
+[03-18 14:08:17]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Tomato at (3,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (3,0) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lavender at (5,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:17]   🌱 Lavender at (5,0) grew! Growth: 7/12
+[03-18 14:08:17]   Checking growth of Tomato at (5,1) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (5,1) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Tomato at (5,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (5,2) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Tomato at (5,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (5,4) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Watermelon at (6,1) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:17]   🌱 Watermelon at (6,1) grew! Growth: 14/18
+[03-18 14:08:17]   Checking growth of Lavender at (6,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:17]   🌱 Lavender at (6,2) grew! Growth: 7/12
+[03-18 14:08:17]   Checking growth of Lavender at (6,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:17]   🌱 Lavender at (6,3) grew! Growth: 7/12
+[03-18 14:08:17]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Tomato at (7,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (7,0) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:17]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:17]   Checking growth of Tomato at (7,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (7,4) grew! Growth: 14/8
+[03-18 14:08:17]   Checking growth of Tomato at (7,5) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:17]   🌱 Tomato at (7,5) grew! Growth: 14/8
+[03-18 14:08:17]   Harvesting system activated.
+[03-18 14:08:17]   Harvested Tomato from (0, 2).
+[03-18 14:08:17]   Replanted Tomato at (0, 2).
+[03-18 14:08:17]   Harvested Lavender from (2, 3).
+[03-18 14:08:17]   Replanted Lavender at (2, 3).
+[03-18 14:08:17]   Harvested Tomato from (3, 0).
+[03-18 14:08:17]   Replanted Lettuce at (3, 0).
+[03-18 14:08:17]   Harvested Tomato from (5, 1).
+[03-18 14:08:17]   Replanted Lettuce at (5, 1).
+[03-18 14:08:17]   Harvested Tomato from (5, 2).
+[03-18 14:08:17]   Replanted Tomato at (5, 2).
+[03-18 14:08:17]   Harvested Tomato from (5, 4).
+[03-18 14:08:17]   Replanted Watermelon at (5, 4).
+[03-18 14:08:17]   Harvested Tomato from (7, 0).
+[03-18 14:08:17]   Replanted Watermelon at (7, 0).
+[03-18 14:08:17]   Harvested Tomato from (7, 4).
+[03-18 14:08:17]   Replanted Lavender at (7, 4).
+[03-18 14:08:17]   Harvested Tomato from (7, 5).
+[03-18 14:08:17]   Replanted Watermelon at (7, 5).
+[03-18 14:08:22]   Plant at (0, 1) does not need watering.
+[03-18 14:08:22]   Plant at (0, 2) does not need watering.
+[03-18 14:08:22]   Plant at (0, 3) does not need watering.
+[03-18 14:08:22]   Plant at (0, 5) does not need watering.
+[03-18 14:08:22]   Plant at (1, 0) does not need watering.
+[03-18 14:08:22]   Plant at (1, 2) does not need watering.
+[03-18 14:08:22]   Plant at (2, 0) does not need watering.
+[03-18 14:08:22]   Plant at (2, 1) does not need watering.
+[03-18 14:08:22]   Plant at (2, 2) does not need watering.
+[03-18 14:08:22]   Plant at (2, 3) does not need watering.
+[03-18 14:08:22]   Plant at (2, 4) does not need watering.
+[03-18 14:08:22]   Plant at (3, 0) does not need watering.
+[03-18 14:08:22]   Plant at (3, 3) does not need watering.
+[03-18 14:08:22]   Plant at (3, 4) does not need watering.
+[03-18 14:08:22]   Plant at (4, 0) does not need watering.
+[03-18 14:08:22]   Plant at (4, 2) does not need watering.
+[03-18 14:08:22]   Plant at (4, 5) does not need watering.
+[03-18 14:08:22]   Plant at (5, 0) does not need watering.
+[03-18 14:08:22]   Plant at (5, 1) does not need watering.
+[03-18 14:08:22]   Plant at (5, 2) does not need watering.
+[03-18 14:08:22]   Plant at (5, 4) does not need watering.
+[03-18 14:08:22]   Plant at (5, 5) does not need watering.
+[03-18 14:08:22]   Plant at (6, 0) does not need watering.
+[03-18 14:08:22]   Plant at (6, 1) does not need watering.
+[03-18 14:08:22]   Plant at (6, 2) does not need watering.
+[03-18 14:08:22]   Plant at (6, 3) does not need watering.
+[03-18 14:08:22]   Plant at (6, 4) does not need watering.
+[03-18 14:08:22]   Plant at (7, 0) does not need watering.
+[03-18 14:08:22]   Plant at (7, 1) does not need watering.
+[03-18 14:08:22]   Plant at (7, 2) does not need watering.
+[03-18 14:08:22]   Plant at (7, 4) does not need watering.
+[03-18 14:08:22]   Plant at (7, 5) does not need watering.
+[03-18 14:08:22]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:22]   Artificial lights turned OFF.
+[03-18 14:08:22]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:22]   🌱 Tomato at (0,2) grew! Growth: 7/8
+[03-18 14:08:22]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Tomato at (1,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:22]   🌱 Tomato at (1,0) grew! Growth: 14/8
+[03-18 14:08:22]   Checking growth of Watermelon at (1,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:22]   🌱 Watermelon at (1,2) grew! Growth: 21/18
+[03-18 14:08:22]   Checking growth of Watermelon at (2,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:22]   🌱 Watermelon at (2,0) grew! Growth: 21/18
+[03-18 14:08:22]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lavender at (2,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:22]   🌱 Lavender at (2,3) grew! Growth: 7/12
+[03-18 14:08:22]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (3,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lavender at (5,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:22]   🌱 Lavender at (5,0) grew! Growth: 14/12
+[03-18 14:08:22]   Checking growth of Lettuce at (5,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Tomato at (5,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:22]   🌱 Tomato at (5,2) grew! Growth: 7/8
+[03-18 14:08:22]   Checking growth of Watermelon at (5,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:22]   🌱 Watermelon at (5,4) grew! Growth: 7/18
+[03-18 14:08:22]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Watermelon at (6,1) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:22]   🌱 Watermelon at (6,1) grew! Growth: 21/18
+[03-18 14:08:22]   Checking growth of Lavender at (6,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:22]   🌱 Lavender at (6,2) grew! Growth: 14/12
+[03-18 14:08:22]   Checking growth of Lavender at (6,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:22]   🌱 Lavender at (6,3) grew! Growth: 14/12
+[03-18 14:08:22]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Watermelon at (7,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:22]   🌱 Watermelon at (7,0) grew! Growth: 7/18
+[03-18 14:08:22]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:22]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:22]   Checking growth of Lavender at (7,4) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:22]   🌱 Lavender at (7,4) grew! Growth: 7/12
+[03-18 14:08:22]   Checking growth of Watermelon at (7,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:22]   🌱 Watermelon at (7,5) grew! Growth: 7/18
+[03-18 14:08:22]   Harvesting system activated.
+[03-18 14:08:22]   Harvested Tomato from (1, 0).
+[03-18 14:08:22]   Replanted Lettuce at (1, 0).
+[03-18 14:08:22]   Harvested Watermelon from (1, 2).
+[03-18 14:08:22]   Replanted Watermelon at (1, 2).
+[03-18 14:08:22]   Harvested Watermelon from (2, 0).
+[03-18 14:08:22]   Replanted Lavender at (2, 0).
+[03-18 14:08:22]   Harvested Lavender from (5, 0).
+[03-18 14:08:22]   Replanted Tomato at (5, 0).
+[03-18 14:08:22]   Harvested Watermelon from (6, 1).
+[03-18 14:08:22]   Replanted Lettuce at (6, 1).
+[03-18 14:08:22]   Harvested Lavender from (6, 2).
+[03-18 14:08:22]   Replanted Lettuce at (6, 2).
+[03-18 14:08:22]   Harvested Lavender from (6, 3).
+[03-18 14:08:22]   Replanted Lavender at (6, 3).
+[03-18 14:08:22]   Rain and fog have stopped.
+[03-18 14:08:24]   Open inventory...
+[03-18 14:08:24]   Check inventory: 41harvested plants, and 4 seeds
+[03-18 14:08:24]   Default seeds added: Lavender, Tomato, Watermelon & Lettuce
+[03-18 14:08:27]   Plant at (0, 1) does not need watering.
+[03-18 14:08:27]   Plant at (0, 2) does not need watering.
+[03-18 14:08:27]   Plant at (0, 3) does not need watering.
+[03-18 14:08:27]   Plant at (0, 5) does not need watering.
+[03-18 14:08:27]   Plant at (1, 0) does not need watering.
+[03-18 14:08:27]   Plant at (1, 2) does not need watering.
+[03-18 14:08:27]   Plant at (2, 0) does not need watering.
+[03-18 14:08:27]   Plant at (2, 1) does not need watering.
+[03-18 14:08:27]   Plant at (2, 2) does not need watering.
+[03-18 14:08:27]   Plant at (2, 3) does not need watering.
+[03-18 14:08:27]   Plant at (2, 4) does not need watering.
+[03-18 14:08:27]   Plant at (3, 0) does not need watering.
+[03-18 14:08:27]   Plant at (3, 3) does not need watering.
+[03-18 14:08:27]   Plant at (3, 4) does not need watering.
+[03-18 14:08:27]   Plant at (4, 0) does not need watering.
+[03-18 14:08:27]   Plant at (4, 2) does not need watering.
+[03-18 14:08:27]   Plant at (4, 5) does not need watering.
+[03-18 14:08:27]   Plant at (5, 0) does not need watering.
+[03-18 14:08:27]   Plant at (5, 1) does not need watering.
+[03-18 14:08:27]   Plant at (5, 2) does not need watering.
+[03-18 14:08:27]   Plant at (5, 4) does not need watering.
+[03-18 14:08:27]   Plant at (5, 5) does not need watering.
+[03-18 14:08:27]   Plant at (6, 0) does not need watering.
+[03-18 14:08:27]   Plant at (6, 1) does not need watering.
+[03-18 14:08:27]   Plant at (6, 2) does not need watering.
+[03-18 14:08:27]   Plant at (6, 3) does not need watering.
+[03-18 14:08:27]   Plant at (6, 4) does not need watering.
+[03-18 14:08:27]   Plant at (7, 0) does not need watering.
+[03-18 14:08:27]   Plant at (7, 1) does not need watering.
+[03-18 14:08:27]   Plant at (7, 2) does not need watering.
+[03-18 14:08:27]   Plant at (7, 4) does not need watering.
+[03-18 14:08:27]   Plant at (7, 5) does not need watering.
+[03-18 14:08:27]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:27]   Artificial lights turned OFF.
+[03-18 14:08:27]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:27]   🌱 Tomato at (0,2) grew! Growth: 14/8
+[03-18 14:08:27]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (1,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Watermelon at (1,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:27]   🌱 Watermelon at (1,2) grew! Growth: 7/18
+[03-18 14:08:27]   Checking growth of Lavender at (2,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:27]   🌱 Lavender at (2,0) grew! Growth: 7/12
+[03-18 14:08:27]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lavender at (2,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:27]   🌱 Lavender at (2,3) grew! Growth: 14/12
+[03-18 14:08:27]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (3,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Tomato at (5,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:27]   🌱 Tomato at (5,0) grew! Growth: 7/8
+[03-18 14:08:27]   Checking growth of Lettuce at (5,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Tomato at (5,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:27]   🌱 Tomato at (5,2) grew! Growth: 14/8
+[03-18 14:08:27]   Checking growth of Watermelon at (5,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:27]   🌱 Watermelon at (5,4) grew! Growth: 14/18
+[03-18 14:08:27]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (6,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (6,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (6,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (6,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lavender at (6,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:27]   🌱 Lavender at (6,3) grew! Growth: 7/12
+[03-18 14:08:27]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Watermelon at (7,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:27]   🌱 Watermelon at (7,0) grew! Growth: 14/18
+[03-18 14:08:27]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:27]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:27]   Checking growth of Lavender at (7,4) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:27]   🌱 Lavender at (7,4) grew! Growth: 14/12
+[03-18 14:08:27]   Checking growth of Watermelon at (7,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:27]   🌱 Watermelon at (7,5) grew! Growth: 14/18
+[03-18 14:08:27]   Harvesting system activated.
+[03-18 14:08:27]   Harvested Tomato from (0, 2).
+[03-18 14:08:27]   Replanted Lavender at (0, 2).
+[03-18 14:08:27]   Harvested Lavender from (2, 3).
+[03-18 14:08:27]   Replanted Tomato at (2, 3).
+[03-18 14:08:27]   Harvested Tomato from (5, 2).
+[03-18 14:08:27]   Replanted Watermelon at (5, 2).
+[03-18 14:08:27]   Harvested Lavender from (7, 4).
+[03-18 14:08:27]   Replanted Tomato at (7, 4).
+[03-18 14:08:32]   Plant at (0, 1) does not need watering.
+[03-18 14:08:32]   Plant at (0, 2) does not need watering.
+[03-18 14:08:32]   Plant at (0, 3) does not need watering.
+[03-18 14:08:32]   Plant at (0, 5) does not need watering.
+[03-18 14:08:32]   Plant at (1, 0) does not need watering.
+[03-18 14:08:32]   Plant at (1, 2) does not need watering.
+[03-18 14:08:32]   Plant at (2, 0) does not need watering.
+[03-18 14:08:32]   Plant at (2, 1) does not need watering.
+[03-18 14:08:32]   Plant at (2, 2) does not need watering.
+[03-18 14:08:32]   Plant at (2, 3) does not need watering.
+[03-18 14:08:32]   Plant at (2, 4) does not need watering.
+[03-18 14:08:32]   Plant at (3, 0) does not need watering.
+[03-18 14:08:32]   Plant at (3, 3) does not need watering.
+[03-18 14:08:32]   Plant at (3, 4) does not need watering.
+[03-18 14:08:32]   Plant at (4, 0) does not need watering.
+[03-18 14:08:32]   Plant at (4, 2) does not need watering.
+[03-18 14:08:32]   Plant at (4, 5) does not need watering.
+[03-18 14:08:32]   Plant at (5, 0) does not need watering.
+[03-18 14:08:32]   Plant at (5, 1) does not need watering.
+[03-18 14:08:32]   Plant at (5, 2) does not need watering.
+[03-18 14:08:32]   Plant at (5, 4) does not need watering.
+[03-18 14:08:32]   Plant at (5, 5) does not need watering.
+[03-18 14:08:32]   Plant at (6, 0) does not need watering.
+[03-18 14:08:32]   Plant at (6, 1) does not need watering.
+[03-18 14:08:32]   Plant at (6, 2) does not need watering.
+[03-18 14:08:32]   Plant at (6, 3) does not need watering.
+[03-18 14:08:32]   Plant at (6, 4) does not need watering.
+[03-18 14:08:32]   Plant at (7, 0) does not need watering.
+[03-18 14:08:32]   Plant at (7, 1) does not need watering.
+[03-18 14:08:32]   Plant at (7, 2) does not need watering.
+[03-18 14:08:32]   Plant at (7, 4) does not need watering.
+[03-18 14:08:32]   Plant at (7, 5) does not need watering.
+[03-18 14:08:32]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:32]   Artificial lights turned OFF.
+[03-18 14:08:32]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lavender at (0,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:32]   🌱 Lavender at (0,2) grew! Growth: 7/12
+[03-18 14:08:32]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (1,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Watermelon at (1,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:32]   🌱 Watermelon at (1,2) grew! Growth: 14/18
+[03-18 14:08:32]   Checking growth of Lavender at (2,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:32]   🌱 Lavender at (2,0) grew! Growth: 14/12
+[03-18 14:08:32]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Tomato at (2,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:32]   🌱 Tomato at (2,3) grew! Growth: 7/8
+[03-18 14:08:32]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (3,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Tomato at (5,0) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:32]   🌱 Tomato at (5,0) grew! Growth: 14/8
+[03-18 14:08:32]   Checking growth of Lettuce at (5,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Watermelon at (5,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:32]   🌱 Watermelon at (5,2) grew! Growth: 7/18
+[03-18 14:08:32]   Checking growth of Watermelon at (5,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:32]   🌱 Watermelon at (5,4) grew! Growth: 21/18
+[03-18 14:08:32]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (6,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (6,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (6,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (6,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lavender at (6,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:32]   🌱 Lavender at (6,3) grew! Growth: 14/12
+[03-18 14:08:32]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Watermelon at (7,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:32]   🌱 Watermelon at (7,0) grew! Growth: 21/18
+[03-18 14:08:32]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:32]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:32]   Checking growth of Tomato at (7,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:32]   🌱 Tomato at (7,4) grew! Growth: 7/8
+[03-18 14:08:32]   Checking growth of Watermelon at (7,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:32]   🌱 Watermelon at (7,5) grew! Growth: 21/18
+[03-18 14:08:32]   Harvesting system activated.
+[03-18 14:08:32]   Harvested Lavender from (2, 0).
+[03-18 14:08:32]   Replanted Lavender at (2, 0).
+[03-18 14:08:32]   Harvested Tomato from (5, 0).
+[03-18 14:08:32]   Replanted Lettuce at (5, 0).
+[03-18 14:08:32]   Harvested Watermelon from (5, 4).
+[03-18 14:08:32]   Replanted Watermelon at (5, 4).
+[03-18 14:08:32]   Harvested Lavender from (6, 3).
+[03-18 14:08:32]   Replanted Tomato at (6, 3).
+[03-18 14:08:32]   Harvested Watermelon from (7, 0).
+[03-18 14:08:32]   Replanted Lavender at (7, 0).
+[03-18 14:08:32]   Harvested Watermelon from (7, 5).
+[03-18 14:08:32]   Replanted Watermelon at (7, 5).
+[03-18 14:08:37]   Water evaporated. Remaining water: 99500 ml.
+[03-18 14:08:37]   Current water level after possible rainfall: 99725 ml.
+[03-18 14:08:37]   Start raining....
+[03-18 14:08:37]   Rainfall occurred. Added 225 ml to the water supply.
+[03-18 14:08:37]   Plant at (0, 1) does not need watering.
+[03-18 14:08:37]   Plant at (0, 2) does not need watering.
+[03-18 14:08:37]   Plant at (0, 3) does not need watering.
+[03-18 14:08:37]   Plant at (0, 5) does not need watering.
+[03-18 14:08:37]   Plant at (1, 0) does not need watering.
+[03-18 14:08:37]   Plant at (1, 2) does not need watering.
+[03-18 14:08:37]   Plant at (2, 0) does not need watering.
+[03-18 14:08:37]   Plant at (2, 1) does not need watering.
+[03-18 14:08:37]   Plant at (2, 2) does not need watering.
+[03-18 14:08:37]   Plant at (2, 3) does not need watering.
+[03-18 14:08:37]   Plant at (2, 4) does not need watering.
+[03-18 14:08:37]   Plant at (3, 0) does not need watering.
+[03-18 14:08:37]   Plant at (3, 3) does not need watering.
+[03-18 14:08:37]   Plant at (3, 4) does not need watering.
+[03-18 14:08:37]   Plant at (4, 0) does not need watering.
+[03-18 14:08:37]   Plant at (4, 2) does not need watering.
+[03-18 14:08:37]   Plant at (4, 5) does not need watering.
+[03-18 14:08:37]   Plant at (5, 0) does not need watering.
+[03-18 14:08:37]   Plant at (5, 1) does not need watering.
+[03-18 14:08:37]   Plant at (5, 2) does not need watering.
+[03-18 14:08:37]   Plant at (5, 4) does not need watering.
+[03-18 14:08:37]   Plant at (5, 5) does not need watering.
+[03-18 14:08:37]   Plant at (6, 0) does not need watering.
+[03-18 14:08:37]   Plant at (6, 1) does not need watering.
+[03-18 14:08:37]   Plant at (6, 2) does not need watering.
+[03-18 14:08:37]   Plant at (6, 3) does not need watering.
+[03-18 14:08:37]   Plant at (6, 4) does not need watering.
+[03-18 14:08:37]   Plant at (7, 0) does not need watering.
+[03-18 14:08:37]   Plant at (7, 1) does not need watering.
+[03-18 14:08:37]   Plant at (7, 2) does not need watering.
+[03-18 14:08:37]   Plant at (7, 4) does not need watering.
+[03-18 14:08:37]   Plant at (7, 5) does not need watering.
+[03-18 14:08:37]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:37]   Artificial lights turned OFF.
+[03-18 14:08:37]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lavender at (0,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:37]   🌱 Lavender at (0,2) grew! Growth: 14/12
+[03-18 14:08:37]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (1,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Watermelon at (1,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:37]   🌱 Watermelon at (1,2) grew! Growth: 21/18
+[03-18 14:08:37]   Checking growth of Lavender at (2,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:37]   🌱 Lavender at (2,0) grew! Growth: 7/12
+[03-18 14:08:37]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Tomato at (2,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:37]   🌱 Tomato at (2,3) grew! Growth: 14/8
+[03-18 14:08:37]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (3,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (5,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (5,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (5,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Watermelon at (5,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:37]   🌱 Watermelon at (5,2) grew! Growth: 14/18
+[03-18 14:08:37]   Checking growth of Watermelon at (5,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:37]   🌱 Watermelon at (5,4) grew! Growth: 7/18
+[03-18 14:08:37]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (6,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (6,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (6,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (6,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Tomato at (6,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:37]   🌱 Tomato at (6,3) grew! Growth: 7/8
+[03-18 14:08:37]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lavender at (7,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:37]   🌱 Lavender at (7,0) grew! Growth: 7/12
+[03-18 14:08:37]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:37]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:37]   Checking growth of Tomato at (7,4) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:37]   🌱 Tomato at (7,4) grew! Growth: 14/8
+[03-18 14:08:37]   Checking growth of Watermelon at (7,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:37]   🌱 Watermelon at (7,5) grew! Growth: 7/18
+[03-18 14:08:37]   Harvesting system activated.
+[03-18 14:08:37]   Harvested Lavender from (0, 2).
+[03-18 14:08:37]   Replanted Tomato at (0, 2).
+[03-18 14:08:37]   Harvested Watermelon from (1, 2).
+[03-18 14:08:37]   Replanted Lavender at (1, 2).
+[03-18 14:08:37]   Harvested Tomato from (2, 3).
+[03-18 14:08:37]   Replanted Lavender at (2, 3).
+[03-18 14:08:37]   Harvested Tomato from (7, 4).
+[03-18 14:08:37]   Replanted Watermelon at (7, 4).
+[03-18 14:08:39]   Rain and fog have stopped.
+[03-18 14:08:42]   Plant at (0, 1) does not need watering.
+[03-18 14:08:42]   Plant at (0, 2) does not need watering.
+[03-18 14:08:42]   Plant at (0, 3) does not need watering.
+[03-18 14:08:42]   Plant at (0, 5) does not need watering.
+[03-18 14:08:42]   Plant at (1, 0) does not need watering.
+[03-18 14:08:42]   Plant at (1, 2) does not need watering.
+[03-18 14:08:42]   Plant at (2, 0) does not need watering.
+[03-18 14:08:42]   Plant at (2, 1) does not need watering.
+[03-18 14:08:42]   Plant at (2, 2) does not need watering.
+[03-18 14:08:42]   Plant at (2, 3) does not need watering.
+[03-18 14:08:42]   Plant at (2, 4) does not need watering.
+[03-18 14:08:42]   Plant at (3, 0) does not need watering.
+[03-18 14:08:42]   Plant at (3, 3) does not need watering.
+[03-18 14:08:42]   Plant at (3, 4) does not need watering.
+[03-18 14:08:42]   Plant at (4, 0) does not need watering.
+[03-18 14:08:42]   Plant at (4, 2) does not need watering.
+[03-18 14:08:42]   Plant at (4, 5) does not need watering.
+[03-18 14:08:42]   Plant at (5, 0) does not need watering.
+[03-18 14:08:42]   Plant at (5, 1) does not need watering.
+[03-18 14:08:42]   Plant at (5, 2) does not need watering.
+[03-18 14:08:42]   Plant at (5, 4) does not need watering.
+[03-18 14:08:42]   Plant at (5, 5) does not need watering.
+[03-18 14:08:42]   Plant at (6, 0) does not need watering.
+[03-18 14:08:42]   Plant at (6, 1) does not need watering.
+[03-18 14:08:42]   Plant at (6, 2) does not need watering.
+[03-18 14:08:42]   Plant at (6, 3) does not need watering.
+[03-18 14:08:42]   Plant at (6, 4) does not need watering.
+[03-18 14:08:42]   Plant at (7, 0) does not need watering.
+[03-18 14:08:42]   Plant at (7, 1) does not need watering.
+[03-18 14:08:42]   Plant at (7, 2) does not need watering.
+[03-18 14:08:42]   Plant at (7, 4) does not need watering.
+[03-18 14:08:42]   Plant at (7, 5) does not need watering.
+[03-18 14:08:42]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:42]   Artificial lights turned OFF.
+[03-18 14:08:42]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:42]   🌱 Tomato at (0,2) grew! Growth: 7/8
+[03-18 14:08:42]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (1,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lavender at (1,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:42]   🌱 Lavender at (1,2) grew! Growth: 7/12
+[03-18 14:08:42]   Checking growth of Lavender at (2,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:42]   🌱 Lavender at (2,0) grew! Growth: 14/12
+[03-18 14:08:42]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lavender at (2,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:42]   🌱 Lavender at (2,3) grew! Growth: 7/12
+[03-18 14:08:42]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (3,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (5,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (5,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (5,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Watermelon at (5,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:42]   🌱 Watermelon at (5,2) grew! Growth: 21/18
+[03-18 14:08:42]   Checking growth of Watermelon at (5,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:42]   🌱 Watermelon at (5,4) grew! Growth: 14/18
+[03-18 14:08:42]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (6,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (6,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (6,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (6,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Tomato at (6,3) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:42]   🌱 Tomato at (6,3) grew! Growth: 14/8
+[03-18 14:08:42]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lavender at (7,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:42]   🌱 Lavender at (7,0) grew! Growth: 14/12
+[03-18 14:08:42]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:42]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:42]   Checking growth of Watermelon at (7,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:42]   🌱 Watermelon at (7,4) grew! Growth: 7/18
+[03-18 14:08:42]   Checking growth of Watermelon at (7,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:42]   🌱 Watermelon at (7,5) grew! Growth: 14/18
+[03-18 14:08:42]   Harvesting system activated.
+[03-18 14:08:42]   Harvested Lavender from (2, 0).
+[03-18 14:08:42]   Replanted Lavender at (2, 0).
+[03-18 14:08:42]   Harvested Watermelon from (5, 2).
+[03-18 14:08:42]   Replanted Watermelon at (5, 2).
+[03-18 14:08:42]   Harvested Tomato from (6, 3).
+[03-18 14:08:42]   Replanted Watermelon at (6, 3).
+[03-18 14:08:42]   Harvested Lavender from (7, 0).
+[03-18 14:08:42]   Replanted Watermelon at (7, 0).
+[03-18 14:08:47]   Plant at (0, 1) does not need watering.
+[03-18 14:08:47]   Plant at (0, 2) does not need watering.
+[03-18 14:08:47]   Plant at (0, 3) does not need watering.
+[03-18 14:08:47]   Plant at (0, 5) does not need watering.
+[03-18 14:08:47]   Plant at (1, 0) does not need watering.
+[03-18 14:08:47]   Plant at (1, 2) does not need watering.
+[03-18 14:08:47]   Plant at (2, 0) does not need watering.
+[03-18 14:08:47]   Plant at (2, 1) does not need watering.
+[03-18 14:08:47]   Plant at (2, 2) does not need watering.
+[03-18 14:08:47]   Plant at (2, 3) does not need watering.
+[03-18 14:08:47]   Plant at (2, 4) does not need watering.
+[03-18 14:08:47]   Plant at (3, 0) does not need watering.
+[03-18 14:08:47]   Plant at (3, 3) does not need watering.
+[03-18 14:08:47]   Plant at (3, 4) does not need watering.
+[03-18 14:08:47]   Plant at (4, 0) does not need watering.
+[03-18 14:08:47]   Plant at (4, 2) does not need watering.
+[03-18 14:08:47]   Plant at (4, 5) does not need watering.
+[03-18 14:08:47]   Plant at (5, 0) does not need watering.
+[03-18 14:08:47]   Plant at (5, 1) does not need watering.
+[03-18 14:08:47]   Plant at (5, 2) does not need watering.
+[03-18 14:08:47]   Plant at (5, 4) does not need watering.
+[03-18 14:08:47]   Plant at (5, 5) does not need watering.
+[03-18 14:08:47]   Plant at (6, 0) does not need watering.
+[03-18 14:08:47]   Plant at (6, 1) does not need watering.
+[03-18 14:08:47]   Plant at (6, 2) does not need watering.
+[03-18 14:08:47]   Plant at (6, 3) does not need watering.
+[03-18 14:08:47]   Plant at (6, 4) does not need watering.
+[03-18 14:08:47]   Plant at (7, 0) does not need watering.
+[03-18 14:08:47]   Plant at (7, 1) does not need watering.
+[03-18 14:08:47]   Plant at (7, 2) does not need watering.
+[03-18 14:08:47]   Plant at (7, 4) does not need watering.
+[03-18 14:08:47]   Plant at (7, 5) does not need watering.
+[03-18 14:08:47]   Temperature is adequate (25°C). No heating needed.
+[03-18 14:08:47]   Artificial lights turned OFF.
+[03-18 14:08:47]   Checking growth of Lettuce at (0,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (0,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Tomato at (0,2) - Water: 1466/500, Sunlight: 7/6, Temperature: 25°C (Ideal: 18-27°C)
+[03-18 14:08:47]   🌱 Tomato at (0,2) grew! Growth: 14/8
+[03-18 14:08:47]   Checking growth of Lettuce at (0,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (0,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (0,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (0,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (1,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (1,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lavender at (1,2) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:47]   🌱 Lavender at (1,2) grew! Growth: 14/12
+[03-18 14:08:47]   Checking growth of Lavender at (2,0) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:47]   🌱 Lavender at (2,0) grew! Growth: 7/12
+[03-18 14:08:47]   Checking growth of Lettuce at (2,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (2,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (2,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (2,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lavender at (2,3) - Water: 1466/200, Sunlight: 7/6, Temperature: 25°C (Ideal: 10-30°C)
+[03-18 14:08:47]   🌱 Lavender at (2,3) grew! Growth: 14/12
+[03-18 14:08:47]   Checking growth of Lettuce at (2,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (3,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (3,3) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (3,3) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (3,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (3,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (4,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (4,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (4,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (4,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (4,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (4,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (5,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (5,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (5,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (5,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Watermelon at (5,2) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:47]   🌱 Watermelon at (5,2) grew! Growth: 7/18
+[03-18 14:08:47]   Checking growth of Watermelon at (5,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:47]   🌱 Watermelon at (5,4) grew! Growth: 21/18
+[03-18 14:08:47]   Checking growth of Lettuce at (5,5) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (5,5) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (6,0) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (6,0) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (6,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (6,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (6,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (6,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Watermelon at (6,3) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:47]   🌱 Watermelon at (6,3) grew! Growth: 7/18
+[03-18 14:08:47]   Checking growth of Lettuce at (6,4) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (6,4) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Watermelon at (7,0) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:47]   🌱 Watermelon at (7,0) grew! Growth: 7/18
+[03-18 14:08:47]   Checking growth of Lettuce at (7,1) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (7,1) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Lettuce at (7,2) - Water: 1466/300, Sunlight: 7/4, Temperature: 25°C (Ideal: 10-18°C)
+[03-18 14:08:47]   🚨 Lettuce at (7,2) did NOT grow due to insufficient conditions.
+[03-18 14:08:47]   Checking growth of Watermelon at (7,4) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:47]   🌱 Watermelon at (7,4) grew! Growth: 14/18
+[03-18 14:08:47]   Checking growth of Watermelon at (7,5) - Water: 1466/50, Sunlight: 7/4, Temperature: 25°C (Ideal: 18-30°C)
+[03-18 14:08:47]   🌱 Watermelon at (7,5) grew! Growth: 21/18
+[03-18 14:08:47]   Harvesting system activated.
+[03-18 14:08:47]   Harvested Tomato from (0, 2).
+[03-18 14:08:47]   Replanted Tomato at (0, 2).
+[03-18 14:08:47]   Harvested Lavender from (1, 2).
+[03-18 14:08:47]   Replanted Tomato at (1, 2).
+[03-18 14:08:47]   Harvested Lavender from (2, 3).
+[03-18 14:08:47]   Replanted Lettuce at (2, 3).
+[03-18 14:08:47]   Harvested Watermelon from (5, 4).
+[03-18 14:08:47]   Replanted Lettuce at (5, 4).
+[03-18 14:08:47]   Harvested Watermelon from (7, 5).
+[03-18 14:08:47]   Replanted Tomato at (7, 5).

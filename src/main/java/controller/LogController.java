@@ -15,7 +15,7 @@ import javafx.scene.layout.VBox;
 import model.LogSystem;
 
 public class LogController {
-    private final LogSystem logSystem = LogSystem.getInstance(); // ✅ Ensure Singleton is Used
+    private final LogSystem logSystem = LogSystem.getInstance(); // Ensure Singleton is Used
     private Timeline logUpdateTimeline;
     private boolean isAutoUpdateEnabled = true;
 
@@ -29,9 +29,9 @@ public class LogController {
     private Button returnButton;
 
     public void initialize() {
-        // ✅ Remove incorrect instance creation
+        // Remove incorrect instance creation
 
-        // ✅ Fix: Initialize ComboBox items in Java instead of FXML
+        // Fix: Initialize ComboBox items in Java instead of FXML
         filterComboBox.getItems().addAll("All", "Plant Event", "System Action", "Environmental Change");
         filterComboBox.setOnAction(e -> filterLogs());
 
@@ -39,13 +39,13 @@ public class LogController {
         returnButton.setVisible(false);
         returnButton.setOnAction(e -> returnToLiveUpdate());
 
-        // ✅ Load existing logs on window open
+        // Load existing logs on window open
         loadLogs();
-        // ✅ Load cat.gif from resources
+        // Load cat.gif from resources
         Image gif = new Image(getClass().getResource("/images/cat.gif").toExternalForm());
         catGif.setImage(gif);
 
-        // ✅ Start real-time updates
+        // Start real-time updates
         startLogUpdates();
     }
 
@@ -56,7 +56,7 @@ public class LogController {
         updateLogArea();
     }
 
-    /** ✅ Start a timeline to refresh logs every second */
+    /** Start a timeline to refresh logs every second */
     private void startLogUpdates() {
         logUpdateTimeline = new Timeline(new KeyFrame(Duration.seconds(1), event -> {
             if (isAutoUpdateEnabled) {
@@ -67,35 +67,35 @@ public class LogController {
         logUpdateTimeline.play();
     }
 
-    /** ✅ Load logs into the logArea when window opens */
+    /** Load logs into the logArea when window opens */
     private void loadLogs() {
         Platform.runLater(() -> {
             logArea.setText(logSystem.getAllLogs());
-            System.out.println("📜 Logs loaded: " + logSystem.getAllLogs().split("\n").length + " entries.");
+            System.out.println("Logs loaded: " + logSystem.getAllLogs().split("\n").length + " entries.");
         });
     }
 
-    /** ✅ Refresh logs without disrupting user scroll */
+    /** Refresh logs without disrupting user scroll */
     private void updateLogArea() {
         Platform.runLater(() -> {
-            double scrollPosition = getScrollPosition(logArea); // ✅ Save current scroll position
-            boolean isAtBottom = isUserAtBottom(logArea); // ✅ Check if user is already at the bottom
+            double scrollPosition = getScrollPosition(logArea); // Save current scroll position
+            boolean isAtBottom = isUserAtBottom(logArea); // Check if user is already at the bottom
 
-            logArea.setText(logSystem.getAllLogs()); // ✅ Update logs
+            logArea.setText(logSystem.getAllLogs()); // Update logs
 
             if (isAtBottom) {
-                logArea.positionCaret(logArea.getText().length()); // ✅ Auto-scroll only if at bottom
+                logArea.positionCaret(logArea.getText().length()); // Auto-scroll only if at bottom
             } else {
-                setScrollPosition(logArea, scrollPosition); // ✅ Maintain user's scroll position
+                setScrollPosition(logArea, scrollPosition); // Maintain user's scroll position
             }
         });
     }
     private boolean isUserAtBottom(TextArea textArea) {
         ScrollBar scrollBar = (ScrollBar) textArea.lookup(".scroll-bar:vertical");
-        return scrollBar != null && scrollBar.getValue() >= 0.98; // ✅ Adjust threshold if needed
+        return scrollBar != null && scrollBar.getValue() >= 0.98; // Adjust threshold if needed
     }
 
-    /** ✅ Ensure logs sync with filters */
+    /** Ensure logs sync with filters */
     private void filterLogs() {
         String selectedFilter = filterComboBox.getValue();
         Platform.runLater(() -> {
@@ -113,13 +113,13 @@ public class LogController {
         });
     }
 
-    /** ✅ Get current scroll position of TextArea */
+    /** Get current scroll position of TextArea */
     private double getScrollPosition(TextArea textArea) {
         ScrollBar scrollBar = (ScrollBar) textArea.lookup(".scroll-bar:vertical");
         return (scrollBar != null) ? scrollBar.getValue() : 0;
     }
 
-    /** ✅ Restore previous scroll position */
+    /** Restore previous scroll position */
     private void setScrollPosition(TextArea textArea, double position) {
         ScrollBar scrollBar = (ScrollBar) textArea.lookup(".scroll-bar:vertical");
         if (scrollBar != null) {
@@ -129,7 +129,7 @@ public class LogController {
 
     @FXML
     private void handleClose() {
-        logUpdateTimeline.stop(); // ✅ Stop updates when closing window
+        logUpdateTimeline.stop(); // Stop updates when closing window
         logArea.getScene().getWindow().hide();
     }
 }

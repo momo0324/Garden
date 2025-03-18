@@ -28,12 +28,12 @@ public class TemperatureSensor extends Sensor {
         return currentTemperature;
     }
 
-    /** ✅ Allow external systems (like heating) to modify temperature **/
+    /** Allow external systems (like heating) to modify temperature **/
     public void setTemperature(int newTemperature) {
         this.currentTemperature = newTemperature;
     }
 
-    /** ✅ Automatically adjusts temperature based on the time of day **/
+    /** Automatically adjusts temperature based on the time of day **/
     public void updateTemperature() {
         int currentHour = TimeManager.getSimulatedHour(); // In-game hour
 

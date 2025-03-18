@@ -52,11 +52,11 @@ public class PestControlSystem extends SystemAbs {
             if (remainingTime > 1) {
                 activePests.put(pest, remainingTime - 1);
                 System.out.println("Pest: " + pest + " will be removed in " + (remainingTime - 1) + " hour(s).");
-                logSystem.logEvent("🪳 Pest: " + pest + " will be removed in " + (remainingTime - 1) + " hour(s).");
+                logSystem.logEvent("Pest: " + pest + " will be removed in " + (remainingTime - 1) + " hour(s).");
             } else {
                 iterator.remove();
-                System.out.println("🪳 Pest: " + pest + " has been eliminated.");
-                logSystem.logEvent("🪳 Pest: " + pest + " has been eliminated.");
+                System.out.println("Pest: " + pest + " has been eliminated.");
+                logSystem.logEvent("Pest: " + pest + " has been eliminated.");
                 pestSensor.setDetectedPest("None");
             }
         }

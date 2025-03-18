@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
 
-/* ✅ Apply the font globally */
+/* Apply the font globally */
 .root {
     -fx-font-family: "Pixelify Sans";
     -fx-background-image: url("../images/app_bg.png");
@@ -9,7 +9,7 @@
     -fx-background-position: center;
 
 }
-/* ✅ Fix Grid Position Over Soil */
+/* Fix Grid Position Over Soil */
 #gardenGrid {
     -fx-translate-x: -20px; /* Adjust based on background soil position */
     -fx-translate-y: 85px; /* Adjust based on vertical soil alignment */
@@ -24,25 +24,25 @@
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 
-    /* ✅ Make Button Transparent */
+    /* Make Button Transparent */
     -fx-background-color: transparent;
     -fx-border-color: transparent;
 
-    /* ✅ Set Rounded Corners */
+    /* Set Rounded Corners */
     -fx-background-radius: 16px;
     -fx-border-radius: 16px;
 
-    /* ✅ Adjust Text */
+    /* Adjust Text */
     -fx-font-family: "Pixelify Sans";
     -fx-font-size: 14px;
     -fx-font-weight: bold;
     -fx-text-fill: white;
     -fx-padding: 10px 20px;
 
-    /* ✅ Fix Button Width (Adjust as needed) */
+    /* Fix Button Width (Adjust as needed) */
     -fx-pref-width: 180px; /* Ensures all buttons have the same width */
 
-    /* ✅ Align Text Left */
+    /* Align Text Left */
     -fx-alignment: CENTER-LEFT;
     -fx-text-alignment: left;
 }
@@ -57,13 +57,13 @@
     -fx-font-family: "Pixelify Sans";
 }
 
-/* ✅ Button Hover Effect */
+/* Button Hover Effect */
 .button:hover {
     -fx-opacity: 0.85;
     -fx-cursor: hand;
 }
 
-/* ✅ Button Pressed Effect */
+/* Button Pressed Effect */
 .button:pressed {
     -fx-opacity: 0.7;
     -fx-translate-y: 2px; /* Slight press effect */

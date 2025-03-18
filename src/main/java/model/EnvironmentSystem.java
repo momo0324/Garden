@@ -79,7 +79,7 @@ public class EnvironmentSystem {
 
         if (!inventory.isEmpty()) {
             for (Plant plant : inventory) {
-                java.lang.System.out.println("- " + plant.getName() + ", 成熟: " + plant.isFullyGrown() + ", 已收获: " + plant.getIsHarvested());
+                java.lang.System.out.println("- " + plant.getName() + ", Fully Grown: " + plant.isFullyGrown() + ", Harvested: " + plant.getIsHarvested());
             }
         }
         
@@ -104,4 +104,4 @@ public class EnvironmentSystem {
         waterSupply = Math.max(0, waterSupply - EVAPORATION_RATE);
         java.lang.System.out.println("Water evaporated. Remaining water level: " + waterSupply + " ml.");
     }
-} 
+}
