@@ -4,6 +4,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -59,7 +60,9 @@ public class LogSystem {
     public void logEvent(String event) {
         if (event.equals(lastLogMessage)) return; // Avoid duplicate logs
 
-        String logEntry = "[" + LocalDateTime.now() + "] " + event;
+
+        DateTimeFormatter timeFormatter = DateTimeFormatter.ofPattern("MM-dd HH:mm:ss"); // ✅ Only hours, minutes, and seconds
+        String logEntry = "[" + LocalDateTime.now().format(timeFormatter) + "]   " + event;
         lastLogMessage = event;
         logEntries.add(logEntry);
 

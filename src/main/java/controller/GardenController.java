@@ -87,7 +87,7 @@ public class GardenController {
         garden.initializeGarden(); // Ensures plants are placed at the start
         setupGardenGrid();
         setupSprinklers();
-//        updateGardenGrid(); // Ensures plants are displayed at startup
+        updateGardenGrid(); // Ensures plants are displayed at startup
         setupLogArea();
         rain(24);
 
@@ -129,13 +129,9 @@ public class GardenController {
         garden.applyPestControl();
         garden.applyHeating();
         garden.applyLighting();
-        growPlant();
+        garden.growPlants(this);
         garden.harvestPlants();
         logArea.appendText("Simulation step completed.\n");
-    }
-    private void growPlant(){
-        garden.growPlants(this);
-//        updateGardenGrid();
     }
 
     @FXML
