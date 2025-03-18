@@ -1,6 +1,9 @@
 package model.plants;
 
 import java.util.List;
+
+import controller.GardenController;
+import javafx.application.Platform;
 import model.Garden;
 
 public abstract class Plant {
@@ -46,6 +49,10 @@ public abstract class Plant {
         this.isHarvested = false;
         this.growingImagePath = growingImagePath;
         this.matureImagePath = matureImagePath;
+    }
+
+    public String getMatureImagePath() {
+        return matureImagePath;
     }
 
     public void decreaseSurvivalTime() {
@@ -99,14 +106,24 @@ public abstract class Plant {
             System.out.println(name + " is growing. Hours: " + currentGrowthHours + "/" + hoursToGrow);
         }
     }
-    public void growOneDay(int sunlightHours) {
+    public void growOneDay(int sunlightHours,Garden garden, GardenController gardenController) {
         if (!isFullyGrown) {
             currentGrowthHours += sunlightHours;
             if (currentGrowthHours >= hoursToGrow) {
                 isFullyGrown = true;
                 System.out.println(name + " has fully grown!");
+                // ✅ Use `Platform.runLater()` AFTER updating the state
+                Platform.runLater(() -> {
+                    System.out.println("🎉 " + name + " is fully grown inside `runLater`!");
+                    gardenController.updateGardenGrid(true);
+                });
+                // ✅ Trigger an immediate UI update
             } else {
                 System.out.println(name + " growth progress: " + currentGrowthHours + "/" + hoursToGrow);
+                Platform.runLater(() -> {
+                    System.out.println("🎉 " + name + " is growing inside `runLater`!");
+                    gardenController.updateGardenGrid(false);
+                });
             }
         }
     }
@@ -266,14 +283,14 @@ public abstract class Plant {
         this.currentWaterLevel = waterLevel;
     }
 
-    public void applyPestDamage(String pest) {
-        if (isVulnerableTo(pest)) {
-            System.out.println(name + " is attacked by " + pest + "!");
-            currentPest = pest;  // 设置当前害虫
-            survivalTime -= 2;  // Reduce survival time faster for pests
-            checkDeathCondition();  // 检查是否应该死亡
-        }
-    }
+//    public void applyPestDamage(String pest) {
+//        if (isVulnerableTo(pest)) {
+//            System.out.println(name + " is attacked by " + pest + "!");
+//            currentPest = pest;  // 设置当前害虫
+//            survivalTime -= 2;  // Reduce survival time faster for pests
+//            checkDeathCondition();  // 检查是否应该死亡
+//        }
+//    }
 
     public void removePest() {
         currentPest = null;  // 移除害虫
@@ -285,15 +302,18 @@ public abstract class Plant {
     }
 
     public boolean isDead() {
-        return isDead;
+        return checkDeathCondition();
     }
 
-    private void checkDeathCondition() {
+    private boolean checkDeathCondition() {
         // 如果植物有虫且在存活时间内没有成熟，就会死亡
         if (currentPest != null && !isFullyGrown && survivalTime <= 0) {
             isDead = true;
+
             System.out.println(name + " has died due to pest infestation!");
+            return true;
         }
+        return false;
     }
 
     public boolean checkSurvival(int currentTemperature, int waterReceived) {
@@ -321,8 +341,8 @@ public abstract class Plant {
     }
 
     public String getCurrentImagePath() {
-        if(isDead){
-
+        if(isDead()){
+            return "/images/deadPlant.png";
         }
         if(isFullyGrown || isHarvested){
             return matureImagePath;

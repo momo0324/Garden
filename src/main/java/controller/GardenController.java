@@ -87,7 +87,7 @@ public class GardenController {
         garden.initializeGarden(); // Ensures plants are placed at the start
         setupGardenGrid();
         setupSprinklers();
-        updateGardenGrid(); // Ensures plants are displayed at startup
+//        updateGardenGrid(); // Ensures plants are displayed at startup
         setupLogArea();
         rain(24);
 
@@ -129,10 +129,13 @@ public class GardenController {
         garden.applyPestControl();
         garden.applyHeating();
         garden.applyLighting();
-        garden.growPlants();
+        growPlant();
         garden.harvestPlants();
-        updateGardenGrid();
         logArea.appendText("Simulation step completed.\n");
+    }
+    private void growPlant(){
+        garden.growPlants(this);
+//        updateGardenGrid();
     }
 
     @FXML
@@ -145,7 +148,7 @@ public class GardenController {
     public void updateSimulationTime() {
         int day = TimeManager.getSimulatedHour()/24;
         int hour = TimeManager.getSimulatedHour()%24;
-
+//        updateGardenGrid();
         // 确保在 JavaFX 线程更新 UI
         Platform.runLater(() -> {
             dayHourLabel.setText("Day " + day + ", Hour " + hour);
@@ -172,11 +175,14 @@ public class GardenController {
         logArea = new TextArea();
     }
 
-
-
     public void updateGardenGrid() {
+        updateGardenGrid(false);  // Calls the method below with `false` as default
+    }
+
+    public void updateGardenGrid(boolean isFullyGrown) {
         Platform.runLater(() -> {
             // Remove only plant images while keeping sprinklers
+            System.out.println("Updating Garden Grid. Fully Grown: " + isFullyGrown);
             gardenGrid.getChildren().removeIf(node ->
                     node instanceof ImageView &&
                             node != sprinkler1 && node != sprinkler2 &&
@@ -188,13 +194,18 @@ public class GardenController {
                     Plant plant = garden.getPlantAt(row, col);
 
                     if (plant != null) {
-                        String plantImagePath = plant.getCurrentImagePath();
-                        Image plantImage;
+                        String plantImagePath;
+                        if(isFullyGrown){
+                            plantImagePath = plant.getMatureImagePath();
 
+                        }else{
+                            plantImagePath=plant.getCurrentImagePath();
+                        }
+
+                        Image plantImage;
                         try {
-                            plantImage = new Image(getClass().getResource(plantImagePath).toExternalForm());
+                            plantImage = new Image(getClass().getResource(plantImagePath).toExternalForm(),false);
                         } catch (NullPointerException e) {
-                            System.err.println("Image not found for " + plant.getClass().getSimpleName() + ", using default.");
                             plantImage = new Image(getClass().getResource("/images/plants/default.png").toExternalForm());
                         }
 
@@ -202,12 +213,12 @@ public class GardenController {
                         plantView.setFitWidth(20);
                         plantView.setFitHeight(20);
                         plantView.setMouseTransparent(true);
-
                         gardenGrid.add(plantView, col, row);
                     }
                 }
             }
             gardenGrid.requestLayout();
+            gardenGrid.applyCss();
         });
     }
 

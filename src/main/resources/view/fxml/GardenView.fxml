@@ -26,8 +26,6 @@
                 <Button text="Water Plants" fx:id="waterButton" onAction="#handleWaterPlants"/>
                 <Button text="Toggle Lights" fx:id="lightButton" onAction="#handleToggleLights"/>
                 <Button text="Adjust Temperature" fx:id="tempButton" onAction="#handleAdjustTemperature"/>
-                <Button text="Pest Control" fx:id="pestControlButton" onAction="#handlePestControl"/>
-                <Button text="Harvest" fx:id="harvestButton" onAction="#handleHarvest"/>
                 <Button text="Inventory" fx:id="inventoryButton" onAction="#openInventory"/>
             </VBox>
         </left>

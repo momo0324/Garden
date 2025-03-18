@@ -1,5 +1,7 @@
 package model;
 
+import controller.GardenController;
+import javafx.application.Platform;
 import model.plants.Plant;
 import model.sensors.*;
 import model.systems.*;
@@ -8,7 +10,7 @@ import java.util.*;
 
 public class Garden {
     private static Garden instance;
-    private static final int GRID_RAW = 6;
+    private static final int GRID_RAW = 8;
     private static final int GRID_COL = 6;
     private Plant[][] plantGrid;
     private MoistureSensor moistureSensor;
@@ -51,19 +53,19 @@ public class Garden {
 
     /**  Initialize Garden with Random Plants **/
     public void initializeGarden() {
-        //List of all plants
-        List<Class<? extends Plant>> plantTypes = Arrays.asList(
-//                model.plants.Tomato.class,
-//                model.plants.Rose.class,
-                model.plants.Eggplant.class,
-                model.plants.Lettuce.class,
-                model.plants.Lavender.class,
-                model.plants.Corn.class,
-                model.plants.Pumpkin.class,
-                model.plants.Carrot.class
-//                model.plants.Orchid.class,
-//                model.plants.Basil.class
-        );
+//        //List of all plants
+//        List<Class<? extends Plant>> plantTypes = Arrays.asList(
+////                model.plants.Tomato.class,
+////                model.plants.Rose.class,
+//                model.plants.Eggplant.class,
+//                model.plants.Lettuce.class,
+//                model.plants.Lavender.class,
+//                model.plants.Corn.class,
+//                model.plants.Pumpkin.class,
+//                model.plants.Carrot.class
+////                model.plants.Orchid.class,
+////                model.plants.Basil.class
+//        );
 
         Random random = new Random();
         int plantCount = 32; // Randomly assign 20-30 plants
@@ -77,8 +79,18 @@ public class Garden {
 
             if (plantGrid[x][y] == null && !isSprinklerPosition(x, y, sprinklerPositions)) {
                 try {
-                    Class<? extends Plant> plantType = plantTypes.get(random.nextInt(plantTypes.size()));
-                    Plant plant = plantType.getDeclaredConstructor().newInstance();
+                    // ✅ Get available seeds from inventory
+                    List<Plant> availableSeeds = Inventory.getInstance().getSeeds();
+
+                    if (availableSeeds.isEmpty()) {
+                        java.lang.System.err.println("⚠️ No seeds available in inventory for replanting.");
+                        return; // No seeds available, so don't replant
+                    }
+                    // ✅ Randomly select a seed from inventory
+                    Plant selectedSeed = availableSeeds.get(random.nextInt(availableSeeds.size()));
+
+                    // ✅ Create a new instance of the selected seed
+                    Plant plant = selectedSeed.getClass().getDeclaredConstructor().newInstance();
                     addPlant(x, y, plant);
                     placedPlants++;
                 } catch (Exception e) {
@@ -268,14 +280,6 @@ public class Garden {
     }
 
     public void checkPlantHealth() {
-        List<Class<? extends Plant>> plantTypes = Arrays.asList(
-                model.plants.Eggplant.class,
-                model.plants.Lettuce.class,
-                model.plants.Lavender.class,
-                model.plants.Corn.class,
-                model.plants.Pumpkin.class,
-                model.plants.Carrot.class
-        );
         Random random = new Random();
 
         for (int i = 0; i < GRID_RAW; i++) {
@@ -325,8 +329,18 @@ public class Garden {
 
                         // Replant a new random plant after death
                         try {
-                            Class<? extends Plant> plantType = plantTypes.get(random.nextInt(plantTypes.size()));
-                            Plant newPlant = plantType.getDeclaredConstructor().newInstance();
+                            // ✅ Get available seeds from inventory
+                            List<Plant> availableSeeds = Inventory.getInstance().getSeeds();
+
+                            if (availableSeeds.isEmpty()) {
+                                java.lang.System.err.println("⚠️ No seeds available in inventory for replanting.");
+                                return; // No seeds available, so don't replant
+                            }
+                            // ✅ Randomly select a seed from inventory
+                            Plant selectedSeed = availableSeeds.get(random.nextInt(availableSeeds.size()));
+
+                            // ✅ Create a new instance of the selected seed
+                            Plant newPlant = selectedSeed.getClass().getDeclaredConstructor().newInstance();
                             plantGrid[i][j] = newPlant;
                             newPlant.resetSurvivalTime(currentLightHours, currentTemperature);
                             logSystem.logEvent("Replanted " + newPlant.getName() + " at (" + i + ", " + j + ").");
@@ -345,14 +359,14 @@ public class Garden {
         java.lang.System.out.println("Start Harvesting Plants...");
         Inventory inventory=Inventory.getInstance();
 
-        List<Class<? extends Plant>> plantTypes = Arrays.asList(
-                model.plants.Eggplant.class,
-                model.plants.Lettuce.class,
-                model.plants.Lavender.class,
-                model.plants.Corn.class,
-                model.plants.Pumpkin.class,
-                model.plants.Carrot.class
-        );
+//        List<Class<? extends Plant>> plantTypes = Arrays.asList(
+//                model.plants.Eggplant.class,
+//                model.plants.Lettuce.class,
+//                model.plants.Lavender.class,
+//                model.plants.Corn.class,
+//                model.plants.Pumpkin.class,
+//                model.plants.Carrot.class
+//        );
         Random random = new Random();
 
         int harvestedCount = 0;
@@ -367,8 +381,19 @@ public class Garden {
 
                     // ✅ Replant a new random plant after harvest
                     try {
-                        Class<? extends Plant> plantType = plantTypes.get(random.nextInt(plantTypes.size()));
-                        Plant newPlant = plantType.getDeclaredConstructor().newInstance();
+                        // ✅ Get available seeds from inventory
+                        List<Plant> availableSeeds = Inventory.getInstance().getSeeds();
+
+                        if (availableSeeds.isEmpty()) {
+                            java.lang.System.err.println("⚠️ No seeds available in inventory for replanting.");
+                            return; // No seeds available, so don't replant
+                        }
+
+                        // ✅ Randomly select a seed from inventory
+                        Plant selectedSeed = availableSeeds.get(random.nextInt(availableSeeds.size()));
+
+                        // ✅ Create a new instance of the selected seed
+                        Plant newPlant = selectedSeed.getClass().getDeclaredConstructor().newInstance();
                         plantGrid[i][j] = newPlant;
                         logSystem.logEvent("Replanted " + newPlant.getName() + " at (" + i + ", " + j + ").");
                     } catch (Exception e) {
@@ -391,7 +416,7 @@ public class Garden {
         logSystem.logEvent("Garden state logged.");
     }
 
-    public void growPlants() {
+    public void growPlants(GardenController gardenController) {
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
@@ -414,7 +439,8 @@ public class Garden {
                             "Temperature: " + currentTemperature + "°C (Ideal: " + plant.getMinIdealTemperature() + "-" + plant.getMaxIdealTemperature() + "°C)");
 
                     if (hasEnoughWater && hasEnoughSunlight && isIdealTemperature) {
-                        plant.growOneDay(currentLightHours);
+                        plant.growOneDay(currentLightHours,this,gardenController);
+
                         logSystem.logEvent("🌱 " + plant.getName() + " at (" + i + "," + j + ") grew! Growth: " +
                                 plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
                     } else {
@@ -423,6 +449,7 @@ public class Garden {
                 }
             }
         }
+
     }
 
     public Plant getPlantAt(int x, int y) {
