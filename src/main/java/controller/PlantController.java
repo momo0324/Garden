@@ -37,24 +37,18 @@ public class PlantController {
             String plantImagePath = plant.getCurrentImagePath();
             Image image = new Image(getClass().getResource(plantImagePath).toExternalForm());
             plantImageView.setImage(image);
-            
-            // 设置植物名称
+
             plantNameLabel.setText(plant.getName());
 
-            // 显示水分需求
-            waterLabel.setText(plant.getMinWaterRequirement() + " - " + plant.getMaxWaterRequirement() + " ml/day" + " (" + plant.getCurrentWaterLevel() + " ml)");
+            waterLabel.setText(plant.getMinWaterRequirement() + " - " + plant.getMaxWaterRequirement() + " ml/day" + " (Current: " + plant.getCurrentWaterLevel() + " ml)");
 
-            // 显示阳光需求
             sunlightLabel.setText(plant.getSunlightNeeded() + " hrs/day" + " (" + plant.getCurrentGrowthHours() + " hrs)");
 
-            // 显示温度范围
-            temperatureLabel.setText(plant.getMinIdealTemperature() + " - " + plant.getMaxIdealTemperature() + " °C" + " (" + garden.getCurrentTemperature() + " °C)");
+            temperatureLabel.setText(plant.getMinIdealTemperature() + " - " + plant.getMaxIdealTemperature() + " °C" + " (Current: " + garden.getCurrentTemperature() + " °C)");
 
-            // 设置生长进度
             double growthProgress = (double) plant.getCurrentGrowthHours() / plant.getHoursToGrow();
             growthBar.setProgress(Math.min(1.0, growthProgress));
 
-            // 害虫状态显示
             if (plant.getCurrentPest() != null) {
                 try {
                     Image pestImage = new Image(getClass().getResource("/images/pest2.png").toExternalForm());

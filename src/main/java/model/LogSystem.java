@@ -49,8 +49,6 @@ public class LogSystem {
             while (logEntries.size() > MAX_LOG_ENTRIES) {
                 logEntries.poll();
             }
-
-//            System.out.println("✅ Loaded " + logEntries.size() + " logs from file.");
         } catch (IOException e) {
             java.lang.System.out.println("❌ Error reading log file: " + e.getMessage());
         }
@@ -65,9 +63,6 @@ public class LogSystem {
         String logEntry = "[" + LocalDateTime.now().format(timeFormatter) + "]   " + event;
         lastLogMessage = event;
         logEntries.add(logEntry);
-
-//        System.out.println("📌 Log added: " + logEntry);
-//        System.out.println("📝 Total log entries in memory: " + logEntries.size());
 
         if (logEntries.size() > MAX_LOG_ENTRIES) {
             logEntries.poll(); // Remove oldest log entry
@@ -95,22 +90,23 @@ public class LogSystem {
     public String getFilteredLogs(String filter) {
         return logEntries.stream()
                 .filter(entry -> {
+                    String lowerEntry = entry.toLowerCase();
                     switch (filter) {
                         case "Plant Event":
-                            return entry.contains("Added") || entry.contains("Removed") || 
-                                   entry.contains("harvested") || entry.contains("grown");
+                            return lowerEntry.contains("plant") || lowerEntry.contains("removed") ||lowerEntry.contains("added")||
+                                   lowerEntry.contains("harvested") || lowerEntry.contains("grown")||lowerEntry.contains("pest");
                         case "System Action":
-                            return entry.contains("system activated") || entry.contains("system deactivated") ||
-                                   entry.contains("turned on") || entry.contains("turned off");
+                            return lowerEntry.contains("system") ||
+                                   lowerEntry.contains("turned on") || lowerEntry.contains("turned off");
                         case "Environmental Change":
-                            return entry.contains("Temperature") || entry.contains("Water") || 
-                                   entry.contains("Sunlight") || entry.contains("evaporated");
+                            return lowerEntry.contains("temperature") || lowerEntry.contains("water") ||lowerEntry.contains("rain") ||
+                                   lowerEntry.contains("sunlight") || lowerEntry.contains("evaporated");
                         case "API Trigger":
-                            return entry.contains("API") || entry.contains("triggered") || 
-                                   entry.contains("called");
+                            return lowerEntry.contains("api") || lowerEntry.contains("triggered") ||
+                                   lowerEntry.contains("called");
                         case "Logging Error":
-                            return entry.contains("Error") || entry.contains("Failed") || 
-                                   entry.contains("Exception");
+                            return lowerEntry.contains("error") || lowerEntry.contains("failed") ||
+                                   lowerEntry.contains("exception");
                         default:
                             return true;
                     }

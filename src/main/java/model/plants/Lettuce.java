@@ -11,7 +11,7 @@ public class Lettuce extends Plant {
         6, 
         4, 
         10, 
-        20, 4, 
+        18, 4,
               Arrays.asList("aphids", "slugs", "caterpillars"),
               "/images/plants/lettuce.png",
               "/images/plants/lettuce-mature.png");

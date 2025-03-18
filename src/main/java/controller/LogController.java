@@ -17,7 +17,7 @@ import model.LogSystem;
 public class LogController {
     private final LogSystem logSystem = LogSystem.getInstance(); // ✅ Ensure Singleton is Used
     private Timeline logUpdateTimeline;
-    private boolean isAutoUpdateEnabled = true; // 添加自动更新控制标志
+    private boolean isAutoUpdateEnabled = true;
 
     @FXML
     private TextArea logArea;
@@ -30,10 +30,9 @@ public class LogController {
 
     public void initialize() {
         // ✅ Remove incorrect instance creation
-        // logSystem = new LogSystem(); ❌ This creates a new empty instance
 
         // ✅ Fix: Initialize ComboBox items in Java instead of FXML
-        filterComboBox.getItems().addAll("All", "API Trigger", "Plant Event", "System Action", "Environmental Change", "Logging Error");
+        filterComboBox.getItems().addAll("All", "Plant Event", "System Action", "Environmental Change");
         filterComboBox.setOnAction(e -> filterLogs());
 
         // Initialize return button

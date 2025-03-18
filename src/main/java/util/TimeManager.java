@@ -40,7 +40,7 @@ public class TimeManager {
         System.out.println("Simulated Hour: " + simulatedHour);
 
         // ✅ Ensure all systems take action at the correct times
-        garden.evaporateWater();
+//        garden.evaporateWater();
 
         if (simulatedHour == 7) {
             garden.applyLighting(); // Sunlight starts

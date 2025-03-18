@@ -1,17 +1,10 @@
 package controller;
 
-import javafx.animation.FadeTransition;
-import javafx.application.Platform;
 import javafx.fxml.FXML;
-import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Pane;
-import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import javafx.util.Duration;
-import model.Garden;
 import model.Inventory;
 import model.LogSystem;
 import model.plants.Plant;
@@ -42,8 +35,7 @@ public class AddPlantController {
     @FXML
     public void initialize() {
         plantDropdown.getItems().addAll("Eggplant", "Lettuce", "Lavender", "Corn", "Pumpkin", "Carrot","Watermelon","Grape","Tomato","Strawberry");
-        
-        // 添加植物选择监听器
+
         plantDropdown.valueProperty().addListener((obs, oldVal, newVal) -> {
             if (newVal != null) {
                 updatePestsDropdown(newVal);
@@ -79,15 +71,14 @@ public class AddPlantController {
         pestsDropdown.getItems().clear();
         pestsDropdown.getItems().add("None");
         
-        // 根据植物类型添加对应的害虫
+
         switch (plantName) {
             case "Corn" -> pestsDropdown.getItems().addAll("aphids", "corn borers");
             case "Pumpkin" -> pestsDropdown.getItems().addAll("aphids", "squash bugs", "powdery mildew");
             case "Lavender" -> pestsDropdown.getItems().addAll("aphids", "spider mites");
-            default -> pestsDropdown.getItems().add("aphids");  // 默认至少对蚜虫敏感
+            default -> pestsDropdown.getItems().add("aphids");
         }
-        
-        // 默认选择"None"
+
         pestsDropdown.setValue("None");
     }
 
@@ -127,11 +118,11 @@ public class AddPlantController {
             boolean isUpdate = inventory.hasSeed(plantName); // ✅ Check if the seed exists
             if (isUpdate) {
                 inventory.updateSeed(plantSeed);
-                logSystem.logEvent("Updated " + plantName + " seed in inventory.");
+                logSystem.logEvent("🔄 Updated " + plantName + " seed's grow limitation in inventory.");
                 System.out.println("🔄 Updated " + plantName + " seed in inventory.");
             } else {
                 inventory.addSeed(plantSeed);
-                logSystem.logEvent("Added " + plantName + " seed to inventory.");
+                logSystem.logEvent("✅ Added " + plantName + " seed to inventory.");
                 System.out.println("✅ Added " + plantName + " seed to inventory.");
             }
 

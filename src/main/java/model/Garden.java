@@ -22,11 +22,11 @@ public class Garden {
     private LogSystem logSystem;
     private WaterSupply waterSupply;
     private List<String> activePests = new ArrayList<>();
-    private EnvironmentSystem gardenSystem = EnvironmentSystem.getInstance();
+    private EnvironmentSystem gardenSystem ;
 
     private LightingSensor lightingSensor;
 
-    private Garden() {
+    public Garden() {
         plantGrid = new Plant[GRID_RAW][GRID_COL];
         moistureSensor = new MoistureSensor();
         temperatureSensor = new TemperatureSensor();
@@ -37,6 +37,7 @@ public class Garden {
         logSystem = LogSystem.getInstance();
         waterSupply = new WaterSupply();
         lightingSensor = new LightingSensor();
+        this.gardenSystem = EnvironmentSystem.getInstance();
     }
 
     public static Garden getInstance() {
@@ -53,19 +54,6 @@ public class Garden {
 
     /**  Initialize Garden with Random Plants **/
     public void initializeGarden() {
-//        //List of all plants
-//        List<Class<? extends Plant>> plantTypes = Arrays.asList(
-////                model.plants.Tomato.class,
-////                model.plants.Rose.class,
-//                model.plants.Eggplant.class,
-//                model.plants.Lettuce.class,
-//                model.plants.Lavender.class,
-//                model.plants.Corn.class,
-//                model.plants.Pumpkin.class,
-//                model.plants.Carrot.class
-////                model.plants.Orchid.class,
-////                model.plants.Basil.class
-//        );
 
         Random random = new Random();
         int plantCount = 32; // Randomly assign 20-30 plants
@@ -127,12 +115,6 @@ public class Garden {
         return true;
     }
 
-    /**
-     * 从花园中移除指定位置的植物
-     * @param x 行坐标
-     * @param y 列坐标
-     * @return 被移除的植物，如果该位置没有植物则返回null
-     */
     public Plant removePlant(int x, int y) {
         if (x < 0 || x >= GRID_RAW || y < 0 || y >= GRID_COL) {
             return null;
@@ -155,12 +137,12 @@ public class Garden {
         return false;
     }
 
-    public void evaporateWater() {
+    public void evaporateWater(boolean startRain, int amount) {
         waterSupply.evaporateWater();
         logSystem.logEvent("Water evaporated. Remaining water: " + waterSupply.getCurrentWaterLevel() + " ml.");
 
         // Simulate rainfall
-        waterSupply.simulateRainfall();
+        waterSupply.simulateRainfall(startRain,amount);
         logSystem.logEvent("Current water level after possible rainfall: " + waterSupply.getCurrentWaterLevel() + " ml.");
     }
 
@@ -200,9 +182,10 @@ public class Garden {
                     if (currentMoisture < requiredWater) {
                         if (waterSupply.useWater(requiredWater)) {
                             plant.water(requiredWater);
-                            logSystem.logEvent("Watered plant at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
+                            logSystem.logEvent("💧 Watered "+plant.getName()+" at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
+                            System.out.println("💧 Watered "+plant.getName()+" at (" + i + ", " + j + ") with " + requiredWater + " ml water.");
                         } else {
-                            logSystem.logEvent("Not enough water to water plant at (" + i + ", " + j + ").");
+                            logSystem.logEvent("💧 Not enough water to water plant at (" + i + ", " + j + ").");
                         }
                     } else {
                         logSystem.logEvent("Plant at (" + i + ", " + j + ") does not need watering.");
@@ -359,14 +342,6 @@ public class Garden {
         java.lang.System.out.println("Start Harvesting Plants...");
         Inventory inventory=Inventory.getInstance();
 
-//        List<Class<? extends Plant>> plantTypes = Arrays.asList(
-//                model.plants.Eggplant.class,
-//                model.plants.Lettuce.class,
-//                model.plants.Lavender.class,
-//                model.plants.Corn.class,
-//                model.plants.Pumpkin.class,
-//                model.plants.Carrot.class
-//        );
         Random random = new Random();
 
         int harvestedCount = 0;
@@ -414,6 +389,10 @@ public class Garden {
 
     public void logGardenState() {
         logSystem.logEvent("Garden state logged.");
+    }
+    // Default method (no parameters)
+    public void growPlants() {
+        growPlants(null);  // Call the overloaded method with null
     }
 
     public void growPlants(GardenController gardenController) {
@@ -466,11 +445,12 @@ public class Garden {
     public void waterPlant(int x, int y) {
         Plant plant = getPlantAt(x, y);
         if (plant != null) {
-            if (waterSupply.useWater(500)) { // 使用500ml水
+            if (waterSupply.useWater(500)) {
                 plant.water(500);
-                logSystem.logEvent("Watered plant at (" + x + ", " + y + ") with 500ml water.");
+                System.out.println("💧 Watered "+plant.getName()+" at (" + x + ", " + y + ") with 500ml water.");
+                logSystem.logEvent("💧 Watered "+plant.getName()+ " at (" + x + ", " + y + ") with 500ml water.");
             } else {
-                logSystem.logEvent("Not enough water to water plant at (" + x + ", " + y + ").");
+                logSystem.logEvent("💧 Not enough water to water plant at (" + x + ", " + y + ").");
             }
         }
     }
@@ -483,7 +463,6 @@ public class Garden {
         lightingSystem.setActive(!lightingSystem.isActive());
         if (lightingSystem.isActive()) {
             logSystem.logEvent("Lighting system turned ON.");
-            // 给所有植物增加额外的阳光时间
             for (int i = 0; i < GRID_RAW; i++) {
                 for (int j = 0; j < GRID_COL; j++) {
                     Plant plant = plantGrid[i][j];
@@ -494,7 +473,6 @@ public class Garden {
             }
         } else {
             logSystem.logEvent("Lighting system turned OFF.");
-            // 重置所有植物的额外阳光时间
             for (int i = 0; i < GRID_RAW; i++) {
                 for (int j = 0; j < GRID_COL; j++) {
                     Plant plant = plantGrid[i][j];
@@ -503,6 +481,39 @@ public class Garden {
                     }
                 }
             }
+        }
+    }
+    public void getStatus() {
+        System.out.println("\n📋 🌱 Garden Status Report 🌱 📋");
+        System.out.println("---------------------------------------------------------");
+
+        for (int row = 0; row < GRID_RAW; row++) {
+            for (int col = 0; col < GRID_COL; col++) {
+                Plant plant = plantGrid[row][col];
+                if (plant != null) {
+                    String status = getPlantStatus(plant);
+                    System.out.printf("📍 (%d, %d): %s [%s]\n", row, col, plant.getName(), status);
+                } else {
+                    System.out.printf("📍 (%d, %d): 🌿 Empty Plot\n", row, col);
+                }
+            }
+        }
+
+        // ✅ Display Environment Conditions
+        System.out.println("\n🌡️  Temperature: " + temperatureSensor.getCurrentTemperature() + "°C");
+        System.out.println("💧 Soil Moisture: " + moistureSensor.getSoilMoistureLevel() + " ml");
+        System.out.println("☀️  Sunlight Hours: " + lightingSystem.getSunlightHours() + " hours");
+        System.out.println("----------------------------------------------------------");
+    }
+    private String getPlantStatus(Plant plant) {
+        if (plant.isDead()) {
+            return "☠️ Dead";
+        } else if (plant.isFullyGrown()) {
+            return "🌾 Fully Grown";
+        } else if (plant.getCurrentGrowthHours() > 0) {
+            return "🌱 Growing (" + plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow() + " hours)";
+        } else {
+            return "🟢 Seed";
         }
     }
 }

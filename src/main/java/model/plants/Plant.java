@@ -112,18 +112,23 @@ public abstract class Plant {
             if (currentGrowthHours >= hoursToGrow) {
                 isFullyGrown = true;
                 System.out.println(name + " has fully grown!");
-                // ✅ Use `Platform.runLater()` AFTER updating the state
-                Platform.runLater(() -> {
-                    System.out.println("🎉 " + name + " is fully grown inside `runLater`!");
-                    gardenController.updateGardenGrid(true);
-                });
+                if (gardenController!=null){
+                    // ✅ Use `Platform.runLater()` AFTER updating the state
+                    Platform.runLater(() -> {
+
+                        gardenController.updateGardenGrid(true);
+                    });
+                }
+
                 // ✅ Trigger an immediate UI update
             } else {
                 System.out.println(name + " growth progress: " + currentGrowthHours + "/" + hoursToGrow);
-                Platform.runLater(() -> {
-                    System.out.println("🎉 " + name + " is growing inside `runLater`!");
-                    gardenController.updateGardenGrid(false);
-                });
+                setCurrentGrowthHours(currentGrowthHours);
+                if(gardenController!=null){
+                    Platform.runLater(() -> {
+                        gardenController.updateGardenGrid(false);
+                    });
+                }
             }
         }
     }
@@ -165,7 +170,6 @@ public abstract class Plant {
 
     public void water(int amount) {
         currentWaterLevel = Math.min(currentWaterLevel + amount, maxWaterRequirement);
-        System.out.println(name + " received " + amount + "ml water. Current water level: " + currentWaterLevel + "ml");
     }
 
     public void addSunlight(int hours) {
@@ -283,17 +287,8 @@ public abstract class Plant {
         this.currentWaterLevel = waterLevel;
     }
 
-//    public void applyPestDamage(String pest) {
-//        if (isVulnerableTo(pest)) {
-//            System.out.println(name + " is attacked by " + pest + "!");
-//            currentPest = pest;  // 设置当前害虫
-//            survivalTime -= 2;  // Reduce survival time faster for pests
-//            checkDeathCondition();  // 检查是否应该死亡
-//        }
-//    }
-
     public void removePest() {
-        currentPest = null;  // 移除害虫
+        currentPest = null;
         System.out.println(name + " has been treated for pests.");
     }
 
@@ -306,7 +301,6 @@ public abstract class Plant {
     }
 
     private boolean checkDeathCondition() {
-        // 如果植物有虫且在存活时间内没有成熟，就会死亡
         if (currentPest != null && !isFullyGrown && survivalTime <= 0) {
             isDead = true;
 

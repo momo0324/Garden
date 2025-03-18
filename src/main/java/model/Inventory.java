@@ -1,6 +1,6 @@
 package model;
 
-import model.plants.Plant;
+import model.plants.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +10,7 @@ public class Inventory {
     private List<Plant> harvestedPlants;
     private List<Plant> seeds; // ✅ New list to store seeds separately
     private static Inventory instance; // ✅ Singleton instance
+    private LogSystem logSystem=LogSystem.getInstance();
 
     public Inventory() {
         this.seeds = new ArrayList<>();
@@ -93,30 +94,14 @@ public class Inventory {
 
     private void initializeDefaultSeeds() {
         try {
-            // ✅ Default Seed 1: Carrot
-            Plant carrotSeed = (Plant) Class.forName("model.plants.Carrot")
-                    .getDeclaredConstructor(String.class, int.class, int.class, int.class, int.class,
-                            int.class, int.class, int.class, List.class, String.class, String.class)
-                    .newInstance("Carrot", 100, 300, 48, 6, 10, 30, 14,
-                            Arrays.asList("aphids"), "/images/plants/carrot.png", "/images/plants/carrot-mature.png");
+            seeds.add(new Lavender());
+            seeds.add(new Tomato());
+            seeds.add(new Watermelon());
+            seeds.add(new Lettuce());
 
+            System.out.println("✅ Default seeds added: Lavender , Tomato, Watermelon & Lettuce");
+            logSystem.logEvent("✅ Default seeds added: Lavender, Tomato, Watermelon & Lettuce");
 
-            // ✅ Default Seed 2: Lettuce
-            Plant lettuceSeed = (Plant) Class.forName("model.plants.Lettuce")
-                    .getDeclaredConstructor(String.class, int.class, int.class, int.class, int.class,
-                            int.class, int.class, int.class, List.class, String.class, String.class)
-                    .newInstance("Lettuce", 80, 250, 60, 5, 8, 25, 12,
-                            Arrays.asList("slugs"), "/images/plants/lettuce.png", "/images/plants/lettuce-mature.png");
-            Plant tomatoSeed = (Plant) Class.forName("model.plants.Tomato")
-                    .getDeclaredConstructor(String.class, int.class, int.class, int.class, int.class,
-                            int.class, int.class, int.class, List.class, String.class, String.class)
-                    .newInstance("Tomato", 80, 250, 60, 5, 8, 25, 12,
-                            Arrays.asList("slugs"), "/images/plants/tomato.png", "/images/plants/tomato-mature.png");
-            seeds.add(lettuceSeed);
-            seeds.add(tomatoSeed);
-            seeds.add(carrotSeed);
-
-            System.out.println("✅ Default seeds added: Carrot & Lettuce");
         } catch (Exception e) {
             System.err.println("❌ Error initializing default seeds: " + e.getMessage());
             e.printStackTrace();

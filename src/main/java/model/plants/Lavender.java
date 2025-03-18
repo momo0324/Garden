@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Lavender extends Plant {
     public Lavender() {
-        super("Lavender", 200, 400, 12, 6, 15, 30, 7, 
+        super("Lavender", 200, 400, 12, 6, 10, 30, 7,
               Arrays.asList("aphids", "spider mites"),
               "/images/plants/lavender.png",
               "/images/plants/lavender-mature.png");

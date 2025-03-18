@@ -1,5 +1,7 @@
 package model.sensors;
 
+import model.LogSystem;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -8,12 +10,14 @@ public class PestSensor extends Sensor {
     private String detectedPest;
     private MoistureSensor moistureSensor;
     private TemperatureSensor temperatureSensor;
+    private LogSystem logSystem;
 
     public PestSensor(MoistureSensor moistureSensor, TemperatureSensor temperatureSensor) {
         super("Pest");
         this.detectedPest = "None";
         this.moistureSensor = moistureSensor;
         this.temperatureSensor = temperatureSensor;
+        this.logSystem=LogSystem.getInstance();
     }
 
     @Override
@@ -40,6 +44,8 @@ public class PestSensor extends Sensor {
         }
 
         System.out.println("Pest detected: " + detectedPest);
+        logSystem.logEvent("🪳 Pest detected: " + detectedPest);
+
     }
 
     public String getDetectedPest() {

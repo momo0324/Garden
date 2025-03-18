@@ -1,21 +1,27 @@
 package model.sensors;
 
+import model.LogSystem;
 import util.TimeManager;
 import java.util.Random;
 
 public class TemperatureSensor extends Sensor {
     private int currentTemperature;
+    private LogSystem logSystem;
 
     public TemperatureSensor() {
         super("Temperature");
-        this.currentTemperature = 25; // 默认温度25°C
+        this.currentTemperature = 25; // default temperature
+        logSystem=LogSystem.getInstance();
     }
 
     @Override
     public void readValue() {
-        // 模拟温度变化：在20-30度之间随机波动
         updateTemperature();
         System.out.println("Current temperature: " + currentTemperature + "°C");
+        logSystem.logEvent("🌡️ Current temperature: " + currentTemperature+"°C");
+
+
+
     }
 
     public int getCurrentTemperature() {

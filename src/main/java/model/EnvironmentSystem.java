@@ -6,18 +6,18 @@ import java.util.ArrayList;
 
 public class EnvironmentSystem {
     private static EnvironmentSystem instance;
-    private int waterSupply; // 水供应量（毫升）
-    private List<Plant> inventory; // 库存
-    private boolean[] sprinklerStatus; // 喷水器状态
-    private boolean[] pestControlStatus; // 害虫控制状态
-    private boolean[] heatingStatus; // 加热系统状态
-    private boolean[] lightingStatus; // 照明系统状态
+    private int waterSupply;
+    private List<Plant> inventory;
+    private boolean[] sprinklerStatus;
+    private boolean[] pestControlStatus;
+    private boolean[] heatingStatus;
+    private boolean[] lightingStatus;
     private static final int EVAPORATION_RATE = 100; // Assuming a default evaporation rate
 
     private EnvironmentSystem() {
-        waterSupply = 100000; // 初始水量
+        waterSupply = 100000;
         inventory = new ArrayList<>();
-        sprinklerStatus = new boolean[9]; // 3x3网格
+        sprinklerStatus = new boolean[9]; // 3x3
         pestControlStatus = new boolean[9];
         heatingStatus = new boolean[9];
         lightingStatus = new boolean[9];
@@ -30,7 +30,7 @@ public class EnvironmentSystem {
         return instance;
     }
 
-    // 浇水系统
+    // wateringSystem
     public void waterPlant(int gridIndex, Plant plant) {
         if (gridIndex < 0 || gridIndex >= sprinklerStatus.length) return;
         
@@ -44,7 +44,7 @@ public class EnvironmentSystem {
         }
     }
 
-    // 害虫控制系统
+    // pestControlSystem
     public void applyPestControl(int gridIndex) {
         if (gridIndex < 0 || gridIndex >= pestControlStatus.length) return;
         
@@ -52,7 +52,7 @@ public class EnvironmentSystem {
         java.lang.System.out.println("Applying pest control at grid " + gridIndex);
     }
 
-    // 加热系统
+    // heatingSystem
     public void applyHeating(int gridIndex) {
         if (gridIndex < 0 || gridIndex >= heatingStatus.length) return;
         
@@ -60,7 +60,7 @@ public class EnvironmentSystem {
         java.lang.System.out.println("Applying heating at grid " + gridIndex);
     }
 
-    // 照明系统
+    // lightingSystem
     public void applyLighting(int gridIndex) {
         if (gridIndex < 0 || gridIndex >= lightingStatus.length) return;
         
@@ -68,34 +68,16 @@ public class EnvironmentSystem {
         java.lang.System.out.println("Applying lighting at grid " + gridIndex);
     }
 
-//    // 收获系统
-//    public void harvestPlant(Plant plant) {
-////        java.lang.System.out.println("尝试收获植物: " + plant.getName());
-////        java.lang.System.out.println("植物成熟状态: " + plant.isFullyGrown() + ", 已收获状态: " + plant.getIsHarvested());
-////
-//        if (plant.isFullyGrown() && !plant.getIsHarvested()) {
-//            inventory.add(plant);
-//            plant.setHarvested(true);
-////            java.lang.System.out.println("植物 " + plant.getName() + " 已收获并添加到库存");
-////            java.lang.System.out.println("当前库存中有 " + inventory.size() + " 个植物");
-//        } else {
-////            java.lang.System.out.println("植物 " + plant.getName() + " 无法收获，因为它不成熟或已经被收获");
-//        }
-//    }
 
-    // 添加降雨
     public void addRainfall(int amount) {
         waterSupply += amount;
         java.lang.System.out.println("Rainfall added " + amount + "ml to water supply");
     }
 
-    // 获取库存
+
     public List<Plant> getInventory() {
-//        java.lang.System.out.println("获取库存，当前库存中有 " + inventory.size() + " 个植物");
-        
-        // 打印库存中的植物信息
+
         if (!inventory.isEmpty()) {
-//            java.lang.System.out.println("库存中的植物：");
             for (Plant plant : inventory) {
                 java.lang.System.out.println("- " + plant.getName() + ", 成熟: " + plant.isFullyGrown() + ", 已收获: " + plant.getIsHarvested());
             }
@@ -104,12 +86,11 @@ public class EnvironmentSystem {
         return inventory;
     }
 
-    // 获取水供应量
     public int getWaterSupply() {
         return waterSupply;
     }
 
-    // 重置系统状态
+    // resetSystemStatus
     public void resetSystemStatus() {
         for (int i = 0; i < sprinklerStatus.length; i++) {
             sprinklerStatus[i] = false;
