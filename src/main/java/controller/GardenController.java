@@ -86,7 +86,7 @@ public class GardenController {
         });
 
         // Start simulation
-//        TimeManager.startSimulation(garden);
+        TimeManager.startSimulation(garden);
         startSimulation();
 
 
@@ -121,7 +121,9 @@ public class GardenController {
     }
     public void rain(){
         Random random = new Random();
-        if(random.nextInt(100) < 20){
+        int poss=random.nextInt(0,101) ; //[0,100]
+        System.out.println("poss: "+poss);
+        if(poss<=25){
             int randomAmount = random.nextInt(5000) + 50;
             garden.evaporateWater(true, randomAmount);
             if (randomAmount < 1000) {
