@@ -1,11 +1,18 @@
 package controller;
 
+import javafx.animation.FadeTransition;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import model.Garden;
+import model.Inventory;
 import model.LogSystem;
 import model.plants.Plant;
 import org.controlsfx.control.RangeSlider;
@@ -23,17 +30,13 @@ public class AddPlantController {
     @FXML private Label sunlightLabel, survivalTimeLabel, growthTimeLabel;
     @FXML private ComboBox<String> pestsDropdown;
 
-    private int x, y;
-    private Garden garden;
     private LogSystem logSystem;
-    private GardenController gardenController; // ✅ Reference to `GardenController`
+    private InventoryController inventoryController;
+     // ✅ Reference to `GardenController`
 
-    public void setContext(Garden garden, LogSystem logSystem, GardenController gardenController, int x, int y) {
-        this.garden = garden;
+    public void setContext(LogSystem logSystem, InventoryController inventoryController) {
+        this.inventoryController = inventoryController;
         this.logSystem = logSystem;
-        this.gardenController = gardenController; // ✅ Store reference
-        this.x = x;
-        this.y = y;
     }
 
     @FXML
@@ -96,7 +99,7 @@ public class AddPlantController {
         if (plantName == null) return;
 
         try {
-            System.out.println("✅ Adding plant to garden...");
+            System.out.println("✅ Adding plant seed to inventory...");
             int minWater = (int) waterRangeSlider.getLowValue();
             int maxWater = (int) waterRangeSlider.getHighValue();
             int sunlight = (int) sunlightSlider.getValue();
@@ -105,40 +108,40 @@ public class AddPlantController {
             int survivalTime = (int) survivalTimeSlider.getValue();
             int growthTime = (int) growthTimeSlider.getValue();
             String selectedPest = pestsDropdown.getValue();
-            
-            // 设置植物可能受到的害虫攻击类型
-            List<String> vulnerablePests;
-            if (plantName.equals("Corn")) {
-                vulnerablePests = Arrays.asList("aphids", "corn borers");
-            } else if (plantName.equals("Pumpkin")) {
-                vulnerablePests = Arrays.asList("aphids", "squash bugs", "powdery mildew");
-            } else if (plantName.equals("Lavender")) {
-                vulnerablePests = Arrays.asList("aphids", "spider mites");
-            } else {
-                vulnerablePests = Arrays.asList("aphids");  // 默认至少对蚜虫敏感
-            }
 
-            String imagePath = "/images/plants/" + plantName.toLowerCase() + ".png";
-            String matureImagePath = "/images/plants/" + plantName.toLowerCase() + "_mature.png";
+            List<String> vulnerablePests = switch (plantName) {
+                case "Corn" -> Arrays.asList("aphids", "corn borers");
+                case "Pumpkin" -> Arrays.asList("aphids", "squash bugs", "powdery mildew");
+                case "Lavender" -> Arrays.asList("aphids", "spider mites");
+                default -> Collections.singletonList("aphids");
+            };
 
-            Plant plant = (Plant) Class.forName("model.plants." + plantName)
+            String growingImagePath = "/images/plants/" + plantName.toLowerCase() + ".png";
+            String matureImagePath = "/images/plants/" + plantName.toLowerCase() + "-mature.png";
+
+            Plant plantSeed = (Plant) Class.forName("model.plants." + plantName)
                     .getDeclaredConstructor(String.class, int.class, int.class, int.class, int.class,
                             int.class, int.class, int.class, List.class, String.class, String.class)
                     .newInstance(plantName, minWater, maxWater, growthTime, sunlight, minTemp, maxTemp,
-                            survivalTime, vulnerablePests, imagePath, matureImagePath);
+                            survivalTime, vulnerablePests, growingImagePath, matureImagePath);
 
-            // 如果选择了害虫（不是"None"），并且植物对该害虫敏感，则感染植物
-            if (selectedPest != null && !selectedPest.equals("None") && plant.isVulnerableTo(selectedPest)) {
-                plant.applyPestDamage(selectedPest);
-                System.out.println(plantName + " is infected with " + selectedPest);
+            Inventory inventory = Inventory.getInstance();
+
+            boolean isUpdate = inventory.hasSeed(plantName); // ✅ Check if the seed exists
+            if (isUpdate) {
+                inventory.updateSeed(plantSeed);
+                logSystem.logEvent("Updated " + plantName + " seed in inventory.");
+                System.out.println("🔄 Updated " + plantName + " seed in inventory.");
+            } else {
+                inventory.addSeed(plantSeed);
+                logSystem.logEvent("Added " + plantName + " seed to inventory.");
+                System.out.println("✅ Added " + plantName + " seed to inventory.");
             }
 
-            if (garden.addPlant(x, y, plant)) {
-                logSystem.logEvent("Added " + plantName + " at (" + x + ", " + y + ").\n");
-                System.out.println("Added " + plantName + " at (" + x + ", " + y + ").\n");
-                gardenController.updateGardenGrid();
+            // ✅ Notify InventoryController to show the message
+            if (inventoryController != null) {
+                inventoryController.showSuccessMessage(plantName, isUpdate);
             }
-
             closeDialog();
         } catch (Exception ex) {
             ex.printStackTrace();

@@ -1,6 +1,7 @@
 package controller;
 
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
@@ -20,6 +21,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import model.Garden;
+import model.Inventory;
 import model.LogSystem;
 import model.EnvironmentSystem;
 import model.plants.Plant;
@@ -32,12 +34,14 @@ import javafx.scene.Node;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 public class GardenController {
     public BorderPane mainLayout;
     final int CELL_SIZE = 50;
     public Pane rainPane;
+    public Button inventoryButton;
     private Garden garden;
     private Timeline simulationTimeline,rainTimeline;
     private LogSystem logSystem;
@@ -85,7 +89,8 @@ public class GardenController {
         setupSprinklers();
         updateGardenGrid(); // Ensures plants are displayed at startup
         setupLogArea();
-        rain();
+        rain(24);
+
 
         // ✅ Link simulation speed slider
         speedSlider.valueProperty().addListener((obs, oldValue, newValue) -> {
@@ -170,33 +175,40 @@ public class GardenController {
 
 
     public void updateGardenGrid() {
-        // Remove only plant images while keeping sprinklers
-        gardenGrid.getChildren().removeIf(node -> node instanceof ImageView && node != sprinkler1 && node != sprinkler2 && node != sprinkler3 && node != sprinkler4);
+        Platform.runLater(() -> {
+            // Remove only plant images while keeping sprinklers
+            gardenGrid.getChildren().removeIf(node ->
+                    node instanceof ImageView &&
+                            node != sprinkler1 && node != sprinkler2 &&
+                            node != sprinkler3 && node != sprinkler4
+            );
 
-        for (int row = 0; row < 8; row++) {
-            for (int col = 0; col < 6; col++) {
-                Plant plant = garden.getPlantAt(row, col);
+            for (int row = 0; row < 8; row++) {
+                for (int col = 0; col < 6; col++) {
+                    Plant plant = garden.getPlantAt(row, col);
 
-                if (plant != null) {
-                    // Ensure lowercase filenames to match image names
-                    String plantImagePath = plant.getCurrentImagePath();
-                    Image plantImage;
+                    if (plant != null) {
+                        String plantImagePath = plant.getCurrentImagePath();
+                        Image plantImage;
 
-                    try {
-                        plantImage = new Image(getClass().getResource(plantImagePath).toExternalForm());
-                    } catch (NullPointerException e) {
-                        System.err.println("Image not found for " + plant.getClass().getSimpleName() + ", using default.");
-                        plantImage = new Image(getClass().getResource("/images/plants/default.png").toExternalForm());
+                        try {
+                            plantImage = new Image(getClass().getResource(plantImagePath).toExternalForm());
+                        } catch (NullPointerException e) {
+                            System.err.println("Image not found for " + plant.getClass().getSimpleName() + ", using default.");
+                            plantImage = new Image(getClass().getResource("/images/plants/default.png").toExternalForm());
+                        }
+
+                        ImageView plantView = new ImageView(plantImage);
+                        plantView.setFitWidth(20);
+                        plantView.setFitHeight(20);
+                        plantView.setMouseTransparent(true);
+
+                        gardenGrid.add(plantView, col, row);
                     }
-
-                    ImageView plantView = new ImageView(plantImage);
-                    plantView.setFitWidth(20);
-                    plantView.setFitHeight(20);
-
-                    gardenGrid.add(plantView, col, row);
                 }
             }
-        }
+            gardenGrid.requestLayout();
+        });
     }
 
     private void handleCellClick(Button cell, int x, int y) {
@@ -210,8 +222,6 @@ public class GardenController {
                 // 高亮当前选中的格子
                 cell.setStyle("-fx-background-color: lightgreen; -fx-border-color: green; -fx-border-width: 2px;");
                 selectedCell = cell;
-            } else {
-                showAddPlantDialog(x, y);
             }
         } else {
             selectGridCell(x, y);
@@ -456,26 +466,26 @@ public class GardenController {
     private void openInventory() {
         try {
             java.lang.System.out.println("尝试打开库存界面...");
-            
-            // 确保库存中有数据
-            List<Plant> inventory = garden.getInventory();
-            java.lang.System.out.println("当前库存中有 " + inventory.size() + " 个植物");
-            
-            // 加载InventoryView FXML
+
+            // ✅ Use Inventory directly
+            Inventory inventory = Inventory.getInstance();
+            List<Plant> harvestedPlants = inventory.getHarvestedPlants();
+            List<Plant> seeds = inventory.getSeeds();
+
+            java.lang.System.out.println("库存信息: " + harvestedPlants.size() + " 个收获的植物, " + seeds.size() + " 颗种子");
+
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/InventoryView.fxml"));
             Parent root = loader.load();
-            
-            // 获取控制器并手动刷新库存
+
+            // ✅ Pass the correct inventory reference
             InventoryController controller = loader.getController();
-            
-            // 设置新窗口
+            controller.setInventory(inventory);
+
             Stage inventoryStage = new Stage();
             inventoryStage.setTitle("库存");
-            inventoryStage.setScene(new Scene(root, 300, 400)); // 窗口大小
-            
-            // 显示库存窗口
+            inventoryStage.setScene(new Scene(root, 300, 400));
             inventoryStage.show();
-            
+
             java.lang.System.out.println("库存界面已打开");
         } catch (Exception e) {
             java.lang.System.err.println("加载库存视图时出错: " + e.getMessage());
@@ -499,31 +509,81 @@ public class GardenController {
             return;
         }
 
-        // ✅ Create a custom DialogPane (instead of Alert)
-        Dialog<ButtonType> dialog = new Dialog<>();
-        dialog.setTitle(null);  // ✅ Remove the default title
-        dialog.setHeaderText(null); // ✅ Remove header
-        dialog.initStyle(StageStyle.UNDECORATED); // ✅ Removes default styling (Optional)
+        // ✅ Get available seeds from the inventory
+        List<Plant> seeds = Inventory.getInstance().getSeeds();
 
-        // ✅ Style the Dialog (Apply CSS)
+        // ✅ Create a seed selection dialog
+        Dialog<Plant> dialog = new Dialog<>();
+        dialog.setTitle("Select a Seed to Plant");
+        dialog.setHeaderText(null);
+
         DialogPane dialogPane = dialog.getDialogPane();
         dialogPane.getStylesheets().add(getClass().getResource("/styles/dialogStyle.css").toExternalForm());
         dialogPane.getStyleClass().add("custom-alert");
 
-        // ✅ Set Content
-        dialogPane.setContent(new Label("Do you want to add a plant here?"));
+        // ✅ Seed selection UI
+        VBox contentBox = new VBox(10);
+        contentBox.setAlignment(Pos.CENTER);
+
+        // ✅ Create seed selection list (Declared here for scope visibility)
+        ListView<Plant> seedListView = new ListView<>();
+
+        if (seeds.isEmpty()) {
+            // ✅ Show "No seeds available" message if empty
+            Label emptyMessage = new Label("No seeds available in inventory.");
+            emptyMessage.setStyle("-fx-font-size: 14px; -fx-text-fill: #666;");
+            contentBox.getChildren().add(emptyMessage);
+        } else {
+            seedListView.getItems().addAll(seeds);
+            seedListView.setCellFactory(param -> new ListCell<>() {
+                private final ImageView imageView = new ImageView();
+
+                @Override
+                protected void updateItem(Plant plant, boolean empty) {
+                    super.updateItem(plant, empty);
+                    if (empty || plant == null) {
+                        setGraphic(null);
+                        setText(null);
+                    } else {
+                        imageView.setImage(new Image(getClass().getResource(plant.getCurrentImagePath()).toExternalForm()));
+                        imageView.setFitWidth(40);
+                        imageView.setFitHeight(40);
+                        setGraphic(imageView);
+                        setText(plant.getName());
+                    }
+                }
+            });
+
+            contentBox.getChildren().add(seedListView);
+        }
+
+        dialogPane.setContent(contentBox);
 
         // ✅ Custom Buttons
-        ButtonType okButton = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
+        ButtonType plantButton = new ButtonType("Plant", ButtonBar.ButtonData.OK_DONE);
         ButtonType cancelButton = new ButtonType("Cancel", ButtonBar.ButtonData.CANCEL_CLOSE);
-        dialogPane.getButtonTypes().addAll(okButton, cancelButton);
 
-        // ✅ Handle Button Clicks
-        dialog.showAndWait().ifPresent(response -> {
-            if (response == okButton) {
-                showAddPlantDialog(x, y); // ✅ Open plant selection dialog
+        if(seeds.isEmpty()){
+            dialogPane.getButtonTypes().setAll(cancelButton);
+        }else{
+            dialogPane.getButtonTypes().setAll(plantButton, cancelButton);
+        }
+        dialog.setResultConverter(button -> {
+            if (button == plantButton) {
+                return seedListView.getSelectionModel().getSelectedItem();
             }
+            return null;
         });
+
+        Optional<Plant> result = dialog.showAndWait();
+
+        result.ifPresentOrElse(selectedSeed -> {
+            garden.addPlant(x, y, selectedSeed);
+            System.out.println("🌱 Planted " + selectedSeed.getName() + " at (" + x + ", " + y + ")");
+            logSystem.logEvent("Planted " + selectedSeed.getName() + " at (" + x + ", " + y + ").");
+
+            Platform.runLater(this::updateGardenGrid);
+        }, () -> System.out.println("❌ No seed was selected (Dialog closed without selection)."));
     }
 
     private void showPlantDetails(Plant plant) {
@@ -546,23 +606,6 @@ public class GardenController {
         }
     }
 
-    public void showAddPlantDialog(int x, int y) {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/fxml/AddPlantView.fxml"));
-            Parent root = loader.load();
-
-            // ✅ Get controller and set context
-            AddPlantController controller = loader.getController();
-            controller.setContext(garden, logSystem, this, x, y); // ✅ Pass `this` (GardenController)
-
-            Stage stage = new Stage();
-            stage.setTitle("Add Plant");
-            stage.setScene(new Scene(root, 400, 550));
-            stage.show();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
     private void updateTemperatureDisplay() {
         int currentTemp = garden.getCurrentTemperature();
@@ -588,8 +631,7 @@ public class GardenController {
         });
     }
 
-    private void rain(){
-        int rainDurationSeconds=24;
+    private void rain(int hour){
 
         Platform.runLater(() -> {
             rainPane.setPrefSize(rootPane.getWidth(), rootPane.getHeight());
@@ -609,7 +651,7 @@ public class GardenController {
             environmentSystem.addRainfall(100); // ✅ Run environment logic in a separate thread
             Platform.runLater(this::startRainEffect); // ✅ Update UI safely
         }).start();
-        new Timeline(new KeyFrame(Duration.seconds(rainDurationSeconds), e -> stopRainEffect())).play();
+        new Timeline(new KeyFrame(Duration.seconds(hour), e -> stopRainEffect())).play();
 
     }
 
@@ -766,4 +808,5 @@ public class GardenController {
         }
         gardenGrid.getChildren().removeAll(toRemove);
     }
+
 }

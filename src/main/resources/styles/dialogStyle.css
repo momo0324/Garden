@@ -102,3 +102,14 @@
     -fx-font-size: 12px;
     -fx-font-family: "Pixelify Sans";
 }
+.success-message {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: rgba(0, 128, 0, 0.8);  /* Green with transparency */
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-alignment: center;
+    -fx-opacity: 1.0;
+}

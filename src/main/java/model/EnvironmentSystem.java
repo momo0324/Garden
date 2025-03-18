@@ -68,20 +68,20 @@ public class EnvironmentSystem {
         java.lang.System.out.println("Applying lighting at grid " + gridIndex);
     }
 
-    // 收获系统
-    public void harvestPlant(Plant plant) {
-//        java.lang.System.out.println("尝试收获植物: " + plant.getName());
-//        java.lang.System.out.println("植物成熟状态: " + plant.isFullyGrown() + ", 已收获状态: " + plant.getIsHarvested());
-//
-        if (plant.isFullyGrown() && !plant.getIsHarvested()) {
-            inventory.add(plant);
-            plant.setHarvested(true);
-//            java.lang.System.out.println("植物 " + plant.getName() + " 已收获并添加到库存");
-//            java.lang.System.out.println("当前库存中有 " + inventory.size() + " 个植物");
-        } else {
-//            java.lang.System.out.println("植物 " + plant.getName() + " 无法收获，因为它不成熟或已经被收获");
-        }
-    }
+//    // 收获系统
+//    public void harvestPlant(Plant plant) {
+////        java.lang.System.out.println("尝试收获植物: " + plant.getName());
+////        java.lang.System.out.println("植物成熟状态: " + plant.isFullyGrown() + ", 已收获状态: " + plant.getIsHarvested());
+////
+//        if (plant.isFullyGrown() && !plant.getIsHarvested()) {
+//            inventory.add(plant);
+//            plant.setHarvested(true);
+////            java.lang.System.out.println("植物 " + plant.getName() + " 已收获并添加到库存");
+////            java.lang.System.out.println("当前库存中有 " + inventory.size() + " 个植物");
+//        } else {
+////            java.lang.System.out.println("植物 " + plant.getName() + " 无法收获，因为它不成熟或已经被收获");
+//        }
+//    }
 
     // 添加降雨
     public void addRainfall(int amount) {

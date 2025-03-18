@@ -11,13 +11,13 @@
 }
 /* ✅ Fix Grid Position Over Soil */
 #gardenGrid {
-    -fx-translate-x: -35px; /* Adjust based on background soil position */
+    -fx-translate-x: -20px; /* Adjust based on background soil position */
     -fx-translate-y: 85px; /* Adjust based on vertical soil alignment */
     -fx-max-width: 400px;
     -fx-max-height: 600px;
 }
-/* ✅ Apply Background Image to Buttons */
-#waterButton, #lightButton, #tempButton, #pestControlButton, #harvestButton, #logButton{
+#waterButton, #lightButton, #tempButton, #pestControlButton,
+#harvestButton, #logButton, #NewPlantButton, #selectButton,  #inventoryButton {
 
     -fx-background-image: url("../images/btn_bg.png");  /* Background image */
     -fx-background-size: 100% 100%;  /* Cover entire button */
@@ -34,10 +34,17 @@
 
     /* ✅ Adjust Text */
     -fx-font-family: "Pixelify Sans";
-    -fx-font-size: 16px;
+    -fx-font-size: 14px;
     -fx-font-weight: bold;
     -fx-text-fill: white;
     -fx-padding: 10px 20px;
+
+    /* ✅ Fix Button Width (Adjust as needed) */
+    -fx-pref-width: 180px; /* Ensures all buttons have the same width */
+
+    /* ✅ Align Text Left */
+    -fx-alignment: CENTER-LEFT;
+    -fx-text-alignment: left;
 }
 
 
@@ -68,21 +75,6 @@
     -fx-font-size: 20px;
 }
 
-.temperature-label {
-    -fx-font-size: 24px;
-    -fx-font-weight: bold;
-    -fx-padding: 10px 15px;
-    -fx-background-color: #f8f9fa;
-    -fx-background-radius: 8px;
-    -fx-border-radius: 8px;
-    -fx-border-color: #dee2e6;
-    -fx-border-width: 1px;
-    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 4, 0, 0, 2);
-    -fx-min-width: 180px;
-    -fx-alignment: center;
-    -fx-text-fill: #333333;
-}
-
 .temperature-cold {
     -fx-text-fill: #0d6efd;
     -fx-background-color: #e7f1ff;
@@ -99,4 +91,19 @@
     -fx-text-fill: #dc3545;
     -fx-background-color: #fff5f5;
     -fx-border-color: #f5c6cb;
+}
+
+.time-label, .temperature-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 15px;
+    -fx-background-color: #f8f9fa;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 4, 0, 0, 2);
+    -fx-min-width: 180px;
+    -fx-alignment: center;
+    -fx-text-fill: #333333;
 }

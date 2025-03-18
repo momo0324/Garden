@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.image.*?>
 <?import javafx.geometry.Insets?>
 
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
@@ -10,13 +9,30 @@
 
     <Label text="Inventory" styleClass="subtitle-label"/>
 
-    <VBox spacing="10" style="-fx-padding: 10;">
-        <ListView fx:id="inventoryListView" prefHeight="400" prefWidth="300">
-            <VBox.vgrow>ALWAYS</VBox.vgrow>
-        </ListView>
-    </VBox>
+    <!-- TabPane for Seeds, Harvested, and All -->
+    <TabPane fx:id="inventoryTabs" tabClosingPolicy="UNAVAILABLE" prefHeight="400" prefWidth="300">
 
+        <!-- Seeds Tab -->
+        <Tab text="Seeds">
+            <VBox>
+                <ListView fx:id="seedsListView" prefHeight="380" prefWidth="290"/>
+                <Button text="Add New Plant" fx:id="addNewPlantButton" onAction="#handleAddNewPlant"
+                        styleClass="log-close-button"/>
+            </VBox>
+        </Tab>
+
+        <!-- Harvested Plants Tab -->
+        <Tab text="Harvested">
+            <VBox>
+                <ListView fx:id="harvestedListView" prefHeight="380" prefWidth="290"/>
+            </VBox>
+        </Tab>
+
+    </TabPane>
+
+    <!-- Buttons -->
     <HBox spacing="10" alignment="CENTER">
         <Button text="Close" fx:id="closeButton" onAction="#handleClose" styleClass="log-close-button"/>
     </HBox>
-</VBox> 
+
+</VBox>

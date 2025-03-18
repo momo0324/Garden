@@ -290,13 +290,14 @@ public class Garden {
     public void harvestPlants() {
         logSystem.logEvent("Harvesting system activated.");
         java.lang.System.out.println("Start Harvesting Plants...");
+        Inventory inventory=Inventory.getInstance();
 
         int harvestedCount = 0;
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null && plant.isFullyGrown() && !plant.getIsHarvested()) {
-                    gardenSystem.harvestPlant(plant);
+                    inventory.addPlant(plant);
                     plantGrid[i][j] = null; // 从网格中移除植物
                     logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
                     harvestedCount++;

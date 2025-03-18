@@ -76,3 +76,49 @@
     -fx-border-color: #3d8b40;
 }
 
+.floating-message {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-color: rgba(0, 128, 0, 0.9);  /* Green background */
+    -fx-padding: 8px;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0, 0, 3);
+    -fx-alignment: center;
+
+    /* ✅ Ensure Full Display */
+    -fx-wrap-text: true;
+    -fx-max-width: 280px;   /* ✅ Forces max width */
+    -fx-min-width: 280px;   /* ✅ Prevents it from shrinking */
+}
+/* ✅ Style the entire TabPane */
+#inventoryTabs {
+    -fx-background-color: #A8E6CF; /* Dark background */
+    -fx-border-color: #444; /* Subtle border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-text-fill: white;
+}
+
+/* ✅ Style selected tab */
+.tab:selected {
+    -fx-background-color: #A8E6CF; /* Green active tab */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-color: #3a3a3a;
+}
+
+/* ✅ Style tab text */
+.tab .tab-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* ✅ Ensure smooth transition */
+.tab:hover {
+    -fx-background-color: #A8E6CF; /* Slightly lighter when hovered */
+}
+#harvestedListView, #seedsListView {
+-fx-background-color: white;
+}

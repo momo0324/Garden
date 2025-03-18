@@ -13,7 +13,7 @@ public class HarvestingSystem extends SystemAbs {
 
     @Override
     public void operate() {
-        for (Plant plant : inventory.getPlants()) {
+        for (Plant plant : inventory.getHarvestedPlants()) {
             if (plant.isFullyGrown() && !plant.getIsHarvested()) {
                 plant.harvest();
                 inventory.addPlant(plant);
