@@ -66,7 +66,7 @@ public class Garden {
         );
 
         Random random = new Random();
-        int plantCount = random.nextInt(11) + 20; // Randomly assign 20-30 plants
+        int plantCount = 32; // Randomly assign 20-30 plants
         //Sprinklers' position (fixed)
         List<int[]> sprinklerPositions = Arrays.asList(new int[]{1, 1}, new int[]{1, 4}, new int[]{4, 1}, new int[]{4, 4});
         int placedPlants = 0;
@@ -207,14 +207,21 @@ public class Garden {
     public void applyHeating() {
         int currentTemperature = temperatureSensor.getCurrentTemperature();
         int minRequiredTemperature = Integer.MAX_VALUE;
+        boolean plantsExist = false;
 
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null) {
+                    plantsExist = true;
                     minRequiredTemperature = Math.min(minRequiredTemperature, plant.getMinIdealTemperature());
                 }
             }
+        }
+
+        if (!plantsExist) {
+            logSystem.logEvent("No plants in the garden. Heating system turned OFF.");
+            return; // ✅ Stop heating if no plants are present
         }
 
         if (currentTemperature < minRequiredTemperature) {
@@ -229,6 +236,9 @@ public class Garden {
         }
     }
 
+    public TemperatureSensor getTemperatureSensor() {
+        return temperatureSensor;
+    }
     public void applyLighting() {
         int currentHour = TimeManager.getSimulatedHour();
         boolean isNightTime = currentHour % 24 < 7 || currentHour % 24 >= 19;
@@ -258,39 +268,92 @@ public class Garden {
     }
 
     public void checkPlantHealth() {
+        List<Class<? extends Plant>> plantTypes = Arrays.asList(
+                model.plants.Eggplant.class,
+                model.plants.Lettuce.class,
+                model.plants.Lavender.class,
+                model.plants.Corn.class,
+                model.plants.Pumpkin.class,
+                model.plants.Carrot.class
+        );
+        Random random = new Random();
+
         for (int i = 0; i < GRID_RAW; i++) {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null && !plant.isFullyGrown()) {
-                    boolean hasEnoughWater = moistureSensor.getSoilMoistureLevel() >= plant.getMinWaterRequirement();
+                    // Fetch environmental conditions
+                    int soilMoisture = moistureSensor.getSoilMoistureLevel();
                     int currentLightHours = lightingSystem.getSunlightHours();
                     int currentTemperature = temperatureSensor.getCurrentTemperature();
 
-                    boolean hasEnoughSunlight = currentLightHours >= plant.getSunlightNeeded();
-                    boolean isIdealTemperature = currentTemperature >= plant.getMinIdealTemperature()
-                            && currentTemperature <= plant.getMaxIdealTemperature();
+                    // Plant's required conditions
+                    int requiredWater = plant.getMinWaterRequirement();
+                    int requiredSunlight = plant.getSunlightNeeded();
+                    int minIdealTemperature = plant.getMinIdealTemperature();
+                    int maxIdealTemperature = plant.getMaxIdealTemperature();
 
+                    // Allow small temperature fluctuations (±2 degrees tolerance)
+                    boolean isIdealTemperature = (currentTemperature >= minIdealTemperature - 2) &&
+                            (currentTemperature <= maxIdealTemperature + 2);
+
+                    boolean hasEnoughWater = soilMoisture >= requiredWater;
+                    boolean hasEnoughSunlight = currentLightHours >= requiredSunlight;
+
+                    // Log plant conditions for debugging
+                    logSystem.logEvent("Checking health of " + plant.getName() + " at (" + i + "," + j + ") - " +
+                            "Water: " + soilMoisture + "/" + requiredWater + ", " +
+                            "Sunlight: " + currentLightHours + "/" + requiredSunlight + ", " +
+                            "Temperature: " + currentTemperature + "°C (Ideal: " + minIdealTemperature + "-" + maxIdealTemperature + "°C)");
+
+                    // If any condition is not met, decrement survival time with a small grace period
                     if (!hasEnoughWater || !hasEnoughSunlight || !isIdealTemperature) {
-                        plant.decreaseSurvivalTime(); // ✅ Survival time decreases if struggling
-                        java.lang.System.out.println("Warning: " + plant.getName() + " at (" + i + "," + j + ") is struggling. Remaining survival time: " + plant.getCurrentSurvivalTime() + " hours.");
+                        if (plant.getCurrentSurvivalTime() > 2) { // Small buffer before decrementing
+                            plant.decreaseSurvivalTime();
+                            java.lang.System.out.println("Warning: " + plant.getName() + " at (" + i + "," + j + ") is struggling. Remaining survival time: " + plant.getCurrentSurvivalTime() + " hours.");
+                        }
                     } else {
-                        plant.resetSurvivalTime(currentLightHours, currentTemperature); // ✅ Pass parameters to fix the issue
+                        // Reset survival time if all conditions are met
+                        plant.resetSurvivalTime(currentLightHours, currentTemperature);
                     }
 
+                    // If survival time runs out, plant dies and gets replaced
                     if (plant.getCurrentSurvivalTime() <= 0) {
                         logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") has died due to prolonged unfavorable conditions.");
-                        plantGrid[i][j] = null; // ✅ Remove dead plant from the grid
+                        plantGrid[i][j] = null;
                         java.lang.System.out.println(plant.getName() + " at (" + i + "," + j + ") has died and has been removed from the garden.");
+
+                        // Replant a new random plant after death
+                        try {
+                            Class<? extends Plant> plantType = plantTypes.get(random.nextInt(plantTypes.size()));
+                            Plant newPlant = plantType.getDeclaredConstructor().newInstance();
+                            plantGrid[i][j] = newPlant;
+                            newPlant.resetSurvivalTime(currentLightHours, currentTemperature);
+                            logSystem.logEvent("Replanted " + newPlant.getName() + " at (" + i + ", " + j + ").");
+                        } catch (Exception e) {
+                            java.lang.System.err.println("Error replanting after plant death: " + e.getMessage());
+                        }
                     }
                 }
             }
         }
     }
 
+
     public void harvestPlants() {
         logSystem.logEvent("Harvesting system activated.");
         java.lang.System.out.println("Start Harvesting Plants...");
         Inventory inventory=Inventory.getInstance();
+
+        List<Class<? extends Plant>> plantTypes = Arrays.asList(
+                model.plants.Eggplant.class,
+                model.plants.Lettuce.class,
+                model.plants.Lavender.class,
+                model.plants.Corn.class,
+                model.plants.Pumpkin.class,
+                model.plants.Carrot.class
+        );
+        Random random = new Random();
 
         int harvestedCount = 0;
         for (int i = 0; i < GRID_RAW; i++) {
@@ -301,6 +364,16 @@ public class Garden {
                     plantGrid[i][j] = null; // 从网格中移除植物
                     logSystem.logEvent("Harvested " + plant.getName() + " from (" + i + ", " + j + ").");
                     harvestedCount++;
+
+                    // ✅ Replant a new random plant after harvest
+                    try {
+                        Class<? extends Plant> plantType = plantTypes.get(random.nextInt(plantTypes.size()));
+                        Plant newPlant = plantType.getDeclaredConstructor().newInstance();
+                        plantGrid[i][j] = newPlant;
+                        logSystem.logEvent("Replanted " + newPlant.getName() + " at (" + i + ", " + j + ").");
+                    } catch (Exception e) {
+                        java.lang.System.err.println("Error replanting after harvest: " + e.getMessage());
+                    }
                 }
             }
         }
@@ -309,7 +382,7 @@ public class Garden {
             java.lang.System.out.println("No Plant Harvested.");
             logSystem.logEvent("No Plant Harvested.");
         } else {
-            java.lang.System.out.println("Harvest Complete，Harvested " + harvestedCount + " Plants");
+            java.lang.System.out.println("Harvest Complete, Harvested " + harvestedCount + " Plants");
             java.lang.System.out.println("There are " + gardenSystem.getInventory().size() + " Plants in Inventory");
         }
     }
@@ -323,16 +396,29 @@ public class Garden {
             for (int j = 0; j < GRID_COL; j++) {
                 Plant plant = plantGrid[i][j];
                 if (plant != null && !plant.getIsHarvested()) {
-                    boolean hasEnoughWater = moistureSensor.getSoilMoistureLevel() >= plant.getMinWaterRequirement();
-                    boolean hasEnoughSunlight = lightingSystem.getSunlightHours() >= plant.getSunlightNeeded();
-                    boolean isIdealTemperature = temperatureSensor.getCurrentTemperature() >= plant.getMinIdealTemperature()
-                            && temperatureSensor.getCurrentTemperature() <= plant.getMaxIdealTemperature();
+                    int soilMoisture = moistureSensor.getSoilMoistureLevel();
+                    int currentLightHours = lightingSystem.getSunlightHours();
+                    int currentTemperature = temperatureSensor.getCurrentTemperature();
+
+                    boolean hasEnoughWater = soilMoisture >= plant.getMinWaterRequirement();
+                    boolean hasEnoughSunlight = currentLightHours >= plant.getSunlightNeeded();
+
+                    // Allow a slight temperature tolerance
+                    boolean isIdealTemperature = (currentTemperature >= plant.getMinIdealTemperature() - 2) &&
+                            (currentTemperature <= plant.getMaxIdealTemperature() + 2);
+
+                    // Debugging Log
+                    logSystem.logEvent("Checking growth of " + plant.getName() + " at (" + i + "," + j + ") - " +
+                            "Water: " + soilMoisture + "/" + plant.getMinWaterRequirement() + ", " +
+                            "Sunlight: " + currentLightHours + "/" + plant.getSunlightNeeded() + ", " +
+                            "Temperature: " + currentTemperature + "°C (Ideal: " + plant.getMinIdealTemperature() + "-" + plant.getMaxIdealTemperature() + "°C)");
 
                     if (hasEnoughWater && hasEnoughSunlight && isIdealTemperature) {
-                        plant.growOneDay(lightingSystem.getSunlightHours());
-                        logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") growth hours: " + plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
+                        plant.growOneDay(currentLightHours);
+                        logSystem.logEvent("🌱 " + plant.getName() + " at (" + i + "," + j + ") grew! Growth: " +
+                                plant.getCurrentGrowthHours() + "/" + plant.getHoursToGrow());
                     } else {
-                        logSystem.logEvent(plant.getName() + " at (" + i + "," + j + ") did not grow due to insufficient conditions.");
+                        logSystem.logEvent("🚨 " + plant.getName() + " at (" + i + "," + j + ") did NOT grow due to insufficient conditions.");
                     }
                 }
             }

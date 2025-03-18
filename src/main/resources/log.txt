@@ -1,557 +1,1405 @@
-[2025-03-17T17:42:05.262941] Added Eggplant at (2, 1).
-[2025-03-17T17:42:05.271689] Added Lavender at (0, 0).
-[2025-03-17T17:42:05.272028] Added Eggplant at (1, 5).
-[2025-03-17T17:42:05.272305] Added Lavender at (2, 3).
-[2025-03-17T17:42:05.273153] Added Lettuce at (1, 2).
-[2025-03-17T17:42:05.273452] Added Lavender at (2, 4).
-[2025-03-17T17:42:05.273839] Added Eggplant at (4, 2).
-[2025-03-17T17:42:05.274752] Added Lavender at (0, 1).
-[2025-03-17T17:42:05.275552] Added Pumpkin at (1, 3).
-[2025-03-17T17:42:05.275764] Added Corn at (0, 5).
-[2025-03-17T17:42:05.275906] Added Lavender at (3, 0).
-[2025-03-17T17:42:05.276043] Added Pumpkin at (3, 3).
-[2025-03-17T17:42:05.276176] Added Corn at (4, 0).
-[2025-03-17T17:42:05.276509] Added Eggplant at (3, 1).
-[2025-03-17T17:42:05.276785] Added Eggplant at (5, 0).
-[2025-03-17T17:42:05.276936] Added Pumpkin at (5, 5).
-[2025-03-17T17:42:05.277065] Added Pumpkin at (5, 1).
-[2025-03-17T17:42:05.277276] Added Carrot at (5, 3).
-[2025-03-17T17:42:05.277406] Added Pumpkin at (3, 2).
-[2025-03-17T17:42:05.277534] Added Carrot at (5, 2).
-[2025-03-17T17:42:05.277655] Added Pumpkin at (2, 5).
-[2025-03-17T17:42:05.277777] Added Eggplant at (3, 4).
-[2025-03-17T17:42:05.277927] Added Corn at (1, 0).
-[2025-03-17T17:42:08.561301] Water evaporated. Remaining water: 99500 ml.
-[2025-03-17T17:42:08.562458] Current water level after possible rainfall: 99500 ml.
-[2025-03-17T17:42:08.567473] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:08.567994] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:08.568140] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:08.568250] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:08.568373] Plant at (1, 2) does not need watering.
-[2025-03-17T17:42:08.568495] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:08.568597] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:08.568696] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:08.568803] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:08.568892] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:08.568968] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:08.569054] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:08.569168] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:08.569255] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:08.569522] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:08.569690] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:08.570033] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:08.570237] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:08.570370] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:08.570626] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:08.570737] Plant at (5, 2) does not need watering.
-[2025-03-17T17:42:08.570834] Plant at (5, 3) does not need watering.
-[2025-03-17T17:42:08.570925] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:08.571170] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:08.571324] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:08.580433] Harvesting system activated.
-[2025-03-17T17:42:08.610055] No Plant Harvested.
-[2025-03-17T17:42:08.610450] Water evaporated. Remaining water: 99000 ml.
-[2025-03-17T17:42:08.610594] Current water level after possible rainfall: 99000 ml.
-[2025-03-17T17:42:08.610700] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:08.610802] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:08.610890] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:08.610983] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:08.611108] Plant at (1, 2) does not need watering.
-[2025-03-17T17:42:08.611543] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:08.611886] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:08.614164] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:08.614627] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:08.614758] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:08.614934] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:08.615248] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:08.615412] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:08.615525] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:08.615635] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:08.615908] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:08.616114] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:08.616591] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:08.616889] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:08.617001] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:08.617115] Plant at (5, 2) does not need watering.
-[2025-03-17T17:42:08.617333] Plant at (5, 3) does not need watering.
-[2025-03-17T17:42:08.617451] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:08.617554] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:08.617676] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:08.617810] Harvesting system activated.
-[2025-03-17T17:42:08.617933] No Plant Harvested.
-[2025-03-17T17:42:08.618274] Water evaporated. Remaining water: 98500 ml.
-[2025-03-17T17:42:08.618471] Current water level after possible rainfall: 98500 ml.
-[2025-03-17T17:42:08.618583] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:08.618697] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:08.618835] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:08.618969] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:08.619085] Plant at (1, 2) does not need watering.
-[2025-03-17T17:42:08.619215] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:08.620079] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:08.620577] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:08.620814] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:08.620913] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:08.621009] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:08.621097] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:08.621195] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:08.621287] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:08.621394] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:08.621499] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:08.621596] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:08.621697] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:08.622083] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:08.623171] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:08.623275] Plant at (5, 2) does not need watering.
-[2025-03-17T17:42:08.623377] Plant at (5, 3) does not need watering.
-[2025-03-17T17:42:08.623467] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:08.623567] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:08.623834] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:08.624029] Harvesting system activated.
-[2025-03-17T17:42:08.624163] No Plant Harvested.
-[2025-03-17T17:42:09.629829] Water evaporated. Remaining water: 98000 ml.
-[2025-03-17T17:42:09.642980] Current water level after possible rainfall: 100000 ml.
-[2025-03-17T17:42:09.644827] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:09.645250] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:09.645373] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:09.645479] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:09.645990] Plant at (1, 2) does not need watering.
-[2025-03-17T17:42:09.646161] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:09.646275] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:09.646367] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:09.647410] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:09.647906] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:09.648609] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:09.649850] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:09.650509] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:09.650617] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:09.650713] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:09.650838] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:09.650955] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:09.651060] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:09.651144] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:09.651227] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:09.651310] Plant at (5, 2) does not need watering.
-[2025-03-17T17:42:09.651771] Plant at (5, 3) does not need watering.
-[2025-03-17T17:42:09.653903] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:09.654389] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:09.655049] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:09.655801] Lettuce at (1,2) has died due to prolonged unfavorable conditions.
-[2025-03-17T17:42:09.656132] Harvesting system activated.
-[2025-03-17T17:42:09.656286] No Plant Harvested.
-[2025-03-17T17:42:10.416958] Water evaporated. Remaining water: 99500 ml.
-[2025-03-17T17:42:10.417578] Current water level after possible rainfall: 99500 ml.
-[2025-03-17T17:42:10.417886] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:10.418110] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:10.418240] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:10.418333] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:10.418422] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:10.418502] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:10.418585] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:10.418666] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:10.418758] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:10.418834] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:10.418911] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:10.418988] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:10.419065] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:10.419159] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:10.419711] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:10.420341] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:10.420620] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:10.420752] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:10.420869] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:10.420998] Plant at (5, 2) does not need watering.
-[2025-03-17T17:42:10.421166] Plant at (5, 3) does not need watering.
-[2025-03-17T17:42:10.421250] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:10.421483] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:10.422608] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:10.422990] Harvesting system activated.
-[2025-03-17T17:42:10.423559] No Plant Harvested.
-[2025-03-17T17:42:10.425408] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:10.425620] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:10.425716] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:10.425806] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:10.425891] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:10.425973] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:10.426047] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:10.426118] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:10.426191] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:10.426260] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:10.426328] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:10.426394] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:10.426461] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:10.426530] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:10.426657] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:10.426740] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:10.426813] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:10.426884] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:10.426955] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:10.427023] Plant at (5, 2) does not need watering.
-[2025-03-17T17:42:10.427093] Plant at (5, 3) does not need watering.
-[2025-03-17T17:42:10.427181] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:10.427277] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:10.427778] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:10.441655] Lavender at (0,0) growth hours: 8/12
-[2025-03-17T17:42:10.442317] Lavender at (0,1) growth hours: 8/12
-[2025-03-17T17:42:10.442584] Corn at (0,5) growth hours: 8/12
-[2025-03-17T17:42:10.442755] Corn at (1,0) growth hours: 8/12
-[2025-03-17T17:42:10.442877] Pumpkin at (1,3) growth hours: 8/14
-[2025-03-17T17:42:10.442991] Eggplant at (1,5) growth hours: 8/23
-[2025-03-17T17:42:10.443119] Eggplant at (2,1) growth hours: 8/23
-[2025-03-17T17:42:10.443444] Lavender at (2,3) growth hours: 8/12
-[2025-03-17T17:42:10.443598] Lavender at (2,4) growth hours: 8/12
-[2025-03-17T17:42:10.443705] Pumpkin at (2,5) growth hours: 8/14
-[2025-03-17T17:42:10.443805] Lavender at (3,0) growth hours: 8/12
-[2025-03-17T17:42:10.443904] Eggplant at (3,1) growth hours: 8/23
-[2025-03-17T17:42:10.444010] Pumpkin at (3,2) growth hours: 8/14
-[2025-03-17T17:42:10.444181] Pumpkin at (3,3) growth hours: 8/14
-[2025-03-17T17:42:10.444730] Eggplant at (3,4) growth hours: 8/23
-[2025-03-17T17:42:10.444990] Corn at (4,0) growth hours: 8/12
-[2025-03-17T17:42:10.445296] Eggplant at (4,2) growth hours: 8/23
-[2025-03-17T17:42:10.445929] Eggplant at (5,0) growth hours: 8/23
-[2025-03-17T17:42:10.446184] Pumpkin at (5,1) growth hours: 8/14
-[2025-03-17T17:42:10.446910] Carrot at (5,2) growth hours: 8/7
-[2025-03-17T17:42:10.447302] Carrot at (5,3) growth hours: 8/7
-[2025-03-17T17:42:10.447534] Pumpkin at (5,5) growth hours: 8/14
-[2025-03-17T17:42:10.447641] Harvesting system activated.
-[2025-03-17T17:42:10.449023] Harvested Carrot from (5, 2).
-[2025-03-17T17:42:10.449174] Harvested Carrot from (5, 3).
-[2025-03-17T17:42:11.417431] Water evaporated. Remaining water: 99000 ml.
-[2025-03-17T17:42:11.418787] Current water level after possible rainfall: 99000 ml.
-[2025-03-17T17:42:11.418968] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:11.419072] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:11.419179] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:11.419264] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:11.419387] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:11.419484] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:11.419710] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:11.419834] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:11.419919] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:11.419997] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:11.420165] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:11.420268] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:11.420400] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:11.421279] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:11.421547] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:11.421634] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:11.421716] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:11.421800] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:11.421879] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:11.421952] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:11.422065] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:11.422456] Artificial lights turned ON to support plant growth.
-[2025-03-17T17:42:11.422705] Harvesting system activated.
-[2025-03-17T17:42:11.422950] No Plant Harvested.
-[2025-03-17T17:42:12.417333] Water evaporated. Remaining water: 98500 ml.
-[2025-03-17T17:42:12.418072] Current water level after possible rainfall: 98500 ml.
-[2025-03-17T17:42:12.418252] Artificial lights turned OFF.
-[2025-03-17T17:42:12.418362] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:12.418458] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:12.418542] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:12.418646] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:12.418793] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:12.418912] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:12.419380] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:12.419797] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:12.421035] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:12.423170] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:12.426413] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:12.431048] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:12.432947] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:12.433342] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:12.433760] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:12.433899] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:12.433979] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:12.434323] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:12.435011] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:12.435263] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:12.435380] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:12.435504] Artificial lights turned OFF.
-[2025-03-17T17:42:12.435951] Harvesting system activated.
-[2025-03-17T17:42:12.436164] No Plant Harvested.
-[2025-03-17T17:42:13.809350] Water evaporated. Remaining water: 98000 ml.
-[2025-03-17T17:42:13.810404] Current water level after possible rainfall: 98000 ml.
-[2025-03-17T17:42:13.811566] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:13.811790] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:13.811873] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:13.811945] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:13.812016] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:13.812079] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:13.812138] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:13.812199] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:13.812261] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:13.812323] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:13.812380] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:13.812439] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:13.812495] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:13.812552] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:13.812617] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:13.812672] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:13.812728] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:13.812782] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:13.812838] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:13.812891] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:13.813244] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:13.813615] Artificial lights turned OFF.
-[2025-03-17T17:42:13.813753] Harvesting system activated.
-[2025-03-17T17:42:13.813855] No Plant Harvested.
-[2025-03-17T17:42:14.416780] Water evaporated. Remaining water: 97500 ml.
-[2025-03-17T17:42:14.417187] Current water level after possible rainfall: 97500 ml.
-[2025-03-17T17:42:14.417318] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:14.419976] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:14.420153] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:14.420251] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:14.423154] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:14.426900] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:14.426994] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:14.427069] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:14.430008] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:14.430086] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:14.430156] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:14.430232] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:14.430297] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:14.430362] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:14.430434] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:14.430499] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:14.430560] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:14.430622] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:14.430690] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:14.430757] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:14.430898] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:14.431021] Artificial lights turned OFF.
-[2025-03-17T17:42:14.431490] Harvesting system activated.
-[2025-03-17T17:42:14.431655] No Plant Harvested.
-[2025-03-17T17:42:15.416737] Water evaporated. Remaining water: 97000 ml.
-[2025-03-17T17:42:15.417697] Current water level after possible rainfall: 97000 ml.
-[2025-03-17T17:42:15.417997] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:15.418108] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:15.418196] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:15.418276] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:15.418393] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:15.418491] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:15.418847] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:15.419571] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:15.420052] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:15.420840] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:15.421141] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:15.421216] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:15.421288] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:15.421354] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:15.421422] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:15.421482] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:15.421546] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:15.421609] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:15.421676] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:15.421743] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:15.421820] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:15.422021] Artificial lights turned OFF.
-[2025-03-17T17:42:15.422248] Harvesting system activated.
-[2025-03-17T17:42:15.422367] No Plant Harvested.
-[2025-03-17T17:42:15.422483] Plant at (0, 0) does not need watering.
-[2025-03-17T17:42:15.422554] Plant at (0, 1) does not need watering.
-[2025-03-17T17:42:15.422620] Plant at (0, 5) does not need watering.
-[2025-03-17T17:42:15.422682] Plant at (1, 0) does not need watering.
-[2025-03-17T17:42:15.422750] Plant at (1, 3) does not need watering.
-[2025-03-17T17:42:15.422811] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:15.422879] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:15.422943] Plant at (2, 3) does not need watering.
-[2025-03-17T17:42:15.423006] Plant at (2, 4) does not need watering.
-[2025-03-17T17:42:15.423073] Plant at (2, 5) does not need watering.
-[2025-03-17T17:42:15.423143] Plant at (3, 0) does not need watering.
-[2025-03-17T17:42:15.423227] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:15.423299] Plant at (3, 2) does not need watering.
-[2025-03-17T17:42:15.423399] Plant at (3, 3) does not need watering.
-[2025-03-17T17:42:15.424607] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:15.425013] Plant at (4, 0) does not need watering.
-[2025-03-17T17:42:15.425108] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:15.425186] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:15.425266] Plant at (5, 1) does not need watering.
-[2025-03-17T17:42:15.425337] Plant at (5, 5) does not need watering.
-[2025-03-17T17:42:15.425421] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:15.425518] Artificial lights turned OFF.
-[2025-03-17T17:42:15.425721] Lavender at (0,0) growth hours: 16/12
-[2025-03-17T17:42:15.425825] Lavender at (0,1) growth hours: 16/12
-[2025-03-17T17:42:15.425912] Corn at (0,5) growth hours: 16/12
-[2025-03-17T17:42:15.426016] Corn at (1,0) growth hours: 16/12
-[2025-03-17T17:42:15.426138] Pumpkin at (1,3) growth hours: 16/14
-[2025-03-17T17:42:15.426240] Eggplant at (1,5) growth hours: 16/23
-[2025-03-17T17:42:15.426503] Eggplant at (2,1) growth hours: 16/23
-[2025-03-17T17:42:15.426748] Lavender at (2,3) growth hours: 16/12
-[2025-03-17T17:42:15.427651] Lavender at (2,4) growth hours: 16/12
-[2025-03-17T17:42:15.427991] Pumpkin at (2,5) growth hours: 16/14
-[2025-03-17T17:42:15.428082] Lavender at (3,0) growth hours: 16/12
-[2025-03-17T17:42:15.428191] Eggplant at (3,1) growth hours: 16/23
-[2025-03-17T17:42:15.428278] Pumpkin at (3,2) growth hours: 16/14
-[2025-03-17T17:42:15.428454] Pumpkin at (3,3) growth hours: 16/14
-[2025-03-17T17:42:15.428928] Eggplant at (3,4) growth hours: 16/23
-[2025-03-17T17:42:15.429440] Corn at (4,0) growth hours: 16/12
-[2025-03-17T17:42:15.431586] Eggplant at (4,2) growth hours: 16/23
-[2025-03-17T17:42:15.432662] Eggplant at (5,0) growth hours: 16/23
-[2025-03-17T17:42:15.433010] Pumpkin at (5,1) growth hours: 16/14
-[2025-03-17T17:42:15.433111] Pumpkin at (5,5) growth hours: 16/14
-[2025-03-17T17:42:15.433210] Harvesting system activated.
-[2025-03-17T17:42:15.433349] Harvested Lavender from (0, 0).
-[2025-03-17T17:42:15.433529] Harvested Lavender from (0, 1).
-[2025-03-17T17:42:15.434599] Harvested Corn from (0, 5).
-[2025-03-17T17:42:15.434763] Harvested Corn from (1, 0).
-[2025-03-17T17:42:15.434851] Harvested Pumpkin from (1, 3).
-[2025-03-17T17:42:15.434936] Harvested Lavender from (2, 3).
-[2025-03-17T17:42:15.435018] Harvested Lavender from (2, 4).
-[2025-03-17T17:42:15.435095] Harvested Pumpkin from (2, 5).
-[2025-03-17T17:42:15.435174] Harvested Lavender from (3, 0).
-[2025-03-17T17:42:15.435251] Harvested Pumpkin from (3, 2).
-[2025-03-17T17:42:15.435332] Harvested Pumpkin from (3, 3).
-[2025-03-17T17:42:15.435403] Harvested Corn from (4, 0).
-[2025-03-17T17:42:15.435475] Harvested Pumpkin from (5, 1).
-[2025-03-17T17:42:15.435557] Harvested Pumpkin from (5, 5).
-[2025-03-17T17:42:16.417315] Water evaporated. Remaining water: 96500 ml.
-[2025-03-17T17:42:16.419202] Current water level after possible rainfall: 96500 ml.
-[2025-03-17T17:42:16.421352] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:16.422002] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:16.422085] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:16.422155] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:16.422227] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:16.422294] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:16.422389] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:16.422550] Artificial lights turned OFF.
-[2025-03-17T17:42:16.422672] Harvesting system activated.
-[2025-03-17T17:42:16.422761] No Plant Harvested.
-[2025-03-17T17:42:17.416555] Water evaporated. Remaining water: 96000 ml.
-[2025-03-17T17:42:17.417376] Current water level after possible rainfall: 96000 ml.
-[2025-03-17T17:42:17.417539] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:17.417632] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:17.417708] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:17.417777] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:17.417844] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:17.417970] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:17.418055] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:17.418153] Artificial lights turned OFF.
-[2025-03-17T17:42:17.418228] Harvesting system activated.
-[2025-03-17T17:42:17.418314] No Plant Harvested.
-[2025-03-17T17:42:17.418803] Pest infestation detected: Mealybug
-[2025-03-17T17:42:18.416531] Water evaporated. Remaining water: 95500 ml.
-[2025-03-17T17:42:18.416944] Current water level after possible rainfall: 95500 ml.
-[2025-03-17T17:42:18.417365] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:18.417677] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:18.417759] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:18.417832] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:18.417903] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:18.417973] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:18.444184] Pest control initiated at (1,5) for Eggplant. Pest detected: Mealybug
-[2025-03-17T17:42:18.445173] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:18.445328] Artificial lights turned OFF.
-[2025-03-17T17:42:18.445427] Harvesting system activated.
-[2025-03-17T17:42:18.445523] No Plant Harvested.
-[2025-03-17T17:42:19.416512] Water evaporated. Remaining water: 95000 ml.
-[2025-03-17T17:42:19.416845] Current water level after possible rainfall: 95000 ml.
-[2025-03-17T17:42:19.416967] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:19.417057] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:19.417144] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:19.417224] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:19.417304] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:19.417380] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:19.417811] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:19.417926] Artificial lights turned OFF.
-[2025-03-17T17:42:19.418002] Harvesting system activated.
-[2025-03-17T17:42:19.418088] No Plant Harvested.
-[2025-03-17T17:42:20.416813] Water evaporated. Remaining water: 94500 ml.
-[2025-03-17T17:42:20.417244] Current water level after possible rainfall: 94500 ml.
-[2025-03-17T17:42:20.417364] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:20.417444] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:20.417515] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:20.417589] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:20.417656] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:20.417721] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:20.417811] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:20.417922] Artificial lights turned OFF.
-[2025-03-17T17:42:20.417999] Harvesting system activated.
-[2025-03-17T17:42:20.418081] No Plant Harvested.
-[2025-03-17T17:42:20.418168] Plant at (1, 5) does not need watering.
-[2025-03-17T17:42:20.418238] Plant at (2, 1) does not need watering.
-[2025-03-17T17:42:20.418306] Plant at (3, 1) does not need watering.
-[2025-03-17T17:42:20.418369] Plant at (3, 4) does not need watering.
-[2025-03-17T17:42:20.418431] Plant at (4, 2) does not need watering.
-[2025-03-17T17:42:20.418495] Plant at (5, 0) does not need watering.
-[2025-03-17T17:42:20.418566] Temperature is adequate (25°C). No heating needed.
-[2025-03-17T17:42:20.418644] Artificial lights turned OFF.
-[2025-03-17T17:42:20.418741] Eggplant at (1,5) growth hours: 24/23
-[2025-03-17T17:42:20.418818] Eggplant at (2,1) growth hours: 24/23
-[2025-03-17T17:42:20.418897] Eggplant at (3,1) growth hours: 24/23
-[2025-03-17T17:42:20.419001] Eggplant at (3,4) growth hours: 24/23
-[2025-03-17T17:42:20.419081] Eggplant at (4,2) growth hours: 24/23
-[2025-03-17T17:42:20.419154] Eggplant at (5,0) growth hours: 24/23
-[2025-03-17T17:42:20.419214] Harvesting system activated.
-[2025-03-17T17:42:20.419313] Harvested Eggplant from (1, 5).
-[2025-03-17T17:42:20.419396] Harvested Eggplant from (2, 1).
-[2025-03-17T17:42:20.419471] Harvested Eggplant from (3, 1).
-[2025-03-17T17:42:20.419579] Harvested Eggplant from (3, 4).
-[2025-03-17T17:42:20.419648] Harvested Eggplant from (4, 2).
-[2025-03-17T17:42:20.419711] Harvested Eggplant from (5, 0).
-[2025-03-17T17:42:21.416726] Water evaporated. Remaining water: 94000 ml.
-[2025-03-17T17:42:21.417054] Current water level after possible rainfall: 94000 ml.
-[2025-03-17T17:42:21.417609] Temperature too low (25°C). Heating system activated.
-[2025-03-17T17:42:21.417814] Temperature increased to 30°C.
-[2025-03-17T17:42:21.417973] Artificial lights turned OFF.
-[2025-03-17T17:42:21.418160] Harvesting system activated.
-[2025-03-17T17:42:21.418341] No Plant Harvested.
-[2025-03-17T17:42:22.416586] Water evaporated. Remaining water: 93500 ml.
-[2025-03-17T17:42:22.417002] Current water level after possible rainfall: 93500 ml.
-[2025-03-17T17:42:22.417178] Temperature too low (30°C). Heating system activated.
-[2025-03-17T17:42:22.417303] Temperature increased to 35°C.
-[2025-03-17T17:42:22.417419] Artificial lights turned OFF.
-[2025-03-17T17:42:22.417521] Harvesting system activated.
-[2025-03-17T17:42:22.418124] No Plant Harvested.
-[2025-03-17T17:42:23.416470] Water evaporated. Remaining water: 93000 ml.
-[2025-03-17T17:42:23.417474] Current water level after possible rainfall: 93000 ml.
-[2025-03-17T17:42:23.417982] Temperature too low (35°C). Heating system activated.
-[2025-03-17T17:42:23.418659] Temperature increased to 40°C.
-[2025-03-17T17:42:23.418979] Artificial lights turned OFF.
-[2025-03-17T17:42:23.419078] Harvesting system activated.
-[2025-03-17T17:42:23.419194] No Plant Harvested.
-[2025-03-17T17:42:24.433316] Water evaporated. Remaining water: 92500 ml.
-[2025-03-17T17:42:24.434174] Current water level after possible rainfall: 92500 ml.
-[2025-03-17T17:42:24.434888] Artificial lights turned OFF.
-[2025-03-17T17:42:24.435305] Temperature too low (40°C). Heating system activated.
-[2025-03-17T17:42:24.435701] Temperature increased to 45°C.
-[2025-03-17T17:42:24.435950] Artificial lights turned OFF.
-[2025-03-17T17:42:24.436102] Harvesting system activated.
-[2025-03-17T17:42:24.436301] No Plant Harvested.
-[2025-03-17T17:42:25.421412] Water evaporated. Remaining water: 92000 ml.
-[2025-03-17T17:42:25.426133] Current water level after possible rainfall: 92000 ml.
-[2025-03-17T17:42:25.435219] Temperature too low (45°C). Heating system activated.
-[2025-03-17T17:42:25.436371] Temperature increased to 50°C.
-[2025-03-17T17:42:25.436811] Artificial lights turned OFF.
-[2025-03-17T17:42:25.437104] Harvesting system activated.
-[2025-03-17T17:42:25.437392] No Plant Harvested.
-[2025-03-17T17:42:25.437667] Temperature too low (50°C). Heating system activated.
-[2025-03-17T17:42:25.437815] Temperature increased to 55°C.
-[2025-03-17T17:42:25.437943] Artificial lights turned OFF.
-[2025-03-17T17:42:25.438044] Harvesting system activated.
-[2025-03-17T17:42:25.438158] No Plant Harvested.
-[2025-03-17T17:42:26.471995] Water evaporated. Remaining water: 91500 ml.
-[2025-03-17T17:42:26.473137] Current water level after possible rainfall: 93351 ml.
-[2025-03-17T17:42:26.473377] Temperature too low (55°C). Heating system activated.
-[2025-03-17T17:42:26.473631] Temperature increased to 60°C.
-[2025-03-17T17:42:26.473764] Artificial lights turned OFF.
-[2025-03-17T17:42:26.474141] Harvesting system activated.
-[2025-03-17T17:42:26.474567] No Plant Harvested.
-[2025-03-17T17:42:27.416561] Water evaporated. Remaining water: 92851 ml.
-[2025-03-17T17:42:27.417001] Current water level after possible rainfall: 92851 ml.
-[2025-03-17T17:42:27.417380] Temperature too low (60°C). Heating system activated.
-[2025-03-17T17:42:27.417550] Temperature increased to 65°C.
-[2025-03-17T17:42:27.417968] Artificial lights turned OFF.
-[2025-03-17T17:42:27.418258] Harvesting system activated.
-[2025-03-17T17:42:27.418484] No Plant Harvested.
-[2025-03-17T17:42:28.416516] Water evaporated. Remaining water: 92351 ml.
-[2025-03-17T17:42:28.417202] Current water level after possible rainfall: 92351 ml.
-[2025-03-17T17:42:28.417506] Temperature too low (65°C). Heating system activated.
-[2025-03-17T17:42:28.417847] Temperature increased to 70°C.
-[2025-03-17T17:42:28.418216] Artificial lights turned OFF.
-[2025-03-17T17:42:28.418377] Harvesting system activated.
-[2025-03-17T17:42:28.418603] No Plant Harvested.
-[2025-03-17T17:42:29.466076] Water evaporated. Remaining water: 91851 ml.
-[2025-03-17T17:42:29.466809] Current water level after possible rainfall: 91851 ml.
-[2025-03-17T17:42:29.467134] Temperature too low (70°C). Heating system activated.
-[2025-03-17T17:42:29.467366] Temperature increased to 75°C.
-[2025-03-17T17:42:29.467568] Artificial lights turned OFF.
-[2025-03-17T17:42:29.467694] Harvesting system activated.
-[2025-03-17T17:42:29.467860] No Plant Harvested.
+[2025-03-17T16:23:56.665037200] Added Pumpkin at (4, 0).
+[2025-03-17T16:23:56.667037900] Added Eggplant at (0, 1).
+[2025-03-17T16:23:56.667037900] Added Lettuce at (1, 3).
+[2025-03-17T16:23:56.667037900] Added Eggplant at (0, 3).
+[2025-03-17T16:23:56.668037900] Added Lettuce at (2, 5).
+[2025-03-17T16:23:56.668037900] Added Lavender at (5, 3).
+[2025-03-17T16:23:56.668037900] Added Lavender at (3, 3).
+[2025-03-17T16:23:56.668037900] Added Lavender at (0, 0).
+[2025-03-17T16:23:56.668037900] Added Eggplant at (3, 1).
+[2025-03-17T16:23:56.669038500] Added Lavender at (2, 3).
+[2025-03-17T16:23:56.669038500] Added Carrot at (2, 2).
+[2025-03-17T16:23:56.669038500] Added Lavender at (4, 5).
+[2025-03-17T16:23:56.669038500] Added Pumpkin at (5, 2).
+[2025-03-17T16:23:56.669038500] Added Lettuce at (2, 4).
+[2025-03-17T16:23:56.670038100] Added Corn at (3, 4).
+[2025-03-17T16:23:56.670038100] Added Corn at (0, 5).
+[2025-03-17T16:23:56.670038100] Added Lettuce at (3, 0).
+[2025-03-17T16:23:56.670038100] Added Lettuce at (4, 3).
+[2025-03-17T16:23:56.670038100] Added Pumpkin at (5, 4).
+[2025-03-17T16:23:56.671038200] Added Lettuce at (1, 2).
+[2025-03-17T16:23:56.671038200] Added Lavender at (4, 2).
+[2025-03-17T16:23:56.671038200] Added Carrot at (3, 2).
+[2025-03-17T16:23:56.671038200] Added Carrot at (5, 1).
+[2025-03-17T16:23:56.671038200] Added Carrot at (5, 5).
+[2025-03-17T16:23:56.672037] Added Lettuce at (1, 5).
+[2025-03-17T16:23:56.672037] Added Corn at (3, 5).
+[2025-03-17T16:23:56.672037] Added Corn at (2, 0).
+[2025-03-17T16:23:56.672037] Added Lavender at (1, 0).
+[2025-03-17T16:23:56.672037] Added Pumpkin at (5, 0).
+[2025-03-17T16:23:56.673036800] Added Eggplant at (0, 4).
+[2025-03-17T16:23:56.673036800] Added Lavender at (2, 1).
+[2025-03-17T16:23:56.673036800] Added Carrot at (0, 2).
+[2025-03-17T16:23:57.748434900] Water evaporated. Remaining water: 99500 ml.
+[2025-03-17T16:23:57.748434900] Current water level after possible rainfall: 100000 ml.
+[2025-03-17T16:23:57.750434600] Plant at (0, 0) does not need watering.
+[2025-03-17T16:23:57.750434600] Plant at (0, 1) does not need watering.
+[2025-03-17T16:23:57.752435] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:23:57.753434900] Plant at (0, 3) does not need watering.
+[2025-03-17T16:23:57.753434900] Plant at (0, 4) does not need watering.
+[2025-03-17T16:23:57.753434900] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:23:57.753434900] Plant at (1, 0) does not need watering.
+[2025-03-17T16:23:57.753434900] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:23:57.753434900] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:23:57.753434900] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:23:57.754434400] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:23:57.754434400] Plant at (2, 1) does not need watering.
+[2025-03-17T16:23:57.754434400] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:23:57.754434400] Plant at (2, 3) does not need watering.
+[2025-03-17T16:23:57.754434400] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:23:57.755435200] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:23:57.755435200] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:23:57.755435200] Plant at (3, 1) does not need watering.
+[2025-03-17T16:23:57.755435200] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:23:57.755435200] Plant at (3, 3) does not need watering.
+[2025-03-17T16:23:57.755435200] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:23:57.756434800] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:23:57.756434800] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:23:57.756434800] Plant at (4, 2) does not need watering.
+[2025-03-17T16:23:57.756434800] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:23:57.756434800] Plant at (4, 5) does not need watering.
+[2025-03-17T16:23:57.757434500] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:23:57.757434500] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:23:57.757434500] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:23:57.757434500] Plant at (5, 3) does not need watering.
+[2025-03-17T16:23:57.757434500] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:23:57.757434500] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:23:57.758434200] Temperature is adequate (15°C). No heating needed.
+[2025-03-17T16:23:57.758434200] Artificial lights turned OFF.
+[2025-03-17T16:23:57.762438500] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.762438500] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:57.763438400] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:57.763438400] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:57.764438200] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:57.764438200] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:57.764438200] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.764438200] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.764438200] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.764438200] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.764438200] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:57.764438200] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.765438800] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:57.765438800] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.765438800] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.765438800] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.765438800] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.765438800] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:57.766438600] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:57.766438600] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.766438600] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:57.766438600] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:57.766438600] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.766438600] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.767438700] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:57.767438700] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.767438700] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.767438700] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:57.767438700] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.767438700] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.768438500] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:57.768438500] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:57.768438500] Harvesting system activated.
+[2025-03-17T16:23:57.768438500] No Plant Harvested.
+[2025-03-17T16:23:58.740082500] Water evaporated. Remaining water: 85400 ml.
+[2025-03-17T16:23:58.740082500] Current water level after possible rainfall: 85400 ml.
+[2025-03-17T16:23:58.740082500] Plant at (0, 0) does not need watering.
+[2025-03-17T16:23:58.740082500] Plant at (0, 1) does not need watering.
+[2025-03-17T16:23:58.740082500] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:23:58.741081800] Plant at (0, 3) does not need watering.
+[2025-03-17T16:23:58.741081800] Plant at (0, 4) does not need watering.
+[2025-03-17T16:23:58.741081800] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:23:58.741081800] Plant at (1, 0) does not need watering.
+[2025-03-17T16:23:58.741081800] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:23:58.741081800] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:23:58.742082100] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:23:58.742082100] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:23:58.742082100] Plant at (2, 1) does not need watering.
+[2025-03-17T16:23:58.742082100] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:23:58.742082100] Plant at (2, 3) does not need watering.
+[2025-03-17T16:23:58.742082100] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:23:58.742082100] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:23:58.742082100] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:23:58.743081900] Plant at (3, 1) does not need watering.
+[2025-03-17T16:23:58.743081900] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:23:58.743081900] Plant at (3, 3) does not need watering.
+[2025-03-17T16:23:58.743081900] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:23:58.743081900] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:23:58.743081900] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:23:58.744081400] Plant at (4, 2) does not need watering.
+[2025-03-17T16:23:58.744081400] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:23:58.744081400] Plant at (4, 5) does not need watering.
+[2025-03-17T16:23:58.744081400] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:23:58.745082] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:23:58.745082] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:23:58.745082] Plant at (5, 3) does not need watering.
+[2025-03-17T16:23:58.745082] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:23:58.745082] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:23:58.745082] Temperature is adequate (15°C). No heating needed.
+[2025-03-17T16:23:58.745082] Artificial lights turned OFF.
+[2025-03-17T16:23:58.746081900] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.746081900] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:58.746081900] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:58.746081900] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:58.746081900] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:58.747082800] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:58.747082800] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.747082800] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.747082800] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.747082800] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.747082800] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:58.747082800] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.747082800] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:58.748082700] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.748082700] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.748082700] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.748082700] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.748082700] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 15°C (Ideal: 18-32°C)
+[2025-03-17T16:23:58.748082700] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:58.749082100] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.749082100] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:58.749082100] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 15°C (Ideal: 18-30°C)
+[2025-03-17T16:23:58.749082100] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.749082100] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.749082100] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 15°C (Ideal: 10-20°C)
+[2025-03-17T16:23:58.749082100] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.750082900] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.750082900] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:58.750082900] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.750082900] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.750082900] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 15°C (Ideal: 15-30°C)
+[2025-03-17T16:23:58.750082900] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 15°C (Ideal: 10-25°C)
+[2025-03-17T16:23:58.751083700] Harvesting system activated.
+[2025-03-17T16:23:58.751083700] No Plant Harvested.
+[2025-03-17T16:23:59.748211400] Water evaporated. Remaining water: 70800 ml.
+[2025-03-17T16:23:59.749209100] Current water level after possible rainfall: 70800 ml.
+[2025-03-17T16:23:59.749209100] Plant at (0, 0) does not need watering.
+[2025-03-17T16:23:59.750209400] Plant at (0, 1) does not need watering.
+[2025-03-17T16:23:59.750209400] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:23:59.751207300] Plant at (0, 3) does not need watering.
+[2025-03-17T16:23:59.751207300] Plant at (0, 4) does not need watering.
+[2025-03-17T16:23:59.751207300] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:23:59.752206500] Plant at (1, 0) does not need watering.
+[2025-03-17T16:23:59.752206500] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:23:59.753205500] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:23:59.753205500] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:23:59.753205500] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:23:59.753205500] Plant at (2, 1) does not need watering.
+[2025-03-17T16:23:59.754203100] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:23:59.754203100] Plant at (2, 3) does not need watering.
+[2025-03-17T16:23:59.754203100] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:23:59.754203100] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:23:59.754203100] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:23:59.754203100] Plant at (3, 1) does not need watering.
+[2025-03-17T16:23:59.755204600] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:23:59.755204600] Plant at (3, 3) does not need watering.
+[2025-03-17T16:23:59.755204600] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:23:59.755204600] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:23:59.755204600] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:23:59.755204600] Plant at (4, 2) does not need watering.
+[2025-03-17T16:23:59.755204600] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:23:59.755204600] Plant at (4, 5) does not need watering.
+[2025-03-17T16:23:59.755204600] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:23:59.756203500] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:23:59.756203500] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:23:59.756203500] Plant at (5, 3) does not need watering.
+[2025-03-17T16:23:59.756203500] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:23:59.756203500] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:23:59.756203500] Temperature is adequate (17°C). No heating needed.
+[2025-03-17T16:23:59.756203500] Artificial lights turned OFF.
+[2025-03-17T16:23:59.756203500] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.756203500] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 17°C (Ideal: 18-32°C)
+[2025-03-17T16:23:59.757203400] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 17°C (Ideal: 10-25°C)
+[2025-03-17T16:23:59.757203400] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 17°C (Ideal: 18-32°C)
+[2025-03-17T16:23:59.757203400] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 17°C (Ideal: 18-32°C)
+[2025-03-17T16:23:59.757203400] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 17°C (Ideal: 18-30°C)
+[2025-03-17T16:23:59.757203400] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.757203400] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.757203400] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.757203400] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.757203400] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 17°C (Ideal: 18-30°C)
+[2025-03-17T16:23:59.757203400] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.758203500] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 17°C (Ideal: 10-25°C)
+[2025-03-17T16:23:59.758203500] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.758203500] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.758203500] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.758203500] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.758203500] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 17°C (Ideal: 18-32°C)
+[2025-03-17T16:23:59.758203500] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 17°C (Ideal: 10-25°C)
+[2025-03-17T16:23:59.758203500] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.758203500] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 17°C (Ideal: 18-30°C)
+[2025-03-17T16:23:59.758203500] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 17°C (Ideal: 18-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 17°C (Ideal: 10-20°C)
+[2025-03-17T16:23:59.759202900] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 17°C (Ideal: 10-25°C)
+[2025-03-17T16:23:59.759202900] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 17°C (Ideal: 15-30°C)
+[2025-03-17T16:23:59.759202900] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 17°C (Ideal: 10-25°C)
+[2025-03-17T16:23:59.760202900] Harvesting system activated.
+[2025-03-17T16:23:59.760202900] No Plant Harvested.
+[2025-03-17T16:24:00.740116900] Water evaporated. Remaining water: 56200 ml.
+[2025-03-17T16:24:00.740116900] Current water level after possible rainfall: 56200 ml.
+[2025-03-17T16:24:00.740116900] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:00.741116800] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:00.741116800] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:24:00.741116800] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:00.741116800] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:00.741116800] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:24:00.741116800] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:00.741116800] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:24:00.741116800] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:24:00.742116600] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:24:00.742116600] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:24:00.742116600] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:00.742116600] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:24:00.742116600] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:00.742116600] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:24:00.742116600] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:24:00.743116200] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:24:00.743116200] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:00.743116200] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:24:00.743116200] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:00.743116200] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:24:00.743116200] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:24:00.743116200] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:24:00.743116200] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:00.744122500] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:24:00.744122500] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:00.744122500] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:24:00.745122] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:24:00.745122] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:24:00.745122] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:00.745122] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:24:00.745122] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:24:00.745122] Temperature is adequate (18°C). No heating needed.
+[2025-03-17T16:24:00.745122] Artificial lights turned OFF.
+[2025-03-17T16:24:00.745122] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.745122] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 18°C (Ideal: 18-32°C)
+[2025-03-17T16:24:00.745122] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 18°C (Ideal: 10-25°C)
+[2025-03-17T16:24:00.746114900] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 18°C (Ideal: 18-32°C)
+[2025-03-17T16:24:00.746114900] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 18°C (Ideal: 18-32°C)
+[2025-03-17T16:24:00.746114900] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 18°C (Ideal: 18-30°C)
+[2025-03-17T16:24:00.746114900] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.746114900] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.746114900] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.746114900] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.746114900] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 18°C (Ideal: 18-30°C)
+[2025-03-17T16:24:00.746114900] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.746114900] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 18°C (Ideal: 10-25°C)
+[2025-03-17T16:24:00.747114600] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.747114600] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.747114600] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.747114600] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.747114600] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 18°C (Ideal: 18-32°C)
+[2025-03-17T16:24:00.747114600] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 18°C (Ideal: 10-25°C)
+[2025-03-17T16:24:00.747114600] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.747114600] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 18°C (Ideal: 18-30°C)
+[2025-03-17T16:24:00.747114600] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 18°C (Ideal: 18-30°C)
+[2025-03-17T16:24:00.747114600] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.747114600] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.748115200] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 18°C (Ideal: 10-20°C)
+[2025-03-17T16:24:00.748115200] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.748115200] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.748115200] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 18°C (Ideal: 10-25°C)
+[2025-03-17T16:24:00.748115200] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.748115200] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.748115200] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 18°C (Ideal: 15-30°C)
+[2025-03-17T16:24:00.748115200] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 18°C (Ideal: 10-25°C)
+[2025-03-17T16:24:00.748115200] Harvesting system activated.
+[2025-03-17T16:24:00.748115200] No Plant Harvested.
+[2025-03-17T16:24:01.747894900] Water evaporated. Remaining water: 41600 ml.
+[2025-03-17T16:24:01.747894900] Current water level after possible rainfall: 45752 ml.
+[2025-03-17T16:24:01.747894900] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:01.747894900] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:01.747894900] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:24:01.748895400] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:01.748895400] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:01.748895400] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:24:01.748895400] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:01.748895400] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:24:01.748895400] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:24:01.748895400] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:24:01.749895300] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:24:01.749895300] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:01.749895300] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:24:01.749895300] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:01.749895300] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:24:01.749895300] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:24:01.749895300] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:24:01.750896] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:01.750896] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:24:01.750896] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:01.750896] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:24:01.750896] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:24:01.750896] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:24:01.750896] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:01.750896] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:24:01.750896] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:01.751895400] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:24:01.751895400] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:24:01.751895400] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:24:01.751895400] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:01.751895400] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:24:01.751895400] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:24:01.751895400] Temperature is adequate (20°C). No heating needed.
+[2025-03-17T16:24:01.751895400] Artificial lights turned OFF.
+[2025-03-17T16:24:01.751895400] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.751895400] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.752895300] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.752895300] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.752895300] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.752895300] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.752895300] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.752895300] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.752895300] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.752895300] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.752895300] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.752895300] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.753895700] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.753895700] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.753895700] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.753895700] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.753895700] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.753895700] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.753895700] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.753895700] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.753895700] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.753895700] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.753895700] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.754895] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.754895] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.754895] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.754895] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.754895] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.754895] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.754895] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.755896200] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.755896200] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.755896200] Harvesting system activated.
+[2025-03-17T16:24:01.755896200] No Plant Harvested.
+[2025-03-17T16:24:01.755896200] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:01.755896200] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:01.755896200] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:24:01.756895900] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:01.756895900] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:01.756895900] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:24:01.756895900] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:01.756895900] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:24:01.756895900] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:24:01.756895900] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:24:01.757895500] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:24:01.757895500] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:01.757895500] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:24:01.757895500] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:01.757895500] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:24:01.757895500] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:24:01.758898900] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:24:01.758898900] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:01.758898900] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:24:01.758898900] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:01.758898900] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:24:01.758898900] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:24:01.758898900] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:24:01.758898900] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:01.759896400] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:24:01.759896400] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:01.759896400] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:24:01.759896400] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:24:01.759896400] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:24:01.759896400] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:01.759896400] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:24:01.759896400] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:24:01.759896400] Temperature is adequate (20°C). No heating needed.
+[2025-03-17T16:24:01.759896400] Artificial lights turned OFF.
+[2025-03-17T16:24:01.760894800] Checking growth of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.761895700] 🌱 Lavender at (0,0) grew! Growth: 9/12
+[2025-03-17T16:24:01.761895700] Checking growth of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.761895700] 🌱 Eggplant at (0,1) grew! Growth: 9/23
+[2025-03-17T16:24:01.761895700] Checking growth of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.762895900] 🚨 Carrot at (0,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.762895900] Checking growth of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.762895900] 🌱 Eggplant at (0,3) grew! Growth: 9/23
+[2025-03-17T16:24:01.762895900] Checking growth of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.762895900] 🌱 Eggplant at (0,4) grew! Growth: 9/23
+[2025-03-17T16:24:01.762895900] Checking growth of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.762895900] 🚨 Corn at (0,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.762895900] Checking growth of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.763899300] 🌱 Lavender at (1,0) grew! Growth: 9/12
+[2025-03-17T16:24:01.763899300] Checking growth of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.763899300] 🚨 Lettuce at (1,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.763899300] Checking growth of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.763899300] 🚨 Lettuce at (1,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.763899300] Checking growth of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.763899300] 🚨 Lettuce at (1,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.763899300] Checking growth of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.763899300] 🚨 Corn at (2,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.763899300] Checking growth of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.763899300] 🌱 Lavender at (2,1) grew! Growth: 9/12
+[2025-03-17T16:24:01.763899300] Checking growth of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.764898700] 🚨 Carrot at (2,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.764898700] Checking growth of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.764898700] 🌱 Lavender at (2,3) grew! Growth: 9/12
+[2025-03-17T16:24:01.764898700] Checking growth of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.764898700] 🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.764898700] Checking growth of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.764898700] 🚨 Lettuce at (2,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.764898700] Checking growth of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.764898700] 🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.764898700] Checking growth of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 20°C (Ideal: 18-32°C)
+[2025-03-17T16:24:01.764898700] 🌱 Eggplant at (3,1) grew! Growth: 9/23
+[2025-03-17T16:24:01.764898700] Checking growth of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.764898700] 🚨 Carrot at (3,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.765898700] Checking growth of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.765898700] 🌱 Lavender at (3,3) grew! Growth: 9/12
+[2025-03-17T16:24:01.765898700] Checking growth of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.765898700] 🚨 Corn at (3,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.765898700] Checking growth of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 20°C (Ideal: 18-30°C)
+[2025-03-17T16:24:01.765898700] 🚨 Corn at (3,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.765898700] Checking growth of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.765898700] 🚨 Pumpkin at (4,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.765898700] Checking growth of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.765898700] 🌱 Lavender at (4,2) grew! Growth: 9/12
+[2025-03-17T16:24:01.765898700] Checking growth of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 20°C (Ideal: 10-20°C)
+[2025-03-17T16:24:01.765898700] 🚨 Lettuce at (4,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.766898900] Checking growth of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.766898900] 🌱 Lavender at (4,5) grew! Growth: 9/12
+[2025-03-17T16:24:01.766898900] Checking growth of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.766898900] 🚨 Pumpkin at (5,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.766898900] Checking growth of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.766898900] 🚨 Carrot at (5,1) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.766898900] Checking growth of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.766898900] 🚨 Pumpkin at (5,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.766898900] Checking growth of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.766898900] 🌱 Lavender at (5,3) grew! Growth: 9/12
+[2025-03-17T16:24:01.766898900] Checking growth of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 20°C (Ideal: 15-30°C)
+[2025-03-17T16:24:01.766898900] 🚨 Pumpkin at (5,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.767899100] Checking growth of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 20°C (Ideal: 10-25°C)
+[2025-03-17T16:24:01.767899100] 🚨 Carrot at (5,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:01.767899100] Harvesting system activated.
+[2025-03-17T16:24:01.767899100] No Plant Harvested.
+[2025-03-17T16:24:02.739669800] Water evaporated. Remaining water: 17052 ml.
+[2025-03-17T16:24:02.739669800] Current water level after possible rainfall: 17052 ml.
+[2025-03-17T16:24:02.739669800] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:02.739669800] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:02.740671700] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:24:02.740671700] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:02.740671700] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:02.740671700] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:24:02.740671700] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:02.740671700] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:24:02.740671700] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:24:02.740671700] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:24:02.740671700] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:24:02.740671700] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:02.740671700] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:24:02.740671700] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:02.741670100] Watered plant at (2, 4) with 300 ml water.
+[2025-03-17T16:24:02.741670100] Watered plant at (2, 5) with 300 ml water.
+[2025-03-17T16:24:02.741670100] Watered plant at (3, 0) with 300 ml water.
+[2025-03-17T16:24:02.741670100] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:02.741670100] Watered plant at (3, 2) with 400 ml water.
+[2025-03-17T16:24:02.741670100] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:02.741670100] Watered plant at (3, 4) with 1500 ml water.
+[2025-03-17T16:24:02.742670300] Watered plant at (3, 5) with 1500 ml water.
+[2025-03-17T16:24:02.742670300] Watered plant at (4, 0) with 1000 ml water.
+[2025-03-17T16:24:02.742670300] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:02.742670300] Watered plant at (4, 3) with 300 ml water.
+[2025-03-17T16:24:02.742670300] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:02.742670300] Watered plant at (5, 0) with 1000 ml water.
+[2025-03-17T16:24:02.742670300] Watered plant at (5, 1) with 400 ml water.
+[2025-03-17T16:24:02.742670300] Watered plant at (5, 2) with 1000 ml water.
+[2025-03-17T16:24:02.742670300] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:02.742670300] Watered plant at (5, 4) with 1000 ml water.
+[2025-03-17T16:24:02.743670100] Watered plant at (5, 5) with 400 ml water.
+[2025-03-17T16:24:02.743670100] Temperature is adequate (22°C). No heating needed.
+[2025-03-17T16:24:02.743670100] Artificial lights turned OFF.
+[2025-03-17T16:24:02.743670100] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.743670100] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 22°C (Ideal: 18-32°C)
+[2025-03-17T16:24:02.743670100] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 22°C (Ideal: 10-25°C)
+[2025-03-17T16:24:02.743670100] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 22°C (Ideal: 18-32°C)
+[2025-03-17T16:24:02.743670100] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 22°C (Ideal: 18-32°C)
+[2025-03-17T16:24:02.743670100] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 22°C (Ideal: 18-30°C)
+[2025-03-17T16:24:02.743670100] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.744670200] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 22°C (Ideal: 18-30°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.744670200] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 22°C (Ideal: 10-25°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.744670200] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.744670200] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 22°C (Ideal: 18-32°C)
+[2025-03-17T16:24:02.744670200] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 22°C (Ideal: 10-25°C)
+[2025-03-17T16:24:02.745669800] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 22°C (Ideal: 18-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 22°C (Ideal: 18-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 22°C (Ideal: 10-20°C)
+[2025-03-17T16:24:02.745669800] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 22°C (Ideal: 10-25°C)
+[2025-03-17T16:24:02.745669800] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.745669800] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 22°C (Ideal: 15-30°C)
+[2025-03-17T16:24:02.746670] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 22°C (Ideal: 10-25°C)
+[2025-03-17T16:24:02.746670] Harvesting system activated.
+[2025-03-17T16:24:02.746670] No Plant Harvested.
+[2025-03-17T16:24:03.747942200] Water evaporated. Remaining water: 2452 ml.
+[2025-03-17T16:24:03.747942200] Current water level after possible rainfall: 4451 ml.
+[2025-03-17T16:24:03.747942200] Artificial lights turned OFF.
+[2025-03-17T16:24:03.747942200] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:03.747942200] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:03.747942200] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:24:03.747942200] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:03.748942400] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:03.748942400] Watered plant at (0, 5) with 1500 ml water.
+[2025-03-17T16:24:03.748942400] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:03.748942400] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:24:03.748942400] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:24:03.748942400] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:24:03.748942400] Watered plant at (2, 0) with 1500 ml water.
+[2025-03-17T16:24:03.748942400] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:03.748942400] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:03.749942300] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:03.749942300] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:03.749942300] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:03.749942300] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:03.749942300] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:03.749942300] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:03.750942100] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:03.750942100] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:03.750942100] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:03.750942100] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:03.750942100] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:03.750942100] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:03.750942100] Temperature is adequate (23°C). No heating needed.
+[2025-03-17T16:24:03.750942100] Artificial lights turned OFF.
+[2025-03-17T16:24:03.750942100] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.750942100] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 23°C (Ideal: 18-32°C)
+[2025-03-17T16:24:03.750942100] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 23°C (Ideal: 10-25°C)
+[2025-03-17T16:24:03.750942100] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 23°C (Ideal: 18-32°C)
+[2025-03-17T16:24:03.750942100] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 23°C (Ideal: 18-32°C)
+[2025-03-17T16:24:03.751942200] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 23°C (Ideal: 18-30°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.751942200] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 23°C (Ideal: 18-30°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.751942200] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 23°C (Ideal: 10-25°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.751942200] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.751942200] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 23°C (Ideal: 18-32°C)
+[2025-03-17T16:24:03.752942100] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 23°C (Ideal: 10-25°C)
+[2025-03-17T16:24:03.752942100] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.752942100] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 23°C (Ideal: 18-30°C)
+[2025-03-17T16:24:03.752942100] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 23°C (Ideal: 18-30°C)
+[2025-03-17T16:24:03.752942100] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.752942100] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.752942100] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 23°C (Ideal: 10-20°C)
+[2025-03-17T16:24:03.752942100] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.753946300] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.753946300] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 23°C (Ideal: 10-25°C)
+[2025-03-17T16:24:03.753946300] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.754947600] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.754947600] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 23°C (Ideal: 15-30°C)
+[2025-03-17T16:24:03.754947600] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 23°C (Ideal: 10-25°C)
+[2025-03-17T16:24:03.755946400] Harvesting system activated.
+[2025-03-17T16:24:03.756947900] No Plant Harvested.
+[2025-03-17T16:24:04.740325500] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:04.740325500] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:04.741417200] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:04.741417200] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:04.742326700] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:04.742326700] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:04.742326700] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:04.743347800] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:04.743347800] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:04.743347800] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:04.743347800] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:04.743347800] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:04.743347800] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:04.743347800] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:04.743347800] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:04.743347800] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:04.744322200] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:04.744322200] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:04.744322200] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:04.744322200] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:04.744322200] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:04.745322] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:04.745322] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:04.745322] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:04.745322] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:04.745322] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:04.745322] Temperature is adequate (25°C). No heating needed.
+[2025-03-17T16:24:04.745322] Artificial lights turned OFF.
+[2025-03-17T16:24:04.745322] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.745322] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 25°C (Ideal: 18-32°C)
+[2025-03-17T16:24:04.745322] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 25°C (Ideal: 10-25°C)
+[2025-03-17T16:24:04.745322] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 25°C (Ideal: 18-32°C)
+[2025-03-17T16:24:04.746330] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 25°C (Ideal: 18-32°C)
+[2025-03-17T16:24:04.746330] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 25°C (Ideal: 18-30°C)
+[2025-03-17T16:24:04.746330] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.746330] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.746330] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.746330] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.746330] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 25°C (Ideal: 18-30°C)
+[2025-03-17T16:24:04.746330] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.746330] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 25°C (Ideal: 10-25°C)
+[2025-03-17T16:24:04.746330] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.746330] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.746330] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.747322200] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.747322200] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 25°C (Ideal: 18-32°C)
+[2025-03-17T16:24:04.747322200] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 25°C (Ideal: 10-25°C)
+[2025-03-17T16:24:04.747322200] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 25°C (Ideal: 18-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 25°C (Ideal: 18-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 25°C (Ideal: 10-20°C)
+[2025-03-17T16:24:04.747322200] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.747322200] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 25°C (Ideal: 10-25°C)
+[2025-03-17T16:24:04.748329700] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.748329700] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.748329700] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 25°C (Ideal: 15-30°C)
+[2025-03-17T16:24:04.748329700] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 25°C (Ideal: 10-25°C)
+[2025-03-17T16:24:04.748329700] Harvesting system activated.
+[2025-03-17T16:24:04.748329700] No Plant Harvested.
+[2025-03-17T16:24:05.748138800] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:05.748138800] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:05.748138800] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:05.748138800] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:05.748138800] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:05.748138800] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:05.748138800] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:05.749140700] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:05.749140700] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:05.749140700] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:05.749140700] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:05.749140700] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:05.749140700] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:05.749140700] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:05.749140700] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:05.750140500] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:05.750140500] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:05.750140500] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:05.750140500] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:05.750140500] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:05.750140500] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:05.751139900] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:05.751139900] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:05.751139900] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:05.751139900] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:05.751139900] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:05.751139900] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:05.751139900] Temperature is adequate (26°C). No heating needed.
+[2025-03-17T16:24:05.751139900] Artificial lights turned OFF.
+[2025-03-17T16:24:05.751139900] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.751139900] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:05.751139900] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:05.751139900] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:05.752140300] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:05.752140300] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.752140300] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.752140300] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.752140300] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.753140500] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.753140500] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.753140500] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:05.753140500] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:05.753140500] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:05.753140500] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.753140500] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:05.754139700] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.754139700] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.754139700] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:05.754139700] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:05.754139700] Harvesting system activated.
+[2025-03-17T16:24:05.754139700] No Plant Harvested.
+[2025-03-17T16:24:06.740713400] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:06.740713400] Current water level after possible rainfall: 1786 ml.
+[2025-03-17T16:24:06.740713400] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:06.740713400] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:06.740713400] Watered plant at (0, 2) with 400 ml water.
+[2025-03-17T16:24:06.741711900] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:06.741711900] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:06.741711900] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:06.741711900] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:06.741711900] Watered plant at (1, 2) with 300 ml water.
+[2025-03-17T16:24:06.741711900] Watered plant at (1, 3) with 300 ml water.
+[2025-03-17T16:24:06.741711900] Watered plant at (1, 5) with 300 ml water.
+[2025-03-17T16:24:06.741711900] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:06.741711900] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:06.741711900] Watered plant at (2, 2) with 400 ml water.
+[2025-03-17T16:24:06.741711900] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:06.741711900] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:06.741711900] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:06.741711900] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:06.742711300] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:06.742711300] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:06.742711300] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:06.742711300] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:06.742711300] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:06.742711300] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:06.743711400] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:06.743711400] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:06.743711400] Temperature is adequate (28°C). No heating needed.
+[2025-03-17T16:24:06.743711400] Artificial lights turned OFF.
+[2025-03-17T16:24:06.743711400] Checking health of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.743711400] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.743711400] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.743711400] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.743711400] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.743711400] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.743711400] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.743711400] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.743711400] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.744711400] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.744711400] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.744711400] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.744711400] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.744711400] Checking health of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.744711400] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.744711400] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.745711300] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.745711300] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.745711300] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.745711300] Harvesting system activated.
+[2025-03-17T16:24:06.745711300] No Plant Harvested.
+[2025-03-17T16:24:06.745711300] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:06.746711400] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:06.746711400] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:06.746711400] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:06.746711400] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:06.746711400] Plant at (2, 1) does not need watering.
+[2025-03-17T16:24:06.746711400] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:06.746711400] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:06.747711300] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:06.747711300] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:06.747711300] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:06.747711300] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:06.747711300] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:06.748712100] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:06.748712100] Plant at (5, 3) does not need watering.
+[2025-03-17T16:24:06.748712100] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:06.748712100] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:06.748712100] Temperature is adequate (28°C). No heating needed.
+[2025-03-17T16:24:06.748712100] Artificial lights turned OFF.
+[2025-03-17T16:24:06.748712100] Checking growth of Lavender at (0,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.748712100] 🌱 Lavender at (0,0) grew! Growth: 18/12
+[2025-03-17T16:24:06.748712100] Checking growth of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.748712100] 🌱 Eggplant at (0,1) grew! Growth: 18/23
+[2025-03-17T16:24:06.748712100] Checking growth of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.749712300] 🚨 Carrot at (0,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.749712300] Checking growth of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.749712300] 🌱 Eggplant at (0,3) grew! Growth: 18/23
+[2025-03-17T16:24:06.749712300] Checking growth of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.749712300] 🌱 Eggplant at (0,4) grew! Growth: 18/23
+[2025-03-17T16:24:06.749712300] Checking growth of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.749712300] 🚨 Corn at (0,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.749712300] Checking growth of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.749712300] 🌱 Lavender at (1,0) grew! Growth: 18/12
+[2025-03-17T16:24:06.749712300] Checking growth of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.749712300] 🚨 Lettuce at (1,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.749712300] Checking growth of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.750712400] 🚨 Lettuce at (1,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.750712400] Checking growth of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.750712400] 🚨 Lettuce at (1,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.750712400] Checking growth of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.750712400] 🚨 Corn at (2,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.750712400] Checking growth of Lavender at (2,1) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.750712400] 🌱 Lavender at (2,1) grew! Growth: 18/12
+[2025-03-17T16:24:06.750712400] Checking growth of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.750712400] 🚨 Carrot at (2,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.750712400] Checking growth of Lavender at (2,3) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.750712400] 🌱 Lavender at (2,3) grew! Growth: 18/12
+[2025-03-17T16:24:06.750712400] Checking growth of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.750712400] 🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.751711800] Checking growth of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.751711800] 🚨 Lettuce at (2,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.751711800] Checking growth of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.751711800] 🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.751711800] Checking growth of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:06.751711800] 🌱 Eggplant at (3,1) grew! Growth: 18/23
+[2025-03-17T16:24:06.751711800] Checking growth of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.751711800] 🚨 Carrot at (3,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.751711800] Checking growth of Lavender at (3,3) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.751711800] 🌱 Lavender at (3,3) grew! Growth: 18/12
+[2025-03-17T16:24:06.751711800] Checking growth of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.751711800] 🚨 Corn at (3,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.752711500] Checking growth of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:06.752711500] 🚨 Corn at (3,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.752711500] Checking growth of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.752711500] 🚨 Pumpkin at (4,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.752711500] Checking growth of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.752711500] 🌱 Lavender at (4,2) grew! Growth: 18/12
+[2025-03-17T16:24:06.752711500] Checking growth of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:06.752711500] 🚨 Lettuce at (4,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.752711500] Checking growth of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.752711500] 🌱 Lavender at (4,5) grew! Growth: 18/12
+[2025-03-17T16:24:06.752711500] Checking growth of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.752711500] 🚨 Pumpkin at (5,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.753711800] Checking growth of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.753711800] 🚨 Carrot at (5,1) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.753711800] Checking growth of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.753711800] 🚨 Pumpkin at (5,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.753711800] Checking growth of Lavender at (5,3) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.753711800] 🌱 Lavender at (5,3) grew! Growth: 18/12
+[2025-03-17T16:24:06.753711800] Checking growth of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:06.753711800] 🚨 Pumpkin at (5,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.753711800] Checking growth of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:06.753711800] 🚨 Carrot at (5,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:06.753711800] Harvesting system activated.
+[2025-03-17T16:24:06.754712500] Harvested Lavender from (0, 0).
+[2025-03-17T16:24:06.754712500] Replanted Eggplant at (0, 0).
+[2025-03-17T16:24:06.754712500] Harvested Lavender from (1, 0).
+[2025-03-17T16:24:06.754712500] Replanted Lavender at (1, 0).
+[2025-03-17T16:24:06.754712500] Harvested Lavender from (2, 1).
+[2025-03-17T16:24:06.754712500] Replanted Pumpkin at (2, 1).
+[2025-03-17T16:24:06.754712500] Harvested Lavender from (2, 3).
+[2025-03-17T16:24:06.754712500] Replanted Eggplant at (2, 3).
+[2025-03-17T16:24:06.754712500] Harvested Lavender from (3, 3).
+[2025-03-17T16:24:06.754712500] Replanted Eggplant at (3, 3).
+[2025-03-17T16:24:06.755711600] Harvested Lavender from (4, 2).
+[2025-03-17T16:24:06.755711600] Replanted Lavender at (4, 2).
+[2025-03-17T16:24:06.755711600] Harvested Lavender from (4, 5).
+[2025-03-17T16:24:06.755711600] Replanted Lavender at (4, 5).
+[2025-03-17T16:24:06.755711600] Harvested Lavender from (5, 3).
+[2025-03-17T16:24:06.755711600] Replanted Corn at (5, 3).
+[2025-03-17T16:24:07.764541600] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:07.764541600] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:07.764541600] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:07.765540] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:07.765540] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:07.765540] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:07.765540] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:07.765540] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:07.765540] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:07.765540] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (2, 1).
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:07.766538300] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:07.766538300] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:07.767538200] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:07.767538200] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:07.767538200] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:07.767538200] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:07.768542700] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:07.768542700] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:07.768542700] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:07.768542700] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:07.768542700] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:07.768542700] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:07.769548] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:07.769548] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:07.769548] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:07.769548] Not enough water to water plant at (5, 3).
+[2025-03-17T16:24:07.769548] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:07.769548] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:07.769548] Temperature is adequate (28°C). No heating needed.
+[2025-03-17T16:24:07.769548] Artificial lights turned OFF.
+[2025-03-17T16:24:07.770550700] Checking health of Eggplant at (0,0) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.770550700] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.770550700] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:07.771547800] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.771547800] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.771547800] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:07.771547800] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.771547800] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.771547800] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.771547800] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.771547800] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:07.771547800] Checking health of Pumpkin at (2,1) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.772547500] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:07.772547500] Checking health of Eggplant at (2,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.772547500] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.772547500] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.772547500] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.772547500] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.772547500] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:07.772547500] Checking health of Eggplant at (3,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:07.772547500] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:07.772547500] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:07.773547400] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:07.773547400] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Corn at (5,3) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:07.773547400] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:07.774547200] Harvesting system activated.
+[2025-03-17T16:24:07.774547200] No Plant Harvested.
+[2025-03-17T16:24:08.740320600] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:08.740320600] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:08.740320600] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:08.740320600] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:08.740320600] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:08.740320600] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:08.741314500] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:08.741314500] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (2, 1).
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:08.741314500] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:08.741314500] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:08.742483900] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:08.742483900] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:08.742483900] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:08.742483900] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (5, 3).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:08.742483900] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:08.742483900] Temperature is adequate (29°C). No heating needed.
+[2025-03-17T16:24:08.743965800] Artificial lights turned OFF.
+[2025-03-17T16:24:08.743965800] Checking health of Eggplant at (0,0) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.743965800] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.743965800] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 29°C (Ideal: 10-25°C)
+[2025-03-17T16:24:08.743965800] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.743965800] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.743965800] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 29°C (Ideal: 18-30°C)
+[2025-03-17T16:24:08.743965800] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.743965800] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.743965800] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.743965800] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.743965800] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 29°C (Ideal: 18-30°C)
+[2025-03-17T16:24:08.743965800] Checking health of Pumpkin at (2,1) - Water: 298/1000, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.744971] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 29°C (Ideal: 10-25°C)
+[2025-03-17T16:24:08.744971] Checking health of Eggplant at (2,3) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.744971] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.744971] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.744971] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.744971] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.744971] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 29°C (Ideal: 10-25°C)
+[2025-03-17T16:24:08.744971] Checking health of Eggplant at (3,3) - Water: 298/5, Sunlight: 9/4, Temperature: 29°C (Ideal: 18-32°C)
+[2025-03-17T16:24:08.744971] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 29°C (Ideal: 18-30°C)
+[2025-03-17T16:24:08.744971] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 29°C (Ideal: 18-30°C)
+[2025-03-17T16:24:08.744971] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.744971] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.744971] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 29°C (Ideal: 10-20°C)
+[2025-03-17T16:24:08.745972200] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.745972200] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.745972200] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 29°C (Ideal: 10-25°C)
+[2025-03-17T16:24:08.745972200] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.745972200] Checking health of Corn at (5,3) - Water: 298/1500, Sunlight: 9/8, Temperature: 29°C (Ideal: 18-30°C)
+[2025-03-17T16:24:08.745972200] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 29°C (Ideal: 15-30°C)
+[2025-03-17T16:24:08.745972200] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 29°C (Ideal: 10-25°C)
+[2025-03-17T16:24:08.745972200] Harvesting system activated.
+[2025-03-17T16:24:08.745972200] No Plant Harvested.
+[2025-03-17T16:24:09.748004900] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:09.748004900] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:09.748004900] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:09.748004900] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:09.748004900] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:09.748004900] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:09.748004900] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:09.749005500] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (2, 1).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:09.749005500] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:09.749005500] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:09.750004800] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:09.750004800] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:09.750004800] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:09.750004800] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:09.750004800] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:09.751004700] Not enough water to water plant at (5, 3).
+[2025-03-17T16:24:09.751004700] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:09.751004700] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:09.751004700] Temperature is adequate (28°C). No heating needed.
+[2025-03-17T16:24:09.751004700] Artificial lights turned OFF.
+[2025-03-17T16:24:09.751004700] Checking health of Eggplant at (0,0) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.751004700] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.751004700] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:09.751004700] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.751004700] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.751004700] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:09.752003800] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.752003800] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.752003800] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.752003800] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.752003800] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:09.752003800] Checking health of Pumpkin at (2,1) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.752003800] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:09.752003800] Checking health of Eggplant at (2,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.753007300] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.753007300] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.753007300] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.753007300] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.753007300] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:09.754011100] Checking health of Eggplant at (3,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:09.754011100] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:09.754011100] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:09.755010300] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.755010300] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.756009900] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:09.756009900] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.756009900] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.757011500] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:09.757011500] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.758003100] Checking health of Corn at (5,3) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:09.758003100] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:09.758003100] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:09.758003100] Harvesting system activated.
+[2025-03-17T16:24:09.759055500] No Plant Harvested.
+[2025-03-17T16:24:10.740184600] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:10.741189200] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:10.742185600] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:10.742185600] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:10.742185600] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:10.743190300] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:10.743190300] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:10.743190300] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:10.744187300] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:10.744187300] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:10.744187300] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:10.745192] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:10.745192] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:10.745192] Not enough water to water plant at (2, 1).
+[2025-03-17T16:24:10.746188400] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:10.746188400] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:10.746188400] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:10.747190900] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:10.747190900] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:10.747190900] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:10.748191] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:10.748191] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:10.748191] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:10.748191] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:10.749192200] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:10.749192200] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:10.749192200] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:10.750190400] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:10.750190400] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:10.750190400] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:10.751471900] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:10.751471900] Not enough water to water plant at (5, 3).
+[2025-03-17T16:24:10.751471900] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:10.751471900] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:10.751471900] Temperature is adequate (28°C). No heating needed.
+[2025-03-17T16:24:10.751471900] Artificial lights turned OFF.
+[2025-03-17T16:24:10.751471900] Checking health of Eggplant at (0,0) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.751471900] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.751471900] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:10.751471900] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.752804100] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.752804100] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.752804100] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:10.752804100] Checking health of Pumpkin at (2,1) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.752804100] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:10.752804100] Checking health of Eggplant at (2,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.752804100] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.752804100] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.752804100] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:10.752804100] Checking health of Eggplant at (3,3) - Water: 298/5, Sunlight: 9/4, Temperature: 28°C (Ideal: 18-32°C)
+[2025-03-17T16:24:10.752804100] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:10.752804100] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 28°C (Ideal: 10-20°C)
+[2025-03-17T16:24:10.754184800] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:10.754184800] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Corn at (5,3) - Water: 298/1500, Sunlight: 9/8, Temperature: 28°C (Ideal: 18-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 28°C (Ideal: 15-30°C)
+[2025-03-17T16:24:10.754184800] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 28°C (Ideal: 10-25°C)
+[2025-03-17T16:24:10.754184800] Harvesting system activated.
+[2025-03-17T16:24:10.754184800] No Plant Harvested.
+[2025-03-17T16:24:11.733045600] Water evaporated. Remaining water: 0 ml.
+[2025-03-17T16:24:11.734005200] Current water level after possible rainfall: 0 ml.
+[2025-03-17T16:24:11.734005200] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:11.734005200] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:11.734005200] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:11.734005200] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:11.734005200] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:11.734005200] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:11.734005200] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:11.734005200] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (2, 1).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:11.734994700] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:11.734994700] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:11.734994700] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:11.734994700] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:11.736000100] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:11.736000100] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (5, 3).
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:11.736000100] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:11.736000100] Temperature is adequate (26°C). No heating needed.
+[2025-03-17T16:24:11.736000100] Artificial lights turned OFF.
+[2025-03-17T16:24:11.736000100] Checking health of Eggplant at (0,0) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.736992400] Checking health of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.736992400] Checking health of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.736992400] Checking health of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.736992400] Checking health of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.736992400] Checking health of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.736992400] Checking health of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.737496400] Checking health of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.737496400] Checking health of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.737496400] Checking health of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.737496400] Checking health of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.737496400] Checking health of Pumpkin at (2,1) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.737496400] Checking health of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.737496400] Checking health of Eggplant at (2,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.737496400] Checking health of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.737496400] Checking health of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.737496400] Checking health of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.737496400] Checking health of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.737496400] Checking health of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.737496400] Checking health of Eggplant at (3,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.738501900] Checking health of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.738501900] Checking health of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.738501900] Checking health of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Corn at (5,3) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.738501900] Checking health of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.738501900] Harvesting system activated.
+[2025-03-17T16:24:11.739502900] No Plant Harvested.
+[2025-03-17T16:24:11.739502900] Plant at (0, 0) does not need watering.
+[2025-03-17T16:24:11.739502900] Plant at (0, 1) does not need watering.
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (0, 2).
+[2025-03-17T16:24:11.739502900] Plant at (0, 3) does not need watering.
+[2025-03-17T16:24:11.739502900] Plant at (0, 4) does not need watering.
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (0, 5).
+[2025-03-17T16:24:11.739502900] Plant at (1, 0) does not need watering.
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (1, 2).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (1, 3).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (1, 5).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (2, 0).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (2, 1).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (2, 2).
+[2025-03-17T16:24:11.739502900] Plant at (2, 3) does not need watering.
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (2, 4).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (2, 5).
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (3, 0).
+[2025-03-17T16:24:11.739502900] Plant at (3, 1) does not need watering.
+[2025-03-17T16:24:11.739502900] Not enough water to water plant at (3, 2).
+[2025-03-17T16:24:11.741006300] Plant at (3, 3) does not need watering.
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (3, 4).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (3, 5).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (4, 0).
+[2025-03-17T16:24:11.741006300] Plant at (4, 2) does not need watering.
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (4, 3).
+[2025-03-17T16:24:11.741006300] Plant at (4, 5) does not need watering.
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (5, 0).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (5, 1).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (5, 2).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (5, 3).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (5, 4).
+[2025-03-17T16:24:11.741006300] Not enough water to water plant at (5, 5).
+[2025-03-17T16:24:11.741006300] Temperature is adequate (26°C). No heating needed.
+[2025-03-17T16:24:11.741006300] Artificial lights turned OFF.
+[2025-03-17T16:24:11.741006300] Checking growth of Eggplant at (0,0) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.741006300] 🌱 Eggplant at (0,0) grew! Growth: 9/23
+[2025-03-17T16:24:11.741006300] Checking growth of Eggplant at (0,1) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.742422500] 🌱 Eggplant at (0,1) grew! Growth: 27/23
+[2025-03-17T16:24:11.742422500] Checking growth of Carrot at (0,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.742422500] 🚨 Carrot at (0,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.742422500] Checking growth of Eggplant at (0,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.742422500] 🌱 Eggplant at (0,3) grew! Growth: 27/23
+[2025-03-17T16:24:11.742422500] Checking growth of Eggplant at (0,4) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.742422500] 🌱 Eggplant at (0,4) grew! Growth: 27/23
+[2025-03-17T16:24:11.742422500] Checking growth of Corn at (0,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.742422500] 🚨 Corn at (0,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.742422500] Checking growth of Lavender at (1,0) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.742422500] 🌱 Lavender at (1,0) grew! Growth: 9/12
+[2025-03-17T16:24:11.743430300] Checking growth of Lettuce at (1,2) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.743430300] 🚨 Lettuce at (1,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.743430300] Checking growth of Lettuce at (1,3) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.743430300] 🚨 Lettuce at (1,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.743430300] Checking growth of Lettuce at (1,5) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.743430300] 🚨 Lettuce at (1,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.743430300] Checking growth of Corn at (2,0) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.743430300] 🚨 Corn at (2,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.743430300] Checking growth of Pumpkin at (2,1) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.743430300] 🚨 Pumpkin at (2,1) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.743430300] Checking growth of Carrot at (2,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.743430300] 🚨 Carrot at (2,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.743430300] Checking growth of Eggplant at (2,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.744430100] 🌱 Eggplant at (2,3) grew! Growth: 9/23
+[2025-03-17T16:24:11.744430100] Checking growth of Lettuce at (2,4) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.744430100] 🚨 Lettuce at (2,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.744430100] Checking growth of Lettuce at (2,5) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.744430100] 🚨 Lettuce at (2,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.744430100] Checking growth of Lettuce at (3,0) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.744430100] 🚨 Lettuce at (3,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.744430100] Checking growth of Eggplant at (3,1) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.744430100] 🌱 Eggplant at (3,1) grew! Growth: 27/23
+[2025-03-17T16:24:11.744430100] Checking growth of Carrot at (3,2) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.744430100] 🚨 Carrot at (3,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.744430100] Checking growth of Eggplant at (3,3) - Water: 298/5, Sunlight: 9/4, Temperature: 26°C (Ideal: 18-32°C)
+[2025-03-17T16:24:11.745429300] 🌱 Eggplant at (3,3) grew! Growth: 9/23
+[2025-03-17T16:24:11.745429300] Checking growth of Corn at (3,4) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.745429300] 🚨 Corn at (3,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.745429300] Checking growth of Corn at (3,5) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.745429300] 🚨 Corn at (3,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.745429300] Checking growth of Pumpkin at (4,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.745429300] 🚨 Pumpkin at (4,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.745429300] Checking growth of Lavender at (4,2) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.745429300] 🌱 Lavender at (4,2) grew! Growth: 9/12
+[2025-03-17T16:24:11.745429300] Checking growth of Lettuce at (4,3) - Water: 298/300, Sunlight: 9/4, Temperature: 26°C (Ideal: 10-20°C)
+[2025-03-17T16:24:11.745429300] 🚨 Lettuce at (4,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.745429300] Checking growth of Lavender at (4,5) - Water: 298/200, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.745429300] 🌱 Lavender at (4,5) grew! Growth: 9/12
+[2025-03-17T16:24:11.746540300] Checking growth of Pumpkin at (5,0) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.746540300] 🚨 Pumpkin at (5,0) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.746540300] Checking growth of Carrot at (5,1) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.746540300] 🚨 Carrot at (5,1) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.746540300] Checking growth of Pumpkin at (5,2) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.746540300] 🚨 Pumpkin at (5,2) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.746540300] Checking growth of Corn at (5,3) - Water: 298/1500, Sunlight: 9/8, Temperature: 26°C (Ideal: 18-30°C)
+[2025-03-17T16:24:11.746540300] 🚨 Corn at (5,3) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.746540300] Checking growth of Pumpkin at (5,4) - Water: 298/1000, Sunlight: 9/6, Temperature: 26°C (Ideal: 15-30°C)
+[2025-03-17T16:24:11.746540300] 🚨 Pumpkin at (5,4) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.746540300] Checking growth of Carrot at (5,5) - Water: 298/400, Sunlight: 9/6, Temperature: 26°C (Ideal: 10-25°C)
+[2025-03-17T16:24:11.746540300] 🚨 Carrot at (5,5) did NOT grow due to insufficient conditions.
+[2025-03-17T16:24:11.746540300] Harvesting system activated.
+[2025-03-17T16:24:11.746540300] Harvested Eggplant from (0, 1).
+[2025-03-17T16:24:11.746540300] Replanted Lettuce at (0, 1).
+[2025-03-17T16:24:11.746540300] Harvested Eggplant from (0, 3).
+[2025-03-17T16:24:11.747822300] Replanted Corn at (0, 3).
+[2025-03-17T16:24:11.747822300] Harvested Eggplant from (0, 4).
+[2025-03-17T16:24:11.747822300] Replanted Corn at (0, 4).
+[2025-03-17T16:24:11.747822300] Harvested Eggplant from (3, 1).
+[2025-03-17T16:24:11.747822300] Replanted Carrot at (3, 1).

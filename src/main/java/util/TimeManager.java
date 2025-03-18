@@ -48,6 +48,7 @@ public class TimeManager {
             garden.applyLighting(); // Sunlight ends
         }
 
+        garden.getTemperatureSensor().updateTemperature();
         garden.applyWatering();
         garden.applyPestControl();
         garden.applyHeating();
